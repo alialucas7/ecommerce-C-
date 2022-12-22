@@ -7,3 +7,12 @@ C:\Users\alialucas7\source\repos\AliaLucas_Proyectot2\CapadeDatos\bin\Debug\Capa
 C:\Users\alialucas7\source\repos\AliaLucas_Proyectot2\CapadeDatos\obj\Debug\CapadeDatos.csproj.CopyComplete
 C:\Users\alialucas7\source\repos\AliaLucas_Proyectot2\CapadeDatos\obj\Debug\CapadeDatos.dll
 C:\Users\alialucas7\source\repos\AliaLucas_Proyectot2\CapadeDatos\obj\Debug\CapadeDatos.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\bin\Debug\CapadeDatos.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\bin\Debug\CapadeDatos.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\bin\Debug\CapaEntidad.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\obj\Debug\CapadeDatos.csprojAssemblyReference.cache
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\obj\Debug\CapadeDatos.csproj.CoreCompileInputs.cache
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\obj\Debug\CapadeDatos.csproj.CopyComplete
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\obj\Debug\CapadeDatos.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\obj\Debug\CapadeDatos.pdb

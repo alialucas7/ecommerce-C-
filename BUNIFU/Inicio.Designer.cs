@@ -46,6 +46,7 @@
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.logo = new FontAwesome.Sharp.IconButton();
             this.contenedor1 = new System.Windows.Forms.Panel();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.menuVertical.SuspendLayout();
             this.SuspendLayout();
@@ -315,6 +316,13 @@
             this.contenedor1.Size = new System.Drawing.Size(200, 100);
             this.contenedor1.TabIndex = 17;
             // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this;
+            this.bunifuDragControl1.Vertical = true;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -359,6 +367,7 @@
         private System.Windows.Forms.Label label1;
         private FontAwesome.Sharp.IconButton iconButton6;
         private System.Windows.Forms.Panel contenedor1;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
     }
 }
 
