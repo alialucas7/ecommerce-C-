@@ -46,3 +46,5 @@ C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\AliaLuca_Proye
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\AliaLuca_Proyect.csproj.CopyComplete
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.exe
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\CapadeDatos.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\CapadeDatos.pdb

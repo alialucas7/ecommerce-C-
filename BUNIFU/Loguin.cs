@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using CapaNegocio;
+using CapaEntidad;
 
 namespace BUNIFU
 {
@@ -20,14 +22,24 @@ namespace BUNIFU
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            pantallaBienvenidita bienvenida = new pantallaBienvenidita();
-            bienvenida.ShowDialog();
-            Inicio form = new Inicio();
-            form.Show();
-          
 
-            form.FormClosing += frm_closing;
+            //instancia las clases
+            List<Usuario> TEST = new CN_Usuario().Listar();
+            Usuario ousuario = new  CN_Usuario().Listar().Where(u => u.dni == textDocument.Text && u.pasword == textPasword.Text).FirstOrDefault();
+
+            //con un if hace la validacion correspondiente
+            if (ousuario != null) {
+                this.Hide();
+                pantallaBienvenidita bienvenida = new pantallaBienvenidita();
+                bienvenida.ShowDialog();
+                Inicio form = new Inicio();
+                form.Show();
+
+
+                form.FormClosing += frm_closing;
+            }
+            else { MessageBox.Show("no existe facha"); }
+          
         }
 
         private void frm_closing(object sender, FormClosingEventArgs e)
