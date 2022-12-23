@@ -41,7 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Automovil.cs" />
     <Compile Include="Localidad.cs" />
+    <Compile Include="Marca.cs" />
+    <Compile Include="Modelo.cs" />
     <Compile Include="Pais.cs" />
     <Compile Include="Permiso.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
