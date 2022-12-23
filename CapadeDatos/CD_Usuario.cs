@@ -10,6 +10,7 @@ namespace CapaEntidad
 {
     public class CD_Usuario
     {
-        //public List<Usuario> 
+        //public List<Usuario>
+	//comentario de prueba 
     }
 }
