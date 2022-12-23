@@ -51,7 +51,9 @@
     <Compile Include="Provincia.cs" />
     <Compile Include="Rol.cs" />
     <Compile Include="Sucursal.cs" />
+    <Compile Include="TipoFactura.cs" />
     <Compile Include="Usuario.cs" />
+    <Compile Include="Factura.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
