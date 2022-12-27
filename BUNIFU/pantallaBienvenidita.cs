@@ -7,11 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaEntidad;
+using CapaNegocio;
+
+using System.Data.SqlClient;
 
 namespace BUNIFU
 {
     public partial class pantallaBienvenidita : Form
     {
+        private CN_Usuario uobsuar = new CN_Usuario();
+
         public pantallaBienvenidita()
         {
             InitializeComponent();
@@ -43,6 +49,16 @@ namespace BUNIFU
             this.Opacity = 0.0;
             timer1.Start();
             bunifuCircleProgressbar1.Value = 0;
+
+            List<Usuario> TEST = new CN_Usuario().Listar();
+            Usuario oousuario = new CN_Usuario().Listar().FirstOrDefault();
+
+
+            label1.Text = oousuario.name.ToString() + ", "+oousuario.apellido.ToString();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -47,6 +47,7 @@
             this.logo = new FontAwesome.Sharp.IconButton();
             this.contenedor1 = new System.Windows.Forms.Panel();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuSwitch1 = new Bunifu.Framework.UI.BunifuSwitch();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.menuVertical.SuspendLayout();
             this.SuspendLayout();
@@ -323,6 +324,22 @@
             this.bunifuDragControl1.TargetControl = this;
             this.bunifuDragControl1.Vertical = true;
             // 
+            // bunifuSwitch1
+            // 
+            this.bunifuSwitch1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuSwitch1.BorderRadius = 1;
+            this.bunifuSwitch1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.bunifuSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuSwitch1.ForeColor = System.Drawing.Color.White;
+            this.bunifuSwitch1.Location = new System.Drawing.Point(685, 290);
+            this.bunifuSwitch1.Name = "bunifuSwitch1";
+            this.bunifuSwitch1.Oncolor = System.Drawing.Color.SeaGreen;
+            this.bunifuSwitch1.Onoffcolor = System.Drawing.Color.Red;
+            this.bunifuSwitch1.Size = new System.Drawing.Size(51, 19);
+            this.bunifuSwitch1.TabIndex = 0;
+            this.bunifuSwitch1.Textcolor = System.Drawing.Color.White;
+            this.bunifuSwitch1.Value = true;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -330,6 +347,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(874, 515);
+            this.Controls.Add(this.bunifuSwitch1);
             this.Controls.Add(this.contenedor1);
             this.Controls.Add(this.btnslide);
             this.Controls.Add(this.logo);
@@ -368,6 +386,7 @@
         private FontAwesome.Sharp.IconButton iconButton6;
         private System.Windows.Forms.Panel contenedor1;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
+        private Bunifu.Framework.UI.BunifuSwitch bunifuSwitch1;
     }
 }
 

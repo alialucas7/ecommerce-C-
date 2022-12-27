@@ -105,11 +105,11 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(407, 78);
+            this.label1.Location = new System.Drawing.Point(397, 78);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 22;
-            this.label1.Text = "cuchuflum";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // timer1
             // 

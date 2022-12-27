@@ -36,6 +36,10 @@
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.iconButton3 = new FontAwesome.Sharp.IconButton();
+            this.iconButton4 = new FontAwesome.Sharp.IconButton();
+            this.iconButton5 = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.Lambo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,12 +52,12 @@
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.IconChar = FontAwesome.Sharp.IconChar.Automobile;
+            this.btnLogin.IconChar = FontAwesome.Sharp.IconChar.DoorOpen;
             this.btnLogin.IconColor = System.Drawing.Color.White;
             this.btnLogin.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLogin.IconSize = 20;
             this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogin.Location = new System.Drawing.Point(354, 159);
+            this.btnLogin.Location = new System.Drawing.Point(354, 173);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(129, 36);
             this.btnLogin.TabIndex = 20;
@@ -65,14 +69,14 @@
             // 
             // textDocument
             // 
-            this.textDocument.Location = new System.Drawing.Point(336, 71);
+            this.textDocument.Location = new System.Drawing.Point(336, 85);
             this.textDocument.Name = "textDocument";
             this.textDocument.Size = new System.Drawing.Size(166, 20);
             this.textDocument.TabIndex = 24;
             // 
             // textPasword
             // 
-            this.textPasword.Location = new System.Drawing.Point(336, 119);
+            this.textPasword.Location = new System.Drawing.Point(336, 133);
             this.textPasword.Name = "textPasword";
             this.textPasword.PasswordChar = '*';
             this.textPasword.Size = new System.Drawing.Size(166, 20);
@@ -107,7 +111,7 @@
             this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton2.Location = new System.Drawing.Point(0, 0);
             this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(524, 38);
+            this.iconButton2.Size = new System.Drawing.Size(533, 38);
             this.iconButton2.TabIndex = 27;
             this.iconButton2.Text = "Limited Edition";
             this.iconButton2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -119,7 +123,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
             this.label1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label1.Location = new System.Drawing.Point(333, 55);
+            this.label1.Location = new System.Drawing.Point(333, 69);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 13);
             this.label1.TabIndex = 28;
@@ -131,11 +135,75 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
             this.label2.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label2.Location = new System.Drawing.Point(333, 103);
+            this.label2.Location = new System.Drawing.Point(333, 117);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 29;
             this.label2.Text = "Contraseña";
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
+            this.iconButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.ForeColor = System.Drawing.Color.White;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.XmarkSquare;
+            this.iconButton1.IconColor = System.Drawing.Color.White;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 30;
+            this.iconButton1.Location = new System.Drawing.Point(506, -1);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(29, 29);
+            this.iconButton1.TabIndex = 30;
+            this.iconButton1.Text = ".";
+            this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
+            // iconButton3
+            // 
+            this.iconButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
+            this.iconButton3.FlatAppearance.BorderSize = 0;
+            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton3.ForeColor = System.Drawing.Color.White;
+            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Lock;
+            this.iconButton3.IconColor = System.Drawing.Color.SeaGreen;
+            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton3.IconSize = 20;
+            this.iconButton3.Location = new System.Drawing.Point(315, 133);
+            this.iconButton3.Name = "iconButton3";
+            this.iconButton3.Size = new System.Drawing.Size(20, 20);
+            this.iconButton3.TabIndex = 31;
+            this.iconButton3.UseVisualStyleBackColor = false;
+            // 
+            // iconButton4
+            // 
+            this.iconButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.iconButton4.IconColor = System.Drawing.Color.White;
+            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton4.IconSize = 35;
+            this.iconButton4.Location = new System.Drawing.Point(480, 2);
+            this.iconButton4.Name = "iconButton4";
+            this.iconButton4.Size = new System.Drawing.Size(24, 23);
+            this.iconButton4.TabIndex = 32;
+            this.iconButton4.Text = ".";
+            this.iconButton4.UseVisualStyleBackColor = true;
+            this.iconButton4.Click += new System.EventHandler(this.iconButton4_Click);
+            // 
+            // iconButton5
+            // 
+            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
+            this.iconButton5.IconColor = System.Drawing.Color.SeaGreen;
+            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton5.IconSize = 20;
+            this.iconButton5.Location = new System.Drawing.Point(315, 85);
+            this.iconButton5.Name = "iconButton5";
+            this.iconButton5.Size = new System.Drawing.Size(20, 19);
+            this.iconButton5.TabIndex = 33;
+            this.iconButton5.UseVisualStyleBackColor = true;
             // 
             // Loguin
             // 
@@ -143,7 +211,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(524, 237);
+            this.ClientSize = new System.Drawing.Size(533, 248);
+            this.ControlBox = false;
+            this.Controls.Add(this.iconButton5);
+            this.Controls.Add(this.iconButton4);
+            this.Controls.Add(this.iconButton3);
+            this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.iconButton2);
@@ -151,9 +224,11 @@
             this.Controls.Add(this.textPasword);
             this.Controls.Add(this.textDocument);
             this.Controls.Add(this.btnLogin);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Loguin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Loguin";
+            this.Load += new System.EventHandler(this.Loguin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Lambo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -168,5 +243,9 @@
         private FontAwesome.Sharp.IconButton iconButton2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private FontAwesome.Sharp.IconButton iconButton1;
+        private FontAwesome.Sharp.IconButton iconButton3;
+        private FontAwesome.Sharp.IconButton iconButton4;
+        private FontAwesome.Sharp.IconButton iconButton5;
     }
 }

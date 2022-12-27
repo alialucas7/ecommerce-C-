@@ -38,7 +38,7 @@ namespace BUNIFU
 
                 form.FormClosing += frm_closing;
             }
-            else { MessageBox.Show("no existe facha"); }
+            else { MessageBox.Show("no existe el usuario facha"); }
           
         }
 
@@ -52,6 +52,21 @@ namespace BUNIFU
         private void label1_Click(object sender, EventArgs e)
         {
             //
+        }
+
+        private void Loguin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
