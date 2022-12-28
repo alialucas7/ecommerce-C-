@@ -147,7 +147,7 @@
             this.iconButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconButton1.FlatAppearance.BorderSize = 0;
             this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.ForeColor = System.Drawing.Color.White;
+            this.iconButton1.ForeColor = System.Drawing.Color.Red;
             this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.XmarkSquare;
             this.iconButton1.IconColor = System.Drawing.Color.White;
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;

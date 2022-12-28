@@ -12,7 +12,11 @@ namespace BUNIFU
 {
     public partial class Inicio : Form
     {
-        //para dar color a los botones del menu
+        //variables para abrir formulario cuando se clickean los btn
+       
+        private static Form FormularioActivo = null;
+
+        //variables para dar color a los botones del menu
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private string textoB1; 
@@ -27,7 +31,7 @@ namespace BUNIFU
             menuVertical.Controls.Add(leftBorderBtn);
         }
 
-        //defino mis propios colores 
+        //defino mis propios colores , para mis botones
         private struct RGBColors
         {
             public static Color color1 = Color.FromArgb(172,126,241);
@@ -141,11 +145,33 @@ namespace BUNIFU
                 }
            }
 
+        
+        private void abrirFormulario(Form formulario)
+        {
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
+            //configura el formulario
+            FormularioActivo = formulario;
+            formulario.TopLevel = false;
+            formulario.Dock = DockStyle.Fill;
+            formulario.FormBorderStyle = FormBorderStyle.None;
+            formulario.BackColor = Color.Red;
+            //agrega el formulario configurado al contenedor
+            panel2.Controls.Add(formulario);
+            formulario.Show();
+        }
+
+
 
         //aplico los colores a los botones, llamo a los metodos q cree
         private void iconButton1_Click_1(object sender, EventArgs e)
         {
+            //da animacion al boton cuando se hace click
             ActiveButon(sender, RGBColors.color1);
+            //abre el formulario cuando se hace click
+            abrirFormulario(new frmUsuarios());
         }
 
         private void iconButton2_Click_1(object sender, EventArgs e)
@@ -182,6 +208,7 @@ namespace BUNIFU
         {
             DisableButton();
             leftBorderBtn.Visible = false;
+            FormularioActivo.Close();
         }
 
         private void menuVertical_Paint(object sender, PaintEventArgs e)

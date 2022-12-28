@@ -42,14 +42,14 @@
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tituloMenu = new System.Windows.Forms.MenuStrip();
-            this.btnslide = new FontAwesome.Sharp.IconButton();
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.logo = new FontAwesome.Sharp.IconButton();
-            this.contenedor1 = new System.Windows.Forms.Panel();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.bunifuSwitch1 = new Bunifu.Framework.UI.BunifuSwitch();
+            this.btnslide = new FontAwesome.Sharp.IconButton();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.menuVertical.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -87,8 +87,9 @@
             this.menuVertical.Controls.Add(this.panel1);
             this.menuVertical.Controls.Add(this.bunifuImageButton1);
             this.menuVertical.Controls.Add(this.tituloMenu);
+            this.menuVertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuVertical.ForeColor = System.Drawing.Color.Transparent;
-            this.menuVertical.Location = new System.Drawing.Point(0, 60);
+            this.menuVertical.Location = new System.Drawing.Point(0, 62);
             this.menuVertical.MaximumSize = new System.Drawing.Size(203, 455);
             this.menuVertical.MinimumSize = new System.Drawing.Size(72, 455);
             this.menuVertical.Name = "menuVertical";
@@ -114,7 +115,7 @@
             this.iconButton6.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.iconButton6.Size = new System.Drawing.Size(199, 60);
             this.iconButton6.TabIndex = 28;
-            this.iconButton6.Text = "Ventas";
+            this.iconButton6.Text = "Backup";
             this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton6.UseVisualStyleBackColor = true;
             this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click);
@@ -256,28 +257,6 @@
             this.tituloMenu.TabIndex = 11;
             this.tituloMenu.Text = "Sistema de Ventas";
             // 
-            // btnslide
-            // 
-            this.btnslide.BackColor = System.Drawing.Color.Transparent;
-            this.btnslide.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnslide.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(18)))), ((int)(((byte)(30)))));
-            this.btnslide.FlatAppearance.BorderSize = 0;
-            this.btnslide.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnslide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnslide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnslide.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnslide.ForeColor = System.Drawing.Color.Black;
-            this.btnslide.IconChar = FontAwesome.Sharp.IconChar.ToggleOff;
-            this.btnslide.IconColor = System.Drawing.Color.Black;
-            this.btnslide.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnslide.Location = new System.Drawing.Point(652, 62);
-            this.btnslide.Name = "btnslide";
-            this.btnslide.Size = new System.Drawing.Size(210, 50);
-            this.btnslide.TabIndex = 16;
-            this.btnslide.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnslide.UseVisualStyleBackColor = false;
-            this.btnslide.Click += new System.EventHandler(this.btnslide_Click);
-            // 
             // sidebarTimer
             // 
             this.sidebarTimer.Enabled = true;
@@ -310,13 +289,6 @@
             this.logo.UseVisualStyleBackColor = false;
             this.logo.Click += new System.EventHandler(this.logo_Click);
             // 
-            // contenedor1
-            // 
-            this.contenedor1.Location = new System.Drawing.Point(316, 112);
-            this.contenedor1.Name = "contenedor1";
-            this.contenedor1.Size = new System.Drawing.Size(200, 100);
-            this.contenedor1.TabIndex = 17;
-            // 
             // bunifuDragControl1
             // 
             this.bunifuDragControl1.Fixed = true;
@@ -324,21 +296,36 @@
             this.bunifuDragControl1.TargetControl = this;
             this.bunifuDragControl1.Vertical = true;
             // 
-            // bunifuSwitch1
+            // btnslide
             // 
-            this.bunifuSwitch1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuSwitch1.BorderRadius = 1;
-            this.bunifuSwitch1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.bunifuSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuSwitch1.ForeColor = System.Drawing.Color.White;
-            this.bunifuSwitch1.Location = new System.Drawing.Point(685, 290);
-            this.bunifuSwitch1.Name = "bunifuSwitch1";
-            this.bunifuSwitch1.Oncolor = System.Drawing.Color.SeaGreen;
-            this.bunifuSwitch1.Onoffcolor = System.Drawing.Color.Red;
-            this.bunifuSwitch1.Size = new System.Drawing.Size(51, 19);
-            this.bunifuSwitch1.TabIndex = 0;
-            this.bunifuSwitch1.Textcolor = System.Drawing.Color.White;
-            this.bunifuSwitch1.Value = true;
+            this.btnslide.BackColor = System.Drawing.Color.Transparent;
+            this.btnslide.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnslide.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(18)))), ((int)(((byte)(30)))));
+            this.btnslide.FlatAppearance.BorderSize = 0;
+            this.btnslide.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnslide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnslide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnslide.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnslide.ForeColor = System.Drawing.Color.Black;
+            this.btnslide.IconChar = FontAwesome.Sharp.IconChar.ToggleOff;
+            this.btnslide.IconColor = System.Drawing.Color.Black;
+            this.btnslide.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnslide.Location = new System.Drawing.Point(436, 375);
+            this.btnslide.Name = "btnslide";
+            this.btnslide.Size = new System.Drawing.Size(210, 50);
+            this.btnslide.TabIndex = 16;
+            this.btnslide.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnslide.UseVisualStyleBackColor = false;
+            this.btnslide.Click += new System.EventHandler(this.btnslide_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.btnslide);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(203, 62);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(671, 453);
+            this.panel2.TabIndex = 17;
             // 
             // Inicio
             // 
@@ -347,11 +334,9 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(874, 515);
-            this.Controls.Add(this.bunifuSwitch1);
-            this.Controls.Add(this.contenedor1);
-            this.Controls.Add(this.btnslide);
-            this.Controls.Add(this.logo);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.menuVertical);
+            this.Controls.Add(this.logo);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Open Sans Semibold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -363,6 +348,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             this.menuVertical.ResumeLayout(false);
             this.menuVertical.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -372,7 +358,6 @@
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
         private System.Windows.Forms.Panel menuVertical;
-        private FontAwesome.Sharp.IconButton btnslide;
         private System.Windows.Forms.Timer sidebarTimer;
         private System.Windows.Forms.MenuStrip tituloMenu;
         private FontAwesome.Sharp.IconButton logo;
@@ -384,9 +369,9 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private FontAwesome.Sharp.IconButton iconButton6;
-        private System.Windows.Forms.Panel contenedor1;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
-        private Bunifu.Framework.UI.BunifuSwitch bunifuSwitch1;
+        private FontAwesome.Sharp.IconButton btnslide;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
