@@ -143,7 +143,7 @@ namespace BUNIFU
                             btnslide.Text = "Contraer Menu";
                         }
                 }
-           }
+            }
 
         
         private void abrirFormulario(Form formulario)
