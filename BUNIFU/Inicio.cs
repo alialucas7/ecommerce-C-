@@ -8,12 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
+using CapaNegocio;
+using CapaEntidad;
 namespace BUNIFU
 {
     public partial class Inicio : Form
     {
-        //variables para abrir formulario cuando se clickean los btn
-       
+        //carga el usuario que se a logueado
+        public Usuario usuarioActual;
+
+        //variables para abrir formulario cuando se clickean los 
         private static Form FormularioActivo = null;
 
         //variables para dar color a los botones del menu
@@ -23,8 +27,9 @@ namespace BUNIFU
         //para hacer la animacion de la barra 
         bool sidebarExpand;
 
-        public Inicio()
+        public Inicio(Usuario objUsser)
         {
+            usuarioActual = objUsser;
             InitializeComponent();
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7,60);
@@ -216,6 +221,15 @@ namespace BUNIFU
 
         }
 
-        
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        //cuando se lee el formulario que cargue la lista
+        private void Inicio_Load(object sender, EventArgs e)
+        {
+            List<Permiso> listaPermisos = new CN_Permiso().Listar(usuarioActual.id_usuario);
+        }
     }
 }
