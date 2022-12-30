@@ -50,11 +50,7 @@ namespace BUNIFU
             timer1.Start();
             bunifuCircleProgressbar1.Value = 0;
 
-            List<Usuario> TEST = new CN_Usuario().Listar();
-            Usuario oousuario = new CN_Usuario().Listar().FirstOrDefault();
-
-
-            label1.Text = oousuario.name.ToString() + ", "+oousuario.apellido.ToString();
+           
         }
 
         private void label1_Click(object sender, EventArgs e)

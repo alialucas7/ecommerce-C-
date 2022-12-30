@@ -14,7 +14,7 @@ namespace BUNIFU
 {
     public partial class Inicio : Form
     {
-        //carga el usuario que se a logueado
+        //para cargar el usuario que se a logueado
         public Usuario usuarioActual;
 
         //variables para abrir formulario cuando se clickean los 
@@ -24,6 +24,7 @@ namespace BUNIFU
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private string textoB1; 
+
         //para hacer la animacion de la barra 
         bool sidebarExpand;
 
@@ -34,8 +35,44 @@ namespace BUNIFU
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7,60);
             menuVertical.Controls.Add(leftBorderBtn);
+
+            //oculta botones a usuarios no autorisados
+            if (usuarioActual.obRol.getID() == 3)
+            {   //usuario empleado
+                iconButton4.Hide();
+                iconButton5.Hide();
+                iconButton6.Hide();
+            }
+
+            if (usuarioActual.obRol.getID() == 2)
+            {   //usuario de ventas
+                iconButton1.Hide();
+                iconButton2.Hide();
+                iconButton5.Hide();
+            }
+
+
         }
 
+        //cuando se lee el formulario que cargue la lista
+        private void Inicio_Load(object sender, EventArgs e)
+        {
+            List<Permiso> listaPermisos = new CN_Permiso().Listar(usuarioActual.id_usuario);
+
+           
+           
+
+
+            /*muestra los botones dependiendo del usuario que se va a loguear
+            foreach (IconMenuItem iconmenu in menuVertical.Container.Components)
+            {
+                bool encontrado = listaPermisos.Any(m => m.nameMenu == iconmenu.Name);
+                if (encontrado == false)
+                {
+                    iconmenu.Visible = false;
+                }
+            }*/
+        }
         //defino mis propios colores , para mis botones
         private struct RGBColors
         {
@@ -226,10 +263,6 @@ namespace BUNIFU
 
         }
 
-        //cuando se lee el formulario que cargue la lista
-        private void Inicio_Load(object sender, EventArgs e)
-        {
-            List<Permiso> listaPermisos = new CN_Permiso().Listar(usuarioActual.id_usuario);
-        }
+        
     }
 }

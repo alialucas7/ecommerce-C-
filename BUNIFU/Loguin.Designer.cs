@@ -194,6 +194,8 @@
             // 
             // iconButton5
             // 
+            this.iconButton5.CausesValidation = false;
+            this.iconButton5.FlatAppearance.BorderSize = 0;
             this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
             this.iconButton5.IconColor = System.Drawing.Color.SeaGreen;

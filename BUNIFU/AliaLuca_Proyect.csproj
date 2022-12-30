@@ -70,6 +70,12 @@
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="InicioEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InicioEmpleado.Designer.cs">
+      <DependentUpon>InicioEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loguin.cs">
       <SubType>Form</SubType>
     </Compile>

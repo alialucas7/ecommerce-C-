@@ -26,18 +26,33 @@ namespace BUNIFU
             //instancia las clases
             List<Usuario> TEST = new CN_Usuario().Listar();
             Usuario ousuario = new  CN_Usuario().Listar().Where(u => u.dni == textDocument.Text && u.pasword == textPasword.Text).FirstOrDefault();
-
-            //con un if hace la validacion correspondiente
-            if (ousuario != null) {
+            
+            
+            if (ousuario != null){
                 this.Hide();
                 pantallaBienvenidita bienvenida = new pantallaBienvenidita();
                 bienvenida.ShowDialog();
-                Inicio form = new Inicio();
+                //int valor = 0;
+                //valor = ousuario.obRol.getID();
+
+                //MessageBox.Show(valor.ToString());
+                Inicio form = new Inicio(ousuario);
                 form.Show();
-
-
                 form.FormClosing += frm_closing;
             }
+            /*if ((ousuario != null) && (ousuario.obRol.getID() == 3))
+            {
+                this.Hide();
+                pantallaBienvenidita bienvenida = new pantallaBienvenidita();
+                bienvenida.ShowDialog();
+                //int valor = 0;
+                //valor = ousuario.obRol.getID();
+
+                //MessageBox.Show(valor.ToString());
+                InicioEmpleado form = new InicioEmpleado(ousuario);
+                form.Show();
+                form.FormClosing += frm_closing;
+            }*/
             else { MessageBox.Show("no existe el usuario facha"); }
           
         }
