@@ -48,9 +48,9 @@
             this.btnslide = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.panel3 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.menuVertical.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -283,7 +283,7 @@
             this.logo.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.logo.Location = new System.Drawing.Point(0, 0);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(874, 62);
+            this.logo.Size = new System.Drawing.Size(996, 62);
             this.logo.TabIndex = 16;
             this.logo.Text = "Limited Edition";
             this.logo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -299,7 +299,7 @@
             // 
             // btnslide
             // 
-            this.btnslide.BackColor = System.Drawing.Color.Transparent;
+            this.btnslide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
             this.btnslide.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnslide.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(18)))), ((int)(((byte)(30)))));
             this.btnslide.FlatAppearance.BorderSize = 0;
@@ -307,13 +307,13 @@
             this.btnslide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnslide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnslide.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnslide.ForeColor = System.Drawing.Color.Black;
+            this.btnslide.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
             this.btnslide.IconChar = FontAwesome.Sharp.IconChar.ToggleOff;
-            this.btnslide.IconColor = System.Drawing.Color.Black;
+            this.btnslide.IconColor = System.Drawing.Color.White;
             this.btnslide.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnslide.Location = new System.Drawing.Point(326, 20);
+            this.btnslide.Location = new System.Drawing.Point(573, 13);
             this.btnslide.Name = "btnslide";
-            this.btnslide.Size = new System.Drawing.Size(210, 50);
+            this.btnslide.Size = new System.Drawing.Size(280, 43);
             this.btnslide.TabIndex = 16;
             this.btnslide.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnslide.UseVisualStyleBackColor = false;
@@ -321,11 +321,10 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.btnslide);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(203, 62);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(671, 453);
+            this.panel2.Size = new System.Drawing.Size(793, 453);
             this.panel2.TabIndex = 15;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -336,13 +335,23 @@
             this.bunifuDragControl2.TargetControl = this.logo;
             this.bunifuDragControl2.Vertical = true;
             // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(203, 62);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(793, 38);
+            this.panel3.TabIndex = 17;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(874, 515);
+            this.ClientSize = new System.Drawing.Size(996, 515);
+            this.Controls.Add(this.btnslide);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.menuVertical);
             this.Controls.Add(this.logo);
@@ -357,7 +366,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             this.menuVertical.ResumeLayout(false);
             this.menuVertical.PerformLayout();
-            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -382,6 +390,7 @@
         private FontAwesome.Sharp.IconButton btnslide;
         private System.Windows.Forms.Panel panel2;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl2;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 

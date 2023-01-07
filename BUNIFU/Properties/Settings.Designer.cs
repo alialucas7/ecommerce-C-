@@ -22,5 +22,16 @@ namespace BUNIFU.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LUCAS\\SQLEXPRESS;Initial Catalog=BD_dealership;Integrated Security=Tr" +
+            "ue")]
+        public string BD_dealershipConnectionString {
+            get {
+                return ((string)(this["BD_dealershipConnectionString"]));
+            }
+        }
     }
 }

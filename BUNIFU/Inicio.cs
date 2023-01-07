@@ -23,7 +23,9 @@ namespace BUNIFU
             public static Color color4 = Color.FromArgb(95, 77, 221);
             public static Color color5 = Color.FromArgb(24, 161, 251);
             public static Color color6 = Color.FromArgb(62, 174, 37);
-            public static Color fondoFormularios = Color.FromArgb(58,52,95);
+            //public static Color fondoFormularios = Color.FromArgb(58,52,95);
+            public static Color fondoFormularios = Color.FromArgb(240,243, 250);
+            
         }
 
 
@@ -210,7 +212,7 @@ namespace BUNIFU
             formulario.TopLevel = false;
             formulario.Dock = DockStyle.Fill;
             formulario.FormBorderStyle = FormBorderStyle.None;
-            //formulario.BackColor = RGBColors.fondoFormularios;
+           // formulario.BackColor = RGBColors.fondoFormularios;
             //agrega el formulario configurado al contenedor
             panel2.Controls.Add(formulario);
             formulario.Show();
