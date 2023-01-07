@@ -47,6 +47,7 @@
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.btnslide = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.menuVertical.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -310,7 +311,7 @@
             this.btnslide.IconChar = FontAwesome.Sharp.IconChar.ToggleOff;
             this.btnslide.IconColor = System.Drawing.Color.Black;
             this.btnslide.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnslide.Location = new System.Drawing.Point(436, 375);
+            this.btnslide.Location = new System.Drawing.Point(326, 20);
             this.btnslide.Name = "btnslide";
             this.btnslide.Size = new System.Drawing.Size(210, 50);
             this.btnslide.TabIndex = 16;
@@ -325,8 +326,15 @@
             this.panel2.Location = new System.Drawing.Point(203, 62);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(671, 453);
-            this.panel2.TabIndex = 17;
+            this.panel2.TabIndex = 15;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // bunifuDragControl2
+            // 
+            this.bunifuDragControl2.Fixed = true;
+            this.bunifuDragControl2.Horizontal = true;
+            this.bunifuDragControl2.TargetControl = this.logo;
+            this.bunifuDragControl2.Vertical = true;
             // 
             // Inicio
             // 
@@ -373,6 +381,7 @@
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private FontAwesome.Sharp.IconButton btnslide;
         private System.Windows.Forms.Panel panel2;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl2;
     }
 }
 

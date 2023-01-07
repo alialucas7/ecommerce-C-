@@ -49,3 +49,4 @@ C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.pdb
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\CapadeDatos.dll
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\CapadeDatos.pdb
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.frmUsuarios.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.Controles_graficos.UserControl1.resources

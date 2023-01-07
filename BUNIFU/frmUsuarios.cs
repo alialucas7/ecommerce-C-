@@ -16,5 +16,10 @@ namespace BUNIFU
         {
             InitializeComponent();
         }
+
+        private void userControl12__Textchanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

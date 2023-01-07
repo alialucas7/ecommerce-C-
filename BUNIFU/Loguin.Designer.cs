@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loguin));
             this.btnLogin = new FontAwesome.Sharp.IconButton();
-            this.textDocument = new System.Windows.Forms.TextBox();
-            this.textPasword = new System.Windows.Forms.TextBox();
             this.Lambo = new System.Windows.Forms.PictureBox();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,6 +38,8 @@
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.iconButton5 = new FontAwesome.Sharp.IconButton();
+            this.userControl11 = new BUNIFU.Controles_graficos.UserControl1();
+            this.textDocument1 = new BUNIFU.Controles_graficos.UserControl1();
             ((System.ComponentModel.ISupportInitialize)(this.Lambo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,7 +57,7 @@
             this.btnLogin.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLogin.IconSize = 20;
             this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogin.Location = new System.Drawing.Point(354, 173);
+            this.btnLogin.Location = new System.Drawing.Point(360, 191);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(129, 36);
             this.btnLogin.TabIndex = 20;
@@ -66,22 +66,6 @@
             this.btnLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
-            // textDocument
-            // 
-            this.textDocument.Location = new System.Drawing.Point(336, 85);
-            this.textDocument.Name = "textDocument";
-            this.textDocument.Size = new System.Drawing.Size(166, 20);
-            this.textDocument.TabIndex = 24;
-            // 
-            // textPasword
-            // 
-            this.textPasword.Location = new System.Drawing.Point(336, 133);
-            this.textPasword.Name = "textPasword";
-            this.textPasword.PasswordChar = '*';
-            this.textPasword.Size = new System.Drawing.Size(166, 20);
-            this.textPasword.TabIndex = 25;
-            this.textPasword.UseSystemPasswordChar = true;
             // 
             // Lambo
             // 
@@ -135,7 +119,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
             this.label2.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label2.Location = new System.Drawing.Point(333, 117);
+            this.label2.Location = new System.Drawing.Point(334, 127);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 29;
@@ -170,9 +154,9 @@
             this.iconButton3.IconColor = System.Drawing.Color.SeaGreen;
             this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton3.IconSize = 20;
-            this.iconButton3.Location = new System.Drawing.Point(315, 133);
+            this.iconButton3.Location = new System.Drawing.Point(320, 143);
             this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(20, 20);
+            this.iconButton3.Size = new System.Drawing.Size(20, 31);
             this.iconButton3.TabIndex = 31;
             this.iconButton3.UseVisualStyleBackColor = false;
             // 
@@ -201,11 +185,54 @@
             this.iconButton5.IconColor = System.Drawing.Color.SeaGreen;
             this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton5.IconSize = 20;
-            this.iconButton5.Location = new System.Drawing.Point(315, 85);
+            this.iconButton5.Location = new System.Drawing.Point(320, 85);
             this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Size = new System.Drawing.Size(20, 19);
+            this.iconButton5.Size = new System.Drawing.Size(20, 28);
             this.iconButton5.TabIndex = 33;
             this.iconButton5.UseVisualStyleBackColor = true;
+            // 
+            // userControl11
+            // 
+            this.userControl11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(17)))), ((int)(((byte)(25)))));
+            this.userControl11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(52)))), ((int)(((byte)(66)))));
+            this.userControl11.BorderFocusColor = System.Drawing.Color.SeaGreen;
+            this.userControl11.BorderRadius = 0;
+            this.userControl11.BorderSize = 3;
+            this.userControl11.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.userControl11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControl11.ForeColor = System.Drawing.SystemColors.Window;
+            this.userControl11.Location = new System.Drawing.Point(340, 144);
+            this.userControl11.Margin = new System.Windows.Forms.Padding(4);
+            this.userControl11.MultiLine = false;
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Padding = new System.Windows.Forms.Padding(7);
+            this.userControl11.PasswordChar = true;
+            this.userControl11.Size = new System.Drawing.Size(168, 30);
+            this.userControl11.TabIndex = 35;
+            this.userControl11.Texts = "";
+            this.userControl11.UnderLinedStyle = true;
+            // 
+            // textDocument1
+            // 
+            this.textDocument1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(17)))), ((int)(((byte)(25)))));
+            this.textDocument1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(52)))), ((int)(((byte)(66)))));
+            this.textDocument1.BorderFocusColor = System.Drawing.Color.SeaGreen;
+            this.textDocument1.BorderRadius = 0;
+            this.textDocument1.BorderSize = 3;
+            this.textDocument1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textDocument1.Font = new System.Drawing.Font("Symbol", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.textDocument1.ForeColor = System.Drawing.SystemColors.Window;
+            this.textDocument1.Location = new System.Drawing.Point(340, 86);
+            this.textDocument1.Margin = new System.Windows.Forms.Padding(4);
+            this.textDocument1.MultiLine = true;
+            this.textDocument1.Name = "textDocument1";
+            this.textDocument1.Padding = new System.Windows.Forms.Padding(7);
+            this.textDocument1.PasswordChar = false;
+            this.textDocument1.Size = new System.Drawing.Size(168, 27);
+            this.textDocument1.TabIndex = 34;
+            this.textDocument1.Texts = "";
+            this.textDocument1.UnderLinedStyle = true;
+            this.textDocument1._Textchanged += new System.EventHandler(this.textDocument1__Textchanged);
             // 
             // Loguin
             // 
@@ -215,6 +242,8 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(533, 248);
             this.ControlBox = false;
+            this.Controls.Add(this.userControl11);
+            this.Controls.Add(this.textDocument1);
             this.Controls.Add(this.iconButton5);
             this.Controls.Add(this.iconButton4);
             this.Controls.Add(this.iconButton3);
@@ -223,8 +252,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.iconButton2);
             this.Controls.Add(this.Lambo);
-            this.Controls.Add(this.textPasword);
-            this.Controls.Add(this.textDocument);
             this.Controls.Add(this.btnLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Loguin";
@@ -239,8 +266,6 @@
 
         #endregion
         private FontAwesome.Sharp.IconButton btnLogin;
-        private System.Windows.Forms.TextBox textDocument;
-        private System.Windows.Forms.TextBox textPasword;
         private System.Windows.Forms.PictureBox Lambo;
         private FontAwesome.Sharp.IconButton iconButton2;
         private System.Windows.Forms.Label label1;
@@ -249,5 +274,7 @@
         private FontAwesome.Sharp.IconButton iconButton3;
         private FontAwesome.Sharp.IconButton iconButton4;
         private FontAwesome.Sharp.IconButton iconButton5;
+        private Controles_graficos.UserControl1 textDocument1;
+        private Controles_graficos.UserControl1 userControl11;
     }
 }

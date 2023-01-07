@@ -14,6 +14,19 @@ namespace BUNIFU
 {
     public partial class Inicio : Form
     {
+        //defino mis propios colores , para mis botones
+        private struct RGBColors
+        {
+            public static Color color1 = Color.FromArgb(172, 126, 241);
+            public static Color color2 = Color.FromArgb(249, 118, 246);
+            public static Color color3 = Color.FromArgb(253, 138, 114);
+            public static Color color4 = Color.FromArgb(95, 77, 221);
+            public static Color color5 = Color.FromArgb(24, 161, 251);
+            public static Color color6 = Color.FromArgb(62, 174, 37);
+            public static Color fondoFormularios = Color.FromArgb(58,52,95);
+        }
+
+
         //para cargar el usuario que se a logueado
         public Usuario usuarioActual;
 
@@ -28,14 +41,21 @@ namespace BUNIFU
         //para hacer la animacion de la barra 
         bool sidebarExpand;
 
-        public Inicio(Usuario objUsser)
+        public Inicio(Usuario objUsser = null)
         {
-            usuarioActual = objUsser;
+           // usuarioActual = objUsser; luego descomentar esto
             InitializeComponent();
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7,60);
             menuVertical.Controls.Add(leftBorderBtn);
 
+
+            //codigo temporal
+            if (usuarioActual == null) usuarioActual = new Usuario() { id_usuario = 1 };
+            else usuarioActual = objUsser;
+            //codigo temporal
+
+            /* lo oculto temporalmente para trabajar mas comodo
             //oculta botones a usuarios no autorisados
             if (usuarioActual.obRol.getID() == 3)
             {   //usuario empleado
@@ -49,7 +69,7 @@ namespace BUNIFU
                 iconButton1.Hide();
                 iconButton2.Hide();
                 iconButton5.Hide();
-            }
+            }*/
 
 
         }
@@ -57,7 +77,7 @@ namespace BUNIFU
         //cuando se lee el formulario que cargue la lista
         private void Inicio_Load(object sender, EventArgs e)
         {
-            List<Permiso> listaPermisos = new CN_Permiso().Listar(usuarioActual.id_usuario);
+            //List<Permiso> listaPermisos = new CN_Permiso().Listar(usuarioActual.id_usuario);
 
            
            
@@ -73,16 +93,7 @@ namespace BUNIFU
                 }
             }*/
         }
-        //defino mis propios colores , para mis botones
-        private struct RGBColors
-        {
-            public static Color color1 = Color.FromArgb(172,126,241);
-            public static Color color2 = Color.FromArgb(249,118,246);
-            public static Color color3 = Color.FromArgb(253,138,114);
-            public static Color color4 = Color.FromArgb(95,77,221);
-            public static Color color5 = Color.FromArgb(24,161,251);
-            public static Color color6 = Color.FromArgb(62, 174,37);
-        }
+       
 
 
         //Metodos para poner boton a los colore
@@ -199,7 +210,7 @@ namespace BUNIFU
             formulario.TopLevel = false;
             formulario.Dock = DockStyle.Fill;
             formulario.FormBorderStyle = FormBorderStyle.None;
-            formulario.BackColor = Color.Red;
+            //formulario.BackColor = RGBColors.fondoFormularios;
             //agrega el formulario configurado al contenedor
             panel2.Controls.Add(formulario);
             formulario.Show();
@@ -212,8 +223,7 @@ namespace BUNIFU
         {
             //da animacion al boton cuando se hace click
             ActiveButon(sender, RGBColors.color1);
-            //abre el formulario cuando se hace click
-            abrirFormulario(new frmUsuarios());
+            
         }
 
         private void iconButton2_Click_1(object sender, EventArgs e)
@@ -234,6 +244,8 @@ namespace BUNIFU
         private void iconButton5_Click_1(object sender, EventArgs e)
         {
             ActiveButon(sender, RGBColors.color5);
+            //abre el formulario cuando se hace click
+            abrirFormulario(new frmUsuarios());
         }
 
         private void iconButton6_Click(object sender, EventArgs e)

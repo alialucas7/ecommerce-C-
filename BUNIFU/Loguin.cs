@@ -25,7 +25,7 @@ namespace BUNIFU
 
             //instancia las clases
             List<Usuario> TEST = new CN_Usuario().Listar();
-            Usuario ousuario = new  CN_Usuario().Listar().Where(u => u.dni == textDocument.Text && u.pasword == textPasword.Text).FirstOrDefault();
+            Usuario ousuario = new  CN_Usuario().Listar().Where(u => u.dni == textDocument1.Texts && u.pasword == userControl11.Texts).FirstOrDefault();
             
             
             if (ousuario != null){
@@ -59,8 +59,8 @@ namespace BUNIFU
 
         private void frm_closing(object sender, FormClosingEventArgs e)
         {
-            textDocument.Text = "";
-            textPasword.Text = "";
+            textDocument1.Texts = "";
+            userControl11.Texts = "";
             this.Show();
         }
 
@@ -82,6 +82,16 @@ namespace BUNIFU
         private void iconButton4_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void textDocument_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textDocument1__Textchanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
