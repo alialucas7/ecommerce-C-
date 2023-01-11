@@ -16,3 +16,12 @@ C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\obj\Debug\CapadeDat
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\obj\Debug\CapadeDatos.csproj.CopyComplete
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\obj\Debug\CapadeDatos.dll
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\obj\Debug\CapadeDatos.pdb
+D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapadeDatos\bin\Debug\CapadeDatos.dll
+D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapadeDatos\bin\Debug\CapadeDatos.pdb
+D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapadeDatos\bin\Debug\CapaEntidad.dll
+D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapadeDatos\bin\Debug\CapaEntidad.pdb
+D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapadeDatos\obj\Debug\CapadeDatos.csprojAssemblyReference.cache
+D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapadeDatos\obj\Debug\CapadeDatos.csproj.CoreCompileInputs.cache
+D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapadeDatos\obj\Debug\CapadeDatos.csproj.CopyComplete
+D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapadeDatos\obj\Debug\CapadeDatos.dll
+D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapadeDatos\obj\Debug\CapadeDatos.pdb
