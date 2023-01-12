@@ -27,7 +27,7 @@ namespace BUNIFU
         private void frmUsuarios_Load(object sender, EventArgs e)
         {
             // TODO: esta línea de código carga datos en la tabla 'bD_dealershipDataSet.Usuario' Puede moverla o quitarla según sea necesario.
-            this.usuarioTableAdapter.Fill(this.bD_dealershipDataSet.Usuario);
+            this.usuarioTableAdapter.Fill(this.bD_dealershipDataSet.J.SebastianOrtiz);
 
             /*esto es para que pueda habiliatr ussser mediante mi combobox*/
             comboBoxState.Items.Add(new OpcionCombobox() { valor = 1, Texto = "Habilitado"});
