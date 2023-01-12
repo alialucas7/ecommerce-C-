@@ -21,9 +21,11 @@ namespace CapadeDatos
             {
                 try
                 {
-                    string query = "select * from Usuario";
-                    
-                    SqlCommand cmd = new SqlCommand(query, conexion);
+                    StringBuilder query = new StringBuilder();
+                    query.AppendLine("select u.id_usuario, u.dni,u.name,u.apellido,u.email,u.estado,r.id_rol,r.descripcion from Usuario u");
+                    query.AppendLine("inner join rol r on r.id_rol = u.id_rol");
+                        
+                    SqlCommand cmd = new SqlCommand(query.ToString(), conexion);
                    
                     cmd.CommandType = CommandType.Text;
                     
@@ -37,7 +39,7 @@ namespace CapadeDatos
                             ///int idTemporal = Convert.ToInt32(dr["id_rol"]);
                                 lista.Add(new Usuario(){ 
                                 id_usuario = Convert.ToInt32(dr["id_usuario"]),
-                                obRol = new Rol() { id_rol = Convert.ToInt32(dr["id_rol"]) },
+                                obRol = new Rol() { id_rol = Convert.ToInt32(dr["id_rol"]) , descripcion = dr["descripcion"].ToString()},
                                     //obRol = new Rol(idTemporal),
                                 dni = dr["dni"].ToString(),
                                 name = dr["nombre"].ToString(),
