@@ -39,14 +39,18 @@ namespace BUNIFU
             bunifuDataGridView.Size = new Size(481, 165);
             bunifuDataGridView.Location = new Point(53, 255);
             this.Controls.Add(bunifuDataGridView);
-            
-           // bunifuDataGridView.PopulateWithSampleData();
+
+            // bunifuDataGridView.PopulateWithSampleData();
+
 
 
 
 
 
             // TODO: esta línea de código carga datos en la tabla 'bD_dealershipDataSet.Usuario' Puede moverla o quitarla según sea necesario.
+
+            /*Seba si te da error comenta la linea de abajo y descomenta esta
+            this.usuarioTableAdapter.Fill(this.bD_dealershipDataSet.J.SebastianOrtiz);*/
             this.usuarioTableAdapter.Fill(this.bD_dealershipDataSet.Usuario);
 
             /*esto es para que pueda habiliatr ussser mediante mi combobox*/

@@ -76,6 +76,7 @@
             this.userControl12.TabIndex = 27;
             this.userControl12.Texts = "";
             this.userControl12.UnderLinedStyle = false;
+            this.userControl12._Textchanged += new System.EventHandler(this.userControl12__Textchanged);
             // 
             // bunifuCustomLabel2
             // 

@@ -32,5 +32,10 @@ namespace BUNIFU
             comboBoxState.DisplayMember = "Texto";
             comboBoxState.ValueMember = "valor";
         }
+
+        private void userControl12__Textchanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
