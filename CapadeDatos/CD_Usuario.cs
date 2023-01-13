@@ -61,5 +61,143 @@ namespace CapadeDatos
             }
         }
 	//comentario de prueba 
+
+
+
+
+
+
+
+        public int Editar(Usuario objU,out string Mensaje)
+        {
+            int idUsuarioGenerado = 0;
+            Mensaje = string.Empty;
+
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(Conexion.cadena))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_RegistrarUsuario", conexion);
+                    /*Procedo a ejecutar el procedimiento almacenado para registrar usser*/
+                    
+                    //datos de entrada
+                    cmd.Parameters.AddWithValue("idRol", objU.obRol.id_rol);
+                    cmd.Parameters.AddWithValue("dni",objU.dni);
+                    cmd.Parameters.AddWithValue("nombre", objU.name);
+                    cmd.Parameters.AddWithValue("apellido", objU.apellido);
+                    cmd.Parameters.AddWithValue("email", objU.email);
+                    cmd.Parameters.AddWithValue("telefono", objU.telefono);
+                    cmd.Parameters.AddWithValue("estado", objU.state);
+                    cmd.Parameters.AddWithValue("pasword", objU.pasword);
+                    //datos de salida
+                    cmd.Parameters.Add("idUsuarioResultado", SqlDbType.Int).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar).Direction = ParameterDirection.Output;
+                    
+                    //storesprocedure xq es un proc almacenado
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    conexion.Open();
+                    cmd.ExecuteNonQuery();
+
+                    idUsuarioGenerado = Convert.ToInt32(cmd.Parameters["idUsuarioResultado"].Value);
+                    Mensaje = cmd.Parameters["Mensaje"].Value.ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                idUsuarioGenerado = 0;
+                Mensaje = ex.Message;
+            }
+
+
+            return idUsuarioGenerado;
+        }
+
+
+        public int Registrar(Usuario objU, out string Mensaje)
+        {
+            int respuesta = 0;
+            Mensaje = string.Empty;
+
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(Conexion.cadena))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_EDITAR_Usuario", conexion);
+                    /*Procedo a ejecutar el procedimiento almacenado para registrar usser*/
+
+                    //datos de entrada
+                    cmd.Parameters.AddWithValue("idRol", objU.obRol.id_rol);
+                    cmd.Parameters.AddWithValue("dni", objU.dni);
+                    cmd.Parameters.AddWithValue("nombre", objU.name);
+                    cmd.Parameters.AddWithValue("apellido", objU.apellido);
+                    cmd.Parameters.AddWithValue("email", objU.email);
+                    cmd.Parameters.AddWithValue("telefono", objU.telefono);
+                    cmd.Parameters.AddWithValue("estado", objU.state);
+                    cmd.Parameters.AddWithValue("pasword", objU.pasword);
+                    //datos de salida
+                    cmd.Parameters.Add("Respuesta", SqlDbType.Int).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar).Direction = ParameterDirection.Output;
+
+                    //storesprocedure xq es un proc almacenado
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    conexion.Open();
+                    cmd.ExecuteNonQuery();
+
+                    respuesta = Convert.ToInt32(cmd.Parameters["Respuesta"].Value);
+                    Mensaje = cmd.Parameters["Mensaje"].Value.ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta = 0;
+                Mensaje = ex.Message;
+            }
+
+
+            return respuesta;
+        }
+
+
+        public int Eliminar(Usuario objU, out string Mensaje)
+        {
+            int respuesta = 0;
+            Mensaje = string.Empty;
+
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(Conexion.cadena))
+                {
+                    SqlCommand cmd = new SqlCommand("SP_EliminarUsuario", conexion);
+                    /*Procedo a ejecutar el procedimiento almacenado para registrar usser*/
+
+                    //datos de entrada
+                    cmd.Parameters.AddWithValue("idUsuario", objU.id_usuario);
+                    
+
+                    //datos de salida
+                    cmd.Parameters.Add("Respuesta", SqlDbType.Int).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar).Direction = ParameterDirection.Output;
+
+                    //storesprocedure xq es un proc almacenado
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    conexion.Open();
+                    cmd.ExecuteNonQuery();
+
+                    respuesta = Convert.ToInt32(cmd.Parameters["Respuesta"].Value);
+                    Mensaje = cmd.Parameters["Mensaje"].Value.ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta = 0;
+                Mensaje = ex.Message;
+            }
+
+
+            return respuesta;
+        }
     }
 }

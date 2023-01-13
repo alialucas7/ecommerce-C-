@@ -46,8 +46,8 @@
             this.logo = new FontAwesome.Sharp.IconButton();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.btnslide = new FontAwesome.Sharp.IconButton();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.menuVertical.SuspendLayout();
             this.SuspendLayout();
@@ -318,15 +318,6 @@
             this.btnslide.UseVisualStyleBackColor = false;
             this.btnslide.Click += new System.EventHandler(this.btnslide_Click);
             // 
-            // panel2
-            // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(203, 62);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(793, 453);
-            this.panel2.TabIndex = 15;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
             // bunifuDragControl2
             // 
             this.bunifuDragControl2.Fixed = true;
@@ -334,15 +325,24 @@
             this.bunifuDragControl2.TargetControl = this.logo;
             this.bunifuDragControl2.Vertical = true;
             // 
+            // panel2
+            // 
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(203, 62);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(793, 453);
+            this.panel2.TabIndex = 17;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(996, 515);
-            this.Controls.Add(this.btnslide);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.btnslide);
             this.Controls.Add(this.menuVertical);
             this.Controls.Add(this.logo);
             this.DoubleBuffered = true;
@@ -378,8 +378,8 @@
         private FontAwesome.Sharp.IconButton iconButton6;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private FontAwesome.Sharp.IconButton btnslide;
-        private System.Windows.Forms.Panel panel2;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl2;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
