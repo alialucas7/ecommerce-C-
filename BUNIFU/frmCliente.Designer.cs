@@ -33,6 +33,7 @@
             this.userControl12 = new BUNIFU.Controles_graficos.UserControl1();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.comboBoxState = new System.Windows.Forms.ComboBox();
+            this.cD_Button1 = new CustomControls.Controles_graficos.CD_Button();
             this.SuspendLayout();
             // 
             // label1
@@ -96,12 +97,31 @@
             this.comboBoxState.Size = new System.Drawing.Size(121, 21);
             this.comboBoxState.TabIndex = 36;
             // 
+            // cD_Button1
+            // 
+            this.cD_Button1.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.cD_Button1.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.cD_Button1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.cD_Button1.BorderRadius = 10;
+            this.cD_Button1.BorderSize = 0;
+            this.cD_Button1.FlatAppearance.BorderSize = 0;
+            this.cD_Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cD_Button1.ForeColor = System.Drawing.Color.White;
+            this.cD_Button1.Location = new System.Drawing.Point(363, 118);
+            this.cD_Button1.Name = "cD_Button1";
+            this.cD_Button1.Size = new System.Drawing.Size(187, 65);
+            this.cD_Button1.TabIndex = 38;
+            this.cD_Button1.Text = "cD_Button1";
+            this.cD_Button1.TextColor = System.Drawing.Color.White;
+            this.cD_Button1.UseVisualStyleBackColor = false;
+            // 
             // frmCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(655, 414);
+            this.Controls.Add(this.cD_Button1);
             this.Controls.Add(this.bunifuCustomLabel2);
             this.Controls.Add(this.comboBoxState);
             this.Controls.Add(this.userControl12);
@@ -122,5 +142,6 @@
         private Controles_graficos.UserControl1 userControl12;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
         private System.Windows.Forms.ComboBox comboBoxState;
+        private CustomControls.Controles_graficos.CD_Button cD_Button1;
     }
 }
