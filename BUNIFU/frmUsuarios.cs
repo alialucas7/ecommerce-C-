@@ -21,8 +21,17 @@ namespace BUNIFU
             InitializeComponent();
         }
 
-        
-
+        /*Declaro mis variables */
+        public int id_usuarioo;
+        public int idRoll;
+        public string dnii;
+        public string namee;
+        public string apellidoo;
+        public string emaill;
+        public string telefonoo;
+        public bool statee;
+        public string paswordd;
+        string d2;
 
 
         private void userControl12__Textchanged(object sender, EventArgs e)
@@ -82,6 +91,8 @@ namespace BUNIFU
             comboBusqueda.DisplayMember = "Texto";
             comboBusqueda.ValueMember = "valor";
             comboBusqueda.SelectedIndex = 1;
+
+            txtIndice.Text = "0";
         }
 
         /*metodolimpiador de campos*/
@@ -115,24 +126,30 @@ namespace BUNIFU
                 if(indice >= 0)
                 {
                     txtIndice.Text = bunifuCustomDataGrid11.Rows[indice].Cells["id"].Value.ToString();
+
                     txtDocument.ForeColor = Color.Black;
                     txtDocument.Texts = bunifuCustomDataGrid11.Rows[indice].Cells["dni"].Value.ToString();
+                    txtDocumenPrueba.Text = bunifuCustomDataGrid11.Rows[indice].Cells["dni"].Value.ToString();
 
                     txtPhone.ForeColor = Color.Black;
                     txtPhone.Texts = bunifuCustomDataGrid11.Rows[indice].Cells["telefono"].Value.ToString();
+                    txtprueba.Text = bunifuCustomDataGrid11.Rows[indice].Cells["telefono"].Value.ToString();
 
                     txtName.ForeColor = Color.Black;
                     txtName.Texts = bunifuCustomDataGrid11.Rows[indice].Cells["name"].Value.ToString();
+                    txtnamePrueba.Text = bunifuCustomDataGrid11.Rows[indice].Cells["name"].Value.ToString();
 
                     txtApellido.ForeColor = Color.Black;
                     txtApellido.Texts = bunifuCustomDataGrid11.Rows[indice].Cells["apellido"].Value.ToString();
+                    txtapellidoPrueba.Text = bunifuCustomDataGrid11.Rows[indice].Cells["apellido"].Value.ToString();
 
                     txtEmail.ForeColor = Color.Black;
                     txtEmail.Texts = bunifuCustomDataGrid11.Rows[indice].Cells["email"].Value.ToString();
+                    txtemailPrueba.Text = bunifuCustomDataGrid11.Rows[indice].Cells["email"].Value.ToString();
 
                     txtPasword.ForeColor = Color.Black;
                     txtPasword.Texts = bunifuCustomDataGrid11.Rows[indice].Cells["pasword"].Value.ToString();
-                    
+                    txtcontraseñaPrueba.Text = bunifuCustomDataGrid11.Rows[indice].Cells["pasword"].Value.ToString();
                     /*Metodos para cargar los combobox segun informacion almacenada*/
 
                     //combobox de rol
@@ -165,5 +182,86 @@ namespace BUNIFU
         {
             clean();
         }
+
+
+
+
+        /*boton de guardar y editar*/
+        //------------------------------------------------------------------------------------------------------------
+        private void guardarTemporal_Click(object sender, EventArgs e)
+        {
+            string mensaje = string.Empty;
+            Usuario usuario1 = new Usuario()
+            {
+                id_usuario = Convert.ToInt32(txtIndice.Text),
+                obRol = new Rol() { id_rol = Convert.ToInt32(((OpcionCombobox)comboBoxRol.SelectedItem).valor) },
+                dni = (txtDocument.Texts == "") ? txtDocument.Texts = txtDocumenPrueba.Text : txtDocument.Texts,
+                name = (txtName.Texts == "") ? txtName.Texts = txtnamePrueba.Text : txtName.Texts,
+                apellido = (txtApellido.Texts == "") ? txtApellido.Texts = txtapellidoPrueba.Text: txtApellido.Texts,
+                email = (txtEmail.Texts == "") ? txtEmail.Texts=txtemailPrueba.Text: txtEmail.Texts,
+                telefono = (txtPhone.Texts == "") ? txtPhone.Texts = txtprueba.Text: txtPhone.Texts,
+                state = Convert.ToInt32(((OpcionCombobox)comboBoxState.SelectedItem).valor) == 1 ? true : false,
+                pasword = (txtPasword.Text == "") ? txtPasword.Text = txtcontraseñaPrueba.Text : txtPasword.Text,
+            };
+            //---------------------------------------------------------------------------------------------------------
+
+            
+         
+            
+            /*si el usuario a dar de alta es new => lo registra*/
+            if (usuario1.id_usuario == 0){
+                //una ves instanciado mi objeto llamo al procedimiento registrar en CN_usuario
+               
+                int idUsuarioGeneradoo = new CN_Usuario().Registrar(usuario1, out mensaje);
+                if (idUsuarioGeneradoo != 0)
+                {
+                    //cargo los dattos en la datagrid
+                    clean();
+                }
+                //en el caso de que no se pueda dar de alta el usser muestra mensaje de error
+                else MessageBox.Show(mensaje);
+            }
+            else /*si ya esta registrado se procedera a editarlo*/
+            {
+                int resultado = new CN_Usuario().Editar(usuario1, out mensaje);
+                if (resultado == 1)
+                {
+                    //procede a modificar los datos del datagrid
+                    clean();
+                }
+                else MessageBox.Show(mensaje);
+            }
+           
+            
+        }
+
+        private void btnEliminar_Temporal_Click(object sender, EventArgs e)
+        {
+            if (Convert.ToInt32(txtIndice.Text) != 0)
+            {
+                if (MessageBox.Show("Deseas eliminar el usser pa?", "Alerta", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    string mensaje = string.Empty;
+                    Usuario usuerioELiminar = new Usuario()
+                    {
+                        id_usuario = Convert.ToInt32(txtIndice.Text)
+                    };
+
+
+                    int respuesta = new CN_Usuario().Eliminar(usuerioELiminar, out mensaje);
+
+                    if (respuesta == 1)
+                    {
+                        //remuevo la fila del datagrid
+                    }
+                    else MessageBox.Show(mensaje, "Tal ves no", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                
+                
+            }
+        }
     }
+        
+    
 }

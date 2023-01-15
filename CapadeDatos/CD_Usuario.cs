@@ -68,7 +68,7 @@ namespace CapadeDatos
 
 
 
-        public int Editar(Usuario objU,out string Mensaje)
+        public int Registrar(Usuario objU,out string Mensaje)
         {
             int idUsuarioGenerado = 0;
             Mensaje = string.Empty;
@@ -77,7 +77,7 @@ namespace CapadeDatos
             {
                 using (SqlConnection conexion = new SqlConnection(Conexion.cadena))
                 {
-                    SqlCommand cmd = new SqlCommand("SP_RegistrarUsuario", conexion);
+                    SqlCommand cmd = new SqlCommand("SP_RegistrarUsuarioo", conexion);
                     /*Procedo a ejecutar el procedimiento almacenado para registrar usser*/
                     
                     //datos de entrada
@@ -91,7 +91,7 @@ namespace CapadeDatos
                     cmd.Parameters.AddWithValue("pasword", objU.pasword);
                     //datos de salida
                     cmd.Parameters.Add("idUsuarioResultado", SqlDbType.Int).Direction = ParameterDirection.Output;
-                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar,200).Direction = ParameterDirection.Output;
                     
                     //storesprocedure xq es un proc almacenado
                     cmd.CommandType = CommandType.StoredProcedure;
@@ -114,7 +114,7 @@ namespace CapadeDatos
         }
 
 
-        public int Registrar(Usuario objU, out string Mensaje)
+        public int Editar(Usuario objU, out string Mensaje)
         {
             int respuesta = 0;
             Mensaje = string.Empty;
@@ -124,9 +124,10 @@ namespace CapadeDatos
                 using (SqlConnection conexion = new SqlConnection(Conexion.cadena))
                 {
                     SqlCommand cmd = new SqlCommand("SP_EDITAR_Usuario", conexion);
-                    /*Procedo a ejecutar el procedimiento almacenado para registrar usser*/
+                    /*Procedo a ejecutar el procedimiento almacenado para editar usser*/
 
                     //datos de entrada
+                    cmd.Parameters.AddWithValue("idUsuario", objU.id_usuario);
                     cmd.Parameters.AddWithValue("idRol", objU.obRol.id_rol);
                     cmd.Parameters.AddWithValue("dni", objU.dni);
                     cmd.Parameters.AddWithValue("nombre", objU.name);
@@ -137,7 +138,7 @@ namespace CapadeDatos
                     cmd.Parameters.AddWithValue("pasword", objU.pasword);
                     //datos de salida
                     cmd.Parameters.Add("Respuesta", SqlDbType.Int).Direction = ParameterDirection.Output;
-                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar,200).Direction = ParameterDirection.Output;
 
                     //storesprocedure xq es un proc almacenado
                     cmd.CommandType = CommandType.StoredProcedure;
@@ -170,7 +171,7 @@ namespace CapadeDatos
                 using (SqlConnection conexion = new SqlConnection(Conexion.cadena))
                 {
                     SqlCommand cmd = new SqlCommand("SP_EliminarUsuario", conexion);
-                    /*Procedo a ejecutar el procedimiento almacenado para registrar usser*/
+                    /*Procedo a ejecutar el procedimiento almacenado para eliminar el usser*/
 
                     //datos de entrada
                     cmd.Parameters.AddWithValue("idUsuario", objU.id_usuario);
@@ -178,7 +179,7 @@ namespace CapadeDatos
 
                     //datos de salida
                     cmd.Parameters.Add("Respuesta", SqlDbType.Int).Direction = ParameterDirection.Output;
-                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar,200).Direction = ParameterDirection.Output;
 
                     //storesprocedure xq es un proc almacenado
                     cmd.CommandType = CommandType.StoredProcedure;
