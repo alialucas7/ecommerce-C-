@@ -21,17 +21,7 @@ namespace BUNIFU
             InitializeComponent();
         }
 
-        /*Declaro mis variables */
-        public int id_usuarioo;
-        public int idRoll;
-        public string dnii;
-        public string namee;
-        public string apellidoo;
-        public string emaill;
-        public string telefonoo;
-        public bool statee;
-        public string paswordd;
-        string d2;
+       
 
 
         private void userControl12__Textchanged(object sender, EventArgs e)
