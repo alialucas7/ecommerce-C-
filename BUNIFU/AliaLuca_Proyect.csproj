@@ -63,6 +63,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BD_dealershipDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Controles graficos\CD_Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controles graficos\UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
