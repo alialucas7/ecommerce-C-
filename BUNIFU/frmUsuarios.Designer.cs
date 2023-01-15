@@ -31,10 +31,22 @@
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.comboBoxRol = new System.Windows.Forms.ComboBox();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomDataGrid11 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.btnSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dni = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pasword = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idrol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.estado = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.usuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bD_dealershipDataSet = new BUNIFU.BD_dealershipDataSet();
             this.usuarioTableAdapter = new BUNIFU.BD_dealershipDataSetTableAdapters.UsuarioTableAdapter();
@@ -56,20 +68,11 @@
             this.txtEmail = new BUNIFU.Controles_graficos.UserControl1();
             this.txtName = new BUNIFU.Controles_graficos.UserControl1();
             this.txtDocument = new BUNIFU.Controles_graficos.UserControl1();
-            this.btnSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dni = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pasword = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.idrol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.estado = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bD_dealershipDataSet1 = new BUNIFU.BD_dealershipDataSet();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bD_dealershipDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD_dealershipDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBoxRol
@@ -125,14 +128,98 @@
             this.bunifuCustomDataGrid11.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.bunifuCustomDataGrid11.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
             this.bunifuCustomDataGrid11.HeaderForeColor = System.Drawing.Color.Honeydew;
-            this.bunifuCustomDataGrid11.Location = new System.Drawing.Point(47, 222);
+            this.bunifuCustomDataGrid11.Location = new System.Drawing.Point(62, 222);
             this.bunifuCustomDataGrid11.Name = "bunifuCustomDataGrid11";
             this.bunifuCustomDataGrid11.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.bunifuCustomDataGrid11.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.bunifuCustomDataGrid11.Size = new System.Drawing.Size(481, 165);
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomDataGrid11.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.bunifuCustomDataGrid11.Size = new System.Drawing.Size(466, 165);
             this.bunifuCustomDataGrid11.StandardTab = true;
             this.bunifuCustomDataGrid11.TabIndex = 33;
             this.bunifuCustomDataGrid11.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuCustomDataGrid11_CellContentClick);
+            // 
+            // btnSeleccionar
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnSeleccionar.DefaultCellStyle = dataGridViewCellStyle3;
+            this.btnSeleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeleccionar.HeaderText = "S";
+            this.btnSeleccionar.Name = "btnSeleccionar";
+            this.btnSeleccionar.ReadOnly = true;
+            this.btnSeleccionar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.btnSeleccionar.Text = "";
+            this.btnSeleccionar.UseColumnTextForButtonValue = true;
+            this.btnSeleccionar.Width = 20;
+            // 
+            // id
+            // 
+            this.id.DataPropertyName = "id_usuario";
+            this.id.HeaderText = "id_usuario";
+            this.id.MinimumWidth = 3;
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            this.id.Width = 50;
+            // 
+            // dni
+            // 
+            this.dni.DataPropertyName = "dni";
+            this.dni.HeaderText = "dni";
+            this.dni.Name = "dni";
+            // 
+            // pasword
+            // 
+            this.pasword.DataPropertyName = "pasword";
+            this.pasword.HeaderText = "pasword";
+            this.pasword.Name = "pasword";
+            this.pasword.Visible = false;
+            // 
+            // name
+            // 
+            this.name.DataPropertyName = "nombre";
+            this.name.HeaderText = "nombre";
+            this.name.Name = "name";
+            // 
+            // apellido
+            // 
+            this.apellido.DataPropertyName = "apellido";
+            this.apellido.HeaderText = "apellido";
+            this.apellido.Name = "apellido";
+            // 
+            // email
+            // 
+            this.email.DataPropertyName = "email";
+            this.email.HeaderText = "email";
+            this.email.Name = "email";
+            // 
+            // telefono
+            // 
+            this.telefono.DataPropertyName = "telefono";
+            this.telefono.HeaderText = "telefono";
+            this.telefono.Name = "telefono";
+            // 
+            // idrol
+            // 
+            this.idrol.DataPropertyName = "id_rol";
+            this.idrol.HeaderText = "id_rol";
+            this.idrol.Name = "idrol";
+            // 
+            // estado
+            // 
+            this.estado.DataPropertyName = "estado";
+            this.estado.HeaderText = "estado";
+            this.estado.Name = "estado";
+            // 
+            // date
+            // 
+            this.date.DataPropertyName = "fecha_creacion";
+            this.date.HeaderText = "fecha_creacion";
+            this.date.Name = "date";
             // 
             // usuarioBindingSource
             // 
@@ -400,86 +487,10 @@
             this.txtDocument.Texts = "";
             this.txtDocument.UnderLinedStyle = false;
             // 
-            // btnSeleccionar
+            // bD_dealershipDataSet1
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnSeleccionar.DefaultCellStyle = dataGridViewCellStyle3;
-            this.btnSeleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSeleccionar.HeaderText = "S";
-            this.btnSeleccionar.Name = "btnSeleccionar";
-            this.btnSeleccionar.ReadOnly = true;
-            this.btnSeleccionar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.btnSeleccionar.Text = "";
-            this.btnSeleccionar.UseColumnTextForButtonValue = true;
-            this.btnSeleccionar.Width = 20;
-            // 
-            // id
-            // 
-            this.id.DataPropertyName = "id_usuario";
-            this.id.HeaderText = "id_usuario";
-            this.id.MinimumWidth = 3;
-            this.id.Name = "id";
-            this.id.ReadOnly = true;
-            this.id.Width = 50;
-            // 
-            // dni
-            // 
-            this.dni.DataPropertyName = "dni";
-            this.dni.HeaderText = "dni";
-            this.dni.Name = "dni";
-            // 
-            // pasword
-            // 
-            this.pasword.DataPropertyName = "pasword";
-            this.pasword.HeaderText = "pasword";
-            this.pasword.Name = "pasword";
-            this.pasword.Visible = false;
-            // 
-            // name
-            // 
-            this.name.DataPropertyName = "nombre";
-            this.name.HeaderText = "nombre";
-            this.name.Name = "name";
-            // 
-            // apellido
-            // 
-            this.apellido.DataPropertyName = "apellido";
-            this.apellido.HeaderText = "apellido";
-            this.apellido.Name = "apellido";
-            // 
-            // email
-            // 
-            this.email.DataPropertyName = "email";
-            this.email.HeaderText = "email";
-            this.email.Name = "email";
-            // 
-            // telefono
-            // 
-            this.telefono.DataPropertyName = "telefono";
-            this.telefono.HeaderText = "telefono";
-            this.telefono.Name = "telefono";
-            // 
-            // idrol
-            // 
-            this.idrol.DataPropertyName = "id_rol";
-            this.idrol.HeaderText = "id_rol";
-            this.idrol.Name = "idrol";
-            // 
-            // estado
-            // 
-            this.estado.DataPropertyName = "estado";
-            this.estado.HeaderText = "estado";
-            this.estado.Name = "estado";
-            // 
-            // date
-            // 
-            this.date.DataPropertyName = "fecha_creacion";
-            this.date.HeaderText = "fecha_creacion";
-            this.date.Name = "date";
+            this.bD_dealershipDataSet1.DataSetName = "BD_dealershipDataSet";
+            this.bD_dealershipDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // frmUsuarios
             // 
@@ -515,6 +526,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bD_dealershipDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD_dealershipDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -556,5 +568,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn idrol;
         private System.Windows.Forms.DataGridViewCheckBoxColumn estado;
         private System.Windows.Forms.DataGridViewTextBoxColumn date;
+        private BD_dealershipDataSet bD_dealershipDataSet1;
     }
 }
