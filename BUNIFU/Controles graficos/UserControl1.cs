@@ -283,7 +283,8 @@ namespace BUNIFU.Controles_graficos
         {
             get {
                 if (ispalceHolder) return "";
-                else return textBox1.Text;
+                else
+                    return textBox1.Text;
             }
             set
             {
@@ -291,6 +292,18 @@ namespace BUNIFU.Controles_graficos
                 setPalceHolder();
             }
         }
+
+
+
+
+
+        
+
+
+
+
+
+
 
 
         public Color BorderFocusColor
@@ -381,5 +394,15 @@ namespace BUNIFU.Controles_graficos
             this.Invalidate();
             setPalceHolder();
         }
+
+        private void textBox1_TextAlignChanged(object sender, EventArgs e)
+        {
+            this.OnTextChanged(e);
+        }
+
+
+
+
+        //public override string Text { get; set; }
     }
 }

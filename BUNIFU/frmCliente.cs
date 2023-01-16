@@ -57,5 +57,10 @@ namespace BUNIFU
         {
 
         }
+
+        private void cD_ComboBox1_OnSelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

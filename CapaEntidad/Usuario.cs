@@ -18,6 +18,6 @@ namespace CapaEntidad
         
         public bool state{ get; set; }
         public string feharegistro { get; set; }
-        public string pasword { get; set; }
+        public string pasword    { get; set; }
     }
 }

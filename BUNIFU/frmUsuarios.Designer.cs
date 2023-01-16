@@ -52,9 +52,9 @@
             this.usuarioTableAdapter = new BUNIFU.BD_dealershipDataSetTableAdapters.UsuarioTableAdapter();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.comboBoxState = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.guardarTemporal = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnEliminar_Temporal = new System.Windows.Forms.Button();
             this.btnClean = new FontAwesome.Sharp.IconButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnBuscar = new FontAwesome.Sharp.IconButton();
@@ -62,6 +62,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtIndice = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtprueba = new System.Windows.Forms.TextBox();
+            this.txtDocumenPrueba = new System.Windows.Forms.TextBox();
+            this.txtnamePrueba = new System.Windows.Forms.TextBox();
+            this.txtapellidoPrueba = new System.Windows.Forms.TextBox();
+            this.txtcontraseñaPrueba = new System.Windows.Forms.TextBox();
+            this.txtemailPrueba = new System.Windows.Forms.TextBox();
             this.txtPasword = new BUNIFU.Controles_graficos.UserControl1();
             this.txtApellido = new BUNIFU.Controles_graficos.UserControl1();
             this.txtPhone = new BUNIFU.Controles_graficos.UserControl1();
@@ -252,15 +258,17 @@
             this.comboBoxState.Name = "comboBoxState";
             this.comboBoxState.Size = new System.Drawing.Size(121, 21);
             this.comboBoxState.TabIndex = 34;
+            this.comboBoxState.SelectedIndexChanged += new System.EventHandler(this.comboBoxState_SelectedIndexChanged);
             // 
-            // button1
+            // guardarTemporal
             // 
-            this.button1.Location = new System.Drawing.Point(552, 258);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 36;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.guardarTemporal.Location = new System.Drawing.Point(552, 258);
+            this.guardarTemporal.Name = "guardarTemporal";
+            this.guardarTemporal.Size = new System.Drawing.Size(75, 23);
+            this.guardarTemporal.TabIndex = 36;
+            this.guardarTemporal.Text = "Guardar";
+            this.guardarTemporal.UseVisualStyleBackColor = true;
+            this.guardarTemporal.Click += new System.EventHandler(this.guardarTemporal_Click);
             // 
             // button2
             // 
@@ -271,14 +279,15 @@
             this.button2.Text = "Editar";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnEliminar_Temporal
             // 
-            this.button3.Location = new System.Drawing.Point(552, 316);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 38;
-            this.button3.Text = "Borrar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnEliminar_Temporal.Location = new System.Drawing.Point(552, 316);
+            this.btnEliminar_Temporal.Name = "btnEliminar_Temporal";
+            this.btnEliminar_Temporal.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar_Temporal.TabIndex = 38;
+            this.btnEliminar_Temporal.Text = "Borrar";
+            this.btnEliminar_Temporal.UseVisualStyleBackColor = true;
+            this.btnEliminar_Temporal.Click += new System.EventHandler(this.btnEliminar_Temporal_Click);
             // 
             // btnClean
             // 
@@ -354,6 +363,54 @@
             this.label1.Size = new System.Drawing.Size(15, 13);
             this.label1.TabIndex = 55;
             this.label1.Text = "id";
+            // 
+            // txtprueba
+            // 
+            this.txtprueba.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtprueba.Location = new System.Drawing.Point(389, 18);
+            this.txtprueba.Name = "txtprueba";
+            this.txtprueba.Size = new System.Drawing.Size(100, 13);
+            this.txtprueba.TabIndex = 56;
+            // 
+            // txtDocumenPrueba
+            // 
+            this.txtDocumenPrueba.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtDocumenPrueba.Location = new System.Drawing.Point(124, 18);
+            this.txtDocumenPrueba.Name = "txtDocumenPrueba";
+            this.txtDocumenPrueba.Size = new System.Drawing.Size(100, 13);
+            this.txtDocumenPrueba.TabIndex = 57;
+            // 
+            // txtnamePrueba
+            // 
+            this.txtnamePrueba.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtnamePrueba.Location = new System.Drawing.Point(133, 61);
+            this.txtnamePrueba.Name = "txtnamePrueba";
+            this.txtnamePrueba.Size = new System.Drawing.Size(100, 13);
+            this.txtnamePrueba.TabIndex = 58;
+            // 
+            // txtapellidoPrueba
+            // 
+            this.txtapellidoPrueba.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtapellidoPrueba.Location = new System.Drawing.Point(410, 61);
+            this.txtapellidoPrueba.Name = "txtapellidoPrueba";
+            this.txtapellidoPrueba.Size = new System.Drawing.Size(100, 13);
+            this.txtapellidoPrueba.TabIndex = 59;
+            // 
+            // txtcontraseñaPrueba
+            // 
+            this.txtcontraseñaPrueba.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtcontraseñaPrueba.Location = new System.Drawing.Point(366, 100);
+            this.txtcontraseñaPrueba.Name = "txtcontraseñaPrueba";
+            this.txtcontraseñaPrueba.Size = new System.Drawing.Size(100, 13);
+            this.txtcontraseñaPrueba.TabIndex = 60;
+            // 
+            // txtemailPrueba
+            // 
+            this.txtemailPrueba.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtemailPrueba.Location = new System.Drawing.Point(124, 100);
+            this.txtemailPrueba.Name = "txtemailPrueba";
+            this.txtemailPrueba.Size = new System.Drawing.Size(100, 13);
+            this.txtemailPrueba.TabIndex = 61;
             // 
             // txtPasword
             // 
@@ -505,9 +562,9 @@
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.comboBusqueda);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnEliminar_Temporal);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.guardarTemporal);
             this.Controls.Add(this.bunifuCustomLabel2);
             this.Controls.Add(this.comboBoxState);
             this.Controls.Add(this.bunifuCustomDataGrid11);
@@ -519,6 +576,12 @@
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.txtDocument);
+            this.Controls.Add(this.txtprueba);
+            this.Controls.Add(this.txtapellidoPrueba);
+            this.Controls.Add(this.txtnamePrueba);
+            this.Controls.Add(this.txtDocumenPrueba);
+            this.Controls.Add(this.txtemailPrueba);
+            this.Controls.Add(this.txtcontraseñaPrueba);
             this.DoubleBuffered = true;
             this.Name = "frmUsuarios";
             this.Text = "    ";
@@ -547,9 +610,9 @@
         private BD_dealershipDataSetTableAdapters.UsuarioTableAdapter usuarioTableAdapter;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
         private System.Windows.Forms.ComboBox comboBoxState;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button guardarTemporal;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnEliminar_Temporal;
         private FontAwesome.Sharp.IconButton btnClean;
         private System.Windows.Forms.TextBox textBox1;
         private FontAwesome.Sharp.IconButton btnBuscar;
@@ -557,6 +620,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtIndice;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtprueba;
+        private System.Windows.Forms.TextBox txtDocumenPrueba;
+        private System.Windows.Forms.TextBox txtnamePrueba;
+        private System.Windows.Forms.TextBox txtapellidoPrueba;
+        private System.Windows.Forms.TextBox txtcontraseñaPrueba;
+        private System.Windows.Forms.TextBox txtemailPrueba;
         private System.Windows.Forms.DataGridViewButtonColumn btnSeleccionar;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn dni;
