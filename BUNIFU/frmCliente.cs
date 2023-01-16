@@ -20,19 +20,6 @@ namespace BUNIFU
             InitializeComponent();
         }
 
-
-
-
-
-        private void frmCliente_Load(object sender, EventArgs e)
-        {
-            /*esto es para que pueda habiliatr cliente mediante mi combobox*/
-            comboBoxState.Items.Add(new OpcionCombobox() { valor = 1, Texto = "Habilitado" });
-            comboBoxState.Items.Add(new OpcionCombobox() { valor = 0, Texto = "Inhabilitado" });
-            comboBoxState.DisplayMember = "Texto";
-            comboBoxState.ValueMember = "valor";
-        }
-
         private void userControl12__Textchanged(object sender, EventArgs e)
         {
 

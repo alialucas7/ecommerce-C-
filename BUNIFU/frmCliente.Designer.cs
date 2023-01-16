@@ -248,7 +248,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmCliente";
             this.Text = "frmCliente";
-            this.Load += new System.EventHandler(this.frmCliente_Load);
+            //this.Load += new System.EventHandler(this.frmCliente_Load);
             this.Click += new System.EventHandler(this.label2_Click);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

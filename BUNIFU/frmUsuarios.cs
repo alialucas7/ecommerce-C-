@@ -31,7 +31,6 @@ namespace BUNIFU
         public string telefonoo;
         public bool statee;
         public string paswordd;
-        string d2;
 
 
         private void userControl12__Textchanged(object sender, EventArgs e)
