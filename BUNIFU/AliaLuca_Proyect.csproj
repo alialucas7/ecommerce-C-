@@ -61,6 +61,9 @@
     <Compile Include="Controles graficos\CD_Button.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controles graficos\CD_ComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Controles graficos\UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -112,6 +115,9 @@
     <Compile Include="VentasGrfc.Designer.cs">
       <DependentUpon>VentasGrfc.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Controles graficos\CD_ComboBox.resx">
+      <DependentUpon>CD_ComboBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controles graficos\UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>

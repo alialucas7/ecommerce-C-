@@ -21,8 +21,6 @@ namespace BUNIFU
             InitializeComponent();
         }
 
-       
-
 
         private void userControl12__Textchanged(object sender, EventArgs e)
         {
@@ -308,6 +306,7 @@ namespace BUNIFU
             }
         }
 
+<<<<<<< HEAD
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             string columnaFiltro = ((OpcionCombobox)comboBusqueda.SelectedItem).valor.ToString();
@@ -333,6 +332,8 @@ namespace BUNIFU
         {
             clean();
         }
+=======
+>>>>>>> ec04cb2301586972f3e3cca7690ebf128b08b910
     }
         
     
