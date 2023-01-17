@@ -63,11 +63,6 @@ namespace CapadeDatos
 	//comentario de prueba 
 
 
-
-
-
-
-
         public int Registrar(Usuario objU,out string Mensaje)
         {
             int idUsuarioGenerado = 0;

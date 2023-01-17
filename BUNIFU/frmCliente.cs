@@ -49,5 +49,85 @@ namespace BUNIFU
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDocument__Textchanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtName__Textchanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEmail__Textchanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cD_ComboBox1_OnSelectedIndexChanged_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cD_ComboBox1_OnSelectedIndexChanged_3(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIndice_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cD_ComboBox2_OnSelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cD_ComboBox4_OnSelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void userControl12__Textchanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cD_Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cD_Button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

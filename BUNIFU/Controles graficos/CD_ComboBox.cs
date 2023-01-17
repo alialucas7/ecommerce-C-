@@ -342,8 +342,6 @@ namespace CustomControls.Controles_graficos
             AdjustComboBoxDimensions();
         }
 
-        
-
         private void AdjustComboBoxDimensions()
         {
             cmbList.Width = lblText.Width; //El ancho del combro box será igual al de la etiqueta y se ubicará en la parte inferior dercecha del ctrl usuario
@@ -425,5 +423,21 @@ namespace CustomControls.Controles_graficos
             cmbList.DroppedDown = true;
         }
 
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // CD_ComboBox
+            // 
+            this.Name = "CD_ComboBox";
+            this.Load += new System.EventHandler(this.CD_ComboBox_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        private void CD_ComboBox_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
