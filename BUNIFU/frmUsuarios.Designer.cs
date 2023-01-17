@@ -28,33 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.comboBoxRol = new System.Windows.Forms.ComboBox();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomDataGrid11 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.btnSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dni = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pasword = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.idrol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.estado = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.usuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.bD_dealershipDataSet = new BUNIFU.BD_dealershipDataSet();
-            this.usuarioTableAdapter = new BUNIFU.BD_dealershipDataSetTableAdapters.UsuarioTableAdapter();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.comboBoxState = new System.Windows.Forms.ComboBox();
-            this.guardarTemporal = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btnEliminar_Temporal = new System.Windows.Forms.Button();
             this.btnClean = new FontAwesome.Sharp.IconButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnBuscar = new FontAwesome.Sharp.IconButton();
@@ -68,17 +47,29 @@
             this.txtapellidoPrueba = new System.Windows.Forms.TextBox();
             this.txtcontraseñaPrueba = new System.Windows.Forms.TextBox();
             this.txtemailPrueba = new System.Windows.Forms.TextBox();
+            this.dataGridUsser = new System.Windows.Forms.DataGridView();
+            this.btnSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rolid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idrol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dni = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.state = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.pasword = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btnLimpiar = new CustomControls.Controles_graficos.CD_Button();
+            this.btnEliminar = new CustomControls.Controles_graficos.CD_Button();
+            this.guardar = new CustomControls.Controles_graficos.CD_Button();
             this.txtPasword = new BUNIFU.Controles_graficos.UserControl1();
             this.txtApellido = new BUNIFU.Controles_graficos.UserControl1();
             this.txtPhone = new BUNIFU.Controles_graficos.UserControl1();
             this.txtEmail = new BUNIFU.Controles_graficos.UserControl1();
             this.txtName = new BUNIFU.Controles_graficos.UserControl1();
             this.txtDocument = new BUNIFU.Controles_graficos.UserControl1();
-            this.bD_dealershipDataSet1 = new BUNIFU.BD_dealershipDataSet();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bD_dealershipDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bD_dealershipDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridUsser)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBoxRol
@@ -99,148 +90,6 @@
             this.bunifuCustomLabel1.TabIndex = 32;
             this.bunifuCustomLabel1.Text = "Tipo de Usuario";
             // 
-            // bunifuCustomDataGrid11
-            // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid11.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.bunifuCustomDataGrid11.AutoGenerateColumns = false;
-            this.bunifuCustomDataGrid11.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCustomDataGrid11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bunifuCustomDataGrid11.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Honeydew;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid11.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.bunifuCustomDataGrid11.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.bunifuCustomDataGrid11.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.btnSeleccionar,
-            this.id,
-            this.dni,
-            this.pasword,
-            this.name,
-            this.apellido,
-            this.email,
-            this.telefono,
-            this.idrol,
-            this.estado,
-            this.date});
-            this.bunifuCustomDataGrid11.DataSource = this.usuarioBindingSource;
-            this.bunifuCustomDataGrid11.DoubleBuffered = true;
-            this.bunifuCustomDataGrid11.EnableHeadersVisualStyles = false;
-            this.bunifuCustomDataGrid11.GridColor = System.Drawing.SystemColors.ActiveCaption;
-            this.bunifuCustomDataGrid11.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            this.bunifuCustomDataGrid11.HeaderForeColor = System.Drawing.Color.Honeydew;
-            this.bunifuCustomDataGrid11.Location = new System.Drawing.Point(62, 222);
-            this.bunifuCustomDataGrid11.Name = "bunifuCustomDataGrid11";
-            this.bunifuCustomDataGrid11.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.bunifuCustomDataGrid11.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomDataGrid11.RowsDefaultCellStyle = dataGridViewCellStyle4;
-            this.bunifuCustomDataGrid11.Size = new System.Drawing.Size(466, 165);
-            this.bunifuCustomDataGrid11.StandardTab = true;
-            this.bunifuCustomDataGrid11.TabIndex = 33;
-            this.bunifuCustomDataGrid11.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuCustomDataGrid11_CellContentClick);
-            // 
-            // btnSeleccionar
-            // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnSeleccionar.DefaultCellStyle = dataGridViewCellStyle3;
-            this.btnSeleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSeleccionar.HeaderText = "S";
-            this.btnSeleccionar.Name = "btnSeleccionar";
-            this.btnSeleccionar.ReadOnly = true;
-            this.btnSeleccionar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.btnSeleccionar.Text = "";
-            this.btnSeleccionar.UseColumnTextForButtonValue = true;
-            this.btnSeleccionar.Width = 20;
-            // 
-            // id
-            // 
-            this.id.DataPropertyName = "id_usuario";
-            this.id.HeaderText = "id_usuario";
-            this.id.MinimumWidth = 3;
-            this.id.Name = "id";
-            this.id.ReadOnly = true;
-            this.id.Width = 50;
-            // 
-            // dni
-            // 
-            this.dni.DataPropertyName = "dni";
-            this.dni.HeaderText = "dni";
-            this.dni.Name = "dni";
-            // 
-            // pasword
-            // 
-            this.pasword.DataPropertyName = "pasword";
-            this.pasword.HeaderText = "pasword";
-            this.pasword.Name = "pasword";
-            this.pasword.Visible = false;
-            // 
-            // name
-            // 
-            this.name.DataPropertyName = "nombre";
-            this.name.HeaderText = "nombre";
-            this.name.Name = "name";
-            // 
-            // apellido
-            // 
-            this.apellido.DataPropertyName = "apellido";
-            this.apellido.HeaderText = "apellido";
-            this.apellido.Name = "apellido";
-            // 
-            // email
-            // 
-            this.email.DataPropertyName = "email";
-            this.email.HeaderText = "email";
-            this.email.Name = "email";
-            // 
-            // telefono
-            // 
-            this.telefono.DataPropertyName = "telefono";
-            this.telefono.HeaderText = "telefono";
-            this.telefono.Name = "telefono";
-            // 
-            // idrol
-            // 
-            this.idrol.DataPropertyName = "id_rol";
-            this.idrol.HeaderText = "id_rol";
-            this.idrol.Name = "idrol";
-            // 
-            // estado
-            // 
-            this.estado.DataPropertyName = "estado";
-            this.estado.HeaderText = "estado";
-            this.estado.Name = "estado";
-            // 
-            // date
-            // 
-            this.date.DataPropertyName = "fecha_creacion";
-            this.date.HeaderText = "fecha_creacion";
-            this.date.Name = "date";
-            // 
-            // usuarioBindingSource
-            // 
-            this.usuarioBindingSource.DataMember = "Usuario";
-            this.usuarioBindingSource.DataSource = this.bD_dealershipDataSet;
-            // 
-            // bD_dealershipDataSet
-            // 
-            this.bD_dealershipDataSet.DataSetName = "BD_dealershipDataSet";
-            this.bD_dealershipDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // usuarioTableAdapter
-            // 
-            this.usuarioTableAdapter.ClearBeforeFill = true;
-            // 
             // bunifuCustomLabel2
             // 
             this.bunifuCustomLabel2.AutoSize = true;
@@ -258,35 +107,6 @@
             this.comboBoxState.Name = "comboBoxState";
             this.comboBoxState.Size = new System.Drawing.Size(121, 21);
             this.comboBoxState.TabIndex = 34;
-            // 
-            // guardarTemporal
-            // 
-            this.guardarTemporal.Location = new System.Drawing.Point(552, 258);
-            this.guardarTemporal.Name = "guardarTemporal";
-            this.guardarTemporal.Size = new System.Drawing.Size(75, 23);
-            this.guardarTemporal.TabIndex = 36;
-            this.guardarTemporal.Text = "Guardar";
-            this.guardarTemporal.UseVisualStyleBackColor = true;
-            this.guardarTemporal.Click += new System.EventHandler(this.guardarTemporal_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(552, 287);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 37;
-            this.button2.Text = "Editar";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // btnEliminar_Temporal
-            // 
-            this.btnEliminar_Temporal.Location = new System.Drawing.Point(552, 316);
-            this.btnEliminar_Temporal.Name = "btnEliminar_Temporal";
-            this.btnEliminar_Temporal.Size = new System.Drawing.Size(75, 23);
-            this.btnEliminar_Temporal.TabIndex = 38;
-            this.btnEliminar_Temporal.Text = "Borrar";
-            this.btnEliminar_Temporal.UseVisualStyleBackColor = true;
-            this.btnEliminar_Temporal.Click += new System.EventHandler(this.btnEliminar_Temporal_Click);
             // 
             // btnClean
             // 
@@ -327,6 +147,7 @@
             this.btnBuscar.Size = new System.Drawing.Size(48, 25);
             this.btnBuscar.TabIndex = 51;
             this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // comboBusqueda
             // 
@@ -335,6 +156,7 @@
             this.comboBusqueda.Name = "comboBusqueda";
             this.comboBusqueda.Size = new System.Drawing.Size(121, 21);
             this.comboBusqueda.TabIndex = 50;
+            this.comboBusqueda.SelectedIndexChanged += new System.EventHandler(this.comboBusqueda_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -410,6 +232,193 @@
             this.txtemailPrueba.Name = "txtemailPrueba";
             this.txtemailPrueba.Size = new System.Drawing.Size(100, 13);
             this.txtemailPrueba.TabIndex = 61;
+            // 
+            // dataGridUsser
+            // 
+            this.dataGridUsser.AllowUserToAddRows = false;
+            this.dataGridUsser.AllowUserToDeleteRows = false;
+            this.dataGridUsser.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dataGridUsser.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridUsser.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Honeydew;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridUsser.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridUsser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridUsser.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.btnSeleccionar,
+            this.id,
+            this.rolid,
+            this.idrol,
+            this.dni,
+            this.name,
+            this.apellido,
+            this.email,
+            this.telefono,
+            this.state,
+            this.pasword});
+            this.dataGridUsser.EnableHeadersVisualStyles = false;
+            this.dataGridUsser.GridColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dataGridUsser.Location = new System.Drawing.Point(62, 222);
+            this.dataGridUsser.Name = "dataGridUsser";
+            this.dataGridUsser.ReadOnly = true;
+            this.dataGridUsser.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridUsser.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridUsser.Size = new System.Drawing.Size(466, 165);
+            this.dataGridUsser.TabIndex = 62;
+            this.dataGridUsser.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridUsser_CellContentClick_1);
+            // 
+            // btnSeleccionar
+            // 
+            this.btnSeleccionar.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.btnSeleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeleccionar.HeaderText = "S";
+            this.btnSeleccionar.Name = "btnSeleccionar";
+            this.btnSeleccionar.ReadOnly = true;
+            this.btnSeleccionar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.btnSeleccionar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.btnSeleccionar.Width = 38;
+            // 
+            // id
+            // 
+            this.id.HeaderText = "ID";
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            this.id.Width = 20;
+            // 
+            // rolid
+            // 
+            this.rolid.HeaderText = "Rolid";
+            this.rolid.Name = "rolid";
+            this.rolid.ReadOnly = true;
+            this.rolid.Visible = false;
+            // 
+            // idrol
+            // 
+            this.idrol.HeaderText = "Rol";
+            this.idrol.Name = "idrol";
+            this.idrol.ReadOnly = true;
+            // 
+            // dni
+            // 
+            this.dni.HeaderText = "Documento";
+            this.dni.Name = "dni";
+            this.dni.ReadOnly = true;
+            // 
+            // name
+            // 
+            this.name.HeaderText = " Nombre";
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            // 
+            // apellido
+            // 
+            this.apellido.HeaderText = "Apellido";
+            this.apellido.Name = "apellido";
+            this.apellido.ReadOnly = true;
+            // 
+            // email
+            // 
+            this.email.HeaderText = "Email";
+            this.email.Name = "email";
+            this.email.ReadOnly = true;
+            // 
+            // telefono
+            // 
+            this.telefono.HeaderText = "Phone";
+            this.telefono.Name = "telefono";
+            this.telefono.ReadOnly = true;
+            // 
+            // state
+            // 
+            this.state.HeaderText = "Estado";
+            this.state.Name = "state";
+            this.state.ReadOnly = true;
+            this.state.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.state.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.state.Width = 20;
+            // 
+            // pasword
+            // 
+            this.pasword.HeaderText = "Contraseña";
+            this.pasword.Name = "pasword";
+            this.pasword.ReadOnly = true;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Enabled = false;
+            this.textBox2.Location = new System.Drawing.Point(605, 48);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(22, 20);
+            this.textBox2.TabIndex = 63;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.Visible = false;
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            this.btnLimpiar.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            this.btnLimpiar.BorderColor = System.Drawing.Color.White;
+            this.btnLimpiar.BorderRadius = 21;
+            this.btnLimpiar.BorderSize = 0;
+            this.btnLimpiar.FlatAppearance.BorderSize = 0;
+            this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimpiar.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.ForeColor = System.Drawing.Color.White;
+            this.btnLimpiar.Location = new System.Drawing.Point(547, 292);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(80, 26);
+            this.btnLimpiar.TabIndex = 66;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.TextColor = System.Drawing.Color.White;
+            this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            this.btnEliminar.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            this.btnEliminar.BorderColor = System.Drawing.Color.White;
+            this.btnEliminar.BorderRadius = 26;
+            this.btnEliminar.BorderSize = 0;
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.ForeColor = System.Drawing.Color.White;
+            this.btnEliminar.Location = new System.Drawing.Point(547, 324);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(80, 26);
+            this.btnEliminar.TabIndex = 65;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.TextColor = System.Drawing.Color.White;
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click_1);
+            // 
+            // guardar
+            // 
+            this.guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            this.guardar.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            this.guardar.BorderColor = System.Drawing.Color.White;
+            this.guardar.BorderRadius = 26;
+            this.guardar.BorderSize = 0;
+            this.guardar.FlatAppearance.BorderSize = 0;
+            this.guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.guardar.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guardar.ForeColor = System.Drawing.Color.White;
+            this.guardar.Location = new System.Drawing.Point(547, 260);
+            this.guardar.Name = "guardar";
+            this.guardar.Size = new System.Drawing.Size(80, 26);
+            this.guardar.TabIndex = 64;
+            this.guardar.Text = "Guardar";
+            this.guardar.TextColor = System.Drawing.Color.White;
+            this.guardar.UseVisualStyleBackColor = false;
+            this.guardar.Click += new System.EventHandler(this.guardar_Click);
             // 
             // txtPasword
             // 
@@ -543,17 +552,17 @@
             this.txtDocument.Texts = "";
             this.txtDocument.UnderLinedStyle = false;
             // 
-            // bD_dealershipDataSet1
-            // 
-            this.bD_dealershipDataSet1.DataSetName = "BD_dealershipDataSet";
-            this.bD_dealershipDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // frmUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(655, 414);
+            this.Controls.Add(this.btnLimpiar);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.guardar);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.dataGridUsser);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtIndice);
             this.Controls.Add(this.btnClean);
@@ -561,12 +570,8 @@
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.comboBusqueda);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnEliminar_Temporal);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.guardarTemporal);
             this.Controls.Add(this.bunifuCustomLabel2);
             this.Controls.Add(this.comboBoxState);
-            this.Controls.Add(this.bunifuCustomDataGrid11);
             this.Controls.Add(this.bunifuCustomLabel1);
             this.Controls.Add(this.comboBoxRol);
             this.Controls.Add(this.txtPasword);
@@ -585,10 +590,7 @@
             this.Name = "frmUsuarios";
             this.Text = "    ";
             this.Load += new System.EventHandler(this.frmUsuarios_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bD_dealershipDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bD_dealershipDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridUsser)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -603,15 +605,8 @@
         private Controles_graficos.UserControl1 txtPasword;
         private System.Windows.Forms.ComboBox comboBoxRol;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
-        private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid11;
-        private BD_dealershipDataSet bD_dealershipDataSet;
-        private System.Windows.Forms.BindingSource usuarioBindingSource;
-        private BD_dealershipDataSetTableAdapters.UsuarioTableAdapter usuarioTableAdapter;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
         private System.Windows.Forms.ComboBox comboBoxState;
-        private System.Windows.Forms.Button guardarTemporal;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button btnEliminar_Temporal;
         private FontAwesome.Sharp.IconButton btnClean;
         private System.Windows.Forms.TextBox textBox1;
         private FontAwesome.Sharp.IconButton btnBuscar;
@@ -625,17 +620,21 @@
         private System.Windows.Forms.TextBox txtapellidoPrueba;
         private System.Windows.Forms.TextBox txtcontraseñaPrueba;
         private System.Windows.Forms.TextBox txtemailPrueba;
+        private System.Windows.Forms.DataGridView dataGridUsser;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.DataGridViewButtonColumn btnSeleccionar;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rolid;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idrol;
         private System.Windows.Forms.DataGridViewTextBoxColumn dni;
-        private System.Windows.Forms.DataGridViewTextBoxColumn pasword;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn apellido;
         private System.Windows.Forms.DataGridViewTextBoxColumn email;
         private System.Windows.Forms.DataGridViewTextBoxColumn telefono;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idrol;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn estado;
-        private System.Windows.Forms.DataGridViewTextBoxColumn date;
-        private BD_dealershipDataSet bD_dealershipDataSet1;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn state;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pasword;
+        private CustomControls.Controles_graficos.CD_Button guardar;
+        private CustomControls.Controles_graficos.CD_Button btnEliminar;
+        private CustomControls.Controles_graficos.CD_Button btnLimpiar;
     }
 }

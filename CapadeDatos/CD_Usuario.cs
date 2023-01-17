@@ -22,8 +22,9 @@ namespace CapadeDatos
                 try
                 {
                     StringBuilder query = new StringBuilder();
-                    query.AppendLine("select u.id_usuario, u.dni,u.name,u.apellido,u.email,u.estado,r.id_rol,r.descripcion from Usuario u");
-                    query.AppendLine("inner join rol r on r.id_rol = u.id_rol");
+                    //string query = "select * from Usuario";
+                   query.AppendLine("select u.id_usuario,r.id_rol, r.descripcion, u.dni, u.nombre, u.apellido, u.email,u.telefono, u.estado,u.pasword from Usuario u");
+                   query.AppendLine("inner join Rol r on r.id_rol = u.id_rol");
                         
                     SqlCommand cmd = new SqlCommand(query.ToString(), conexion);
                    
@@ -45,8 +46,10 @@ namespace CapadeDatos
                                 name = dr["nombre"].ToString(),
                                 apellido = dr["apellido"].ToString(),
                                 email = dr["email"].ToString(),
-                                pasword = dr["pasword"].ToString(),
+                                telefono = dr["telefono"].ToString(),
                                 state = Convert.ToBoolean(dr["estado"]),
+                                pasword = dr["pasword"].ToString()
+                                
                                 
                             });
                         }
