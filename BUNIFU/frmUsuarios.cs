@@ -201,7 +201,7 @@ namespace BUNIFU
 
         private void btnClean_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "";
+            txtBusqueda.Texts = "";
             foreach (DataGridViewRow row in dataGridUsser.Rows) row.Visible = true;
         }
 
@@ -306,7 +306,7 @@ namespace BUNIFU
             }
         }
 
-<<<<<<< HEAD
+
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             string columnaFiltro = ((OpcionCombobox)comboBusqueda.SelectedItem).valor.ToString();
@@ -314,7 +314,7 @@ namespace BUNIFU
             {
                 foreach (DataGridViewRow row in dataGridUsser.Rows)
                 {
-                    if (row.Cells[columnaFiltro].Value.ToString().Trim().ToUpper().Contains(textBox1.Text.Trim().ToUpper()))
+                    if (row.Cells[columnaFiltro].Value.ToString().Trim().ToUpper().Contains(txtBusqueda.Texts.Trim().ToUpper()))
                     {
                         row.Visible = true;
                     }
@@ -332,8 +332,7 @@ namespace BUNIFU
         {
             clean();
         }
-=======
->>>>>>> ec04cb2301586972f3e3cca7690ebf128b08b910
+
     }
         
     

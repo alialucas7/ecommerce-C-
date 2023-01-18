@@ -28,22 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-=======
-            this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
->>>>>>> ec04cb2301586972f3e3cca7690ebf128b08b910
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.comboBoxRol = new System.Windows.Forms.ComboBox();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.comboBoxState = new System.Windows.Forms.ComboBox();
             this.btnClean = new FontAwesome.Sharp.IconButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnBuscar = new FontAwesome.Sharp.IconButton();
             this.comboBusqueda = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -77,6 +68,7 @@
             this.txtEmail = new BUNIFU.Controles_graficos.UserControl1();
             this.txtName = new BUNIFU.Controles_graficos.UserControl1();
             this.txtDocument = new BUNIFU.Controles_graficos.UserControl1();
+            this.txtBusqueda = new BUNIFU.Controles_graficos.UserControl1();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridUsser)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,156 +90,11 @@
             this.bunifuCustomLabel1.TabIndex = 32;
             this.bunifuCustomLabel1.Text = "Tipo de Usuario";
             // 
-<<<<<<< HEAD
-=======
-            // bunifuCustomDataGrid11
-            // 
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid11.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
-            this.bunifuCustomDataGrid11.AutoGenerateColumns = false;
-            this.bunifuCustomDataGrid11.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCustomDataGrid11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bunifuCustomDataGrid11.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Honeydew;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid11.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.bunifuCustomDataGrid11.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.bunifuCustomDataGrid11.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.btnSeleccionar,
-            this.id,
-            this.dni,
-            this.pasword,
-            this.name,
-            this.apellido,
-            this.email,
-            this.telefono,
-            this.idrol,
-            this.estado,
-            this.date});
-            this.bunifuCustomDataGrid11.DataSource = this.usuarioBindingSource;
-            this.bunifuCustomDataGrid11.DoubleBuffered = true;
-            this.bunifuCustomDataGrid11.EnableHeadersVisualStyles = false;
-            this.bunifuCustomDataGrid11.GridColor = System.Drawing.SystemColors.ActiveCaption;
-            this.bunifuCustomDataGrid11.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            this.bunifuCustomDataGrid11.HeaderForeColor = System.Drawing.Color.Honeydew;
-            this.bunifuCustomDataGrid11.Location = new System.Drawing.Point(62, 222);
-            this.bunifuCustomDataGrid11.Name = "bunifuCustomDataGrid11";
-            this.bunifuCustomDataGrid11.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.bunifuCustomDataGrid11.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomDataGrid11.RowsDefaultCellStyle = dataGridViewCellStyle8;
-            this.bunifuCustomDataGrid11.Size = new System.Drawing.Size(466, 165);
-            this.bunifuCustomDataGrid11.StandardTab = true;
-            this.bunifuCustomDataGrid11.TabIndex = 33;
-            this.bunifuCustomDataGrid11.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuCustomDataGrid11_CellContentClick);
-            // 
-            // btnSeleccionar
-            // 
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Blue;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnSeleccionar.DefaultCellStyle = dataGridViewCellStyle7;
-            this.btnSeleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSeleccionar.HeaderText = "S";
-            this.btnSeleccionar.Name = "btnSeleccionar";
-            this.btnSeleccionar.ReadOnly = true;
-            this.btnSeleccionar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.btnSeleccionar.Text = "";
-            this.btnSeleccionar.UseColumnTextForButtonValue = true;
-            this.btnSeleccionar.Width = 20;
-            // 
-            // id
-            // 
-            this.id.DataPropertyName = "id_usuario";
-            this.id.HeaderText = "id_usuario";
-            this.id.MinimumWidth = 3;
-            this.id.Name = "id";
-            this.id.ReadOnly = true;
-            this.id.Width = 50;
-            // 
-            // dni
-            // 
-            this.dni.DataPropertyName = "dni";
-            this.dni.HeaderText = "dni";
-            this.dni.Name = "dni";
-            // 
-            // pasword
-            // 
-            this.pasword.DataPropertyName = "pasword";
-            this.pasword.HeaderText = "pasword";
-            this.pasword.Name = "pasword";
-            this.pasword.Visible = false;
-            // 
-            // name
-            // 
-            this.name.DataPropertyName = "nombre";
-            this.name.HeaderText = "nombre";
-            this.name.Name = "name";
-            // 
-            // apellido
-            // 
-            this.apellido.DataPropertyName = "apellido";
-            this.apellido.HeaderText = "apellido";
-            this.apellido.Name = "apellido";
-            // 
-            // email
-            // 
-            this.email.DataPropertyName = "email";
-            this.email.HeaderText = "email";
-            this.email.Name = "email";
-            // 
-            // telefono
-            // 
-            this.telefono.DataPropertyName = "telefono";
-            this.telefono.HeaderText = "telefono";
-            this.telefono.Name = "telefono";
-            // 
-            // idrol
-            // 
-            this.idrol.DataPropertyName = "id_rol";
-            this.idrol.HeaderText = "id_rol";
-            this.idrol.Name = "idrol";
-            // 
-            // estado
-            // 
-            this.estado.DataPropertyName = "estado";
-            this.estado.HeaderText = "estado";
-            this.estado.Name = "estado";
-            // 
-            // date
-            // 
-            this.date.DataPropertyName = "fecha_creacion";
-            this.date.HeaderText = "fecha_creacion";
-            this.date.Name = "date";
-            // 
-            // usuarioBindingSource
-            // 
-            this.usuarioBindingSource.DataMember = "Usuario";
-            this.usuarioBindingSource.DataSource = this.bD_dealershipDataSet;
-            // 
-            // bD_dealershipDataSet
-            // 
-            this.bD_dealershipDataSet.DataSetName = "BD_dealershipDataSet";
-            this.bD_dealershipDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // usuarioTableAdapter
-            // 
-            this.usuarioTableAdapter.ClearBeforeFill = true;
-            // 
->>>>>>> ec04cb2301586972f3e3cca7690ebf128b08b910
             // bunifuCustomLabel2
             // 
             this.bunifuCustomLabel2.AutoSize = true;
             this.bunifuCustomLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(343, 135);
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(343, 130);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
             this.bunifuCustomLabel2.Size = new System.Drawing.Size(40, 13);
             this.bunifuCustomLabel2.TabIndex = 35;
@@ -256,7 +103,7 @@
             // comboBoxState
             // 
             this.comboBoxState.FormattingEnabled = true;
-            this.comboBoxState.Location = new System.Drawing.Point(389, 132);
+            this.comboBoxState.Location = new System.Drawing.Point(389, 127);
             this.comboBoxState.Name = "comboBoxState";
             this.comboBoxState.Size = new System.Drawing.Size(121, 21);
             this.comboBoxState.TabIndex = 34;
@@ -271,19 +118,12 @@
             this.btnClean.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
             this.btnClean.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnClean.IconSize = 27;
-            this.btnClean.Location = new System.Drawing.Point(432, 190);
+            this.btnClean.Location = new System.Drawing.Point(432, 189);
             this.btnClean.Name = "btnClean";
-            this.btnClean.Size = new System.Drawing.Size(48, 25);
+            this.btnClean.Size = new System.Drawing.Size(48, 26);
             this.btnClean.TabIndex = 53;
             this.btnClean.UseVisualStyleBackColor = false;
             this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(272, 194);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 52;
             // 
             // btnBuscar
             // 
@@ -295,9 +135,9 @@
             this.btnBuscar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
             this.btnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnBuscar.IconSize = 20;
-            this.btnBuscar.Location = new System.Drawing.Point(378, 190);
+            this.btnBuscar.Location = new System.Drawing.Point(378, 189);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(48, 25);
+            this.btnBuscar.Size = new System.Drawing.Size(48, 26);
             this.btnBuscar.TabIndex = 51;
             this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
@@ -393,14 +233,14 @@
             this.dataGridUsser.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.dataGridUsser.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridUsser.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Honeydew;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridUsser.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Honeydew;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridUsser.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridUsser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridUsser.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.btnSeleccionar,
@@ -420,9 +260,9 @@
             this.dataGridUsser.Name = "dataGridUsser";
             this.dataGridUsser.ReadOnly = true;
             this.dataGridUsser.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridUsser.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridUsser.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridUsser.Size = new System.Drawing.Size(466, 165);
             this.dataGridUsser.TabIndex = 62;
             this.dataGridUsser.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridUsser_CellContentClick_1);
@@ -520,6 +360,7 @@
             this.btnLimpiar.BorderColor = System.Drawing.Color.White;
             this.btnLimpiar.BorderRadius = 21;
             this.btnLimpiar.BorderSize = 0;
+            this.btnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLimpiar.FlatAppearance.BorderSize = 0;
             this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpiar.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -540,6 +381,7 @@
             this.btnEliminar.BorderColor = System.Drawing.Color.White;
             this.btnEliminar.BorderRadius = 26;
             this.btnEliminar.BorderSize = 0;
+            this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminar.FlatAppearance.BorderSize = 0;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -560,6 +402,7 @@
             this.guardar.BorderColor = System.Drawing.Color.White;
             this.guardar.BorderRadius = 26;
             this.guardar.BorderSize = 0;
+            this.guardar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guardar.FlatAppearance.BorderSize = 0;
             this.guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.guardar.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -705,12 +548,35 @@
             this.txtDocument.Texts = "";
             this.txtDocument.UnderLinedStyle = false;
             // 
+            // txtBusqueda
+            // 
+            this.txtBusqueda.BackColor = System.Drawing.Color.White;
+            this.txtBusqueda.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            this.txtBusqueda.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(212)))), ((int)(((byte)(250)))));
+            this.txtBusqueda.BorderRadius = 9;
+            this.txtBusqueda.BorderSize = 1;
+            this.txtBusqueda.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBusqueda.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtBusqueda.Location = new System.Drawing.Point(273, 189);
+            this.txtBusqueda.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBusqueda.MultiLine = true;
+            this.txtBusqueda.Name = "txtBusqueda";
+            this.txtBusqueda.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.txtBusqueda.PalceHolderColor = System.Drawing.Color.DarkGray;
+            this.txtBusqueda.PalceHolderText = "Buscar...";
+            this.txtBusqueda.PasswordChar = false;
+            this.txtBusqueda.Size = new System.Drawing.Size(98, 26);
+            this.txtBusqueda.TabIndex = 67;
+            this.txtBusqueda.Texts = "";
+            this.txtBusqueda.UnderLinedStyle = false;
+            // 
             // frmUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(655, 414);
+            this.Controls.Add(this.txtBusqueda);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.guardar);
@@ -719,7 +585,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtIndice);
             this.Controls.Add(this.btnClean);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.comboBusqueda);
             this.Controls.Add(this.label2);
@@ -761,7 +626,6 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
         private System.Windows.Forms.ComboBox comboBoxState;
         private FontAwesome.Sharp.IconButton btnClean;
-        private System.Windows.Forms.TextBox textBox1;
         private FontAwesome.Sharp.IconButton btnBuscar;
         private System.Windows.Forms.ComboBox comboBusqueda;
         private System.Windows.Forms.Label label2;
@@ -789,5 +653,6 @@
         private CustomControls.Controles_graficos.CD_Button guardar;
         private CustomControls.Controles_graficos.CD_Button btnEliminar;
         private CustomControls.Controles_graficos.CD_Button btnLimpiar;
+        private Controles_graficos.UserControl1 txtBusqueda;
     }
 }
