@@ -58,11 +58,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BD_dealershipDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BD_dealershipDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Controles graficos\CD_Button.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -154,17 +149,6 @@
     <EmbeddedResource Include="VentasGrfc.resx">
       <DependentUpon>VentasGrfc.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="BD_dealershipDataSet.xsc">
-      <DependentUpon>BD_dealershipDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="BD_dealershipDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>BD_dealershipDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="BD_dealershipDataSet.xss">
-      <DependentUpon>BD_dealershipDataSet.xsd</DependentUpon>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
