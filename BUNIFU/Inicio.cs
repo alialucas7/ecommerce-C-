@@ -232,6 +232,7 @@ namespace BUNIFU
         private void iconButton2_Click_1(object sender, EventArgs e)
         {
             ActiveButon(sender, RGBColors.color2);
+            abrirFormulario(new frmProductos());
         }
 
         private void iconButton3_Click_1(object sender, EventArgs e)

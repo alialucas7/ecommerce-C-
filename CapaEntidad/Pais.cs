@@ -9,6 +9,6 @@ namespace CapaEntidad
    public class Pais
     {
         public int id_pais { get; set; }
-        public string descripcion { get; set; }
+        public string descripcionPais { get; set; }
     }
 }

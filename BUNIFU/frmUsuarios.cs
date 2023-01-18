@@ -333,6 +333,10 @@ namespace BUNIFU
             clean();
         }
 
+        private void txtBusqueda__Textchanged(object sender, EventArgs e)
+        {
+
+        }
     }
         
     

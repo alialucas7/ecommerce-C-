@@ -36,7 +36,7 @@ namespace CapadeDatos
                             lista.Add(new Pais()
                             {
                                 id_pais = Convert.ToInt32(dr["id_pais"]),
-                                descripcion = dr["descripcion"].ToString()
+                                descripcionPais = dr["descripcion"].ToString()
 
 
 
