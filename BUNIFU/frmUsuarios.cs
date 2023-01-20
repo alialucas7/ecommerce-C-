@@ -71,14 +71,6 @@ namespace BUNIFU
 
             txtIndice.Text = "0";
 
-
-
-
-
-
-
-
-
             /*Cargo los datos que tengo en la BD al datagrid*/
             List<Usuario> listaUsser = new CN_Usuario().Listar();
 
@@ -182,8 +174,7 @@ namespace BUNIFU
                             }
                         }
                     }
-
-
+                    
                     //combobox de estado
                     foreach (OpcionCombobox oc in comboBoxState.Items)
                     {
@@ -201,12 +192,9 @@ namespace BUNIFU
 
         private void btnClean_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "";
+            txtBusqueda.Text = "";
             foreach (DataGridViewRow row in dataGridUsser.Rows) row.Visible = true;
         }
-
-
-
 
         /*boton de guardar y editar*/
         //------------------------------------------------------------------------------------------------------------
@@ -226,9 +214,6 @@ namespace BUNIFU
                 pasword = (txtPasword.Texts == "") ? txtPasword.Texts = txtcontraseñaPrueba.Text : txtPasword.Texts,
             };
             //---------------------------------------------------------------------------------------------------------
-
-            
-         
             
             /*si el usuario a dar de alta es new => lo registra*/
             if (usuario1.id_usuario == 0){
@@ -273,7 +258,6 @@ namespace BUNIFU
                 }
                 else MessageBox.Show(mensaje);
             }
-           
             
         }
 
@@ -305,8 +289,6 @@ namespace BUNIFU
                 
             }
         }
-
-<<<<<<< HEAD
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             string columnaFiltro = ((OpcionCombobox)comboBusqueda.SelectedItem).valor.ToString();
@@ -314,7 +296,7 @@ namespace BUNIFU
             {
                 foreach (DataGridViewRow row in dataGridUsser.Rows)
                 {
-                    if (row.Cells[columnaFiltro].Value.ToString().Trim().ToUpper().Contains(textBox1.Text.Trim().ToUpper()))
+                    if (row.Cells[columnaFiltro].Value.ToString().Trim().ToUpper().Contains(txtBusqueda.Text.Trim().ToUpper()))
                     {
                         row.Visible = true;
                     }
@@ -332,8 +314,12 @@ namespace BUNIFU
         {
             clean();
         }
-=======
->>>>>>> ec04cb2301586972f3e3cca7690ebf128b08b910
+
+        private void txtBusqueda__Textchanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
         
     

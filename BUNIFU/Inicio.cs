@@ -17,7 +17,7 @@ namespace BUNIFU
         //defino mis propios colores , para mis botones
         private struct RGBColors
         {
-            public static Color color1 = Color.FromArgb(172, 126, 241);
+            public static Color color1 = Color.FromArgb(176, 34, 98);
             public static Color color2 = Color.FromArgb(249, 118, 246);
             public static Color color3 = Color.FromArgb(253, 138, 114);
             public static Color color4 = Color.FromArgb(95, 77, 221);
