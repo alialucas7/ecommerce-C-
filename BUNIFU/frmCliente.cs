@@ -387,5 +387,10 @@ namespace BUNIFU
         {
 
         }
+
+        private void txtDocument__Textchanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

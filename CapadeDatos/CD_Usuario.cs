@@ -24,7 +24,11 @@ namespace CapadeDatos
                 {
                     StringBuilder query = new StringBuilder();
                     //string query = "select * from Usuario";
+<<<<<<< HEAD
                    query.AppendLine("select u.id_Usuario,r.id_rol, r.descripcion, u.dni, u.nombre, u.apellido, u.email,u.telefono, u.estado,u.pasword from Usuario u");
+=======
+                   query.AppendLine("select u.id_usuario,r.id_rol, r.descripcion, u.dni, u.nombre, u.apellido, u.email,u.telefono, u.estado,u.pasword from Usuario u");
+>>>>>>> 2dd9eaad908f143aa2fa63ea793211bf434d1110
                    query.AppendLine("inner join Rol r on r.id_rol = u.id_rol");
                         
                     SqlCommand cmd = new SqlCommand(query.ToString(), conexion);

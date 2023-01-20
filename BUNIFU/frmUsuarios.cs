@@ -71,6 +71,17 @@ namespace BUNIFU
 
             txtIndice.Text = "0";
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+>>>>>>> 2dd9eaad908f143aa2fa63ea793211bf434d1110
             /*Cargo los datos que tengo en la BD al datagrid*/
             List<Usuario> listaUsser = new CN_Usuario().Listar();
 
@@ -174,7 +185,12 @@ namespace BUNIFU
                             }
                         }
                     }
+<<<<<<< HEAD
                     
+=======
+
+
+>>>>>>> 2dd9eaad908f143aa2fa63ea793211bf434d1110
                     //combobox de estado
                     foreach (OpcionCombobox oc in comboBoxState.Items)
                     {
@@ -192,7 +208,11 @@ namespace BUNIFU
 
         private void btnClean_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             txtBusqueda.Text = "";
+=======
+            txtBusqueda.Texts = "";
+>>>>>>> 2dd9eaad908f143aa2fa63ea793211bf434d1110
             foreach (DataGridViewRow row in dataGridUsser.Rows) row.Visible = true;
         }
 
@@ -318,6 +338,33 @@ namespace BUNIFU
         private void txtBusqueda__Textchanged(object sender, EventArgs e)
         {
 
+        }
+
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            string columnaFiltro = ((OpcionCombobox)comboBusqueda.SelectedItem).valor.ToString();
+            if(dataGridUsser.Rows.Count > 0)
+            {
+                foreach (DataGridViewRow row in dataGridUsser.Rows)
+                {
+                    if (row.Cells[columnaFiltro].Value.ToString().Trim().ToUpper().Contains(txtBusqueda.Texts.Trim().ToUpper()))
+                    {
+                        row.Visible = true;
+                    }
+                    else row.Visible = false;
+                }
+            }
+        }
+
+        private void comboBusqueda_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            clean();
         }
 
     }
