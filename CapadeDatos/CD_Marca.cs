@@ -38,7 +38,7 @@ namespace CapadeDatos
                             lista.Add(new Marca()
                             {
                                 id_marca = Convert.ToInt32(dr["id_marca"]),
-                                descripcion = dr["descripcion"].ToString()
+                                descripcionMarca = dr["descripcionMarca"].ToString()
 
 
 

@@ -9,7 +9,7 @@ namespace CapaEntidad
     public class Marca
     {
         public int id_marca{ get; set; }
-        public string descripcion{ get; set; }
+        public string descripcionMarca{ get; set; }
     }
 }
 

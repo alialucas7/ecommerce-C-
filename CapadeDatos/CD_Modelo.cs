@@ -22,7 +22,7 @@ namespace CapadeDatos
                 try
                 {
                     StringBuilder query2 = new StringBuilder();
-                    query2.AppendLine("Select m.id_modelo, m.descripcion from  Modelo m where id_marca = @id_marca");
+                    query2.AppendLine("Select m.id_modelo, m.descripcionModelo from  Modelo m where id_marca = @id_marca");
 
 
                     SqlCommand cmd = new SqlCommand(query2.ToString(), conexion);
@@ -38,7 +38,7 @@ namespace CapadeDatos
                             lista.Add(new Modelo()
                             {
                                 id_modelo = Convert.ToInt32(dr["id_modelo"]),
-                                descripcion = dr["descripcion"].ToString()
+                                descripcionModel = dr["descripcionModelo"].ToString()
 
 
 

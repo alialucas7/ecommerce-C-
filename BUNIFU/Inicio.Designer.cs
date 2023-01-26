@@ -282,7 +282,7 @@
             this.logo.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.logo.Location = new System.Drawing.Point(0, 0);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(996, 62);
+            this.logo.Size = new System.Drawing.Size(1150, 62);
             this.logo.TabIndex = 16;
             this.logo.Text = "Limited Edition";
             this.logo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -331,7 +331,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(203, 62);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(793, 453);
+            this.panel2.Size = new System.Drawing.Size(947, 456);
             this.panel2.TabIndex = 17;
             // 
             // Inicio
@@ -340,7 +340,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(996, 515);
+            this.ClientSize = new System.Drawing.Size(1150, 518);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnslide);
             this.Controls.Add(this.menuVertical);

@@ -57,7 +57,8 @@ namespace BUNIFU
             comboBoxRol.DisplayMember = "Texto";
             comboBoxRol.ValueMember = "valor";
             comboBoxRol.SelectedIndex = 2;
-            //me permite uscar elementos por categoria en mi datagrid
+
+            //me permite buscar elementos por categoria en mi datagrid
             foreach (DataGridViewColumn columna in dataGridUsser.Columns)
             {
                 if (columna.Visible == true)

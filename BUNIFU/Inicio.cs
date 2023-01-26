@@ -18,9 +18,9 @@ namespace BUNIFU
         private struct RGBColors
         {
             public static Color color1 = Color.FromArgb(172, 126, 241);
-            public static Color color2 = Color.FromArgb(249, 118, 246);
-            //public static Color color2 = Color.FromArgb(58, 52, 59);
-            public static Color color3 = Color.FromArgb(253, 138, 114);
+            //public static Color color2 = Color.FromArgb(249, 118, 246);
+            public static Color color3 = Color.FromArgb(61, 201, 209);
+            public static Color color2 = Color.FromArgb(253, 138, 114);
             public static Color color4 = Color.FromArgb(95, 77, 221);
             public static Color color5 = Color.FromArgb(24, 161, 251);
             public static Color color6 = Color.FromArgb(62, 174, 37);
