@@ -113,7 +113,7 @@ namespace BUNIFU
             formulario.FormBorderStyle = FormBorderStyle.None;
             // formulario.BackColor = RGBColors.fondoFormularios;
             //agrega el formulario configurado al contenedor
-            contenedor.Controls.Add(formulario);
+            containerfrm.Controls.Add(formulario);
             formulario.Show();
         }
 
@@ -154,6 +154,7 @@ namespace BUNIFU
         private void button1_Click(object sender, EventArgs e)
         {
             ocultarSubBotones();
+            abrirFormulario(new frmRegistrarVentaaass());
         }
 
         private void button3_Click(object sender, EventArgs e)

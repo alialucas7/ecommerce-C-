@@ -39,6 +39,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
+            this.containerfrm = new System.Windows.Forms.Panel();
             this.contenedor.SuspendLayout();
             this.panelBotones.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -48,12 +49,13 @@
             // contenedor
             // 
             this.contenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
+            this.contenedor.Controls.Add(this.containerfrm);
             this.contenedor.Controls.Add(this.panelBotones);
             this.contenedor.Controls.Add(this.panel2);
             this.contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contenedor.Location = new System.Drawing.Point(0, 0);
             this.contenedor.Name = "contenedor";
-            this.contenedor.Size = new System.Drawing.Size(1134, 479);
+            this.contenedor.Size = new System.Drawing.Size(1134, 561);
             this.contenedor.TabIndex = 0;
             this.contenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.contenedor_Paint);
             // 
@@ -68,7 +70,7 @@
             this.panelBotones.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelBotones.Location = new System.Drawing.Point(0, 62);
             this.panelBotones.Name = "panelBotones";
-            this.panelBotones.Size = new System.Drawing.Size(203, 417);
+            this.panelBotones.Size = new System.Drawing.Size(203, 499);
             this.panelBotones.TabIndex = 0;
             // 
             // btnVentas
@@ -232,11 +234,19 @@
             this.iconButton2.UseVisualStyleBackColor = true;
             this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
             // 
+            // containerfrm
+            // 
+            this.containerfrm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.containerfrm.Location = new System.Drawing.Point(203, 62);
+            this.containerfrm.Name = "containerfrm";
+            this.containerfrm.Size = new System.Drawing.Size(931, 499);
+            this.containerfrm.TabIndex = 2;
+            // 
             // Inicio_Empleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1134, 479);
+            this.ClientSize = new System.Drawing.Size(1134, 561);
             this.Controls.Add(this.contenedor);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Inicio_Empleado";
@@ -264,5 +274,6 @@
         private System.Windows.Forms.Button button3;
         private FontAwesome.Sharp.IconButton iconButton1;
         private FontAwesome.Sharp.IconButton iconButton2;
+        private System.Windows.Forms.Panel containerfrm;
     }
 }
