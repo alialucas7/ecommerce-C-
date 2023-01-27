@@ -485,6 +485,12 @@
     <Compile Include="frmProductos.Designer.cs">
       <DependentUpon>frmProductos.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmProductos__Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductos__Empleado.Designer.cs">
+      <DependentUpon>frmProductos__Empleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRegistrarVentaaass.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -508,6 +514,12 @@
     </Compile>
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio_Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio_Empleado.Designer.cs">
+      <DependentUpon>Inicio_Empleado.cs</DependentUpon>
     </Compile>
     <Compile Include="Loguin.cs">
       <SubType>Form</SubType>
@@ -543,6 +555,9 @@
     <EmbeddedResource Include="frmProductos.resx">
       <DependentUpon>frmProductos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmProductos__Empleado.resx">
+      <DependentUpon>frmProductos__Empleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmRegistrarVentaaass.resx">
       <DependentUpon>frmRegistrarVentaaass.cs</DependentUpon>
     </EmbeddedResource>
@@ -555,9 +570,7 @@
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Inicio_Empleado.resx">
-      <DependentUpon>Inicio_Empleado.cs</DependentUpon>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio_Empleado.resx" />
     <EmbeddedResource Include="Loguin.resx">
       <DependentUpon>Loguin.cs</DependentUpon>
     </EmbeddedResource>

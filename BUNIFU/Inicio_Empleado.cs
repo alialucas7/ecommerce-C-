@@ -29,6 +29,7 @@ namespace BUNIFU
         {
             public static Color color3 = Color.FromArgb(61, 201, 209);
             public static Color color2 = Color.FromArgb(253, 138, 114);
+            public static Color color1 = Color.FromArgb(176, 34, 98);
             public static Color fondoFormularios = Color.FromArgb(240, 243, 250);
         }
         
@@ -165,6 +166,13 @@ namespace BUNIFU
         private void iconButton2_Click(object sender, EventArgs e)
         {
             ActiveButon(sender, RGBColors.color2);
+            abrirFormulario(new frmProductos__Empleado());
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            ActiveButon(sender, RGBColors.color1);
+            abrirFormulario(new frmCliente());
         }
     }
 }

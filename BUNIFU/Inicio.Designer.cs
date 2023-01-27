@@ -33,8 +33,8 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.menuVertical = new System.Windows.Forms.Panel();
-            this.iconButton6 = new FontAwesome.Sharp.IconButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.iconButton6 = new FontAwesome.Sharp.IconButton();
             this.iconButton5 = new FontAwesome.Sharp.IconButton();
             this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
@@ -99,6 +99,15 @@
             this.menuVertical.VisibleChanged += new System.EventHandler(this.btnslide_Click);
             this.menuVertical.Paint += new System.Windows.Forms.PaintEventHandler(this.menuVertical_Paint);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(83, 422);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(24, 13);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Exit";
+            // 
             // iconButton6
             // 
             this.iconButton6.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -119,15 +128,6 @@
             this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton6.UseVisualStyleBackColor = true;
             this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(83, 422);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(24, 13);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Exit";
             // 
             // iconButton5
             // 
@@ -273,7 +273,7 @@
             this.logo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
             this.logo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(60)))), ((int)(((byte)(82)))));
             this.logo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logo.Font = new System.Drawing.Font("Harlow Solid Std", 21F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logo.Font = new System.Drawing.Font("Harlow Solid Italic", 22F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logo.ForeColor = System.Drawing.Color.Transparent;
             this.logo.IconChar = FontAwesome.Sharp.IconChar.CarBurst;
             this.logo.IconColor = System.Drawing.Color.White;
@@ -282,7 +282,7 @@
             this.logo.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.logo.Location = new System.Drawing.Point(0, 0);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(1150, 62);
+            this.logo.Size = new System.Drawing.Size(1019, 62);
             this.logo.TabIndex = 16;
             this.logo.Text = "Limited Edition";
             this.logo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -331,7 +331,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(203, 62);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(947, 456);
+            this.panel2.Size = new System.Drawing.Size(816, 456);
             this.panel2.TabIndex = 17;
             // 
             // Inicio
@@ -340,7 +340,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1150, 518);
+            this.ClientSize = new System.Drawing.Size(1019, 518);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnslide);
             this.Controls.Add(this.menuVertical);
