@@ -86,7 +86,7 @@
             this.iconButton2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.iconButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton2.Font = new System.Drawing.Font("Harlow Solid Italic", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton2.Font = new System.Drawing.Font("Harlow Solid Std", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconButton2.ForeColor = System.Drawing.Color.Transparent;
             this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.CarBurst;
             this.iconButton2.IconColor = System.Drawing.Color.White;
@@ -206,8 +206,10 @@
             this.userControl11.MultiLine = false;
             this.userControl11.Name = "userControl11";
             this.userControl11.Padding = new System.Windows.Forms.Padding(7);
+            this.userControl11.PalceHolderColor = System.Drawing.Color.DarkGray;
+            this.userControl11.PalceHolderText = "";
             this.userControl11.PasswordChar = true;
-            this.userControl11.Size = new System.Drawing.Size(168, 30);
+            this.userControl11.Size = new System.Drawing.Size(168, 31);
             this.userControl11.TabIndex = 35;
             this.userControl11.Texts = "";
             this.userControl11.UnderLinedStyle = true;
@@ -227,6 +229,8 @@
             this.textDocument1.MultiLine = true;
             this.textDocument1.Name = "textDocument1";
             this.textDocument1.Padding = new System.Windows.Forms.Padding(7);
+            this.textDocument1.PalceHolderColor = System.Drawing.Color.DarkGray;
+            this.textDocument1.PalceHolderText = "";
             this.textDocument1.PasswordChar = false;
             this.textDocument1.Size = new System.Drawing.Size(168, 27);
             this.textDocument1.TabIndex = 34;

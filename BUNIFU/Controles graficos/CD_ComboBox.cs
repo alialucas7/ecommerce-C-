@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.ComponentModel;
 using System.Drawing.Design;
 
+
+
 namespace CustomControls.Controles_graficos
 {
+    
     [DefaultEvent("OnSelectedIndexChanged")]              //Elemento Predeterminado del combo box
 
     class CD_ComboBox : UserControl
@@ -354,11 +356,7 @@ namespace CustomControls.Controles_graficos
 
         private void Surface_Click(object sender, EventArgs e)
         {
-            this.OnClick(e);
-            //Seleccionamos el Combo Box
-            cmbList.Select();
-            if (cmbList.DropDownStyle == ComboBoxStyle.DropDownList)
-                cmbList.DroppedDown = true;     //Abre la lista desplegable
+            
         }
 
         private void ComboBox_TextChanged(object sender, EventArgs e)
@@ -389,11 +387,7 @@ namespace CustomControls.Controles_graficos
         //Elemento predetermindado de nuestro control
         private void ComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (OnSelectedIndexChanged != null)           //Vinculamos el elemento predeterminado del combobox, suscrito al evento predeterminado
-                OnSelectedIndexChanged.Invoke(sender, e);
-            
-            //Refrescamos el texto, el texto de la etiqueta debe ser igual al del Combo Box
-            lblText.Text = cmbList.Text;
+
         }
 
         private void Icon_Paint(object sender, PaintEventArgs e)
@@ -430,14 +424,18 @@ namespace CustomControls.Controles_graficos
             // CD_ComboBox
             // 
             this.Name = "CD_ComboBox";
-            this.Load += new System.EventHandler(this.CD_ComboBox_Load);
+            this.Load += new System.EventHandler(this.ComboBox_SelectedIndexChanged);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CD_ComboBox_MouseClick);
             this.ResumeLayout(false);
 
         }
 
-        private void CD_ComboBox_Load(object sender, EventArgs e)
+
+        private void CD_ComboBox_MouseClick(object sender, MouseEventArgs e)
         {
 
         }
+
+
     }
 }

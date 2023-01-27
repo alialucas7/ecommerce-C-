@@ -10,6 +10,7 @@ using CapadeDatos;
 
 namespace CapadeDatos
 {
+
     public class CD_Usuario
     {
         public List<Usuario> Listar()
@@ -23,7 +24,9 @@ namespace CapadeDatos
                 {
                     StringBuilder query = new StringBuilder();
                     //string query = "select * from Usuario";
-                   query.AppendLine("select u.id_usuario,r.id_rol, r.descripcion, u.dni, u.nombre, u.apellido, u.email,u.telefono, u.estado,u.pasword from Usuario u");
+
+                   query.AppendLine("select u.id_Usuario,r.id_rol, r.descripcion, u.dni, u.nombre, u.apellido, u.email,u.telefono, u.estado,u.pasword from Usuario u");
+
                    query.AppendLine("inner join Rol r on r.id_rol = u.id_rol");
                         
                     SqlCommand cmd = new SqlCommand(query.ToString(), conexion);
@@ -39,7 +42,7 @@ namespace CapadeDatos
                             {
                             ///int idTemporal = Convert.ToInt32(dr["id_rol"]);
                                 lista.Add(new Usuario(){ 
-                                id_usuario = Convert.ToInt32(dr["id_usuario"]),
+                                id_usuario = Convert.ToInt32(dr["id_Usuario"]),
                                 obRol = new Rol() { id_rol = Convert.ToInt32(dr["id_rol"]) , descripcion = dr["descripcion"].ToString()},
                                     //obRol = new Rol(idTemporal),
                                 dni = dr["dni"].ToString(),
@@ -121,7 +124,7 @@ namespace CapadeDatos
             {
                 using (SqlConnection conexion = new SqlConnection(Conexion.cadena))
                 {
-                    SqlCommand cmd = new SqlCommand("SP_EDITAR_Usuario", conexion);
+                    SqlCommand cmd = new SqlCommand("SP_EDITAR_Usuarioo", conexion);
                     /*Procedo a ejecutar el procedimiento almacenado para editar usser*/
 
                     //datos de entrada

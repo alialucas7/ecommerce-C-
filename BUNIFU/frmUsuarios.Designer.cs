@@ -74,8 +74,10 @@
             // 
             // comboBoxRol
             // 
+            this.comboBoxRol.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            this.comboBoxRol.ForeColor = System.Drawing.Color.White;
             this.comboBoxRol.FormattingEnabled = true;
-            this.comboBoxRol.Location = new System.Drawing.Point(156, 127);
+            this.comboBoxRol.Location = new System.Drawing.Point(170, 127);
             this.comboBoxRol.Name = "comboBoxRol";
             this.comboBoxRol.Size = new System.Drawing.Size(121, 21);
             this.comboBoxRol.TabIndex = 31;
@@ -83,27 +85,35 @@
             // bunifuCustomLabel1
             // 
             this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(68, 130);
+            this.bunifuCustomLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
+            this.bunifuCustomLabel1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(59, 130);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(82, 13);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(105, 16);
             this.bunifuCustomLabel1.TabIndex = 32;
             this.bunifuCustomLabel1.Text = "Tipo de Usuario";
             // 
             // bunifuCustomLabel2
             // 
             this.bunifuCustomLabel2.AutoSize = true;
-            this.bunifuCustomLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(343, 130);
+            this.bunifuCustomLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
+            this.bunifuCustomLabel2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.bunifuCustomLabel2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(332, 130);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
-            this.bunifuCustomLabel2.Size = new System.Drawing.Size(40, 13);
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(51, 16);
             this.bunifuCustomLabel2.TabIndex = 35;
             this.bunifuCustomLabel2.Text = "Estado";
             // 
             // comboBoxState
             // 
+            this.comboBoxState.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            this.comboBoxState.ForeColor = System.Drawing.Color.White;
             this.comboBoxState.FormattingEnabled = true;
-            this.comboBoxState.Location = new System.Drawing.Point(389, 127);
+            this.comboBoxState.Location = new System.Drawing.Point(389, 129);
             this.comboBoxState.Name = "comboBoxState";
             this.comboBoxState.Size = new System.Drawing.Size(121, 21);
             this.comboBoxState.TabIndex = 34;
@@ -144,6 +154,8 @@
             // 
             // comboBusqueda
             // 
+            this.comboBusqueda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            this.comboBusqueda.ForeColor = System.Drawing.Color.White;
             this.comboBusqueda.FormattingEnabled = true;
             this.comboBusqueda.Location = new System.Drawing.Point(145, 193);
             this.comboBusqueda.Name = "comboBusqueda";
@@ -154,9 +166,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(81, 196);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label2.Location = new System.Drawing.Point(66, 198);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 13);
+            this.label2.Size = new System.Drawing.Size(73, 16);
             this.label2.TabIndex = 49;
             this.label2.Text = "Buscar por";
             // 
@@ -172,11 +186,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(591, 25);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(580, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(15, 13);
+            this.label1.Size = new System.Drawing.Size(19, 15);
             this.label1.TabIndex = 55;
-            this.label1.Text = "id";
+            this.label1.Text = "ID";
             // 
             // txtprueba
             // 
@@ -437,6 +452,7 @@
             this.txtPasword.TabIndex = 30;
             this.txtPasword.Texts = "";
             this.txtPasword.UnderLinedStyle = false;
+            this.txtPasword.Leave += new System.EventHandler(this.txtPasword_Leave);
             // 
             // txtApellido
             // 
@@ -459,6 +475,8 @@
             this.txtApellido.TabIndex = 29;
             this.txtApellido.Texts = "";
             this.txtApellido.UnderLinedStyle = false;
+            this.txtApellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtApellido_KeyPress);
+            this.txtApellido.Leave += new System.EventHandler(this.txtApellido_Leave);
             // 
             // txtPhone
             // 
@@ -481,6 +499,8 @@
             this.txtPhone.TabIndex = 28;
             this.txtPhone.Texts = "";
             this.txtPhone.UnderLinedStyle = false;
+            this.txtPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhone_KeyPress);
+            this.txtPhone.Leave += new System.EventHandler(this.txtPhone_Leave);
             // 
             // txtEmail
             // 
@@ -503,6 +523,7 @@
             this.txtEmail.TabIndex = 27;
             this.txtEmail.Texts = "";
             this.txtEmail.UnderLinedStyle = false;
+            this.txtEmail.Leave += new System.EventHandler(this.txtEmail_Leave);
             // 
             // txtName
             // 
@@ -525,6 +546,8 @@
             this.txtName.TabIndex = 26;
             this.txtName.Texts = "";
             this.txtName.UnderLinedStyle = false;
+            this.txtName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtName_KeyPress);
+            this.txtName.Leave += new System.EventHandler(this.txtName_Leave);
             // 
             // txtDocument
             // 
@@ -547,13 +570,15 @@
             this.txtDocument.TabIndex = 25;
             this.txtDocument.Texts = "";
             this.txtDocument.UnderLinedStyle = false;
+            this.txtDocument.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDocument_KeyPress);
+            this.txtDocument.Leave += new System.EventHandler(this.txtDocument_Leave);
             // 
             // txtBusqueda
             // 
             this.txtBusqueda.BackColor = System.Drawing.Color.White;
             this.txtBusqueda.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
             this.txtBusqueda.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(212)))), ((int)(((byte)(250)))));
-            this.txtBusqueda.BorderRadius = 9;
+            this.txtBusqueda.BorderRadius = 15;
             this.txtBusqueda.BorderSize = 1;
             this.txtBusqueda.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBusqueda.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -565,8 +590,8 @@
             this.txtBusqueda.PalceHolderColor = System.Drawing.Color.DarkGray;
             this.txtBusqueda.PalceHolderText = "Buscar...";
             this.txtBusqueda.PasswordChar = false;
-            this.txtBusqueda.Size = new System.Drawing.Size(98, 26);
-            this.txtBusqueda.TabIndex = 67;
+            this.txtBusqueda.Size = new System.Drawing.Size(97, 31);
+            this.txtBusqueda.TabIndex = 90;
             this.txtBusqueda.Texts = "";
             this.txtBusqueda.UnderLinedStyle = false;
             this.txtBusqueda._Textchanged += new System.EventHandler(this.txtBusqueda__Textchanged);
