@@ -41,12 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+
     <Compile Include="CN_Marca.cs" />
     <Compile Include="CN_Modelo.cs" />
-=======
+
     <Compile Include="CN_Cliente.cs" />
->>>>>>> f430ca1bbcac76325e397842f2de6dbb6a035f13
+
     <Compile Include="CN_Permiso.cs" />
     <Compile Include="CN_Productos.cs" />
     <Compile Include="CN_Rol.cs" />

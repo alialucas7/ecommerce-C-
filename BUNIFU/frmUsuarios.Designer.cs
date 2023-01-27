@@ -594,7 +594,7 @@
             this.txtBusqueda.TabIndex = 90;
             this.txtBusqueda.Texts = "";
             this.txtBusqueda.UnderLinedStyle = false;
-            this.txtBusqueda._Textchanged += new System.EventHandler(this.txtBusqueda__Textchanged);
+          //  this.txtBusqueda._Textchanged += new System.EventHandler(this.txtBusqueda__Textchanged);
             // 
             // frmUsuarios
             // 
