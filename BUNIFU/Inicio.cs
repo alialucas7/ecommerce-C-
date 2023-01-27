@@ -33,7 +33,7 @@ namespace BUNIFU
         //para cargar el usuario que se a logueado
         public Usuario usuarioActual;
 
-        //variables para abrir formulario cuando se clickean los 
+        //variables para abrir formulario cuando se clickean los botones
         private static Form FormularioActivo = null;
 
         //variables para dar color a los botones del menu

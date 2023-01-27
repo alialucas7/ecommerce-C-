@@ -63,7 +63,7 @@
             this.bunifuImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
             this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(27, 415);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(49, 409);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Size = new System.Drawing.Size(28, 28);
             this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -77,15 +77,15 @@
             this.menuVertical.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.menuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
             this.menuVertical.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.menuVertical.Controls.Add(this.iconButton6);
             this.menuVertical.Controls.Add(this.label1);
+            this.menuVertical.Controls.Add(this.iconButton6);
+            this.menuVertical.Controls.Add(this.bunifuImageButton1);
             this.menuVertical.Controls.Add(this.iconButton5);
             this.menuVertical.Controls.Add(this.iconButton4);
             this.menuVertical.Controls.Add(this.iconButton3);
             this.menuVertical.Controls.Add(this.iconButton2);
             this.menuVertical.Controls.Add(this.iconButton1);
             this.menuVertical.Controls.Add(this.panel1);
-            this.menuVertical.Controls.Add(this.bunifuImageButton1);
             this.menuVertical.Controls.Add(this.tituloMenu);
             this.menuVertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuVertical.ForeColor = System.Drawing.Color.Transparent;
@@ -123,7 +123,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(80, 428);
+            this.label1.Location = new System.Drawing.Point(83, 422);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(26, 15);
             this.label1.TabIndex = 17;
