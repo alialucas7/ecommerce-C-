@@ -147,18 +147,28 @@ namespace BUNIFU
             
             if (!producto_existente)
             {
-                dataGridventas.Rows.Add(new object[]
-                {   "",
-                    textBox2.Text,
-                    txtAuto.Text,
-                    precio.ToString("0.00"),
-                    numericUpDown1.Value.ToString(),
-                    (numericUpDown1.Value * precio).ToString("0.00")
-                });
-                calcualrTotal();
-                Limpiar();
 
+                //string mensaje = string.Empty;
+                /**Procedo a llamar el metodo que lo cree en la cpa negocio*/
+                bool respuesta = new CN_Factura().restarStock( //Los parametros de la funcion obtengo de los valores ingresado por el usser
+                    Convert.ToInt32(numericUpDown1.Value.ToString()),
+                    Convert.ToInt32(textBox2.Text)
+                    
+                );
 
+               if(respuesta)
+               {
+                    dataGridventas.Rows.Add(new object[]
+                    {       "",
+                            textBox2.Text,
+                            txtAuto.Text,
+                            precio.ToString("0.00"),
+                            numericUpDown1.Value.ToString(),
+                            (numericUpDown1.Value * precio).ToString("0.00")
+                    });
+                    calcualrTotal();
+                    Limpiar();
+               }
             }
 
 
@@ -203,8 +213,19 @@ namespace BUNIFU
                 int index = e.RowIndex;
                 if (index >= 0)
                 {
-                    dataGridventas.Rows.RemoveAt(index);
-                    calcualrTotal();
+                    /*Hace lo mismo procedimiento cuando agrega un producto, solo alrreves*/
+                    bool respuesta = new CN_Factura().sumrStock( //Los parametros de la funcion obtengo de los valores ingresado por el usser
+                        Convert.ToInt32(dataGridventas.Rows[index].Cells["cantidad"].Value.ToString()),
+                        Convert.ToInt32(dataGridventas.Rows[index].Cells["id_au"].Value.ToString())
+                     
+
+                    );
+                    if (respuesta)
+                    {
+                        dataGridventas.Rows.RemoveAt(index);
+                        calcualrTotal();
+                    }
+                    
                 }
             }
         }
