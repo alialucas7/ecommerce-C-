@@ -15,6 +15,9 @@ namespace BUNIFU
 {
     public partial class Inicio_Empleado : Form
     {
+
+        public static Usuario usuarioActual;
+
         //variables para abrir formulario cuando se clickean los 
         private static Form FormularioActivo = null;
 
@@ -35,8 +38,10 @@ namespace BUNIFU
         
 
 
-        public Inicio_Empleado()
+        public Inicio_Empleado( Usuario ojUsser = null)
         {
+            if (ojUsser == null) usuarioActual = new Usuario() { id_usuario = 1 };
+            else usuarioActual = ojUsser;
             InitializeComponent();
             /* Instancio objetos para los btn*/
             leftBorderBtn = new Panel();
@@ -155,7 +160,7 @@ namespace BUNIFU
         private void button1_Click(object sender, EventArgs e)
         {
             ocultarSubBotones();
-            abrirFormulario(new frmRegistrarVentaaass());
+            abrirFormulario(new frmRegistrarVentaaass(usuarioActual));
         }
 
         private void button3_Click(object sender, EventArgs e)
