@@ -70,13 +70,13 @@
             this.label14 = new System.Windows.Forms.Label();
             this.textBoxcambio = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
+            this.btnCar = new FontAwesome.Sharp.IconButton();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_au = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.subTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -418,8 +418,8 @@
             this.id_au,
             this.producto,
             this.precio,
-            this.cantidad,
             this.subTotal,
+            this.cantidad,
             this.btnSeleccionar});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
@@ -501,25 +501,26 @@
             this.label15.TabIndex = 70;
             this.label15.Text = "Cambio";
             // 
-            // iconButton3
+            // btnCar
             // 
-            this.iconButton3.BackColor = System.Drawing.Color.White;
-            this.iconButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(201)))), ((int)(((byte)(209)))));
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.CartPlus;
-            this.iconButton3.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(201)))), ((int)(((byte)(209)))));
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.IconSize = 37;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton3.Location = new System.Drawing.Point(666, 410);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(95, 37);
-            this.iconButton3.TabIndex = 71;
-            this.iconButton3.Text = "Crear Venta";
-            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButton3.UseVisualStyleBackColor = false;
+            this.btnCar.BackColor = System.Drawing.Color.White;
+            this.btnCar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(201)))), ((int)(((byte)(209)))));
+            this.btnCar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCar.IconChar = FontAwesome.Sharp.IconChar.CartPlus;
+            this.btnCar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(201)))), ((int)(((byte)(209)))));
+            this.btnCar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnCar.IconSize = 37;
+            this.btnCar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCar.Location = new System.Drawing.Point(666, 410);
+            this.btnCar.Name = "btnCar";
+            this.btnCar.Size = new System.Drawing.Size(95, 37);
+            this.btnCar.TabIndex = 71;
+            this.btnCar.Text = "Crear Venta";
+            this.btnCar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnCar.UseVisualStyleBackColor = false;
+            this.btnCar.Click += new System.EventHandler(this.btnCar_Click);
             // 
             // Column1
             // 
@@ -547,17 +548,17 @@
             this.precio.Name = "precio";
             this.precio.ReadOnly = true;
             // 
-            // cantidad
-            // 
-            this.cantidad.HeaderText = "Cantidad";
-            this.cantidad.Name = "cantidad";
-            this.cantidad.ReadOnly = true;
-            // 
             // subTotal
             // 
             this.subTotal.HeaderText = "Sub Total";
             this.subTotal.Name = "subTotal";
             this.subTotal.ReadOnly = true;
+            // 
+            // cantidad
+            // 
+            this.cantidad.HeaderText = "Cantidad";
+            this.cantidad.Name = "cantidad";
+            this.cantidad.ReadOnly = true;
             // 
             // btnSeleccionar
             // 
@@ -575,7 +576,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 539);
-            this.Controls.Add(this.iconButton3);
+            this.Controls.Add(this.btnCar);
             this.Controls.Add(this.textBoxcambio);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.textBoxpagacon);
@@ -646,15 +647,15 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBoxcambio;
         private System.Windows.Forms.Label label15;
-        private FontAwesome.Sharp.IconButton iconButton3;
+        private FontAwesome.Sharp.IconButton btnCar;
         private System.Windows.Forms.TextBox textape;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_au;
         private System.Windows.Forms.DataGridViewTextBoxColumn producto;
         private System.Windows.Forms.DataGridViewTextBoxColumn precio;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn subTotal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cantidad;
         private System.Windows.Forms.DataGridViewButtonColumn btnSeleccionar;
     }
 }

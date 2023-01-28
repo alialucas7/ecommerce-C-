@@ -28,6 +28,7 @@ namespace BUNIFU
 
         private void frmRegistrarVentaaass_Load(object sender, EventArgs e)
         {
+            btnCar.Enabled = false;
             comboFactura.Items.Add(new OpcionCombobox() { valor = 1, Texto = "A"});
             comboFactura.Items.Add(new OpcionCombobox() { valor = 2, Texto = "B" });
             comboFactura.Items.Add(new OpcionCombobox() { valor = 3, Texto = "C" });
@@ -111,12 +112,14 @@ namespace BUNIFU
         //Boton de agregar
         private void iconButton2_Click(object sender, EventArgs e)
         {
+            btnCar.Enabled = true;
             decimal precio = 0;
             bool producto_existente = false;
 
             if (int.Parse(textBox2.Text) == 0)
             {
-                MessageBox.Show("Desea seleccionar un producto", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Debe seleccionar un producto", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                btnCar.Enabled = false;
                 return;
             }
             if (!decimal.TryParse(txprice.Text, out precio))
@@ -163,8 +166,9 @@ namespace BUNIFU
                             textBox2.Text,
                             txtAuto.Text,
                             precio.ToString("0.00"),
-                            numericUpDown1.Value.ToString(),
-                            (numericUpDown1.Value * precio).ToString("0.00")
+                            (numericUpDown1.Value * precio).ToString("0.00"),
+                            numericUpDown1.Value.ToString()
+                            
                     });
                     calcualrTotal();
                     Limpiar();
@@ -301,5 +305,91 @@ namespace BUNIFU
         {
             if (e.KeyData == Keys.Enter) calcularCambio();
         }
+
+
+
+
+
+
+
+
+
+        public bool validaciones()
+        {
+            bool bandera = false;
+            int valor1 = 0;
+            int valor2 = 0;
+            int valor3 = 0;
+            
+            if (!(string.IsNullOrEmpty(txtDNI.Text))) valor1 = 1; 
+            if (!(string.IsNullOrEmpty(txtNamei.Text))) valor2 = 1;
+            if (!(string.IsNullOrEmpty(textape.Text))) valor3 = 1;
+            if ((valor1 == 1) && (valor2 == 1) && (valor3 == 1))
+            { 
+                bandera = true;
+            }
+            return bandera;
+        }
+
+        /*Boton de agregar la compra*/
+        private void btnCar_Click(object sender, EventArgs e)
+        {
+            if (validaciones() == true)
+            {
+                DataTable detalle_Factura = new DataTable();
+                detalle_Factura.Columns.Add("id_automovil", typeof(int));
+                detalle_Factura.Columns.Add("precioVenta", typeof(decimal));
+                detalle_Factura.Columns.Add("subTotal", typeof(decimal));
+                detalle_Factura.Columns.Add("cantidad", typeof(int));
+
+                foreach (DataGridViewRow row in dataGridventas.Rows)
+                {
+                    detalle_Factura.Rows.Add(new object[] {
+                        row.Cells["id_au"].Value.ToString(),
+                        row.Cells["precio"].Value.ToString(),
+                        row.Cells["subTotal"].Value.ToString(),
+                        row.Cells["cantidad"].Value.ToString()
+                    });
+                }
+
+
+
+                //int id_correlativo = new CN_Factura().obtenerCorrelativo();
+                //string numeroDoc = string.Format("[0.00000]", id_correlativo);
+                calcularCambio();
+
+                Factura obFactu = new Factura()
+                {
+                    objUsuario = new Usuario() { id_usuario = _Usuario.id_usuario},
+                    objTipoFact = new TipoFactura() {id_tipoFact = Convert.ToInt32( ((OpcionCombobox)comboFactura.SelectedItem).valor) },
+                    dniCliente = txtDNI.Text,
+                    nameCliente = txtNamei.Text,
+                    montoPago = Convert.ToDecimal(textBoxpagacon.Text),
+                    montoCambio = Convert.ToDecimal(textBoxcambio.Text),
+                    montoTotal = Convert.ToDecimal(textBoxpagar.Text)
+                };
+                string mensaje = string.Empty;
+                bool respuesta = new CN_Factura().registrar(obFactu, detalle_Factura,out mensaje);
+                if (respuesta)
+                {
+                    Limpiar();
+                    txtDNI.Text = "";
+                    txtNamei.Text = "";
+                    textape.Text = "";
+                    textBoxpagar.Text = "";
+                    textBoxpagacon.Text = "";
+                    textBoxcambio.Text = "";
+
+                    //Borra la coleccion del datagrid
+                    dataGridventas.Rows.Clear();
+                    MessageBox.Show("La venta Se realizo correctamente");
+                }
+                
+            }
+            else { MessageBox.Show("Faltan agregar el cliente"); }
+        }
+
     }
 }
+  
+ 
