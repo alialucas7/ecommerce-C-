@@ -253,6 +253,7 @@ namespace BUNIFU
 
         private void iconButton6_Click(object sender, EventArgs e)
         {
+            abrirFormulario(new frm_Backup());
             ActiveButon(sender, RGBColors.color6);
         }
 

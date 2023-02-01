@@ -12,7 +12,7 @@ C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapaEntidad\bin\Debug\CapaEntid
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapaEntidad\bin\Debug\CapaEntidad.pdb
 D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapaEntidad\bin\Debug\CapaEntidad.dll
 D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapaEntidad\bin\Debug\CapaEntidad.pdb
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
 D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapaEntidad\obj\Debug\CapaEntidad.dll
 D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapaEntidad\obj\Debug\CapaEntidad.pdb
+D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache

@@ -7,9 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using BUNIFU.Utilidades;
 using CapaEntidad;
 using CapaNegocio;
+using BUNIFU.Utilidades;
+using BUNIFU.Controles_graficos;
+using Bunifu.Framework.UI;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace BUNIFU
 {
@@ -55,12 +59,12 @@ namespace BUNIFU
                     /*Metodos para cargar los combobox segun informacion almacenada*/
 
                     //combobox de estado
-                    foreach (OpcionCombobox oc in comboBox1.Items)
+                    foreach (OpcionCombobox oc in ComboBoxEstado.Items)
                     {
                         if (Convert.ToInt32(oc.valor) == Convert.ToInt32(dataGridView1.Rows[indice].Cells["Estado"].Value))
                         {
-                            int indiceCombo = comboBox1.Items.IndexOf(oc);
-                            comboBox1.SelectedIndex = indiceCombo;
+                            int indiceCombo = ComboBoxEstado.Items.IndexOf(oc);
+                            ComboBoxEstado.SelectedIndex = indiceCombo;
                             break;
                         }
                     }
@@ -76,31 +80,32 @@ namespace BUNIFU
 
             /*Seba si te da error comenta la linea de abajo y descomenta esta
             this.usuarioTableAdapter.Fill(this.bD_dealershipDataSet.J.SebastianOrtiz);
-            this.usuarioTableAdapter.Fill(this.bD_dealershipDataSet.Usuario);*/
+            //this.usuarioTableAdapter.Fill(this.bD_dealershipDataSet.Usuario);*
 
             /*esto es para que pueda habiliatr ussser mediante mi combobox*/
-            //comboBox2
-            comboBox1.Items.Add(new OpcionCombobox() { valor = 1, Texto = "Habilitado" });
-            comboBox1.Items.Add(new OpcionCombobox() { valor = 0, Texto = "Inhabilitado" });
-            comboBox1.DisplayMember = "Texto";
-            comboBox1.ValueMember = "valor";
-            comboBox1.SelectedIndex = 0;
+            //comboBox1
+            ComboBoxEstado.Items.Add(new OpcionCombobox() { valor = 1, Texto = "Habilitado" });
+            ComboBoxEstado.Items.Add(new OpcionCombobox() { valor = 0, Texto = "Inhabilitado" });
+            ComboBoxEstado.DisplayMember = "texto";
+            ComboBoxEstado.ValueMember = "valor";
+            ComboBoxEstado.SelectedIndex = 0;
 
             /* me trae los datos de la BD en la columna rol y muestra en el combobox*/
             List<Rol> listaRol1 = new CN_Rol().Listar();
 
-            //me permite uscar elementos por categoria en mi datagrid
+            //me permite buscar elementos por categoria en mi datagrid
             foreach (DataGridViewColumn columna in dataGridView1.Columns)
             {
                 if (columna.Visible == true)
                 {
-                    comboBox2.Items.Add(new OpcionCombobox() { valor = columna.Name, Texto = columna.HeaderText });
+                    ComboBoxBuscar.Items.Add(new OpcionCombobox() { valor = columna.Name, Texto = columna.HeaderText });
                 }
             }
 
-            comboBox2.DisplayMember = "Texto";
-            comboBox2.ValueMember = "valor";
-            comboBox2.SelectedIndex = 1;
+            ComboBoxBuscar.DisplayMember = "Texto";
+            ComboBoxBuscar.ValueMember = "valor";
+            ComboBoxBuscar.SelectedIndex = 1;
+
 
             textId.Text = "0";
 
@@ -110,8 +115,8 @@ namespace BUNIFU
             foreach (Cliente item in lista)
             {
                 dataGridView1.Rows.Add(new object[] {"",item.id_cliente,item.dni,item.nombre,item.apellido,item.email,item.telefono,
-            item.estado == true ? 1 : 0,
-            item.estado == true ? "Activo" : "No Activo"
+                item.estado == true ? 1 : 0,
+                item.estado == true ? "Activo" : "No Activo"
             });
 
             }
@@ -146,6 +151,9 @@ namespace BUNIFU
         //Botón Guardar
         private void cD_Button1_Click_1(object sender, EventArgs e)
         {
+            //BorrarMensajeError();        //Limpia los mensajes de los campos
+            //validarCampos();            //Valida si existen campos vacíos
+
             string mensaje = string.Empty;
 
             Cliente cliente = new Cliente()
@@ -156,7 +164,7 @@ namespace BUNIFU
                 apellido = (txtApellido.Texts == "") ? txtApellido.Texts = textBox3.Text : txtApellido.Texts,
                 email = (txtApellido.Texts == "") ? txtEmail.Texts = textBox4.Text : txtEmail.Texts,
                 telefono = (txtTelefono.Texts == "") ? txtTelefono.Texts = textBox5.Text : txtTelefono.Texts,
-                estado = Convert.ToInt32(((OpcionCombobox)comboBox1.SelectedItem).valor) == 1 ? true : false,
+                estado = Convert.ToInt32(((OpcionCombobox)ComboBoxEstado.SelectedItem).valor) == 1 ? true : false,
             };
             //---------------------------------------------------------------------------------------------------------
 
@@ -171,7 +179,7 @@ namespace BUNIFU
                     //cargo los dattos en el datagrid
                     dataGridView1.Rows.Add(new object[] { "",idGenerado,
                     txtDocument.Texts,txtNombre.Texts,txtApellido.Texts,txtEmail.Texts,
-                    txtTelefono.Texts,((OpcionCombobox)comboBox1.SelectedItem).valor
+                    txtTelefono.Texts,((OpcionCombobox)ComboBoxEstado.SelectedItem).valor
 
                     });
                     clean();
@@ -193,7 +201,7 @@ namespace BUNIFU
                     row.Cells["Apellido"].Value = cliente.apellido;
                     row.Cells["Email"].Value = cliente.email;
                     row.Cells["Telefono"].Value = cliente.telefono;
-                    row.Cells["Estado"].Value = ((OpcionCombobox)comboBox1.SelectedItem).valor;
+                    row.Cells["Estado"].Value = ((OpcionCombobox)ComboBoxEstado.SelectedItem).valor;
                     clean();
                 }
                 else MessageBox.Show(mensaje);
@@ -209,12 +217,12 @@ namespace BUNIFU
         //Botón Buscar
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            string columnaFiltro = ((OpcionCombobox)comboBox2.SelectedItem).valor.ToString();
+            string columnaFiltro = ((OpcionCombobox)ComboBoxBuscar.SelectedItem).valor.ToString();
             if (dataGridView1.Rows.Count > 0)
             {
                 foreach (DataGridViewRow row in dataGridView1.Rows)
                 {
-                    if (row.Cells[columnaFiltro].Value.ToString().Trim().ToUpper().Contains(userControl12.Text.Trim().ToUpper()))
+                    if (row.Cells[columnaFiltro].Value.ToString().Trim().ToUpper().Contains(userControl12.Texts.Trim().ToUpper()))
                     {
                         row.Visible = true;
                     }
@@ -246,7 +254,7 @@ namespace BUNIFU
                         dataGridView1.Rows.RemoveAt(Convert.ToInt32(textBox6.Text));
                         clean();
                     }
-                    else MessageBox.Show(mensaje, "Tal ves no", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    else MessageBox.Show(mensaje, "Tal vez no", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
             }
@@ -255,11 +263,173 @@ namespace BUNIFU
         //Limpiar Buscador
         private void btnClean_Click(object sender, EventArgs e)
         {
-            userControl12.Text = "";
+            userControl12.Texts = "";
             foreach (DataGridViewRow row in dataGridView1.Rows)
             {
                 row.Visible = true;
             }
+        }
+
+        //Error en caso de ingresar un campo incorrecto
+        ErrorProvider errorN = new ErrorProvider();
+        //Campo DNI Sólo Números
+        private void txtDocument_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            bool validar = ValidarDatos.soloNumeros(e);
+            if (!validar)
+                errorN.SetError(txtDocument, "Este campo sólo acepta valores numéricos");
+            else
+                errorN.Clear();
+        }
+
+        //Validar como campo obligatorio DNI
+        ErrorProvider errorD = new ErrorProvider();
+        private void txtDocument_Leave_1(object sender, EventArgs e)
+        {
+            string validaCampos;
+            validaCampos = txtDocument.Texts;
+            if (validaCampos == "")
+            {
+                errorD.SetError(txtDocument, "¡Campo Obligatorio! Debe ingresar un DNI");
+            }
+            else
+                errorD.Clear();
+        }
+
+        //Error en caso de ingresar un campo incorrecto
+        ErrorProvider errorL = new ErrorProvider();
+        //Campo Apellido Sólo letras
+        private void txtApellido_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            bool validarLetras = ValidarDatos.soloLetras(e);
+            if (!validarLetras)
+                errorL.SetError(txtApellido, "Este campo sólo acepta valores en letras");
+            else
+                errorL.Clear();
+        }
+
+        //Validar como campo obligatorio Apellido
+        ErrorProvider errorA= new ErrorProvider();
+        private void txtApellido_Leave(object sender, EventArgs e)
+        {
+            string validaCampos;
+            validaCampos = txtApellido.Texts;
+            if (validaCampos == "")
+            {
+                errorA.SetError(txtApellido, "¡Campo Obligatorio! Debe ingresar un Apellido");
+            }
+            else
+                errorA.Clear();
+        }
+
+        ErrorProvider errorC = new ErrorProvider();
+        //Campo Nombre Sólo letras
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            bool validarLetras = ValidarDatos.soloLetras(e);
+            if (!validarLetras)
+                errorC.SetError(txtNombre, "Este campo sólo acepta valores en letras");
+            else
+                errorC.Clear();
+        }
+
+        //Validar como campo obligatorio Nombre
+        ErrorProvider errorF = new ErrorProvider();
+        private void txtNombre_Leave(object sender, EventArgs e)
+        {
+            string validaCampos;
+            validaCampos = txtNombre.Texts;
+            if (validaCampos == "")
+            {
+                errorF.SetError(txtNombre, "¡Campo Obligatorio! Debe ingresar un Nombre");
+            }
+            else
+                errorF.Clear();
+        }
+
+        //Campo Telefono Sólo Números
+        ErrorProvider errorP = new ErrorProvider();
+        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            bool validar = ValidarDatos.soloNumeros(e);
+            if (!validar)
+                errorP.SetError(txtTelefono, "Este campo sólo acepta valores numéricos");
+            else
+                errorP.Clear();
+        }
+
+        //Validar como campo obligatorio Telefono
+        ErrorProvider errorT = new ErrorProvider();
+        private void txtTelefono_Leave(object sender, EventArgs e)
+        {
+            string validaCampos;
+            validaCampos = txtTelefono.Texts;
+            if (validaCampos == "")
+            {
+                errorT.SetError(txtTelefono, "¡Campo Obligatorio! Debe ingresar un Teléfono");
+            }
+            else
+                errorT.Clear();
+        }
+
+        //Validar Email
+        ErrorProvider errorM = new ErrorProvider();
+        private void txtEmail_Leave(object sender, EventArgs e)
+        {
+            if(!ValidarDatos.validarEmail(txtEmail.Texts))
+                errorM.SetError(txtEmail, "Correo no válido");
+            else
+                errorM.Clear();
+        }
+
+        //Método para validar datos ingresados al presionar el botón guardar
+        ErrorProvider errorV = new ErrorProvider();
+        private bool validarCampos()
+        {
+            bool ok = true;
+
+            if (txtDocument.Texts == "")
+            {
+                ok = false;
+                errorV.SetError(txtDocument, "Debe ingresar un DNI");
+            }
+            if (txtApellido.Texts == "")
+            {
+                ok = false;
+                errorV.SetError(txtApellido, "Debe ingresar al menos un Apellido");
+            }
+            if (txtNombre.Texts == "")
+            {
+                ok = false;
+                errorV.SetError(txtNombre, "Debe ingresar al menos un Nombre");
+            }
+            if (txtEmail.Texts == "")
+            {
+                ok = false;
+                errorV.SetError(txtEmail, "Debe ingresar una dirección de correo");
+            }
+            if (txtTelefono.Texts == "")
+            {
+                ok = false;
+                errorV.SetError(txtTelefono, "Debe ingresar un Teléfono");
+            }
+
+            return ok;
+        }
+
+        //Método para borrar los mensajes de error
+        private void BorrarMensajeError()
+        {
+            errorV.SetError(txtDocument, "");
+            errorV.SetError(txtApellido, "");
+            errorV.SetError(txtNombre, "");
+            errorV.SetError(txtEmail, "");
+            errorV.SetError(txtTelefono, "");
+        }
+
+        private void txtNombre_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void userControl12__Textchanged(object sender, EventArgs e)
@@ -388,9 +558,5 @@ namespace BUNIFU
 
         }
 
-        private void txtDocument__Textchanged_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }

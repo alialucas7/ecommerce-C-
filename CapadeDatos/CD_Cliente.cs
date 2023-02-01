@@ -23,7 +23,7 @@ namespace CapadeDatos
                 {
                     StringBuilder query = new StringBuilder();
                     //string query = "select * from Cliente";
-                    query.AppendLine("select id_cliente,dni,nombre,apellido,email,telefono,estado,fecha_creacion from Cliente");
+                    query.AppendLine("select * from Cliente");
 
                     //Hace referencia a un tipo de dato texto
                     SqlCommand cmd = new SqlCommand(query.ToString(), conexion);
