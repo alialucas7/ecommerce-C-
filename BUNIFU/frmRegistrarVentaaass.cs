@@ -386,7 +386,7 @@ namespace BUNIFU
                 }
                 
             }
-            else { MessageBox.Show("Faltan agregar el cliente"); }
+            else { MessageBox.Show("Falta agregar el cliente"); }
         }
 
     }
