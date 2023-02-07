@@ -22,20 +22,23 @@ namespace BUNIFU
             InitializeComponent();
         }
 
-        //SqlConnection conexion = new SqlConnection("SERVER=.;DATABASE=BD_dealership;Uid=14278294;Pwd =3264"); 
- 
         private void Backup_Click(object sender, EventArgs e)
         {
             Bckp_progressBar.Value = 0;
             try
             {
-                Server dbServer = new Server(new ServerConnection(bckp_Servidor.Text, Bckp_Usuario.Text, Bckp_Contraseña.Text));
-                Backup dbBackup = new Backup() { Action = BackupActionType.Database, Database = bckp_BasedeDatos.Text};
-                dbBackup.Devices.AddDevice(@"D:\Mis Documentos\Escritorio\Taller de Programación II\Backup Proyecto\BD_dealership.bak", DeviceType.File);
-                dbBackup.Initialize = true;
+                //Se establecen las conexiones con el servidor, la base de datos y la dirección para guardar la copia de seguridad
+                Server dbServer = new Server(new ServerConnection(bckp_Servidor.Texts, Bckp_Usuario.Texts, Bckp_Contraseña.Texts));                             //Tipo de de archivos que se obtiene del forulario del Backup
+                Backup dbBackup = new Backup() { Action = BackupActionType.Database, Database = bckp_BasedeDatos.Texts};                                       //Nombre de la base de datos que se obtiene del formulario del Backup
+                dbBackup.Devices.AddDevice(@"D:\Mis Documentos\Escritorio\Taller de Programación II\Backup Proyecto\BDdealership.bak", DeviceType.File);        //Ruta donde se alojará la copia de seguridad
+
+                dbBackup.Initialize = true;                                 //Dejamos el valor inicializado en falso, para crear un nuevo elemento de copia de seguridad
                 dbBackup.PercentComplete += DbBackup_PercentComplete;
                 dbBackup.Complete += DbBackup_Complete;
                 dbBackup.SqlBackupAsync(dbServer);
+
+                MessageBox.Show("¡La Copia de Seguridad se ha Creado de Manera Exitosa!");
+
             }
             catch (Exception ex)
             {
@@ -43,12 +46,13 @@ namespace BUNIFU
             }
         }
 
+        //Se realizan llamadas seguras a los subprocesos para evitar errores forzados del windows form y que se invoquen métodos que interactúen con controles de propiedad de otros subprocesos
         private void DbBackup_Complete(object sender, ServerMessageEventArgs e)
         {
             if(e.Error != null)
             {
-                Bckp_Estado.Invoke((MethodInvoker)delegate
-                {
+                Bckp_Estado.Invoke((MethodInvoker)delegate                  //Eso nos permite la ejecución sincrónica de métodos en los controles
+                {                                                           //Para ello usuamos un delegado con el nombre del método que lo invocará
                     Bckp_Estado.Text = e.Error.Message;
                 });
             }

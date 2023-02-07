@@ -103,24 +103,22 @@
             // Bckp_progressBar
             // 
             this.Bckp_progressBar.BackColor = System.Drawing.Color.White;
-            this.Bckp_progressBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(174)))), ((int)(((byte)(37)))));
             this.Bckp_progressBar.Location = new System.Drawing.Point(148, 365);
             this.Bckp_progressBar.Name = "Bckp_progressBar";
             this.Bckp_progressBar.Size = new System.Drawing.Size(520, 23);
-            this.Bckp_progressBar.TabIndex = 33;
+            this.Bckp_progressBar.TabIndex = 3;
             // 
             // Bckp_Porcentaje
             // 
             this.Bckp_Porcentaje.AutoSize = true;
             this.Bckp_Porcentaje.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
-            this.Bckp_Porcentaje.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.Bckp_Porcentaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bckp_Porcentaje.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Bckp_Porcentaje.Location = new System.Drawing.Point(396, 402);
             this.Bckp_Porcentaje.Name = "Bckp_Porcentaje";
-            this.Bckp_Porcentaje.Size = new System.Drawing.Size(27, 15);
+            this.Bckp_Porcentaje.Size = new System.Drawing.Size(31, 15);
             this.Bckp_Porcentaje.TabIndex = 66;
-            this.Bckp_Porcentaje.Text = "0%";
+            this.Bckp_Porcentaje.Text = "0 %";
             this.Bckp_Porcentaje.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Bckp_Estado
@@ -163,9 +161,9 @@
             this.Backup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Backup.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Backup.ForeColor = System.Drawing.Color.White;
-            this.Backup.Location = new System.Drawing.Point(677, 362);
+            this.Backup.Location = new System.Drawing.Point(674, 355);
             this.Backup.Name = "Backup";
-            this.Backup.Size = new System.Drawing.Size(80, 26);
+            this.Backup.Size = new System.Drawing.Size(80, 33);
             this.Backup.TabIndex = 65;
             this.Backup.Text = "Backup";
             this.Backup.TextColor = System.Drawing.Color.White;
