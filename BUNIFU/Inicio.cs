@@ -17,10 +17,12 @@ namespace BUNIFU
         //defino mis propios colores , para mis botones
         private struct RGBColors
         {
+
             public static Color color1 = Color.FromArgb(176, 34, 98);
-            public static Color color2 = Color.FromArgb(249, 118, 246);
+            public static Color color3 = Color.FromArgb(249, 118, 246);
             //public static Color color2 = Color.FromArgb(58, 52, 59);
-            public static Color color3 = Color.FromArgb(253, 138, 114);
+            public static Color color2 = Color.FromArgb(253, 138, 114);
+
             public static Color color4 = Color.FromArgb(95, 77, 221);
             public static Color color5 = Color.FromArgb(24, 161, 251);
             public static Color color6 = Color.FromArgb(62, 174, 37);
@@ -33,7 +35,7 @@ namespace BUNIFU
         //para cargar el usuario que se a logueado
         public Usuario usuarioActual;
 
-        //variables para abrir formulario cuando se clickean los 
+        //variables para abrir formulario cuando se clickean los botones
         private static Form FormularioActivo = null;
 
         //variables para dar color a los botones del menu
@@ -232,6 +234,7 @@ namespace BUNIFU
         private void iconButton2_Click_1(object sender, EventArgs e)
         {
             ActiveButon(sender, RGBColors.color2);
+            abrirFormulario(new frmProductos());
         }
 
         private void iconButton3_Click_1(object sender, EventArgs e)

@@ -10,6 +10,6 @@ namespace CapaEntidad
     {
         public int id_provincia { get; set; }
         public Pais objPais{ get; set; }
-        public string descripcion { get; set; }
+        public string descripcionPro { get; set; }
     }
 }

@@ -13,9 +13,9 @@ namespace CapaEntidad
         public TipoFactura objTipoFact { get; set; }
         public string dniCliente { get; set; }
         public string nameCliente { get; set; }
-        public float montoPago { get; set; }
-        public float montoCambio { get; set; }
-        public float montoTotal { get; set; }
+        public decimal montoPago { get; set; }
+        public decimal montoCambio { get; set; }
+        public decimal montoTotal { get; set; }
         public string fechaRegistro { get; set; }
     }
 }

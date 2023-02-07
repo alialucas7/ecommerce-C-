@@ -144,24 +144,48 @@
     <Reference Include="Microsoft.SqlServer.Dmf.Common, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SqlServer.SqlManagementObjects.140.17283.0\lib\net40\Microsoft.SqlServer.Dmf.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.SqlServer.FileSystemTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.ForEachAdoEnumerator, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.ForEachFromVarEnumerator, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.ForEachNodeListEnumerator, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.ForEachSMOEnumerator, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.IntegrationService.HadoopComponents, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.IntegrationService.HadoopConnections, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.IntegrationService.HadoopEnumerators, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.IntegrationService.HadoopTasks, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.MaintenancePlanTasks, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.ManagedConnections, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.FileSystemTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.FileSystemTask.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ForEachAdoEnumerator, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\ForEachEnumerators\Microsoft.SqlServer.ForEachAdoEnumerator.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ForEachFromVarEnumerator, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\ForEachEnumerators\Microsoft.SqlServer.ForEachFromVarEnumerator.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ForEachNodeListEnumerator, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\ForEachEnumerators\Microsoft.SqlServer.ForEachNodeListEnumerator.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ForEachSMOEnumerator, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\ForEachEnumerators\Microsoft.SqlServer.ForEachSMOEnumerator.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.IntegrationService.HadoopComponents, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\PipelineComponents\Microsoft.SqlServer.IntegrationService.HadoopComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.IntegrationService.HadoopConnections, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Connections\Microsoft.SqlServer.IntegrationService.HadoopConnections.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.IntegrationService.HadoopEnumerators, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\ForEachEnumerators\Microsoft.SqlServer.IntegrationService.HadoopEnumerators.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.IntegrationService.HadoopTasks, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.IntegrationService.HadoopTasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.MaintenancePlanTasks, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.MaintenancePlanTasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ManagedConnections, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Connections\Microsoft.SqlServer.ManagedConnections.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.SqlServer.Management.Collector, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SqlServer.SqlManagementObjects.140.17283.0\lib\net40\Microsoft.SqlServer.Management.Collector.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SqlServer.Management.CollectorEnum, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SqlServer.SqlManagementObjects.140.17283.0\lib\net40\Microsoft.SqlServer.Management.CollectorEnum.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.SqlServer.Management.CollectorTasks, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Management.CollectorTasks, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.Management.CollectorTasks.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.SqlServer.Management.RegisteredServers, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SqlServer.SqlManagementObjects.140.17283.0\lib\net40\Microsoft.SqlServer.Management.RegisteredServers.dll</HintPath>
     </Reference>
@@ -213,7 +237,9 @@
     <Reference Include="Microsoft.SqlServer.SqlEnum, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SqlServer.SqlManagementObjects.140.17283.0\lib\net40\Microsoft.SqlServer.SqlEnum.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.SqlServer.SQLTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=AMD64" />
+    <Reference Include="Microsoft.SqlServer.SQLTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=AMD64">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.SQLTask.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.SqlServer.SqlTDiagm, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SqlServer.SqlManagementObjects.140.17283.0\lib\net40\Microsoft.SqlServer.SqlTDiagm.dll</HintPath>
     </Reference>
@@ -224,22 +250,42 @@
       <HintPath>..\packages\Microsoft.SqlServer.SqlManagementObjects.140.17283.0\lib\net40\Microsoft.SqlServer.SString.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SqlServer.Tools.Extensibility, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.TransferDatabasesTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.TransferErrorMessagesTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.TransferJobsTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.TransferLoginsTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.TransferObjectsTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.TransferStoredProceduresTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.TransferDatabasesTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.TransferDatabasesTask.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.TransferErrorMessagesTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.TransferErrorMessagesTask.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.TransferJobsTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.TransferJobsTask.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.TransferLoginsTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.TransferLoginsTask.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.TransferObjectsTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.TransferObjectsTask.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.TransferStoredProceduresTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.TransferStoredProceduresTask.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SqlServer.SqlManagementObjects.140.17283.0\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.SqlServer.WebServiceTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.WMIDRTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.WebServiceTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.WebServiceTask.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.WMIDRTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.WMIDRTask.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.SqlServer.WmiEnum, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SqlServer.SqlManagementObjects.140.17283.0\lib\net40\Microsoft.SqlServer.WmiEnum.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.SqlServer.WMIEWTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.SqlServer.XmlTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.WMIEWTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.WMIEWTask.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.XmlTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\140\DTS\Tasks\Microsoft.SqlServer.XmlTask.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
       <Private>True</Private>
@@ -439,6 +485,18 @@
     <Compile Include="frmProductos.Designer.cs">
       <DependentUpon>frmProductos.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmProductos__Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductos__Empleado.Designer.cs">
+      <DependentUpon>frmProductos__Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarVentaaass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarVentaaass.Designer.cs">
+      <DependentUpon>frmRegistrarVentaaass.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -457,11 +515,29 @@
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inicio_Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio_Empleado.Designer.cs">
+      <DependentUpon>Inicio_Empleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loguin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Loguin.Designer.cs">
       <DependentUpon>Loguin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modales\mdProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modales\mdProductos.Designer.cs">
+      <DependentUpon>mdProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modales\md_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modales\md_Cliente.Designer.cs">
+      <DependentUpon>md_Cliente.cs</DependentUpon>
     </Compile>
     <Compile Include="pantallaBienvenidita.cs">
       <SubType>Form</SubType>
@@ -488,6 +564,15 @@
     <EmbeddedResource Include="frmCliente.resx">
       <DependentUpon>frmCliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmProductos.resx">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductos__Empleado.resx">
+      <DependentUpon>frmProductos__Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarVentaaass.resx">
+      <DependentUpon>frmRegistrarVentaaass.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmUsuarios.resx">
       <DependentUpon>frmUsuarios.cs</DependentUpon>
     </EmbeddedResource>
@@ -497,8 +582,15 @@
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Inicio_Empleado.resx" />
     <EmbeddedResource Include="Loguin.resx">
       <DependentUpon>Loguin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modales\mdProductos.resx">
+      <DependentUpon>mdProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modales\md_Cliente.resx">
+      <DependentUpon>md_Cliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pantallaBienvenidita.resx">
       <DependentUpon>pantallaBienvenidita.cs</DependentUpon>
@@ -533,6 +625,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CapadeDatos\CapadeDatos.csproj">
+      <Project>{776a1bb7-7d2e-4ed6-878e-ad85fb63b9ef}</Project>
+      <Name>CapadeDatos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
       <Project>{a551cb5e-1f68-4bab-b862-1a5c1b114ef5}</Project>
       <Name>CapaEntidad</Name>
