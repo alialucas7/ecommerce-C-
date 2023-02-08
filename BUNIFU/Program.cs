@@ -16,7 +16,7 @@ namespace BUNIFU
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmReporte());
+            Application.Run(new Inicio());
         }
     }
 }

@@ -244,6 +244,7 @@ namespace BUNIFU
 
         private void iconButton4_Click_1(object sender, EventArgs e)
         {
+            abrirFormulario(new frmReporte()); 
             ActiveButon(sender, RGBColors.color4);
         }
 

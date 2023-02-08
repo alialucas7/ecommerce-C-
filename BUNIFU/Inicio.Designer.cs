@@ -273,7 +273,7 @@
             this.logo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
             this.logo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(60)))), ((int)(((byte)(82)))));
             this.logo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logo.Font = new System.Drawing.Font("Harlow Solid Italic", 22F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logo.Font = new System.Drawing.Font("Harlow Solid Std", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logo.ForeColor = System.Drawing.Color.Transparent;
             this.logo.IconChar = FontAwesome.Sharp.IconChar.CarBurst;
             this.logo.IconColor = System.Drawing.Color.White;
