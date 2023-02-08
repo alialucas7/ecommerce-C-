@@ -35,5 +35,16 @@ namespace CapaNegocio
             return obj_Factu.RegistrarFactura(facturi, detalle_factu, out mensaje);
         }
 
+
+        public Factura obtenerFactura(int numero)
+        {
+            Factura obFact = obj_Factu.obtenerFactura(numero);
+            if(obFact.id_venta != 0)
+            {
+                List<DetalleFactura> oDetalleeFactua = obj_Factu.obtenerDetallito(obFact.id_venta);
+                obFact.oDetalle_Factur = oDetalleeFactua;
+            }
+            return obFact;
+        }
     }
 }

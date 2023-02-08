@@ -17,6 +17,7 @@ namespace CapaEntidad
         public decimal montoCambio { get; set; }
         public decimal montoTotal { get; set; }
         public int codigoFactu { get; set; }
+        public List<DetalleFactura> oDetalle_Factur { get; set; }
         public string fechaRegistro { get; set; }
 
     }
