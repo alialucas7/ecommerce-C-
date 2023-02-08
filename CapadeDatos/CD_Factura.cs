@@ -99,7 +99,7 @@ namespace CapadeDatos
             {
                 using (SqlConnection conexioni = new SqlConnection(Conexion.cadena))
                 {
-                    SqlCommand cmd = new SqlCommand("usp_RegistrarVentaa", conexioni);
+                    SqlCommand cmd = new SqlCommand("usp_RegistrarVentAAx", conexioni);
                     cmd.Parameters.AddWithValue("idUsser", factu.objUsuario.id_usuario);
                     cmd.Parameters.AddWithValue("tipoFactura",factu.objTipoFact.id_tipoFact);
                     cmd.Parameters.AddWithValue("dni",factu.dniCliente);
@@ -108,6 +108,7 @@ namespace CapadeDatos
                     cmd.Parameters.AddWithValue("montoCambio",factu.montoCambio);
                     cmd.Parameters.AddWithValue("monto_Total",factu.montoTotal);
                     cmd.Parameters.AddWithValue("detalleVenta", Detalle_Factura);
+                    cmd.Parameters.AddWithValue("codigoFactura", factu.codigoFactu);
                     cmd.Parameters.Add("resultado", SqlDbType.Bit).Direction = ParameterDirection.Output;
                     cmd.Parameters.Add("mensaje", SqlDbType.VarChar,500).Direction = ParameterDirection.Output;
                     cmd.CommandType = CommandType.StoredProcedure;

@@ -327,3 +327,4 @@ C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.Inicio_
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.frmProductos__Empleado.resources
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.Modales.mdProductos.resources
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.Modales.md_Cliente.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.frmDetalle_Ventas.resources

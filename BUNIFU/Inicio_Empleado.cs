@@ -166,6 +166,7 @@ namespace BUNIFU
         private void button3_Click(object sender, EventArgs e)
         {
             ocultarSubBotones();
+            abrirFormulario(new frmDetalle_Ventas(usuarioActual));
         }
 
         private void iconButton2_Click(object sender, EventArgs e)

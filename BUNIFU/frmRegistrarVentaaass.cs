@@ -354,8 +354,8 @@ namespace BUNIFU
 
 
 
-                //int id_correlativo = new CN_Factura().obtenerCorrelativo();
-                //string numeroDoc = string.Format("[0.00000]", id_correlativo);
+                int id_correlativo = new CN_Factura().obtenerCorrelativo();
+                string numeroDoc = string.Format("3264000"+id_correlativo);
                 calcularCambio();
 
                 Factura obFactu = new Factura()
@@ -366,7 +366,8 @@ namespace BUNIFU
                     nameCliente = txtNamei.Text,
                     montoPago = Convert.ToDecimal(textBoxpagacon.Text),
                     montoCambio = Convert.ToDecimal(textBoxcambio.Text),
-                    montoTotal = Convert.ToDecimal(textBoxpagar.Text)
+                    montoTotal = Convert.ToDecimal(textBoxpagar.Text),
+                    codigoFactu = Convert.ToInt32(numeroDoc)
                 };
                 string mensaje = string.Empty;
                 bool respuesta = new CN_Factura().registrar(obFactu, detalle_Factura,out mensaje);
@@ -382,7 +383,7 @@ namespace BUNIFU
 
                     //Borra la coleccion del datagrid
                     dataGridventas.Rows.Clear();
-                    MessageBox.Show("La venta Se realizo correctamente");
+                    MessageBox.Show("La venta Se realizo correctamente,\n Su numero de Factura es: "+numeroDoc);
                 }
                 
             }
