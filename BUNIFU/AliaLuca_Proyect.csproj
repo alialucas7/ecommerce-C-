@@ -534,6 +534,12 @@
     <Compile Include="Inicio_Empleado.Designer.cs">
       <DependentUpon>Inicio_Empleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inicio_Marketing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio_Marketing.Designer.cs">
+      <DependentUpon>Inicio_Marketing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loguin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -602,6 +608,9 @@
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio_Empleado.resx" />
+    <EmbeddedResource Include="Inicio_Marketing.resx">
+      <DependentUpon>Inicio_Marketing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Loguin.resx">
       <DependentUpon>Loguin.cs</DependentUpon>
     </EmbeddedResource>
