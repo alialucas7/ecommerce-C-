@@ -25,7 +25,7 @@ namespace CapadeDatos
                     StringBuilder query = new StringBuilder();
                     //string query = "select * from Usuario";
 
-                   query.AppendLine("select u.id_Usuario,r.id_rol, r.descripcion, u.dni, u.nombre, u.apellido, u.email,u.telefono, u.estado,u.pasword from Usuario u");
+                   query.AppendLine("select u.id_Usuario,u.id_sucursal,r.id_rol, r.descripcion, u.dni, u.nombre, u.apellido, u.email,u.telefono, u.estado,u.pasword from Usuario u");
 
                    query.AppendLine("inner join Rol r on r.id_rol = u.id_rol");
                         
@@ -43,6 +43,7 @@ namespace CapadeDatos
                             ///int idTemporal = Convert.ToInt32(dr["id_rol"]);
                                 lista.Add(new Usuario(){ 
                                 id_usuario = Convert.ToInt32(dr["id_Usuario"]),
+                                id_sucursal = Convert.ToInt32(dr["id_sucursal"]),
                                 obRol = new Rol() { id_rol = Convert.ToInt32(dr["id_rol"]) , descripcion = dr["descripcion"].ToString()},
                                     //obRol = new Rol(idTemporal),
                                 dni = dr["dni"].ToString(),
@@ -83,6 +84,7 @@ namespace CapadeDatos
                     
                     //datos de entrada
                     cmd.Parameters.AddWithValue("idRol", objU.obRol.id_rol);
+                    cmd.Parameters.AddWithValue("id_sucursal", objU.id_sucursal);
                     cmd.Parameters.AddWithValue("dni",objU.dni);
                     cmd.Parameters.AddWithValue("nombre", objU.name);
                     cmd.Parameters.AddWithValue("apellido", objU.apellido);

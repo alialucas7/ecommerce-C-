@@ -9,6 +9,7 @@ namespace CapaEntidad
     public class Usuario
     {
         public int id_usuario { get; set; }
+        public int id_sucursal { get; set; }
         public Rol obRol{ get; set; }
         public string dni{ get; set; }
         public string name{ get; set; }

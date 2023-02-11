@@ -29,7 +29,22 @@ namespace BUNIFU
 
         private void frmUsuarios_Load(object sender, EventArgs e)
         {
+            /* me trae la consulta en mi BD y muestra en el combobox*/
+            List<Sucursal> listaSucursal1 = new CN_Sucursal().Listar();
 
+            /*Me muestra en el combobox todas las sucursales que hay*/
+            foreach (Sucursal item in listaSucursal1)
+            {
+                comboSucur.Items.Add(new OpcionCombobox()
+                {
+                    valor = item.id_sucursal,
+                    Texto = item.descripcion
+                + "," + item.objLocalidad.descripcionLocal + " (" + item.objProvincia.descripcionPro + "," +
+                item.objPais.descripcionPais + ")"
+                });
+            }
+            comboSucur.DisplayMember = "Texto";
+            comboSucur.ValueMember = "valor";
 
 
 
@@ -84,7 +99,7 @@ namespace BUNIFU
 
             foreach (Usuario item in listaUsser)
             {
-                dataGridUsser.Rows.Add(new object[] {"",item.id_usuario,item.obRol.id_rol,item.obRol.descripcion,item.dni,item.name,item.apellido,item.email,
+                dataGridUsser.Rows.Add(new object[] {"",item.id_usuario,item.id_sucursal,item.obRol.id_rol,item.obRol.descripcion,item.dni,item.name,item.apellido,item.email,
                 item.telefono,
                 item.state == true ? 1:0,
                 item.pasword
@@ -194,6 +209,16 @@ namespace BUNIFU
                             break;
                         }
                     }
+                    //combobox de sucursal
+                    foreach (OpcionCombobox oc in comboSucur.Items)
+                    {
+                        if (Convert.ToInt32(oc.valor) == Convert.ToInt32(dataGridUsser.Rows[indice].Cells["id_Sucursal"].Value))
+                        {
+                            int indiceCombo = comboBoxState.Items.IndexOf(oc);
+                            comboBoxState.SelectedIndex = indiceCombo;
+                            break;
+                        }
+                    }
 
                 }
             }
@@ -216,6 +241,7 @@ namespace BUNIFU
             Usuario usuario1 = new Usuario()
             {
                 id_usuario = Convert.ToInt32(txtIndice.Text),
+                id_sucursal = Convert.ToInt32(((OpcionCombobox)comboSucur.SelectedItem).valor),
                 obRol = new Rol() { id_rol = Convert.ToInt32(((OpcionCombobox)comboBoxRol.SelectedItem).valor) },
                 dni = (txtDocument.Texts == "") ? txtDocument.Texts = txtDocumenPrueba.Text : txtDocument.Texts,
                 name = (txtName.Texts == "") ? txtName.Texts = txtnamePrueba.Text : txtName.Texts,
@@ -240,6 +266,7 @@ namespace BUNIFU
                 {
                     //cargo los dattos en el datagrid
                     dataGridUsser.Rows.Add(new object[] { "",idUsuarioGeneradoo,
+                    ((OpcionCombobox)comboSucur.SelectedItem).valor.ToString(),
                     ((OpcionCombobox)comboBoxRol.SelectedItem).valor.ToString(),
                     ((OpcionCombobox)comboBoxRol.SelectedItem).Texto.ToString(),
                     txtDocument.Texts,txtName.Texts,txtApellido.Texts,txtEmail.Texts,
@@ -261,6 +288,7 @@ namespace BUNIFU
                     DataGridViewRow row = dataGridUsser.Rows[Convert.ToInt32(textBox2.Text)];
                     // row.Cells["S"].Value = "";
                     row.Cells["ID"].Value = txtIndice.Text;
+                    row.Cells["id_Sucursal"].Value = ((OpcionCombobox)comboSucur.SelectedItem).valor;
                     row.Cells["Rolid"].Value = ((OpcionCombobox)comboBoxRol.SelectedItem).valor;
                     row.Cells["idrol"].Value = ((OpcionCombobox)comboBoxRol.SelectedItem).Texto;
                     row.Cells["dni"].Value = usuario1.dni;

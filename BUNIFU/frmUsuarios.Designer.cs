@@ -47,17 +47,6 @@
             this.txtcontraseñaPrueba = new System.Windows.Forms.TextBox();
             this.txtemailPrueba = new System.Windows.Forms.TextBox();
             this.dataGridUsser = new System.Windows.Forms.DataGridView();
-            this.btnSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.rolid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.idrol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dni = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.state = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.pasword = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.btnLimpiar = new CustomControls.Controles_graficos.CD_Button();
             this.btnEliminar = new CustomControls.Controles_graficos.CD_Button();
@@ -69,6 +58,20 @@
             this.txtName = new BUNIFU.Controles_graficos.UserControl1();
             this.txtDocument = new BUNIFU.Controles_graficos.UserControl1();
             this.txtBusqueda = new BUNIFU.Controles_graficos.UserControl1();
+            this.labelSuxur = new System.Windows.Forms.Label();
+            this.comboSucur = new System.Windows.Forms.ComboBox();
+            this.btnSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.id_Sucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rolid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idrol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dni = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.state = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.pasword = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridUsser)).BeginInit();
             this.SuspendLayout();
             // 
@@ -260,6 +263,7 @@
             this.dataGridUsser.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.btnSeleccionar,
             this.id,
+            this.id_Sucursal,
             this.rolid,
             this.idrol,
             this.dni,
@@ -281,82 +285,6 @@
             this.dataGridUsser.Size = new System.Drawing.Size(466, 165);
             this.dataGridUsser.TabIndex = 62;
             this.dataGridUsser.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridUsser_CellContentClick_1);
-            // 
-            // btnSeleccionar
-            // 
-            this.btnSeleccionar.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.btnSeleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSeleccionar.HeaderText = "S";
-            this.btnSeleccionar.Name = "btnSeleccionar";
-            this.btnSeleccionar.ReadOnly = true;
-            this.btnSeleccionar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.btnSeleccionar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.btnSeleccionar.Width = 38;
-            // 
-            // id
-            // 
-            this.id.HeaderText = "ID";
-            this.id.Name = "id";
-            this.id.ReadOnly = true;
-            this.id.Width = 20;
-            // 
-            // rolid
-            // 
-            this.rolid.HeaderText = "Rolid";
-            this.rolid.Name = "rolid";
-            this.rolid.ReadOnly = true;
-            this.rolid.Visible = false;
-            // 
-            // idrol
-            // 
-            this.idrol.HeaderText = "Rol";
-            this.idrol.Name = "idrol";
-            this.idrol.ReadOnly = true;
-            // 
-            // dni
-            // 
-            this.dni.HeaderText = "Documento";
-            this.dni.Name = "dni";
-            this.dni.ReadOnly = true;
-            // 
-            // name
-            // 
-            this.name.HeaderText = " Nombre";
-            this.name.Name = "name";
-            this.name.ReadOnly = true;
-            // 
-            // apellido
-            // 
-            this.apellido.HeaderText = "Apellido";
-            this.apellido.Name = "apellido";
-            this.apellido.ReadOnly = true;
-            // 
-            // email
-            // 
-            this.email.HeaderText = "Email";
-            this.email.Name = "email";
-            this.email.ReadOnly = true;
-            // 
-            // telefono
-            // 
-            this.telefono.HeaderText = "Phone";
-            this.telefono.Name = "telefono";
-            this.telefono.ReadOnly = true;
-            // 
-            // state
-            // 
-            this.state.HeaderText = "Estado";
-            this.state.Name = "state";
-            this.state.ReadOnly = true;
-            this.state.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.state.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.state.Width = 20;
-            // 
-            // pasword
-            // 
-            this.pasword.HeaderText = "Contraseña";
-            this.pasword.Name = "pasword";
-            this.pasword.ReadOnly = true;
             // 
             // textBox2
             // 
@@ -594,7 +522,106 @@
             this.txtBusqueda.TabIndex = 90;
             this.txtBusqueda.Texts = "";
             this.txtBusqueda.UnderLinedStyle = false;
-          //  this.txtBusqueda._Textchanged += new System.EventHandler(this.txtBusqueda__Textchanged);
+            // 
+            // labelSuxur
+            // 
+            this.labelSuxur.AutoSize = true;
+            this.labelSuxur.Location = new System.Drawing.Point(59, 151);
+            this.labelSuxur.Name = "labelSuxur";
+            this.labelSuxur.Size = new System.Drawing.Size(115, 13);
+            this.labelSuxur.TabIndex = 105;
+            this.labelSuxur.Text = "Seleccione la Sucursal";
+            // 
+            // comboSucur
+            // 
+            this.comboSucur.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            this.comboSucur.FormattingEnabled = true;
+            this.comboSucur.Location = new System.Drawing.Point(62, 167);
+            this.comboSucur.Name = "comboSucur";
+            this.comboSucur.Size = new System.Drawing.Size(361, 21);
+            this.comboSucur.TabIndex = 104;
+            // 
+            // btnSeleccionar
+            // 
+            this.btnSeleccionar.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.btnSeleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeleccionar.HeaderText = "S";
+            this.btnSeleccionar.Name = "btnSeleccionar";
+            this.btnSeleccionar.ReadOnly = true;
+            this.btnSeleccionar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.btnSeleccionar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.btnSeleccionar.Width = 38;
+            // 
+            // id
+            // 
+            this.id.HeaderText = "ID";
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            this.id.Width = 20;
+            // 
+            // id_Sucursal
+            // 
+            this.id_Sucursal.HeaderText = "id_Sucursal";
+            this.id_Sucursal.Name = "id_Sucursal";
+            this.id_Sucursal.ReadOnly = true;
+            // 
+            // rolid
+            // 
+            this.rolid.HeaderText = "Rolid";
+            this.rolid.Name = "rolid";
+            this.rolid.ReadOnly = true;
+            this.rolid.Visible = false;
+            // 
+            // idrol
+            // 
+            this.idrol.HeaderText = "Rol";
+            this.idrol.Name = "idrol";
+            this.idrol.ReadOnly = true;
+            // 
+            // dni
+            // 
+            this.dni.HeaderText = "Documento";
+            this.dni.Name = "dni";
+            this.dni.ReadOnly = true;
+            // 
+            // name
+            // 
+            this.name.HeaderText = " Nombre";
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            // 
+            // apellido
+            // 
+            this.apellido.HeaderText = "Apellido";
+            this.apellido.Name = "apellido";
+            this.apellido.ReadOnly = true;
+            // 
+            // email
+            // 
+            this.email.HeaderText = "Email";
+            this.email.Name = "email";
+            this.email.ReadOnly = true;
+            // 
+            // telefono
+            // 
+            this.telefono.HeaderText = "Phone";
+            this.telefono.Name = "telefono";
+            this.telefono.ReadOnly = true;
+            // 
+            // state
+            // 
+            this.state.HeaderText = "Estado";
+            this.state.Name = "state";
+            this.state.ReadOnly = true;
+            this.state.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.state.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.state.Width = 20;
+            // 
+            // pasword
+            // 
+            this.pasword.HeaderText = "Contraseña";
+            this.pasword.Name = "pasword";
+            this.pasword.ReadOnly = true;
             // 
             // frmUsuarios
             // 
@@ -602,6 +629,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(655, 414);
+            this.Controls.Add(this.labelSuxur);
+            this.Controls.Add(this.comboSucur);
             this.Controls.Add(this.txtBusqueda);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnEliminar);
@@ -665,8 +694,15 @@
         private System.Windows.Forms.TextBox txtemailPrueba;
         private System.Windows.Forms.DataGridView dataGridUsser;
         private System.Windows.Forms.TextBox textBox2;
+        private CustomControls.Controles_graficos.CD_Button guardar;
+        private CustomControls.Controles_graficos.CD_Button btnEliminar;
+        private CustomControls.Controles_graficos.CD_Button btnLimpiar;
+        private Controles_graficos.UserControl1 txtBusqueda;
+        private System.Windows.Forms.Label labelSuxur;
+        private System.Windows.Forms.ComboBox comboSucur;
         private System.Windows.Forms.DataGridViewButtonColumn btnSeleccionar;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id_Sucursal;
         private System.Windows.Forms.DataGridViewTextBoxColumn rolid;
         private System.Windows.Forms.DataGridViewTextBoxColumn idrol;
         private System.Windows.Forms.DataGridViewTextBoxColumn dni;
@@ -676,9 +712,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn telefono;
         private System.Windows.Forms.DataGridViewCheckBoxColumn state;
         private System.Windows.Forms.DataGridViewTextBoxColumn pasword;
-        private CustomControls.Controles_graficos.CD_Button guardar;
-        private CustomControls.Controles_graficos.CD_Button btnEliminar;
-        private CustomControls.Controles_graficos.CD_Button btnLimpiar;
-        private Controles_graficos.UserControl1 txtBusqueda;
     }
 }

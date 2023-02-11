@@ -59,5 +59,133 @@ namespace BUNIFU.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] Harlow_Solid_Italic_ttf {
+            get {
+                object obj = ResourceManager.GetObject("Harlow_Solid_Italic_ttf", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] Harlow_Solid_Italic_ttf1 {
+            get {
+                object obj = ResourceManager.GetObject("Harlow_Solid_Italic_ttf1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] Harlow_Solid_Italic_ttf2 {
+            get {
+                object obj = ResourceManager.GetObject("Harlow_Solid_Italic_ttf2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Installing Webfonts
+        ///
+        ///1. Upload the files from this zip to your domain.
+        ///2. Add this code to your website:
+        ///
+        ///@font-face {
+        ///    font-family: &apos;Harlow-Solid-Italic&apos;;
+        ///    src:url(&apos;Harlow-Solid-Italic.ttf.woff&apos;) format(&apos;woff&apos;),
+        ///        url(&apos;Harlow-Solid-Italic.ttf.svg#Harlow-Solid-Italic&apos;) format(&apos;svg&apos;),
+        ///        url(&apos;Harlow-Solid-Italic.ttf.eot&apos;),
+        ///        url(&apos;Harlow-Solid-Italic.ttf.eot?#iefix&apos;) format(&apos;embedded-opentype&apos;); 
+        ///    font-weight: normal;
+        ///    font-style: normal;
+        ///}
+        ///3. Integrate the fonts into your CSS:
+        ///Ad [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        internal static string install_a_webfont {
+            get {
+                return ResourceManager.GetString("install_a_webfont", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;head&gt;
+        ///    &lt;title&gt;Web Page Design&lt;/title&gt;
+        ///    &lt;style&gt;
+        ///        table.border {
+        ///            border-collapse: collapse;
+        ///        }
+        ///
+        ///            table.border th {
+        ///                text-align: center;
+        ///                padding: 5px;
+        ///                border: 1px solid black;
+        ///            }
+        ///
+        ///            table.border td {
+        ///                text-align: center;
+        ///                padding: 5px;
+        ///                border: 1px solid black;
+        ///            }
+        ///
+        ///        @font-face {
+        ///            fon [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        internal static string PlantillaVenta {
+            get {
+                return ResourceManager.GetString("PlantillaVenta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &lt;HTML&gt;
+        ///&lt;HEAD&gt;
+        ///&lt;TITLE&gt;Webfonts www.FFonts.net - Redirect&lt;/TITLE&gt;
+        ///&lt;meta http-equiv=&quot;refresh&quot; content=&quot;1;url=http://webfonts.ffonts.net&quot;&gt;
+        ///&lt;script language=&quot;javascript&quot;&gt;
+        ///&lt;!-- 
+        /////location.replace(&quot;http://webfonts.ffonts.net&quot;);
+        ///--&gt;
+        ///&lt;/script&gt;
+        ///&lt;/HEAD&gt;
+        ///
+        ///&lt;BODY&gt;
+        ///&lt;CENTER&gt;
+        ///
+        ///&lt;FONT FACE=&quot;Arial, Sans Serif, Verdana&quot; SIZE=6&gt;If this page does not automatically redirect you, click below to go to the Webfonts FFonts homepage&lt;/FONT&gt;
+        ///&lt;BR&gt;&lt;BR&gt;
+        ///&lt;FONT FACE=&quot;Arial, Sans Serif, Verdana&quot; SIZE=6&gt;&lt;A HREF=&quot;http://webfonts.ffonts.net&quot; TAR [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        internal static string webfonts_ffonts_net {
+            get {
+                return ResourceManager.GetString("webfonts_ffonts_net", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Download Webfonts from webfonts.ffonts.net:
+        ///
+        ///
+        ///
+        ///http://www.ffonts.net
+        ///
+        ///
+        ///
+        ///
+        ///Free WebFonts for your website.
+        /// </summary>
+        internal static string webfonts_ffonts_net1 {
+            get {
+                return ResourceManager.GetString("webfonts_ffonts_net1", resourceCulture);
+            }
+        }
     }
 }
