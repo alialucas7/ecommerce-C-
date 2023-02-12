@@ -402,6 +402,16 @@ namespace BUNIFU
             }
             btnEliminar.Enabled = false;
         }
+
+        private void labelSuxur_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboSucur_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

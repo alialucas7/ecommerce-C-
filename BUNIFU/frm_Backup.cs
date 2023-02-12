@@ -22,14 +22,14 @@ namespace BUNIFU
             InitializeComponent();
         }
 
-        private void Backup_Click(object sender, EventArgs e)
+        private void Backup_Click_1(object sender, EventArgs e)
         {
             Bckp_progressBar.Value = 0;
             try
             {
                 //Se establecen las conexiones con el servidor, la base de datos y la dirección para guardar la copia de seguridad
                 Server dbServer = new Server(new ServerConnection(bckp_Servidor.Texts, Bckp_Usuario.Texts, Bckp_Contraseña.Texts));                             //Tipo de de archivos que se obtiene del forulario del Backup
-                Backup dbBackup = new Backup() { Action = BackupActionType.Database, Database = bckp_BasedeDatos.Texts};                                       //Nombre de la base de datos que se obtiene del formulario del Backup
+                Backup dbBackup = new Backup() { Action = BackupActionType.Database, Database = bckp_BasedeDatos.Texts };                                       //Nombre de la base de datos que se obtiene del formulario del Backup
                 dbBackup.Devices.AddDevice(@"D:\Mis Documentos\Escritorio\Taller de Programación II\Backup Proyecto\BDdealership.bak", DeviceType.File);        //Ruta donde se alojará la copia de seguridad
 
                 dbBackup.Initialize = true;                                 //Dejamos el valor inicializado en falso, para crear un nuevo elemento de copia de seguridad
@@ -49,7 +49,7 @@ namespace BUNIFU
         //Se realizan llamadas seguras a los subprocesos para evitar errores forzados del windows form y que se invoquen métodos que interactúen con controles de propiedad de otros subprocesos
         private void DbBackup_Complete(object sender, ServerMessageEventArgs e)
         {
-            if(e.Error != null)
+            if (e.Error != null)
             {
                 Bckp_Estado.Invoke((MethodInvoker)delegate                  //Eso nos permite la ejecución sincrónica de métodos en los controles
                 {                                                           //Para ello usuamos un delegado con el nombre del método que lo invocará
@@ -59,8 +59,8 @@ namespace BUNIFU
         }
 
         private void DbBackup_PercentComplete(object sender, PercentCompleteEventArgs e)
-        {
-            Bckp_progressBar.Invoke((MethodInvoker)delegate 
+        { 
+            Bckp_progressBar.Invoke((MethodInvoker)delegate
             {
                 Bckp_progressBar.Value = e.Percent;
                 Bckp_progressBar.Update();
@@ -74,22 +74,21 @@ namespace BUNIFU
 
         ErrorProvider errorSer = new ErrorProvider();
         //Validar como campo obligatorio Servidor
-        private void bckp_Servidor_Leave(object sender, EventArgs e)
+        private void bckp_Servidor__Textchanged(object sender, EventArgs e)
         {
-                string validaCampos;
-                validaCampos = bckp_Servidor.Texts;
-                if (validaCampos == "")
-                {
-                    errorSer.SetError(bckp_Servidor, "¡Campo Obligatorio! Debe ingresar El Servidor");
-                }
-                else
-                    errorSer.Clear();
-            
+            string validaCampos;
+            validaCampos = bckp_Servidor.Texts;
+            if (validaCampos == "")
+            {
+                errorSer.SetError(bckp_Servidor, "¡Campo Obligatorio! Debe ingresar El Servidor");
+            }
+            else
+                errorSer.Clear();
         }
 
         ErrorProvider errorDB = new ErrorProvider();
         //Validar como campo obligatorio la base de datos
-        private void bckp_BasedeDatos_Leave(object sender, EventArgs e)
+        private void bckp_BasedeDatos__Textchanged(object sender, EventArgs e)
         {
             string validaCampos;
             validaCampos = bckp_BasedeDatos.Texts;
@@ -103,7 +102,7 @@ namespace BUNIFU
 
         ErrorProvider errorUser = new ErrorProvider();
         //Validar como campo obligatorio el usuario
-        private void Bckp_Usuario_Leave(object sender, EventArgs e)
+        private void Bckp_Usuario__Textchanged(object sender, EventArgs e)
         {
             string validaCampos;
             validaCampos = Bckp_Usuario.Texts;
@@ -117,7 +116,7 @@ namespace BUNIFU
 
         ErrorProvider errorPass = new ErrorProvider();
         //Validar como campo obligatorio la contraseña
-        private void Bckp_Contraseña_Leave(object sender, EventArgs e)
+        private void Bckp_Contraseña__Textchanged(object sender, EventArgs e)
         {
             string validaCampos;
             validaCampos = Bckp_Contraseña.Texts;
@@ -131,20 +130,20 @@ namespace BUNIFU
 
         ErrorProvider errorRepetPass = new ErrorProvider();
         //Validar como campo obligatorio repetir contraseña
-        private void Bckp_ConfirmaContraseña_Leave(object sender, EventArgs e)
+        private void Bckp_ConfirmaContraseña_Leave_1(object sender, EventArgs e)
         {
             string validaCampos;
             validaCampos = Bckp_ConfirmaContraseña.Texts;
             if (validaCampos == "")
             {
-                errorRepetPass.SetError(Bckp_ConfirmaContraseña, "¡Campo Obligatorio! Vuelva a escribir su Contraseña");
+                errorRepetPass.SetError(Bckp_Contraseña, "¡Campo Obligatorio! Debe volver ingresar la Contraseña");
             }
             else
                 errorRepetPass.Clear();
         }
 
         //Comparamos los valores de los texbox de las contraseñas
-        private void Bckp_ConfirmaContraseña__Textchanged(object sender, EventArgs e)
+        private void Bckp_ConfirmaContraseña__Textchanged_1(object sender, EventArgs e)
         {
             if (Bckp_ConfirmaContraseña.Texts == Bckp_Contraseña.Texts)
             {

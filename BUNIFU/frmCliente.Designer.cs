@@ -59,8 +59,6 @@
             this.cD_Button1 = new CustomControls.Controles_graficos.CD_Button();
             this.userControl12 = new BUNIFU.Controles_graficos.UserControl1();
             this.cD_ComboBox3 = new CustomControls.Controles_graficos.CD_ComboBox();
-            this.cD_ComboBox2 = new CustomControls.Controles_graficos.CD_ComboBox();
-            this.cD_ComboBox1 = new CustomControls.Controles_graficos.CD_ComboBox();
             this.txtTelefono = new BUNIFU.Controles_graficos.UserControl1();
             this.txtEmail = new BUNIFU.Controles_graficos.UserControl1();
             this.txtApellido = new BUNIFU.Controles_graficos.UserControl1();
@@ -388,68 +386,6 @@
             this.cD_ComboBox3.TabIndex = 83;
             this.cD_ComboBox3.Texts = "";
             // 
-            // cD_ComboBox2
-            // 
-            this.cD_ComboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cD_ComboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cD_ComboBox2.BackColor = System.Drawing.Color.White;
-            this.cD_ComboBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.cD_ComboBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            this.cD_ComboBox2.BorderSize = 1;
-            this.cD_ComboBox2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.cD_ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.cD_ComboBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.cD_ComboBox2.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            this.cD_ComboBox2.Items.AddRange(new object[] {
-            "aaa",
-            "bbb",
-            "ccc",
-            "ddd",
-            "eee"});
-            this.cD_ComboBox2.ListBackColor = System.Drawing.Color.White;
-            this.cD_ComboBox2.ListTextColor = System.Drawing.Color.Black;
-            this.cD_ComboBox2.Location = new System.Drawing.Point(346, 141);
-            this.cD_ComboBox2.MaximumSize = new System.Drawing.Size(0, 100);
-            this.cD_ComboBox2.MinimumSize = new System.Drawing.Size(0, 27);
-            this.cD_ComboBox2.Name = "cD_ComboBox2";
-            this.cD_ComboBox2.Padding = new System.Windows.Forms.Padding(1);
-            this.cD_ComboBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cD_ComboBox2.Size = new System.Drawing.Size(0, 27);
-            this.cD_ComboBox2.TabIndex = 81;
-            this.cD_ComboBox2.Texts = "";
-            this.cD_ComboBox2.OnSelectedIndexChanged += new System.EventHandler(this.cD_ComboBox2_OnSelectedIndexChanged);
-            // 
-            // cD_ComboBox1
-            // 
-            this.cD_ComboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cD_ComboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cD_ComboBox1.BackColor = System.Drawing.Color.White;
-            this.cD_ComboBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.cD_ComboBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            this.cD_ComboBox1.BorderSize = 1;
-            this.cD_ComboBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.cD_ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.cD_ComboBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.cD_ComboBox1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            this.cD_ComboBox1.Items.AddRange(new object[] {
-            "aaa",
-            "bbb",
-            "ccc",
-            "ddd",
-            "eee"});
-            this.cD_ComboBox1.ListBackColor = System.Drawing.Color.White;
-            this.cD_ComboBox1.ListTextColor = System.Drawing.Color.Black;
-            this.cD_ComboBox1.Location = new System.Drawing.Point(132, 141);
-            this.cD_ComboBox1.MaximumSize = new System.Drawing.Size(0, 100);
-            this.cD_ComboBox1.MinimumSize = new System.Drawing.Size(0, 27);
-            this.cD_ComboBox1.Name = "cD_ComboBox1";
-            this.cD_ComboBox1.Padding = new System.Windows.Forms.Padding(1);
-            this.cD_ComboBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cD_ComboBox1.Size = new System.Drawing.Size(0, 27);
-            this.cD_ComboBox1.TabIndex = 79;
-            this.cD_ComboBox1.Texts = "";
-            this.cD_ComboBox1.OnSelectedIndexChanged += new System.EventHandler(this.cD_ComboBox1_OnSelectedIndexChanged_3);
-            // 
             // txtTelefono
             // 
             this.txtTelefono.BackColor = System.Drawing.Color.White;
@@ -706,9 +642,7 @@
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.cD_ComboBox3);
             this.Controls.Add(this.bunifuCustomLabel3);
-            this.Controls.Add(this.cD_ComboBox2);
             this.Controls.Add(this.bunifuCustomLabel1);
-            this.Controls.Add(this.cD_ComboBox1);
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtApellido);
@@ -741,9 +675,7 @@
         private Controles_graficos.UserControl1 txtApellido;
         private Controles_graficos.UserControl1 txtEmail;
         private Controles_graficos.UserControl1 txtTelefono;
-        private CustomControls.Controles_graficos.CD_ComboBox cD_ComboBox1;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
-        private CustomControls.Controles_graficos.CD_ComboBox cD_ComboBox2;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
         private CustomControls.Controles_graficos.CD_ComboBox cD_ComboBox3;
         private FontAwesome.Sharp.IconButton btnBuscar;

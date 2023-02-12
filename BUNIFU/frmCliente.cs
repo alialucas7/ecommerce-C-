@@ -75,7 +75,6 @@ namespace BUNIFU
 
         private void frmCliente_Load(object sender, EventArgs e)
         {
-
             // TODO: esta línea de código carga datos en la tabla 'bD_dealershipDataSet.Usuario' Puede moverla o quitarla según sea necesario.
 
             /*Seba si te da error comenta la linea de abajo y descomenta esta

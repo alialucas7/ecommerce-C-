@@ -49,6 +49,7 @@
     <Compile Include="CD_Pais.cs" />
     <Compile Include="CD_Permiso.cs" />
     <Compile Include="CD_Prouductos.cs" />
+    <Compile Include="CD_Reporte.cs" />
     <Compile Include="CD_Rol.cs" />
     <Compile Include="CD_Sucursal.cs" />
     <Compile Include="Conexion.cs" />
