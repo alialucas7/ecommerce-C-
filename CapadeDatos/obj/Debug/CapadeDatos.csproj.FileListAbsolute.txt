@@ -25,3 +25,7 @@ D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapadeDatos\obj\Debug\CapadeD
 D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapadeDatos\obj\Debug\CapadeDatos.csproj.CopyComplete
 D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapadeDatos\obj\Debug\CapadeDatos.dll
 D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\CapadeDatos\obj\Debug\CapadeDatos.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\bin\Debug\itextsharp.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\bin\Debug\itextsharp.xml

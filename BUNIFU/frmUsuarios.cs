@@ -99,7 +99,11 @@ namespace BUNIFU
 
             foreach (Usuario item in listaUsser)
             {
+<<<<<<< HEAD
                 dataGridUsser.Rows.Add(new object[] {"",item.id_usuario,item.id_sucursal, item.obRol.id_rol,item.obRol.descripcion,item.dni,item.name,item.apellido,item.email,
+=======
+                dataGridUsser.Rows.Add(new object[] {"",item.id_usuario,item.id_sucursal,item.obRol.id_rol,item.obRol.descripcion,item.dni,item.name,item.apellido,item.email,
+>>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
                 item.telefono,
                 item.state == true ? 1:0,
                 item.pasword
@@ -203,6 +207,16 @@ namespace BUNIFU
                     foreach (OpcionCombobox oc in comboBoxState.Items)
                     {
                         if (Convert.ToInt32(oc.valor) == Convert.ToInt32(dataGridUsser.Rows[indice].Cells["state"].Value))
+                        {
+                            int indiceCombo = comboBoxState.Items.IndexOf(oc);
+                            comboBoxState.SelectedIndex = indiceCombo;
+                            break;
+                        }
+                    }
+                    //combobox de sucursal
+                    foreach (OpcionCombobox oc in comboSucur.Items)
+                    {
+                        if (Convert.ToInt32(oc.valor) == Convert.ToInt32(dataGridUsser.Rows[indice].Cells["id_Sucursal"].Value))
                         {
                             int indiceCombo = comboBoxState.Items.IndexOf(oc);
                             comboBoxState.SelectedIndex = indiceCombo;

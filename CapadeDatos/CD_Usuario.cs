@@ -25,7 +25,11 @@ namespace CapadeDatos
                     StringBuilder query = new StringBuilder();
                     //string query = "select * from Usuario";
 
+<<<<<<< HEAD
                    query.AppendLine("select u.id_Usuario,u.id_sucursal,r.id_rol,r.descripcion, u.dni, u.nombre, u.apellido, u.email,u.telefono, u.estado,u.pasword from Usuario u");
+=======
+                   query.AppendLine("select u.id_Usuario,u.id_sucursal,r.id_rol, r.descripcion, u.dni, u.nombre, u.apellido, u.email,u.telefono, u.estado,u.pasword from Usuario u");
+>>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
 
                    query.AppendLine("inner join Rol r on r.id_rol = u.id_rol");
                         
@@ -44,7 +48,11 @@ namespace CapadeDatos
                                 lista.Add(new Usuario(){ 
                                 id_usuario = Convert.ToInt32(dr["id_Usuario"]),
                                 id_sucursal = Convert.ToInt32(dr["id_sucursal"]),
+<<<<<<< HEAD
                                     obRol = new Rol() { id_rol = Convert.ToInt32(dr["id_rol"]) , descripcion = dr["descripcion"].ToString()},
+=======
+                                obRol = new Rol() { id_rol = Convert.ToInt32(dr["id_rol"]) , descripcion = dr["descripcion"].ToString()},
+>>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
                                     //obRol = new Rol(idTemporal),
                                 dni = dr["dni"].ToString(),
                                 name = dr["nombre"].ToString(),

@@ -75,6 +75,11 @@ namespace BUNIFU
 
         private void frmCliente_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+           
+
+>>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             // TODO: esta línea de código carga datos en la tabla 'bD_dealershipDataSet.Usuario' Puede moverla o quitarla según sea necesario.
 
             /*Seba si te da error comenta la linea de abajo y descomenta esta
@@ -234,29 +239,7 @@ namespace BUNIFU
         //Botón Eliminar
         private void cD_Button2_Click_1(object sender, EventArgs e)
         {
-            if (Convert.ToInt32(textId.Text) != 0)
-            {
-                if (MessageBox.Show("¿Desea eliminar el cliente?", "Alerta", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                {
-                    string mensaje = string.Empty;
-                    Cliente clienteELiminar = new Cliente()
-                    {
-                        id_cliente = Convert.ToInt32(textId.Text)
-                    };
-
-
-                    bool respuesta = new CN_Cliente().Eliminar(clienteELiminar, out mensaje);
-
-                    if (respuesta)
-                    {
-                        //remuevo la fila del datagrid
-                        dataGridView1.Rows.RemoveAt(Convert.ToInt32(textBox6.Text));
-                        clean();
-                    }
-                    else MessageBox.Show(mensaje, "Tal vez no", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-
-            }
+           
         }
 
         //Limpiar Buscador

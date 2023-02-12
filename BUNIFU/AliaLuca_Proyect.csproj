@@ -42,6 +42,9 @@
     <Reference Include="Azure.Identity, Version=1.5.0.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
       <HintPath>..\packages\Azure.Identity.1.5.0\lib\netstandard2.0\Azure.Identity.dll</HintPath>
     </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu_UI_v1.52">
       <HintPath>D:\CLASES DE INGENIERIA\HERRAMIENTAS METRO\buni 2019\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
@@ -56,6 +59,12 @@
     </Reference>
     <Reference Include="FontAwesome.Sharp, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.6.1.1\lib\net45\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.xmlworker.5.5.13.3\lib\itextsharp.xmlworker.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
@@ -546,6 +555,12 @@
     <Compile Include="Inicio_Empleado.Designer.cs">
       <DependentUpon>Inicio_Empleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inicio_Marketing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio_Marketing.Designer.cs">
+      <DependentUpon>Inicio_Marketing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loguin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -614,6 +629,9 @@
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio_Empleado.resx" />
+    <EmbeddedResource Include="Inicio_Marketing.resx">
+      <DependentUpon>Inicio_Marketing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Loguin.resx">
       <DependentUpon>Loguin.cs</DependentUpon>
     </EmbeddedResource>
@@ -671,6 +689,26 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harlow-Solid-Italic.ttf.eot" />
+    <None Include="Resources\Harlow-Solid-Italic.ttf.woff" />
+    <None Include="Resources\Plantilla.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harlow-Solid-Italic.ttf.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\install-a-webfont.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlantillaVenta.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webfonts.ffonts.net.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webfonts.ffonts.net.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.3.0.0\build\net46\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.3.0.0\build\net46\Microsoft.Data.SqlClient.SNI.targets')" />

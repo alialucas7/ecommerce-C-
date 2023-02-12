@@ -50,7 +50,7 @@
             this.bckp_Bienvenida.BackColor = System.Drawing.Color.White;
             this.bckp_Bienvenida.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.bckp_Bienvenida.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.bckp_Bienvenida.Font = new System.Drawing.Font("Harlow Solid Std", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bckp_Bienvenida.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bckp_Bienvenida.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.bckp_Bienvenida.Location = new System.Drawing.Point(21, 9);
             this.bckp_Bienvenida.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
@@ -207,8 +207,12 @@
             this.Bckp_ConfirmaContraseña.TabIndex = 128;
             this.Bckp_ConfirmaContraseña.Texts = "";
             this.Bckp_ConfirmaContraseña.UnderLinedStyle = false;
+<<<<<<< HEAD
             this.Bckp_ConfirmaContraseña._Textchanged += new System.EventHandler(this.Bckp_ConfirmaContraseña__Textchanged_1);
             this.Bckp_ConfirmaContraseña.Leave += new System.EventHandler(this.Bckp_ConfirmaContraseña_Leave_1);
+=======
+            this.Bckp_ConfirmaContraseña._Textchanged += new System.EventHandler(this.Bckp_ConfirmaContraseña__Textchanged);
+>>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             // 
             // Bckp_Contraseña
             // 
@@ -231,7 +235,11 @@
             this.Bckp_Contraseña.TabIndex = 127;
             this.Bckp_Contraseña.Texts = "";
             this.Bckp_Contraseña.UnderLinedStyle = false;
+<<<<<<< HEAD
             this.Bckp_Contraseña._Textchanged += new System.EventHandler(this.Bckp_Contraseña__Textchanged);
+=======
+            this.Bckp_Contraseña._Textchanged += new System.EventHandler(this.Bckp_Contraseña__Textchanged_1);
+>>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             // 
             // Bckp_Usuario
             // 
@@ -254,7 +262,11 @@
             this.Bckp_Usuario.TabIndex = 126;
             this.Bckp_Usuario.Texts = "";
             this.Bckp_Usuario.UnderLinedStyle = false;
+<<<<<<< HEAD
             this.Bckp_Usuario._Textchanged += new System.EventHandler(this.Bckp_Usuario__Textchanged);
+=======
+            this.Bckp_Usuario._Textchanged += new System.EventHandler(this.Bckp_Usuario__Textchanged_1);
+>>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             // 
             // bckp_BasedeDatos
             // 
@@ -277,7 +289,11 @@
             this.bckp_BasedeDatos.TabIndex = 124;
             this.bckp_BasedeDatos.Texts = "";
             this.bckp_BasedeDatos.UnderLinedStyle = false;
+<<<<<<< HEAD
             this.bckp_BasedeDatos._Textchanged += new System.EventHandler(this.bckp_BasedeDatos__Textchanged);
+=======
+            this.bckp_BasedeDatos._Textchanged += new System.EventHandler(this.bckp_BasedeDatos__Textchanged_1);
+>>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             // 
             // bckp_Servidor
             // 
@@ -304,7 +320,7 @@
             // 
             // frm_Backup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(655, 414);
@@ -323,7 +339,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Bckp_IngreseDatos);
             this.Controls.Add(this.bckp_Bienvenida);
-            this.Font = new System.Drawing.Font("Harlow Solid Std", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "frm_Backup";
             this.Text = "frm_Backup";
