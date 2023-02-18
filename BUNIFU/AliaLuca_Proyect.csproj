@@ -628,7 +628,9 @@
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Inicio_Empleado.resx" />
+    <EmbeddedResource Include="Inicio_Empleado.resx">
+      <DependentUpon>Inicio_Empleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inicio_Marketing.resx">
       <DependentUpon>Inicio_Marketing.cs</DependentUpon>
     </EmbeddedResource>

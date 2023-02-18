@@ -1,1009 +1,344 @@
-<<<<<<< HEAD
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\BUNIFU.exe.config
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\BUNIFU.exe
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\BUNIFU.pdb
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Win32.Primitives.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\netstandard.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.AppContext.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.Concurrent.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.NonGeneric.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.Specialized.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.ComponentModel.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.ComponentModel.EventBasedAsync.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.ComponentModel.Primitives.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.ComponentModel.TypeConverter.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Console.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Data.Common.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Contracts.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Debug.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.FileVersionInfo.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Process.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.StackTrace.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Tools.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.TraceSource.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Tracing.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Drawing.Primitives.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Dynamic.Runtime.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Globalization.Calendars.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Globalization.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Globalization.Extensions.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IO.Compression.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IO.Compression.ZipFile.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IO.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IO.FileSystem.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IO.FileSystem.DriveInfo.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IO.FileSystem.Primitives.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IO.FileSystem.Watcher.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IO.IsolatedStorage.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IO.MemoryMappedFiles.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IO.Pipes.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IO.UnmanagedMemoryStream.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Linq.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Linq.Expressions.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Linq.Parallel.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Linq.Queryable.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Http.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Net.NameResolution.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Net.NetworkInformation.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Ping.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Primitives.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Requests.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Security.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Sockets.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Net.WebHeaderCollection.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Net.WebSockets.Client.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Net.WebSockets.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.ObjectModel.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Reflection.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Reflection.Extensions.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Reflection.Primitives.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Resources.Reader.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Resources.ResourceManager.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Resources.Writer.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Extensions.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Handles.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.InteropServices.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Numerics.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Serialization.Formatters.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Serialization.Json.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Serialization.Primitives.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Serialization.Xml.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Claims.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.Algorithms.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.Csp.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.Encoding.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.Primitives.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.X509Certificates.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Principal.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.SecureString.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Encoding.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Encoding.Extensions.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Text.RegularExpressions.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Overlapped.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.Parallel.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Thread.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.ThreadPool.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Timer.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.ReaderWriter.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XDocument.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XmlDocument.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XmlSerializer.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XPath.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XPath.XDocument.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Azure.Core.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Azure.Identity.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\CapadeDatos.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\CapaEntidad.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\CapaNegocio.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\FontAwesome.Sharp.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Data.SqlClient.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Options.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Primitives.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Identity.Client.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Logging.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Tokens.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.AzureStorageEnum.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.BatchParserClient.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.AadAuthenticationProvider.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.Core.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.UI.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.VS.Azure.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.VS.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Data.Tools.ExceptionMessageBox.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Diagnostics.Strace.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.SqlParser.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Utility.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Server.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Smo.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlTDiagm.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SString.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Tools.Extensibility.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Types.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Newtonsoft.Json.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Remotion.Linq.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Buffers.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.Immutable.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Configuration.ConfigurationManager.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Data.OleDb.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Data.SqlClient.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Interactive.Async.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Memory.Data.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Memory.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Numerics.Vectors.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.AccessControl.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.ProtectedData.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Permissions.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Principal.Windows.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Encodings.Web.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Json.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.Extensions.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.ValueTuple.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.15.0.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Data.Tools.Components.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Azure.Common.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Azure.ResourceManager.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Azure.Management.Sql.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Hyak.Common.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Azure.Common.NetFramework.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Framework.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.Dataflow.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\EnvDTE.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\stdole.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.MSXML.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\CapadeDatos.pdb
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\CapaEntidad.pdb
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\CapaNegocio.pdb
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Azure.Core.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Azure.Identity.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Data.SqlClient.pdb
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Data.SqlClient.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Options.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Primitives.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Identity.Client.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Logging.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Tokens.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Assessment.Types.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.AzureStorageEnum.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Utility.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Server.pdb
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Server.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Smo.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Types.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.WmiEnum.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Newtonsoft.Json.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\Remotion.Linq.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Buffers.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.Immutable.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Configuration.ConfigurationManager.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Data.OleDb.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Data.SqlClient.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Interactive.Async.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Memory.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Memory.Data.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Numerics.Vectors.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.AccessControl.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.ProtectedData.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Permissions.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Principal.Windows.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Encodings.Web.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Json.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.ValueTuple.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.Core.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.UI.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.VS.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.VS.Azure.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.Data.Tools.ExceptionMessageBox.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.Tools.Extensibility.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.VisualStudio.Shell.15.0.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.Data.Tools.Components.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\AliaLuca_Proyect.csprojAssemblyReference.cache
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.exe.config
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\CustomControls.Controles_graficos.CD_ComboBox.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Controles_graficos.UserControl1.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmCliente.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmDetalle_Ventas.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmProductos.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmProductos__Empleado.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmRegistrarVentaaass.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmReporte.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmUsuarios.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frm_Backup.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Inicio.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Inicio_Empleado.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Loguin.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Modales.mdProductos.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Modales.md_Cliente.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.pantallaBienvenidita.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Properties.Resources.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.VentasGrfc.resources
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\AliaLuca_Proyect.csproj.GenerateResource.cache
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\AliaLuca_Proyect.csproj.CoreCompileInputs.cache
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\AliaLuca_Proyect.csproj.CopyComplete
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.exe
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.pdb
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\AliaLuca_Proyect.csprojAssemblyReference.cache
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.exe.config
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\CustomControls.Controles_graficos.CD_ComboBox.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Controles_graficos.UserControl1.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmCliente.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmDetalle_Ventas.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmProductos.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmProductos__Empleado.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmRegistrarVentaaass.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmReporte.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmUsuarios.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frm_Backup.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Inicio.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Inicio_Empleado.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Loguin.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Modales.mdProductos.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Modales.md_Cliente.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.pantallaBienvenidita.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Properties.Resources.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.VentasGrfc.resources
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\AliaLuca_Proyect.csproj.GenerateResource.cache
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\AliaLuca_Proyect.csproj.CoreCompileInputs.cache
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.exe
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.pdb
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\BUNIFU.exe.config
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\BUNIFU.exe
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\BUNIFU.pdb
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Win32.Primitives.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\netstandard.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.AppContext.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.Concurrent.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.NonGeneric.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.Specialized.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.ComponentModel.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.ComponentModel.EventBasedAsync.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.ComponentModel.Primitives.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.ComponentModel.TypeConverter.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Console.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Data.Common.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Contracts.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Debug.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.FileVersionInfo.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Process.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.StackTrace.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Tools.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.TraceSource.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Tracing.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Drawing.Primitives.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Dynamic.Runtime.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Globalization.Calendars.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Globalization.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Globalization.Extensions.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.IO.Compression.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.IO.Compression.ZipFile.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.IO.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.IO.FileSystem.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.IO.FileSystem.DriveInfo.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.IO.FileSystem.Primitives.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.IO.FileSystem.Watcher.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.IO.IsolatedStorage.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.IO.MemoryMappedFiles.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.IO.Pipes.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.IO.UnmanagedMemoryStream.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Linq.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Linq.Expressions.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Linq.Parallel.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Linq.Queryable.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Http.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Net.NameResolution.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Net.NetworkInformation.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Ping.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Primitives.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Requests.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Security.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Sockets.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Net.WebHeaderCollection.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Net.WebSockets.Client.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Net.WebSockets.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.ObjectModel.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Reflection.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Reflection.Extensions.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Reflection.Primitives.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Resources.Reader.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Resources.ResourceManager.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Resources.Writer.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Extensions.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Handles.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.InteropServices.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Numerics.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Serialization.Formatters.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Serialization.Json.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Serialization.Primitives.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Serialization.Xml.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Claims.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.Algorithms.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.Csp.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.Encoding.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.Primitives.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.X509Certificates.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Principal.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.SecureString.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Encoding.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Encoding.Extensions.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Text.RegularExpressions.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Overlapped.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.Parallel.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Thread.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.ThreadPool.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Timer.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.ReaderWriter.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XDocument.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XmlDocument.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XmlSerializer.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XPath.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XPath.XDocument.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Azure.Core.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Azure.Identity.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\CapadeDatos.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\CapaEntidad.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\CapaNegocio.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\FontAwesome.Sharp.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Data.SqlClient.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Options.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Primitives.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Identity.Client.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Logging.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Tokens.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.AzureStorageEnum.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.BatchParserClient.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.AadAuthenticationProvider.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.Core.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.UI.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.VS.Azure.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.VS.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Data.Tools.ExceptionMessageBox.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Diagnostics.Strace.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.SqlParser.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Utility.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Server.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Smo.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlTDiagm.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SString.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Tools.Extensibility.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Types.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Newtonsoft.Json.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Remotion.Linq.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Buffers.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.Immutable.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Configuration.ConfigurationManager.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Data.OleDb.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Data.SqlClient.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Interactive.Async.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Memory.Data.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Memory.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Numerics.Vectors.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.AccessControl.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.ProtectedData.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Permissions.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Principal.Windows.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Encodings.Web.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Json.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.Extensions.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.ValueTuple.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.15.0.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Data.Tools.Components.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Azure.Common.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Azure.ResourceManager.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Azure.Management.Sql.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Hyak.Common.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Azure.Common.NetFramework.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Framework.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.Dataflow.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\EnvDTE.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\stdole.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.MSXML.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\CapadeDatos.pdb
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\CapaEntidad.pdb
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\CapaNegocio.pdb
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Azure.Core.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Azure.Identity.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Data.SqlClient.pdb
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Data.SqlClient.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Options.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Primitives.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Identity.Client.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Logging.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Tokens.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Assessment.Types.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.AzureStorageEnum.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Utility.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Server.pdb
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Server.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Smo.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Types.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.WmiEnum.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Newtonsoft.Json.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\Remotion.Linq.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Buffers.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.Immutable.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Configuration.ConfigurationManager.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Data.OleDb.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Data.SqlClient.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Interactive.Async.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Memory.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Memory.Data.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Numerics.Vectors.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.AccessControl.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.ProtectedData.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Permissions.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Principal.Windows.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Encodings.Web.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Json.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\System.ValueTuple.xml
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.Core.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.UI.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.VS.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.VS.Azure.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.Data.Tools.ExceptionMessageBox.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.Tools.Extensibility.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.VisualStudio.Shell.15.0.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.Data.Tools.Components.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
-D:\Mis Documentos\Escritorio\ecommerce-C-\BUNIFU\obj\Debug\AliaLuca_Proyect.csproj.CopyComplete
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\ClosedXML.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\DocumentFormat.OpenXml.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\ExcelNumberFormat.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\System.IO.Packaging.dll
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\ClosedXML.pdb
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\ClosedXML.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\DocumentFormat.OpenXml.xml
-D:\Proyecto_Taller_de_Programacion_II\ecommerce-C-\BUNIFU\bin\Debug\ExcelNumberFormat.xml
-=======
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\BUNIFU.exe.config
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\BUNIFU.exe
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\BUNIFU.pdb
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Win32.Primitives.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\netstandard.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.AppContext.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Collections.Concurrent.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Collections.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Collections.NonGeneric.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Collections.Specialized.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.ComponentModel.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.ComponentModel.EventBasedAsync.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.ComponentModel.Primitives.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.ComponentModel.TypeConverter.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Console.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Data.Common.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Diagnostics.Contracts.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Diagnostics.Debug.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Diagnostics.FileVersionInfo.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Diagnostics.Process.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Diagnostics.StackTrace.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Diagnostics.Tools.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Diagnostics.TraceSource.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Diagnostics.Tracing.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Drawing.Primitives.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Dynamic.Runtime.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Globalization.Calendars.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Globalization.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Globalization.Extensions.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.IO.Compression.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.IO.Compression.ZipFile.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.IO.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.IO.FileSystem.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.IO.FileSystem.DriveInfo.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.IO.FileSystem.Primitives.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.IO.FileSystem.Watcher.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.IO.IsolatedStorage.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.IO.MemoryMappedFiles.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.IO.Pipes.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.IO.UnmanagedMemoryStream.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Linq.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Linq.Expressions.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Linq.Parallel.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Linq.Queryable.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Net.Http.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Net.NameResolution.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Net.NetworkInformation.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Net.Ping.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Net.Primitives.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Net.Requests.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Net.Security.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Net.Sockets.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Net.WebHeaderCollection.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Net.WebSockets.Client.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Net.WebSockets.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.ObjectModel.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Reflection.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Reflection.Extensions.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Reflection.Primitives.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Resources.Reader.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Resources.ResourceManager.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Resources.Writer.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Runtime.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Runtime.Extensions.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Runtime.Handles.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Runtime.InteropServices.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Runtime.Numerics.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Runtime.Serialization.Formatters.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Runtime.Serialization.Json.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Runtime.Serialization.Primitives.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Runtime.Serialization.Xml.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.Claims.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.Cryptography.Algorithms.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.Cryptography.Csp.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.Cryptography.Encoding.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.Cryptography.Primitives.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.Cryptography.X509Certificates.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.Principal.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.SecureString.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Text.Encoding.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Text.Encoding.Extensions.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Text.RegularExpressions.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Threading.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Threading.Overlapped.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Threading.Tasks.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Threading.Tasks.Parallel.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Threading.Thread.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Threading.ThreadPool.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Threading.Timer.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Xml.ReaderWriter.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Xml.XDocument.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Xml.XmlDocument.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Xml.XmlSerializer.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Xml.XPath.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Xml.XPath.XDocument.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Azure.Core.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Azure.Identity.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\CapadeDatos.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\CapaEntidad.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\CapaNegocio.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Data.SqlClient.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.Options.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.Primitives.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Identity.Client.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.IdentityModel.Logging.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.IdentityModel.Tokens.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.AzureStorageEnum.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.BatchParserClient.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.AadAuthenticationProvider.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.Core.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.UI.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.VS.Azure.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.VS.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Data.Tools.ExceptionMessageBox.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Diagnostics.Strace.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.SqlParser.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Utility.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Server.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Smo.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlTDiagm.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.SString.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Tools.Extensibility.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Newtonsoft.Json.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Remotion.Linq.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Buffers.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Collections.Immutable.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Configuration.ConfigurationManager.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Data.OleDb.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Data.SqlClient.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Interactive.Async.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Memory.Data.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Memory.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.AccessControl.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.Cryptography.ProtectedData.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.Permissions.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.Principal.Windows.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Text.Encodings.Web.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Text.Json.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Threading.Tasks.Extensions.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.ValueTuple.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.15.0.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Data.Tools.Components.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Azure.Common.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Azure.ResourceManager.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Azure.Management.Sql.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Hyak.Common.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Azure.Common.NetFramework.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Framework.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Threading.Tasks.Dataflow.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\EnvDTE.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\stdole.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.MSXML.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\CapadeDatos.pdb
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\CapaEntidad.pdb
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\CapaNegocio.pdb
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Azure.Core.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Azure.Identity.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Data.SqlClient.pdb
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Data.SqlClient.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.Options.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Extensions.Primitives.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Identity.Client.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.IdentityModel.Logging.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.IdentityModel.Tokens.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Assessment.Types.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.AzureStorageEnum.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Utility.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Server.pdb
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Server.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Smo.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.Types.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Microsoft.SqlServer.WmiEnum.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Newtonsoft.Json.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\Remotion.Linq.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Buffers.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Collections.Immutable.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Configuration.ConfigurationManager.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Data.OleDb.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Data.SqlClient.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Interactive.Async.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Memory.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Memory.Data.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.AccessControl.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.Cryptography.ProtectedData.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.Permissions.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Security.Principal.Windows.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Text.Encodings.Web.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Text.Json.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\System.ValueTuple.xml
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.Core.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.UI.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.VS.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.VS.Azure.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\es\Microsoft.SqlServer.Data.Tools.ExceptionMessageBox.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\es\Microsoft.SqlServer.Tools.Extensibility.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\es\Microsoft.VisualStudio.Shell.15.0.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\es\Microsoft.Data.Tools.Components.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\AliaLuca_Proyect.csprojAssemblyReference.cache
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.exe.config
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\CustomControls.Controles_graficos.CD_ComboBox.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.Controles_graficos.UserControl1.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.frmCliente.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.frmDetalle_Ventas.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.frmProductos.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.frmProductos__Empleado.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.frmRegistrarVentaaass.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.frmReporte.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.frmUsuarios.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.frm_Backup.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.Inicio.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.Inicio_Empleado.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.Loguin.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.Modales.mdProductos.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.Modales.md_Cliente.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.pantallaBienvenidita.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.Properties.Resources.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.VentasGrfc.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\AliaLuca_Proyect.csproj.GenerateResource.cache
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\AliaLuca_Proyect.csproj.CoreCompileInputs.cache
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\AliaLuca_Proyect.csproj.CopyComplete
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.exe
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.pdb
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\obj\Debug\BUNIFU.Inicio_Marketing.resources
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\BouncyCastle.Crypto.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\itextsharp.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\itextsharp.xmlworker.dll
-C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\BUNIFU\bin\Debug\itextsharp.xml
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\BUNIFU.exe.config
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\BUNIFU.exe
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\BUNIFU.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\netstandard.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.AppContext.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.Specialized.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.ComponentModel.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Console.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Data.Common.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Globalization.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IO.Compression.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IO.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IO.FileSystem.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IO.Pipes.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Linq.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Linq.Expressions.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Linq.Parallel.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Linq.Queryable.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Http.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Net.NameResolution.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Ping.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Primitives.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Requests.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Security.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Net.Sockets.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Net.WebSockets.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.ObjectModel.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Reflection.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Resources.Reader.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Resources.Writer.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Handles.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Claims.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Principal.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.SecureString.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Encoding.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Thread.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Timer.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XDocument.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XPath.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Azure.Core.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Azure.Identity.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\CapadeDatos.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\CapaEntidad.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\CapaNegocio.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\ClosedXML.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\ExcelNumberFormat.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\itextsharp.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.AzureStorageEnum.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.BatchParserClient.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.AadAuthenticationProvider.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.Core.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.UI.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.VS.Azure.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionDlg.VS.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Data.Tools.ExceptionMessageBox.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Diagnostics.Strace.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.SqlParser.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Utility.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Server.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlTDiagm.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SString.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Tools.Extensibility.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Newtonsoft.Json.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Remotion.Linq.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Buffers.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.Immutable.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Data.OleDb.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Data.SqlClient.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Interactive.Async.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IO.Packaging.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Memory.Data.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Memory.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.AccessControl.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Permissions.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Json.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.ValueTuple.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.15.0.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Data.Tools.Components.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Azure.Common.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Azure.ResourceManager.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Azure.Management.Sql.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Hyak.Common.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Azure.Common.NetFramework.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Framework.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\EnvDTE.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\stdole.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.MSXML.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\CapadeDatos.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\CapaEntidad.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\CapaNegocio.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Azure.Core.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Azure.Identity.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\ClosedXML.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\ClosedXML.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\ExcelNumberFormat.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\itextsharp.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Assessment.Types.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.AzureStorageEnum.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.Utility.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Server.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Server.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Smo.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.Types.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Microsoft.SqlServer.WmiEnum.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Newtonsoft.Json.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\Remotion.Linq.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Buffers.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Collections.Immutable.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Data.OleDb.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Data.SqlClient.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Interactive.Async.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Memory.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Memory.Data.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.AccessControl.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Permissions.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Text.Json.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\System.ValueTuple.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.Core.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.UI.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.VS.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.ConnectionDlg.VS.Azure.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.Data.Tools.ExceptionMessageBox.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.SqlServer.Tools.Extensibility.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.VisualStudio.Shell.15.0.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.Data.Tools.Components.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\AliaLuca_Proyect.csprojAssemblyReference.cache
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.exe.config
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\CustomControls.Controles_graficos.CD_ComboBox.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Controles_graficos.UserControl1.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmCliente.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmDetalle_Ventas.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmProductos.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmProductos__Empleado.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmRegistrarVentaaass.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmReporte.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmUsuarios.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frm_Backup.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Inicio.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Inicio_Marketing.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Loguin.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Modales.mdProductos.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Modales.md_Cliente.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.pantallaBienvenidita.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Properties.Resources.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.VentasGrfc.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\AliaLuca_Proyect.csproj.GenerateResource.cache
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\AliaLuca_Proyect.csproj.CoreCompileInputs.cache
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\AliaLuca_Proyect.csproj.CopyComplete
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.exe
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Inicio_Empleado.resources

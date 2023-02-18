@@ -75,11 +75,8 @@ namespace BUNIFU
 
         private void frmCliente_Load(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-=======
-           
 
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
+
             // TODO: esta línea de código carga datos en la tabla 'bD_dealershipDataSet.Usuario' Puede moverla o quitarla según sea necesario.
 
             /*Seba si te da error comenta la linea de abajo y descomenta esta
@@ -239,7 +236,7 @@ namespace BUNIFU
         //Botón Eliminar
         private void cD_Button2_Click_1(object sender, EventArgs e)
         {
-           
+
         }
 
         //Limpiar Buscador
@@ -291,7 +288,7 @@ namespace BUNIFU
         }
 
         //Validar como campo obligatorio Apellido
-        ErrorProvider errorA= new ErrorProvider();
+        ErrorProvider errorA = new ErrorProvider();
         private void txtApellido_Leave(object sender, EventArgs e)
         {
             string validaCampos;
@@ -358,7 +355,7 @@ namespace BUNIFU
         ErrorProvider errorM = new ErrorProvider();
         private void txtEmail_Leave(object sender, EventArgs e)
         {
-            if(!ValidarDatos.validarEmail(txtEmail.Texts))
+            if (!ValidarDatos.validarEmail(txtEmail.Texts))
                 errorM.SetError(txtEmail, "Correo no válido");
             else
                 errorM.Clear();
@@ -531,7 +528,7 @@ namespace BUNIFU
 
         private void btnguardar_Click(object sender, EventArgs e)
         {
-            
+
 
         }
 

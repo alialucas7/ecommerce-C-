@@ -33,11 +33,10 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.menuVertical = new System.Windows.Forms.Panel();
+            this.btnslide = new FontAwesome.Sharp.IconButton();
             this.label1 = new System.Windows.Forms.Label();
             this.iconButton6 = new FontAwesome.Sharp.IconButton();
             this.iconButton5 = new FontAwesome.Sharp.IconButton();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -45,11 +44,16 @@
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.logo = new FontAwesome.Sharp.IconButton();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.btnslide = new FontAwesome.Sharp.IconButton();
             this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblName = new System.Windows.Forms.Label();
+            this.lblCoreeo = new System.Windows.Forms.Label();
+            this.lblRol = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.menuVertical.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -59,13 +63,13 @@
             // 
             // bunifuImageButton1
             // 
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
             this.bunifuImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
             this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(49, 409);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(923, 12);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(28, 28);
+            this.bunifuImageButton1.Size = new System.Drawing.Size(39, 44);
             this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bunifuImageButton1.TabIndex = 10;
             this.bunifuImageButton1.TabStop = false;
@@ -77,12 +81,12 @@
             this.menuVertical.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.menuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
             this.menuVertical.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.menuVertical.Controls.Add(this.label1);
+            this.menuVertical.Controls.Add(this.lblRol);
+            this.menuVertical.Controls.Add(this.lblCoreeo);
+            this.menuVertical.Controls.Add(this.lblName);
             this.menuVertical.Controls.Add(this.iconButton6);
-            this.menuVertical.Controls.Add(this.bunifuImageButton1);
+            this.menuVertical.Controls.Add(this.pictureBox1);
             this.menuVertical.Controls.Add(this.iconButton5);
-            this.menuVertical.Controls.Add(this.iconButton4);
-            this.menuVertical.Controls.Add(this.iconButton3);
             this.menuVertical.Controls.Add(this.iconButton2);
             this.menuVertical.Controls.Add(this.iconButton1);
             this.menuVertical.Controls.Add(this.panel1);
@@ -99,10 +103,34 @@
             this.menuVertical.VisibleChanged += new System.EventHandler(this.btnslide_Click);
             this.menuVertical.Paint += new System.Windows.Forms.PaintEventHandler(this.menuVertical_Paint);
             // 
+            // btnslide
+            // 
+            this.btnslide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
+            this.btnslide.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnslide.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(18)))), ((int)(((byte)(30)))));
+            this.btnslide.FlatAppearance.BorderSize = 0;
+            this.btnslide.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnslide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnslide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnslide.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnslide.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
+            this.btnslide.IconChar = FontAwesome.Sharp.IconChar.ToggleOff;
+            this.btnslide.IconColor = System.Drawing.Color.White;
+            this.btnslide.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnslide.Location = new System.Drawing.Point(23, -1);
+            this.btnslide.Name = "btnslide";
+            this.btnslide.Size = new System.Drawing.Size(124, 52);
+            this.btnslide.TabIndex = 16;
+            this.btnslide.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnslide.UseVisualStyleBackColor = false;
+            this.btnslide.Click += new System.EventHandler(this.btnslide_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(83, 422);
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(968, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(24, 13);
             this.label1.TabIndex = 17;
@@ -119,7 +147,7 @@
             this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton6.IconSize = 45;
             this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.Location = new System.Drawing.Point(4, 336);
+            this.iconButton6.Location = new System.Drawing.Point(4, 220);
             this.iconButton6.Name = "iconButton6";
             this.iconButton6.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.iconButton6.Size = new System.Drawing.Size(199, 60);
@@ -140,7 +168,7 @@
             this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton5.IconSize = 45;
             this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.Location = new System.Drawing.Point(3, 275);
+            this.iconButton5.Location = new System.Drawing.Point(5, 160);
             this.iconButton5.Name = "iconButton5";
             this.iconButton5.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.iconButton5.Size = new System.Drawing.Size(199, 60);
@@ -149,48 +177,6 @@
             this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton5.UseVisualStyleBackColor = true;
             this.iconButton5.Click += new System.EventHandler(this.iconButton5_Click_1);
-            // 
-            // iconButton4
-            // 
-            this.iconButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton4.FlatAppearance.BorderSize = 0;
-            this.iconButton4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(60)))), ((int)(((byte)(82)))));
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.ChartColumn;
-            this.iconButton4.IconColor = System.Drawing.Color.White;
-            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.IconSize = 45;
-            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.Location = new System.Drawing.Point(4, 214);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton4.Size = new System.Drawing.Size(203, 60);
-            this.iconButton4.TabIndex = 26;
-            this.iconButton4.Text = "Reportes";
-            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton4.UseVisualStyleBackColor = true;
-            this.iconButton4.Click += new System.EventHandler(this.iconButton4_Click_1);
-            // 
-            // iconButton3
-            // 
-            this.iconButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(60)))), ((int)(((byte)(82)))));
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Ticket;
-            this.iconButton3.IconColor = System.Drawing.Color.White;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.IconSize = 45;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(5, 153);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton3.Size = new System.Drawing.Size(203, 60);
-            this.iconButton3.TabIndex = 25;
-            this.iconButton3.Text = "Ventas";
-            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton3.UseVisualStyleBackColor = true;
-            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click_1);
             // 
             // iconButton2
             // 
@@ -203,7 +189,7 @@
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton2.IconSize = 45;
             this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(5, 92);
+            this.iconButton2.Location = new System.Drawing.Point(5, 99);
             this.iconButton2.Name = "iconButton2";
             this.iconButton2.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.iconButton2.Size = new System.Drawing.Size(203, 60);
@@ -226,7 +212,7 @@
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton1.IconSize = 45;
             this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(5, 31);
+            this.iconButton1.Location = new System.Drawing.Point(5, 38);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.iconButton1.Size = new System.Drawing.Size(203, 60);
@@ -238,10 +224,11 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnslide);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(203, 38);
+            this.panel1.Size = new System.Drawing.Size(203, 50);
             this.panel1.TabIndex = 22;
             // 
             // tituloMenu
@@ -273,7 +260,7 @@
             this.logo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
             this.logo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(60)))), ((int)(((byte)(82)))));
             this.logo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logo.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logo.Font = new System.Drawing.Font("Harlow Solid Italic", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logo.ForeColor = System.Drawing.Color.Transparent;
             this.logo.IconChar = FontAwesome.Sharp.IconChar.CarBurst;
             this.logo.IconColor = System.Drawing.Color.White;
@@ -296,28 +283,6 @@
             this.bunifuDragControl1.TargetControl = this;
             this.bunifuDragControl1.Vertical = true;
             // 
-            // btnslide
-            // 
-            this.btnslide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
-            this.btnslide.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnslide.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(18)))), ((int)(((byte)(30)))));
-            this.btnslide.FlatAppearance.BorderSize = 0;
-            this.btnslide.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnslide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnslide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnslide.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnslide.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
-            this.btnslide.IconChar = FontAwesome.Sharp.IconChar.ToggleOff;
-            this.btnslide.IconColor = System.Drawing.Color.White;
-            this.btnslide.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnslide.Location = new System.Drawing.Point(573, 13);
-            this.btnslide.Name = "btnslide";
-            this.btnslide.Size = new System.Drawing.Size(280, 43);
-            this.btnslide.TabIndex = 16;
-            this.btnslide.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnslide.UseVisualStyleBackColor = false;
-            this.btnslide.Click += new System.EventHandler(this.btnslide_Click);
-            // 
             // bunifuDragControl2
             // 
             this.bunifuDragControl2.Fixed = true;
@@ -327,12 +292,52 @@
             // 
             // panel2
             // 
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(203, 62);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(816, 456);
             this.panel2.TabIndex = 17;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint_1);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(20, 388);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(49, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 29;
+            this.pictureBox1.TabStop = false;
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(80, 388);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(35, 13);
+            this.lblName.TabIndex = 30;
+            this.lblName.Text = "label2";
+            // 
+            // lblCoreeo
+            // 
+            this.lblCoreeo.AutoSize = true;
+            this.lblCoreeo.Location = new System.Drawing.Point(80, 407);
+            this.lblCoreeo.Name = "lblCoreeo";
+            this.lblCoreeo.Size = new System.Drawing.Size(35, 13);
+            this.lblCoreeo.TabIndex = 31;
+            this.lblCoreeo.Text = "label3";
+            // 
+            // lblRol
+            // 
+            this.lblRol.AutoSize = true;
+            this.lblRol.ForeColor = System.Drawing.Color.Tan;
+            this.lblRol.Location = new System.Drawing.Point(80, 430);
+            this.lblRol.Name = "lblRol";
+            this.lblRol.Size = new System.Drawing.Size(35, 13);
+            this.lblRol.TabIndex = 32;
+            this.lblRol.Text = "label4";
             // 
             // Inicio
             // 
@@ -341,8 +346,9 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1019, 518);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.bunifuImageButton1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.btnslide);
             this.Controls.Add(this.menuVertical);
             this.Controls.Add(this.logo);
             this.DoubleBuffered = true;
@@ -353,10 +359,14 @@
             this.Name = "Inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Inicio_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             this.menuVertical.ResumeLayout(false);
             this.menuVertical.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -369,8 +379,6 @@
         private System.Windows.Forms.MenuStrip tituloMenu;
         private FontAwesome.Sharp.IconButton logo;
         private FontAwesome.Sharp.IconButton iconButton5;
-        private FontAwesome.Sharp.IconButton iconButton4;
-        private FontAwesome.Sharp.IconButton iconButton3;
         private FontAwesome.Sharp.IconButton iconButton2;
         private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.Panel panel1;
@@ -380,6 +388,10 @@
         private FontAwesome.Sharp.IconButton btnslide;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl2;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblRol;
+        private System.Windows.Forms.Label lblCoreeo;
+        private System.Windows.Forms.Label lblName;
     }
 }
 

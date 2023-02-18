@@ -60,17 +60,9 @@
             this.txtBusqueda = new BUNIFU.Controles_graficos.UserControl1();
             this.labelSuxur = new System.Windows.Forms.Label();
             this.comboSucur = new System.Windows.Forms.ComboBox();
-<<<<<<< HEAD
-            this.cD_ComboBox2 = new CustomControls.Controles_graficos.CD_ComboBox();
-            this.cD_ComboBox1 = new CustomControls.Controles_graficos.CD_ComboBox();
-            this.btnSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Id_Sucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-=======
             this.btnSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_Sucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             this.rolid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idrol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dni = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -271,11 +263,7 @@
             this.dataGridUsser.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.btnSeleccionar,
             this.id,
-<<<<<<< HEAD
-            this.Id_Sucursal,
-=======
             this.id_Sucursal,
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             this.rolid,
             this.idrol,
             this.dni,
@@ -541,11 +529,7 @@
             this.labelSuxur.Location = new System.Drawing.Point(59, 151);
             this.labelSuxur.Name = "labelSuxur";
             this.labelSuxur.Size = new System.Drawing.Size(115, 13);
-<<<<<<< HEAD
-            this.labelSuxur.TabIndex = 107;
-=======
             this.labelSuxur.TabIndex = 105;
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             this.labelSuxur.Text = "Seleccione la Sucursal";
             // 
             // comboSucur
@@ -554,73 +538,8 @@
             this.comboSucur.FormattingEnabled = true;
             this.comboSucur.Location = new System.Drawing.Point(62, 167);
             this.comboSucur.Name = "comboSucur";
-<<<<<<< HEAD
-            this.comboSucur.Size = new System.Drawing.Size(364, 21);
-            this.comboSucur.TabIndex = 106;
-            // 
-            // cD_ComboBox2
-            // 
-            this.cD_ComboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cD_ComboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cD_ComboBox2.BackColor = System.Drawing.Color.White;
-            this.cD_ComboBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.cD_ComboBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            this.cD_ComboBox2.BorderSize = 1;
-            this.cD_ComboBox2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.cD_ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.cD_ComboBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.cD_ComboBox2.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            this.cD_ComboBox2.Items.AddRange(new object[] {
-            "aaa",
-            "bbb",
-            "ccc",
-            "ddd",
-            "eee"});
-            this.cD_ComboBox2.ListBackColor = System.Drawing.Color.White;
-            this.cD_ComboBox2.ListTextColor = System.Drawing.Color.Black;
-            this.cD_ComboBox2.Location = new System.Drawing.Point(346, 160);
-            this.cD_ComboBox2.MaximumSize = new System.Drawing.Size(0, 100);
-            this.cD_ComboBox2.MinimumSize = new System.Drawing.Size(0, 27);
-            this.cD_ComboBox2.Name = "cD_ComboBox2";
-            this.cD_ComboBox2.Padding = new System.Windows.Forms.Padding(1);
-            this.cD_ComboBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cD_ComboBox2.Size = new System.Drawing.Size(0, 27);
-            this.cD_ComboBox2.TabIndex = 105;
-            this.cD_ComboBox2.Texts = "";
-            // 
-            // cD_ComboBox1
-            // 
-            this.cD_ComboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cD_ComboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cD_ComboBox1.BackColor = System.Drawing.Color.White;
-            this.cD_ComboBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.cD_ComboBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            this.cD_ComboBox1.BorderSize = 1;
-            this.cD_ComboBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.cD_ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.cD_ComboBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.cD_ComboBox1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            this.cD_ComboBox1.Items.AddRange(new object[] {
-            "aaa",
-            "bbb",
-            "ccc",
-            "ddd",
-            "eee"});
-            this.cD_ComboBox1.ListBackColor = System.Drawing.Color.White;
-            this.cD_ComboBox1.ListTextColor = System.Drawing.Color.Black;
-            this.cD_ComboBox1.Location = new System.Drawing.Point(132, 160);
-            this.cD_ComboBox1.MaximumSize = new System.Drawing.Size(0, 100);
-            this.cD_ComboBox1.MinimumSize = new System.Drawing.Size(0, 27);
-            this.cD_ComboBox1.Name = "cD_ComboBox1";
-            this.cD_ComboBox1.Padding = new System.Windows.Forms.Padding(1);
-            this.cD_ComboBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cD_ComboBox1.Size = new System.Drawing.Size(0, 27);
-            this.cD_ComboBox1.TabIndex = 104;
-            this.cD_ComboBox1.Texts = "";
-=======
             this.comboSucur.Size = new System.Drawing.Size(361, 21);
             this.comboSucur.TabIndex = 104;
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             // 
             // btnSeleccionar
             // 
@@ -640,19 +559,11 @@
             this.id.ReadOnly = true;
             this.id.Width = 20;
             // 
-<<<<<<< HEAD
-            // Id_Sucursal
-            // 
-            this.Id_Sucursal.HeaderText = "Id_Sucursal";
-            this.Id_Sucursal.Name = "Id_Sucursal";
-            this.Id_Sucursal.ReadOnly = true;
-=======
             // id_Sucursal
             // 
             this.id_Sucursal.HeaderText = "id_Sucursal";
             this.id_Sucursal.Name = "id_Sucursal";
             this.id_Sucursal.ReadOnly = true;
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             // 
             // rolid
             // 
@@ -720,11 +631,6 @@
             this.ClientSize = new System.Drawing.Size(655, 414);
             this.Controls.Add(this.labelSuxur);
             this.Controls.Add(this.comboSucur);
-<<<<<<< HEAD
-            this.Controls.Add(this.cD_ComboBox2);
-            this.Controls.Add(this.cD_ComboBox1);
-=======
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             this.Controls.Add(this.txtBusqueda);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnEliminar);
@@ -794,17 +700,9 @@
         private Controles_graficos.UserControl1 txtBusqueda;
         private System.Windows.Forms.Label labelSuxur;
         private System.Windows.Forms.ComboBox comboSucur;
-<<<<<<< HEAD
-        private CustomControls.Controles_graficos.CD_ComboBox cD_ComboBox2;
-        private CustomControls.Controles_graficos.CD_ComboBox cD_ComboBox1;
-        private System.Windows.Forms.DataGridViewButtonColumn btnSeleccionar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Id_Sucursal;
-=======
         private System.Windows.Forms.DataGridViewButtonColumn btnSeleccionar;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_Sucursal;
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
         private System.Windows.Forms.DataGridViewTextBoxColumn rolid;
         private System.Windows.Forms.DataGridViewTextBoxColumn idrol;
         private System.Windows.Forms.DataGridViewTextBoxColumn dni;

@@ -132,7 +132,7 @@
             // 
             // Bckp_progressBar
             // 
-            this.Bckp_progressBar.BackColor = System.Drawing.Color.ForestGreen;
+            this.Bckp_progressBar.BackColor = System.Drawing.Color.White;
             this.Bckp_progressBar.Location = new System.Drawing.Point(21, 341);
             this.Bckp_progressBar.Name = "Bckp_progressBar";
             this.Bckp_progressBar.Size = new System.Drawing.Size(520, 23);
@@ -207,12 +207,7 @@
             this.Bckp_ConfirmaContraseña.TabIndex = 128;
             this.Bckp_ConfirmaContraseña.Texts = "";
             this.Bckp_ConfirmaContraseña.UnderLinedStyle = false;
-<<<<<<< HEAD
-            this.Bckp_ConfirmaContraseña._Textchanged += new System.EventHandler(this.Bckp_ConfirmaContraseña__Textchanged_1);
-            this.Bckp_ConfirmaContraseña.Leave += new System.EventHandler(this.Bckp_ConfirmaContraseña_Leave_1);
-=======
             this.Bckp_ConfirmaContraseña._Textchanged += new System.EventHandler(this.Bckp_ConfirmaContraseña__Textchanged);
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             // 
             // Bckp_Contraseña
             // 
@@ -235,11 +230,7 @@
             this.Bckp_Contraseña.TabIndex = 127;
             this.Bckp_Contraseña.Texts = "";
             this.Bckp_Contraseña.UnderLinedStyle = false;
-<<<<<<< HEAD
-            this.Bckp_Contraseña._Textchanged += new System.EventHandler(this.Bckp_Contraseña__Textchanged);
-=======
             this.Bckp_Contraseña._Textchanged += new System.EventHandler(this.Bckp_Contraseña__Textchanged_1);
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             // 
             // Bckp_Usuario
             // 
@@ -262,11 +253,7 @@
             this.Bckp_Usuario.TabIndex = 126;
             this.Bckp_Usuario.Texts = "";
             this.Bckp_Usuario.UnderLinedStyle = false;
-<<<<<<< HEAD
-            this.Bckp_Usuario._Textchanged += new System.EventHandler(this.Bckp_Usuario__Textchanged);
-=======
             this.Bckp_Usuario._Textchanged += new System.EventHandler(this.Bckp_Usuario__Textchanged_1);
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             // 
             // bckp_BasedeDatos
             // 
@@ -289,11 +276,7 @@
             this.bckp_BasedeDatos.TabIndex = 124;
             this.bckp_BasedeDatos.Texts = "";
             this.bckp_BasedeDatos.UnderLinedStyle = false;
-<<<<<<< HEAD
-            this.bckp_BasedeDatos._Textchanged += new System.EventHandler(this.bckp_BasedeDatos__Textchanged);
-=======
             this.bckp_BasedeDatos._Textchanged += new System.EventHandler(this.bckp_BasedeDatos__Textchanged_1);
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
             // 
             // bckp_Servidor
             // 

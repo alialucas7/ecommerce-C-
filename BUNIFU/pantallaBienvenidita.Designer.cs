@@ -38,6 +38,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.bunifuCircleProgressbar1 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Lambo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,12 +144,24 @@
             this.bunifuCircleProgressbar1.TabIndex = 23;
             this.bunifuCircleProgressbar1.Value = 0;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(383, 78);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(45, 20);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "label2";
+            // 
             // pantallaBienvenidita
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(540, 260);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.bunifuCircleProgressbar1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bunifuCustomLabel1);
@@ -176,5 +189,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
         private Bunifu.Framework.UI.BunifuCircleProgressbar bunifuCircleProgressbar1;
+        private System.Windows.Forms.Label label2;
     }
 }

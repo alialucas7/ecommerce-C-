@@ -46,7 +46,7 @@ namespace BUNIFU
         //para hacer la animacion de la barra 
         bool sidebarExpand;
 
-        public Inicio(Usuario objUsser = null)
+        public Inicio(Usuario objUsser)
         {
            // usuarioActual = objUsser; luego descomentar esto
             InitializeComponent();
@@ -54,27 +54,11 @@ namespace BUNIFU
             leftBorderBtn.Size = new Size(7,60);
             menuVertical.Controls.Add(leftBorderBtn);
 
+            usuarioActual = objUsser;
 
-            //codigo temporal
-            if (usuarioActual == null) usuarioActual = new Usuario() { id_usuario = 1 };
-            else usuarioActual = objUsser;
-            //codigo temporal
 
-            /* lo oculto temporalmente para trabajar mas comodo
-            //oculta botones a usuarios no autorisados
-            if (usuarioActual.obRol.getID() == 3)
-            {   //usuario empleado
-                iconButton4.Hide();
-                iconButton5.Hide();
-                iconButton6.Hide();
-            }
 
-            if (usuarioActual.obRol.getID() == 2)
-            {   //usuario de ventas
-                iconButton1.Hide();
-                iconButton2.Hide();
-                iconButton5.Hide();
-            }*/
+
 
 
         }
@@ -82,21 +66,11 @@ namespace BUNIFU
         //cuando se lee el formulario que cargue la lista
         private void Inicio_Load(object sender, EventArgs e)
         {
-            //List<Permiso> listaPermisos = new CN_Permiso().Listar(usuarioActual.id_usuario);
 
-           
-           
-
-
-            /*muestra los botones dependiendo del usuario que se va a loguear
-            foreach (IconMenuItem iconmenu in menuVertical.Container.Components)
-            {
-                bool encontrado = listaPermisos.Any(m => m.nameMenu == iconmenu.Name);
-                if (encontrado == false)
-                {
-                    iconmenu.Visible = false;
-                }
-            }*/
+            //Carga los datos del usser
+            lblName.Text = usuarioActual.name + ", " + usuarioActual.apellido;
+            lblCoreeo.Text = usuarioActual.email;
+            lblRol.Text = usuarioActual.obRol.descripcion;
         }
        
 
@@ -283,6 +257,17 @@ namespace BUNIFU
 
         }
 
-        
+        private void panel2_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Inicio_Load_1(object sender, EventArgs e)
+        {
+            //Carga los datos del usser
+            lblName.Text = usuarioActual.name + ", " + usuarioActual.apellido;
+            lblCoreeo.Text = usuarioActual.email;
+            lblRol.Text = usuarioActual.obRol.descripcion.ToUpper();
+        }
     }
 }

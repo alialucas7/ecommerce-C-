@@ -86,7 +86,7 @@
             this.iconButton2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.iconButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton2.Font = new System.Drawing.Font("Harlow Solid Std", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton2.Font = new System.Drawing.Font("Harlow Solid Italic", 15F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconButton2.ForeColor = System.Drawing.Color.Transparent;
             this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.CarBurst;
             this.iconButton2.IconColor = System.Drawing.Color.White;

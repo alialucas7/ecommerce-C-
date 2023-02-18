@@ -28,24 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtGenerador = new System.Windows.Forms.Label();
             this.dateTimeFechaInicio = new System.Windows.Forms.DateTimePicker();
             this.dateTimeFechaFin = new System.Windows.Forms.DateTimePicker();
             this.ComboBoxBuscarPor = new System.Windows.Forms.ComboBox();
@@ -82,26 +81,13 @@
             // 
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Font = new System.Drawing.Font("Harlow Solid Std", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(24, 12);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(113, 12);
             this.label1.Margin = new System.Windows.Forms.Padding(3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(605, 79);
             this.label1.TabIndex = 0;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtGenerador
-            // 
-            this.txtGenerador.AutoSize = true;
-            this.txtGenerador.BackColor = System.Drawing.Color.White;
-            this.txtGenerador.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.txtGenerador.Font = new System.Drawing.Font("Harlow Solid Std", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGenerador.Location = new System.Drawing.Point(161, 20);
-            this.txtGenerador.Name = "txtGenerador";
-            this.txtGenerador.Size = new System.Drawing.Size(377, 28);
-            this.txtGenerador.TabIndex = 1;
-            this.txtGenerador.Text = "Limited Edition Reportes de Ventas";
-            this.txtGenerador.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dateTimeFechaInicio
             // 
@@ -112,7 +98,7 @@
             this.dateTimeFechaInicio.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.dateTimeFechaInicio.CustomFormat = "dd/MM/yyyy";
             this.dateTimeFechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimeFechaInicio.Location = new System.Drawing.Point(113, 54);
+            this.dateTimeFechaInicio.Location = new System.Drawing.Point(202, 54);
             this.dateTimeFechaInicio.Name = "dateTimeFechaInicio";
             this.dateTimeFechaInicio.Size = new System.Drawing.Size(114, 20);
             this.dateTimeFechaInicio.TabIndex = 2;
@@ -126,7 +112,7 @@
             this.dateTimeFechaFin.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.dateTimeFechaFin.CustomFormat = "dd/MM/yyyy";
             this.dateTimeFechaFin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimeFechaFin.Location = new System.Drawing.Point(340, 54);
+            this.dateTimeFechaFin.Location = new System.Drawing.Point(433, 54);
             this.dateTimeFechaFin.Name = "dateTimeFechaFin";
             this.dateTimeFechaFin.Size = new System.Drawing.Size(114, 20);
             this.dateTimeFechaFin.TabIndex = 4;
@@ -136,7 +122,7 @@
             this.ComboBoxBuscarPor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.ComboBoxBuscarPor.ForeColor = System.Drawing.Color.White;
             this.ComboBoxBuscarPor.FormattingEnabled = true;
-            this.ComboBoxBuscarPor.Location = new System.Drawing.Point(113, 105);
+            this.ComboBoxBuscarPor.Location = new System.Drawing.Point(217, 111);
             this.ComboBoxBuscarPor.Name = "ComboBoxBuscarPor";
             this.ComboBoxBuscarPor.Size = new System.Drawing.Size(121, 21);
             this.ComboBoxBuscarPor.TabIndex = 104;
@@ -148,7 +134,7 @@
             this.txtBuscarPor.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.txtBuscarPor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBuscarPor.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.txtBuscarPor.Location = new System.Drawing.Point(39, 105);
+            this.txtBuscarPor.Location = new System.Drawing.Point(161, 114);
             this.txtBuscarPor.Name = "txtBuscarPor";
             this.txtBuscarPor.Size = new System.Drawing.Size(58, 13);
             this.txtBuscarPor.TabIndex = 101;
@@ -164,9 +150,9 @@
             this.btnClean.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.btnClean.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnClean.IconSize = 27;
-            this.btnClean.Location = new System.Drawing.Point(393, 105);
+            this.btnClean.Location = new System.Drawing.Point(511, 105);
             this.btnClean.Name = "btnClean";
-            this.btnClean.Size = new System.Drawing.Size(40, 21);
+            this.btnClean.Size = new System.Drawing.Size(40, 30);
             this.btnClean.TabIndex = 106;
             this.btnClean.UseVisualStyleBackColor = false;
             this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
@@ -181,9 +167,9 @@
             this.btnBuscar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.btnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnBuscar.IconSize = 20;
-            this.btnBuscar.Location = new System.Drawing.Point(345, 105);
+            this.btnBuscar.Location = new System.Drawing.Point(468, 105);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(33, 21);
+            this.btnBuscar.Size = new System.Drawing.Size(40, 30);
             this.btnBuscar.TabIndex = 105;
             this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
@@ -191,11 +177,11 @@
             // FechaInicio
             // 
             this.FechaInicio.AutoSize = true;
-            this.FechaInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
+            this.FechaInicio.BackColor = System.Drawing.Color.White;
             this.FechaInicio.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.FechaInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FechaInicio.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.FechaInicio.Location = new System.Drawing.Point(39, 54);
+            this.FechaInicio.ForeColor = System.Drawing.Color.Black;
+            this.FechaInicio.Location = new System.Drawing.Point(128, 54);
             this.FechaInicio.Name = "FechaInicio";
             this.FechaInicio.Size = new System.Drawing.Size(68, 13);
             this.FechaInicio.TabIndex = 107;
@@ -204,11 +190,11 @@
             // FechaFin
             // 
             this.FechaFin.AutoSize = true;
-            this.FechaFin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
+            this.FechaFin.BackColor = System.Drawing.Color.White;
             this.FechaFin.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.FechaFin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FechaFin.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.FechaFin.Location = new System.Drawing.Point(257, 54);
+            this.FechaFin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.FechaFin.Location = new System.Drawing.Point(370, 54);
             this.FechaFin.Name = "FechaFin";
             this.FechaFin.Size = new System.Drawing.Size(57, 13);
             this.FechaFin.TabIndex = 108;
@@ -218,8 +204,8 @@
             // 
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Font = new System.Drawing.Font("Harlow Solid Std", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(24, 97);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(113, 97);
             this.label2.Margin = new System.Windows.Forms.Padding(3);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(605, 52);
@@ -230,17 +216,17 @@
             // 
             this.dataGridViewReporte.AllowUserToAddRows = false;
             this.dataGridViewReporte.AllowUserToDeleteRows = false;
-            this.dataGridViewReporte.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dataGridViewReporte.BackgroundColor = System.Drawing.Color.LightSkyBlue;
             this.dataGridViewReporte.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridViewReporte.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Honeydew;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewReporte.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.Honeydew;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewReporte.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle15;
             this.dataGridViewReporte.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewReporte.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.btnSeleccionar,
@@ -257,24 +243,24 @@
             this.Cantidad});
             this.dataGridViewReporte.EnableHeadersVisualStyles = false;
             this.dataGridViewReporte.GridColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dataGridViewReporte.Location = new System.Drawing.Point(24, 155);
+            this.dataGridViewReporte.Location = new System.Drawing.Point(113, 155);
             this.dataGridViewReporte.Name = "dataGridViewReporte";
             this.dataGridViewReporte.ReadOnly = true;
             this.dataGridViewReporte.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewReporte.RowsDefaultCellStyle = dataGridViewCellStyle14;
-            this.dataGridViewReporte.Size = new System.Drawing.Size(605, 63);
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewReporte.RowsDefaultCellStyle = dataGridViewCellStyle28;
+            this.dataGridViewReporte.Size = new System.Drawing.Size(605, 116);
             this.dataGridViewReporte.TabIndex = 114;
             // 
             // btnSeleccionar
             // 
             this.btnSeleccionar.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
-            this.btnSeleccionar.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
+            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
+            this.btnSeleccionar.DefaultCellStyle = dataGridViewCellStyle16;
             this.btnSeleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeleccionar.HeaderText = "fecha_creacion";
             this.btnSeleccionar.Name = "btnSeleccionar";
@@ -286,9 +272,9 @@
             // Id_Cliente
             // 
             this.Id_Cliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
-            this.Id_Cliente.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
+            this.Id_Cliente.DefaultCellStyle = dataGridViewCellStyle17;
             this.Id_Cliente.HeaderText = "codigoFactura";
             this.Id_Cliente.Name = "Id_Cliente";
             this.Id_Cliente.ReadOnly = true;
@@ -297,11 +283,11 @@
             // DNI
             // 
             this.DNI.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
-            this.DNI.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.White;
+            this.DNI.DefaultCellStyle = dataGridViewCellStyle18;
             this.DNI.HeaderText = "monto_Total";
             this.DNI.Name = "DNI";
             this.DNI.ReadOnly = true;
@@ -310,11 +296,11 @@
             // Nombre
             // 
             this.Nombre.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
-            this.Nombre.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.White;
+            this.Nombre.DefaultCellStyle = dataGridViewCellStyle19;
             this.Nombre.HeaderText = "Nombre_Usuario";
             this.Nombre.Name = "Nombre";
             this.Nombre.ReadOnly = true;
@@ -323,11 +309,11 @@
             // Apellido
             // 
             this.Apellido.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            this.Apellido.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.White;
+            this.Apellido.DefaultCellStyle = dataGridViewCellStyle20;
             this.Apellido.HeaderText = "Apellido_Usuario";
             this.Apellido.Name = "Apellido";
             this.Apellido.ReadOnly = true;
@@ -336,11 +322,11 @@
             // Email
             // 
             this.Email.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.White;
-            this.Email.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle21.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.White;
+            this.Email.DefaultCellStyle = dataGridViewCellStyle21;
             this.Email.HeaderText = "dni_cliente";
             this.Email.Name = "Email";
             this.Email.ReadOnly = true;
@@ -349,11 +335,11 @@
             // Telefono
             // 
             this.Telefono.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White;
-            this.Telefono.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.White;
+            this.Telefono.DefaultCellStyle = dataGridViewCellStyle22;
             this.Telefono.HeaderText = "nombre_cliente";
             this.Telefono.Name = "Telefono";
             this.Telefono.ReadOnly = true;
@@ -361,11 +347,11 @@
             // 
             // Estado
             // 
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.White;
-            this.Estado.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.White;
+            this.Estado.DefaultCellStyle = dataGridViewCellStyle23;
             this.Estado.HeaderText = "descripcionMarca";
             this.Estado.Name = "Estado";
             this.Estado.ReadOnly = true;
@@ -375,11 +361,11 @@
             // Fecha_Creación
             // 
             this.Fecha_Creación.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(34)))), ((int)(((byte)(98)))));
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.White;
-            this.Fecha_Creación.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(34)))), ((int)(((byte)(98)))));
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.White;
+            this.Fecha_Creación.DefaultCellStyle = dataGridViewCellStyle24;
             this.Fecha_Creación.HeaderText = "descripcionModelo";
             this.Fecha_Creación.Name = "Fecha_Creación";
             this.Fecha_Creación.ReadOnly = true;
@@ -387,27 +373,27 @@
             // 
             // precioVenta
             // 
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
-            this.precioVenta.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle25.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
+            this.precioVenta.DefaultCellStyle = dataGridViewCellStyle25;
             this.precioVenta.HeaderText = "precioVenta";
             this.precioVenta.Name = "precioVenta";
             this.precioVenta.ReadOnly = true;
             // 
             // Subtotal
             // 
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
-            this.Subtotal.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
+            this.Subtotal.DefaultCellStyle = dataGridViewCellStyle26;
             this.Subtotal.HeaderText = "Subtotal";
             this.Subtotal.Name = "Subtotal";
             this.Subtotal.ReadOnly = true;
             // 
             // Cantidad
             // 
-            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
-            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
+            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle27;
             this.Cantidad.HeaderText = "Cantidad";
             this.Cantidad.Name = "Cantidad";
             this.Cantidad.ReadOnly = true;
@@ -417,15 +403,17 @@
             this.DescargaExcel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.DescargaExcel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DescargaExcel.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.DescargaExcel.FlatAppearance.BorderSize = 0;
+            this.DescargaExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DescargaExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DescargaExcel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.DescargaExcel.IconChar = FontAwesome.Sharp.IconChar.FileExcel;
             this.DescargaExcel.IconColor = System.Drawing.Color.LimeGreen;
             this.DescargaExcel.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.DescargaExcel.IconSize = 25;
-            this.DescargaExcel.Location = new System.Drawing.Point(449, 104);
+            this.DescargaExcel.Location = new System.Drawing.Point(577, 104);
             this.DescargaExcel.Name = "DescargaExcel";
-            this.DescargaExcel.Size = new System.Drawing.Size(138, 31);
+            this.DescargaExcel.Size = new System.Drawing.Size(138, 34);
             this.DescargaExcel.TabIndex = 115;
             this.DescargaExcel.Text = "Descargar  Excel";
             this.DescargaExcel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -434,11 +422,11 @@
             // 
             // chartVentas
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartVentas.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartVentas.Legends.Add(legend1);
-            this.chartVentas.Location = new System.Drawing.Point(157, 224);
+            chartArea2.Name = "ChartArea1";
+            this.chartVentas.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartVentas.Legends.Add(legend2);
+            this.chartVentas.Location = new System.Drawing.Point(229, 277);
             this.chartVentas.Name = "chartVentas";
             this.chartVentas.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SemiTransparent;
             this.chartVentas.Size = new System.Drawing.Size(372, 178);
@@ -457,7 +445,7 @@
             this.btnCargarData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCargarData.Font = new System.Drawing.Font("Microsoft PhagsPa", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCargarData.ForeColor = System.Drawing.Color.White;
-            this.btnCargarData.Location = new System.Drawing.Point(557, 349);
+            this.btnCargarData.Location = new System.Drawing.Point(607, 353);
             this.btnCargarData.Name = "btnCargarData";
             this.btnCargarData.Size = new System.Drawing.Size(72, 39);
             this.btnCargarData.TabIndex = 117;
@@ -478,7 +466,7 @@
             this.BuscarPorFecha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BuscarPorFecha.Font = new System.Drawing.Font("Microsoft PhagsPa", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BuscarPorFecha.ForeColor = System.Drawing.Color.White;
-            this.BuscarPorFecha.Location = new System.Drawing.Point(474, 53);
+            this.BuscarPorFecha.Location = new System.Drawing.Point(604, 48);
             this.BuscarPorFecha.Name = "BuscarPorFecha";
             this.BuscarPorFecha.Size = new System.Drawing.Size(72, 26);
             this.BuscarPorFecha.TabIndex = 112;
@@ -496,7 +484,7 @@
             this.userBuscar.BorderSize = 1;
             this.userBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userBuscar.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.userBuscar.Location = new System.Drawing.Point(241, 104);
+            this.userBuscar.Location = new System.Drawing.Point(366, 105);
             this.userBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.userBuscar.MultiLine = false;
             this.userBuscar.Name = "userBuscar";
@@ -544,7 +532,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
-            this.ClientSize = new System.Drawing.Size(655, 414);
+            this.ClientSize = new System.Drawing.Size(826, 481);
             this.Controls.Add(this.btnCargarData);
             this.Controls.Add(this.chartVentas);
             this.Controls.Add(this.DescargaExcel);
@@ -560,7 +548,6 @@
             this.Controls.Add(this.txtBuscarPor);
             this.Controls.Add(this.dateTimeFechaFin);
             this.Controls.Add(this.dateTimeFechaInicio);
-            this.Controls.Add(this.txtGenerador);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Name = "frmReporte";
@@ -576,7 +563,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label txtGenerador;
         private System.Windows.Forms.DateTimePicker dateTimeFechaInicio;
         private System.Windows.Forms.DateTimePicker dateTimeFechaFin;
         private System.Windows.Forms.ComboBox ComboBoxBuscarPor;

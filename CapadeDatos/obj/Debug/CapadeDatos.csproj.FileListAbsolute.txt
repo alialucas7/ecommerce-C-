@@ -29,3 +29,16 @@ C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\bin\Debug\BouncyCas
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\bin\Debug\itextsharp.dll
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\bin\Debug\itextsharp.xmlworker.dll
 C:\Users\alialucas7\Desktop\AliaLucas_Proyectot2\CapadeDatos\bin\Debug\itextsharp.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\CapadeDatos\obj\Debug\CapadeDatos.csprojAssemblyReference.cache
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\CapadeDatos\obj\Debug\CapadeDatos.csproj.CoreCompileInputs.cache
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\CapadeDatos\obj\Debug\CapadeDatos.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\CapadeDatos\obj\Debug\CapadeDatos.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\CapadeDatos\bin\Debug\CapadeDatos.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\CapadeDatos\bin\Debug\CapadeDatos.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\CapadeDatos\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\CapadeDatos\bin\Debug\CapaEntidad.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\CapadeDatos\bin\Debug\itextsharp.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\CapadeDatos\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\CapadeDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\CapadeDatos\bin\Debug\itextsharp.xml
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\CapadeDatos\obj\Debug\CapadeDatos.csproj.CopyComplete

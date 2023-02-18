@@ -16,11 +16,12 @@ namespace BUNIFU
 {
     public partial class pantallaBienvenidita : Form
     {
-        private CN_Usuario uobsuar = new CN_Usuario();
+        private Usuario usser = new Usuario();
 
-        public pantallaBienvenidita()
+        public pantallaBienvenidita(Usuario usuario)
         {
             InitializeComponent();
+            usser = usuario;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -49,7 +50,7 @@ namespace BUNIFU
             this.Opacity = 0.0;
             timer1.Start();
             bunifuCircleProgressbar1.Value = 0;
-
+            label2.Text = usser.name + ", " + usser.apellido;
            
         }
 

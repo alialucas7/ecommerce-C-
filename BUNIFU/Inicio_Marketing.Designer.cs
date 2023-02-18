@@ -28,14 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio_Marketing));
             this.panel2 = new System.Windows.Forms.Panel();
             this.logo = new FontAwesome.Sharp.IconButton();
             this.panelBotones = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.iconButton4 = new FontAwesome.Sharp.IconButton();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.containerfrm = new System.Windows.Forms.Panel();
+            this.lblRol = new System.Windows.Forms.Label();
+            this.lblCoreeo = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             this.panelBotones.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -77,6 +83,10 @@
             // panelBotones
             // 
             this.panelBotones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
+            this.panelBotones.Controls.Add(this.lblRol);
+            this.panelBotones.Controls.Add(this.lblCoreeo);
+            this.panelBotones.Controls.Add(this.lblName);
+            this.panelBotones.Controls.Add(this.pictureBox1);
             this.panelBotones.Controls.Add(this.iconButton4);
             this.panelBotones.Controls.Add(this.panel3);
             this.panelBotones.Dock = System.Windows.Forms.DockStyle.Left;
@@ -84,14 +94,6 @@
             this.panelBotones.Name = "panelBotones";
             this.panelBotones.Size = new System.Drawing.Size(203, 499);
             this.panelBotones.TabIndex = 3;
-            // 
-            // panel3
-            // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(203, 53);
-            this.panel3.TabIndex = 2;
             // 
             // iconButton4
             // 
@@ -116,13 +118,62 @@
             this.iconButton4.UseVisualStyleBackColor = true;
             this.iconButton4.Click += new System.EventHandler(this.iconButton4_Click);
             // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(203, 53);
+            this.panel3.TabIndex = 2;
+            // 
             // containerfrm
             // 
+            this.containerfrm.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("containerfrm.BackgroundImage")));
             this.containerfrm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.containerfrm.Location = new System.Drawing.Point(203, 62);
             this.containerfrm.Name = "containerfrm";
             this.containerfrm.Size = new System.Drawing.Size(931, 499);
             this.containerfrm.TabIndex = 4;
+            // 
+            // lblRol
+            // 
+            this.lblRol.AutoSize = true;
+            this.lblRol.ForeColor = System.Drawing.Color.Tan;
+            this.lblRol.Location = new System.Drawing.Point(53, 458);
+            this.lblRol.Name = "lblRol";
+            this.lblRol.Size = new System.Drawing.Size(35, 13);
+            this.lblRol.TabIndex = 40;
+            this.lblRol.Text = "label4";
+            // 
+            // lblCoreeo
+            // 
+            this.lblCoreeo.AutoSize = true;
+            this.lblCoreeo.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblCoreeo.Location = new System.Drawing.Point(50, 442);
+            this.lblCoreeo.Name = "lblCoreeo";
+            this.lblCoreeo.Size = new System.Drawing.Size(35, 13);
+            this.lblCoreeo.TabIndex = 39;
+            this.lblCoreeo.Text = "label3";
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblName.Location = new System.Drawing.Point(50, 427);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(35, 13);
+            this.lblName.TabIndex = 38;
+            this.lblName.Text = "label2";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 423);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(49, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 37;
+            this.pictureBox1.TabStop = false;
             // 
             // Inicio_Marketing
             // 
@@ -134,9 +185,13 @@
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Inicio_Marketing";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio_Marketing";
+            this.Load += new System.EventHandler(this.Inicio_Marketing_Load);
             this.panel2.ResumeLayout(false);
             this.panelBotones.ResumeLayout(false);
+            this.panelBotones.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -149,5 +204,9 @@
         private System.Windows.Forms.Panel panel3;
         private FontAwesome.Sharp.IconButton iconButton4;
         private System.Windows.Forms.Panel containerfrm;
+        private System.Windows.Forms.Label lblRol;
+        private System.Windows.Forms.Label lblCoreeo;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

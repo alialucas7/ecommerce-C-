@@ -263,7 +263,7 @@
             this.bunifuCustomLabel1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(289, 97);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(322, 109);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(51, 16);
             this.bunifuCustomLabel1.TabIndex = 80;
@@ -363,7 +363,7 @@
             this.ComboBoxEstado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(34)))), ((int)(((byte)(98)))));
             this.ComboBoxEstado.ForeColor = System.Drawing.Color.White;
             this.ComboBoxEstado.FormattingEnabled = true;
-            this.ComboBoxEstado.Location = new System.Drawing.Point(346, 97);
+            this.ComboBoxEstado.Location = new System.Drawing.Point(369, 107);
             this.ComboBoxEstado.Name = "ComboBoxEstado";
             this.ComboBoxEstado.Size = new System.Drawing.Size(121, 21);
             this.ComboBoxEstado.TabIndex = 99;

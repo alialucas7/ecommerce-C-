@@ -180,5 +180,13 @@ namespace BUNIFU
             ActiveButon(sender, RGBColors.color1);
             abrirFormulario(new frmCliente());
         }
+
+        private void Inicio_Empleado_Load(object sender, EventArgs e)
+        {
+            //Carga los datos del usser
+            lblName.Text = usuarioActual.name + ", " + usuarioActual.apellido;
+            lblCoreeo.Text = usuarioActual.email;
+            lblRol.Text = usuarioActual.obRol.descripcion.ToUpper();
+        }
     }
 }

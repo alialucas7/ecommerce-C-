@@ -37,14 +37,14 @@ namespace BUNIFU
             public static Color fondoFormularios = Color.FromArgb(240, 243, 250);
         }
 
-        public Inicio_Marketing()
+        public Inicio_Marketing(Usuario obusser)
         {
             InitializeComponent();
             /* Instancio objetos para los btn*/
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
             panelBotones.Controls.Add(leftBorderBtn);
-            
+            usuarioActual = obusser;
         }
 
 
@@ -128,6 +128,15 @@ namespace BUNIFU
         private void iconButton4_Click(object sender, EventArgs e)
         {
             ActiveButon(sender, RGBColors.color4);
+            abrirFormulario(new frmReporte());
+        }
+
+        private void Inicio_Marketing_Load(object sender, EventArgs e)
+        {
+            //Carga los datos del usser
+            lblName.Text = usuarioActual.name + ", " + usuarioActual.apellido;
+            lblCoreeo.Text = usuarioActual.email;
+            lblRol.Text = usuarioActual.obRol.descripcion.ToUpper();
         }
     }
 }

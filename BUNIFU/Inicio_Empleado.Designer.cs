@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio_Empleado));
             this.contenedor = new System.Windows.Forms.Panel();
             this.containerfrm = new System.Windows.Forms.Panel();
             this.panelBotones = new System.Windows.Forms.Panel();
@@ -40,10 +41,15 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.logo = new FontAwesome.Sharp.IconButton();
+            this.lblRol = new System.Windows.Forms.Label();
+            this.lblCoreeo = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.contenedor.SuspendLayout();
             this.panelBotones.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // contenedor
@@ -61,6 +67,7 @@
             // 
             // containerfrm
             // 
+            this.containerfrm.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("containerfrm.BackgroundImage")));
             this.containerfrm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.containerfrm.Location = new System.Drawing.Point(203, 62);
             this.containerfrm.Name = "containerfrm";
@@ -70,6 +77,10 @@
             // panelBotones
             // 
             this.panelBotones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(10)))), ((int)(((byte)(15)))));
+            this.panelBotones.Controls.Add(this.lblRol);
+            this.panelBotones.Controls.Add(this.lblCoreeo);
+            this.panelBotones.Controls.Add(this.lblName);
+            this.panelBotones.Controls.Add(this.pictureBox1);
             this.panelBotones.Controls.Add(this.iconButton2);
             this.panelBotones.Controls.Add(this.iconButton1);
             this.panelBotones.Controls.Add(this.panel1);
@@ -243,6 +254,46 @@
             this.logo.UseVisualStyleBackColor = false;
             this.logo.Click += new System.EventHandler(this.logo_Click);
             // 
+            // lblRol
+            // 
+            this.lblRol.AutoSize = true;
+            this.lblRol.ForeColor = System.Drawing.Color.Tan;
+            this.lblRol.Location = new System.Drawing.Point(57, 472);
+            this.lblRol.Name = "lblRol";
+            this.lblRol.Size = new System.Drawing.Size(35, 13);
+            this.lblRol.TabIndex = 36;
+            this.lblRol.Text = "label4";
+            // 
+            // lblCoreeo
+            // 
+            this.lblCoreeo.AutoSize = true;
+            this.lblCoreeo.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblCoreeo.Location = new System.Drawing.Point(54, 456);
+            this.lblCoreeo.Name = "lblCoreeo";
+            this.lblCoreeo.Size = new System.Drawing.Size(35, 13);
+            this.lblCoreeo.TabIndex = 35;
+            this.lblCoreeo.Text = "label3";
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblName.Location = new System.Drawing.Point(54, 441);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(35, 13);
+            this.lblName.TabIndex = 34;
+            this.lblName.Text = "label2";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(7, 437);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(49, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 33;
+            this.pictureBox1.TabStop = false;
+            // 
             // Inicio_Empleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -254,10 +305,13 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio_Empleado";
+            this.Load += new System.EventHandler(this.Inicio_Empleado_Load);
             this.contenedor.ResumeLayout(false);
             this.panelBotones.ResumeLayout(false);
+            this.panelBotones.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -276,5 +330,9 @@
         private FontAwesome.Sharp.IconButton iconButton1;
         private FontAwesome.Sharp.IconButton iconButton2;
         private System.Windows.Forms.Panel containerfrm;
+        private System.Windows.Forms.Label lblRol;
+        private System.Windows.Forms.Label lblCoreeo;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

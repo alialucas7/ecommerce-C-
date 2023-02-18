@@ -26,11 +26,12 @@ namespace BUNIFU
             //instancia las clases
             List<Usuario> TEST = new CN_Usuario().Listar();
             Usuario ousuario = new  CN_Usuario().Listar().Where(u => u.dni == textDocument1.Texts && u.pasword == userControl11.Texts).FirstOrDefault();
-            
-            
-            if (ousuario != null){
+
+
+            if ((ousuario != null) && (ousuario.obRol.getID() == 1))
+            {
                 this.Hide();
-                pantallaBienvenidita bienvenida = new pantallaBienvenidita();
+                pantallaBienvenidita bienvenida = new pantallaBienvenidita(ousuario);
                 bienvenida.ShowDialog();
                 //int valor = 0;
                 //valor = ousuario.obRol.getID();
@@ -39,20 +40,36 @@ namespace BUNIFU
                 Inicio form = new Inicio(ousuario);
                 form.Show();
                 form.FormClosing += frm_closing;
+                return;
             }
-            /*if ((ousuario != null) && (ousuario.obRol.getID() == 3))
+            if ((ousuario != null) && (ousuario.obRol.getID() == 2))
             {
                 this.Hide();
-                pantallaBienvenidita bienvenida = new pantallaBienvenidita();
+                pantallaBienvenidita bienvenida = new pantallaBienvenidita(ousuario);
                 bienvenida.ShowDialog();
                 //int valor = 0;
                 //valor = ousuario.obRol.getID();
 
                 //MessageBox.Show(valor.ToString());
-                InicioEmpleado form = new InicioEmpleado(ousuario);
+                Inicio_Marketing form = new Inicio_Marketing(ousuario);
                 form.Show();
                 form.FormClosing += frm_closing;
-            }*/
+                return;
+            }
+            if ((ousuario != null) && (ousuario.obRol.getID() == 3))
+            {
+                this.Hide();
+                pantallaBienvenidita bienvenida = new pantallaBienvenidita(ousuario);
+                bienvenida.ShowDialog();
+                //int valor = 0;
+                //valor = ousuario.obRol.getID();
+
+                //MessageBox.Show(valor.ToString());
+                Inicio_Empleado form = new Inicio_Empleado(ousuario);
+                form.Show();
+                form.FormClosing += frm_closing;
+                return;
+            }
             else { MessageBox.Show("no existe el usuario facha"); }
           
         }

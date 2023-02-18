@@ -15,9 +15,9 @@ namespace CapadeDatos
     {
         public List<Usuario> Listar()
         {
-            
+
             List<Usuario> lista = new List<Usuario>();
-           
+
             using (SqlConnection conexion = new SqlConnection(Conexion.cadena))
             {
                 try
@@ -25,35 +25,28 @@ namespace CapadeDatos
                     StringBuilder query = new StringBuilder();
                     //string query = "select * from Usuario";
 
-<<<<<<< HEAD
-                   query.AppendLine("select u.id_Usuario,u.id_sucursal,r.id_rol,r.descripcion, u.dni, u.nombre, u.apellido, u.email,u.telefono, u.estado,u.pasword from Usuario u");
-=======
-                   query.AppendLine("select u.id_Usuario,u.id_sucursal,r.id_rol, r.descripcion, u.dni, u.nombre, u.apellido, u.email,u.telefono, u.estado,u.pasword from Usuario u");
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
+                    query.AppendLine("select u.id_Usuario,u.id_sucursal,r.id_rol, r.descripcion, u.dni, u.nombre, u.apellido, u.email,u.telefono, u.estado,u.pasword from Usuario u");
 
-                   query.AppendLine("inner join Rol r on r.id_rol = u.id_rol");
-                        
+                    query.AppendLine("inner join Rol r on r.id_rol = u.id_rol");
+
                     SqlCommand cmd = new SqlCommand(query.ToString(), conexion);
-                   
+
                     cmd.CommandType = CommandType.Text;
-                    
+
                     conexion.Open();
                     using (SqlDataReader dr = cmd.ExecuteReader())
                     {
-                        
-                         
-                            while (dr.Read())
-                            {
+
+
+                        while (dr.Read())
+                        {
                             ///int idTemporal = Convert.ToInt32(dr["id_rol"]);
-                                lista.Add(new Usuario(){ 
+                            lista.Add(new Usuario()
+                            {
                                 id_usuario = Convert.ToInt32(dr["id_Usuario"]),
                                 id_sucursal = Convert.ToInt32(dr["id_sucursal"]),
-<<<<<<< HEAD
-                                    obRol = new Rol() { id_rol = Convert.ToInt32(dr["id_rol"]) , descripcion = dr["descripcion"].ToString()},
-=======
-                                obRol = new Rol() { id_rol = Convert.ToInt32(dr["id_rol"]) , descripcion = dr["descripcion"].ToString()},
->>>>>>> d10cbdcb7eaa31867051e29eb66bdc620107f693
-                                    //obRol = new Rol(idTemporal),
+                                obRol = new Rol() { id_rol = Convert.ToInt32(dr["id_rol"]), descripcion = dr["descripcion"].ToString() },
+                                //obRol = new Rol(idTemporal),
                                 dni = dr["dni"].ToString(),
                                 name = dr["nombre"].ToString(),
                                 apellido = dr["apellido"].ToString(),
@@ -61,13 +54,13 @@ namespace CapadeDatos
                                 telefono = dr["telefono"].ToString(),
                                 state = Convert.ToBoolean(dr["estado"]),
                                 pasword = dr["pasword"].ToString()
-                                
-                                
+
+
                             });
                         }
                     }
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     lista = new List<Usuario>();
                 }
@@ -75,10 +68,10 @@ namespace CapadeDatos
                 return lista;
             }
         }
-	//comentario de prueba 
+        //comentario de prueba 
 
 
-        public int Registrar(Usuario objU,out string Mensaje)
+        public int Registrar(Usuario objU, out string Mensaje)
         {
             int idUsuarioGenerado = 0;
             Mensaje = string.Empty;
@@ -89,11 +82,11 @@ namespace CapadeDatos
                 {
                     SqlCommand cmd = new SqlCommand("SP_RegistrarUsuarioo", conexion);
                     /*Procedo a ejecutar el procedimiento almacenado para registrar usser*/
-                    
+
                     //datos de entrada
                     cmd.Parameters.AddWithValue("idRol", objU.obRol.id_rol);
                     cmd.Parameters.AddWithValue("id_sucursal", objU.id_sucursal);
-                    cmd.Parameters.AddWithValue("dni",objU.dni);
+                    cmd.Parameters.AddWithValue("dni", objU.dni);
                     cmd.Parameters.AddWithValue("nombre", objU.name);
                     cmd.Parameters.AddWithValue("apellido", objU.apellido);
                     cmd.Parameters.AddWithValue("email", objU.email);
@@ -102,8 +95,8 @@ namespace CapadeDatos
                     cmd.Parameters.AddWithValue("pasword", objU.pasword);
                     //datos de salida
                     cmd.Parameters.Add("idUsuarioResultado", SqlDbType.Int).Direction = ParameterDirection.Output;
-                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar,200).Direction = ParameterDirection.Output;
-                    
+                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar, 200).Direction = ParameterDirection.Output;
+
                     //storesprocedure xq es un proc almacenado
                     cmd.CommandType = CommandType.StoredProcedure;
 
@@ -149,7 +142,7 @@ namespace CapadeDatos
                     cmd.Parameters.AddWithValue("pasword", objU.pasword);
                     //datos de salida
                     cmd.Parameters.Add("Respuesta", SqlDbType.Int).Direction = ParameterDirection.Output;
-                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar,200).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar, 200).Direction = ParameterDirection.Output;
 
                     //storesprocedure xq es un proc almacenado
                     cmd.CommandType = CommandType.StoredProcedure;
@@ -186,11 +179,11 @@ namespace CapadeDatos
 
                     //datos de entrada
                     cmd.Parameters.AddWithValue("idUsuario", objU.id_usuario);
-                    
+
 
                     //datos de salida
                     cmd.Parameters.Add("Respuesta", SqlDbType.Int).Direction = ParameterDirection.Output;
-                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar,200).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar, 200).Direction = ParameterDirection.Output;
 
                     //storesprocedure xq es un proc almacenado
                     cmd.CommandType = CommandType.StoredProcedure;
