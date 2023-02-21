@@ -5,9 +5,9 @@
 ### Descripcion del Proyecto | Project Description
 Este proyecto es una simulacion de un comercio electronico, para una concesionaria de autos electricos multisucursal, desarrollada en .net tipo aplicacion de escritorio con la herramienta WinForms. Cuenta con un CRUD para cada entidad y tambien un servicio de Backup
 
-![Pantallaso1](https://user-images.githubusercontent.com/41133287/220201949-5a5be157-6f60-411b-9983-be3922264213.PNG)
+![AnimationDefinitive0](https://user-images.githubusercontent.com/41133287/220393042-464da1d1-4436-4d42-a68d-64adda975510.gif)
 
 
 ### Documentacion | Documentation
 
-### Paquetes | Packages
+### Usuarios | Users
