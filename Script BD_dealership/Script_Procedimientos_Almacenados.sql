@@ -117,7 +117,7 @@ go
 
 --PROCEDIMIENTOS PARA CLIENTE
 CREATE PROC sp_RegistrarCliente(
-@id_sucursal int,
+
 @dni varchar (50),
 @nombre varchar (50),
 @apellido varchar (50),
@@ -132,7 +132,7 @@ CREATE PROC sp_RegistrarCliente(
 		DECLARE @idpersona int
 	if not exists (select * from Cliente where dni = @dni)
 		begin
-			insert into Cliente (id_sucursal,dni,nombre,apellido,email,telefono,estado) values (@id_sucursal,@dni,@nombre,@apellido,@email,@telefono,@estado)
+			insert into Cliente (dni,nombre,apellido,email,telefono,estado) values (@dni,@nombre,@apellido,@email,@telefono,@estado)
 
 			SET @resultado = SCOPE_IDENTITY()
 		end
@@ -144,7 +144,7 @@ go
 
 CREATE PROC sp_ModificarCliente(
 @id_cliente int,
-@id_sucursal int,
+ 
 @dni varchar (50),
 @nombre varchar (50),
 @apellido varchar (50),
@@ -160,7 +160,7 @@ CREATE PROC sp_ModificarCliente(
 	if not exists (select * from Cliente where dni = @dni and id_cliente != @id_cliente)
 		begin
 			update Cliente set
-			id_sucursal = @id_sucursal,
+			
 			dni = @dni,
 			nombre = @nombre,
 			apellido = @apellido,
@@ -179,18 +179,18 @@ CREATE PROC sp_ModificarCliente(
 --PROCEDIMIENTOS PARA PRODUCTOS
 create proc SP_RegistrarProductoo(
 
-@id_sucursal integer,
+
 @id_modelo integer,
 @id_marca integer,
 @patente varchar(20),
 @precio float,
-@stock integer,
+
 @estado bit,
 
 @n_puertas integer,
-@color varchar(20),
-@año_fabricacion datetime,
-@descripcion varchar(30),
+@color varchar(40),
+@año_fabricacion varchar(5),
+@descripcion varchar(600),
 
 @resultado bit output,
 @mensaje varchar(300) output
@@ -200,8 +200,8 @@ begin
 	set @resultado = 0
 	if not exists (select * from Automovil where patente =@patente)
 	begin
-		insert into Automovil(id_sucursal,id_modelo,id_marca,patente,precio,stock,estado,n_puertas,color,año_fabricacion,descripcion)
-		values (@id_sucursal ,@id_modelo,@id_marca,@patente,@precio,@stock,@estado,@n_puertas,@color,@año_fabricacion,@descripcion)
+		insert into Automovil(id_modelo,id_marca,patente,precio,estado,n_puertas,color,año_fabricacion,descripcion)
+		values ( @id_modelo,@id_marca,@patente,@precio,@estado,@n_puertas,@color,@año_fabricacion,@descripcion)
 		set @resultado = scope_identity()
 	end
 
@@ -212,18 +212,18 @@ go
 
 create proc SP_EditarProductoo(
 @id_automovil integer,
-@id_sucursal integer,
+
 @id_modelo integer,
 @id_marca integer,
 @patente varchar(20),
 @precio float,
-@stock integer,
+
 @estado bit,
 
 @n_puertas integer,
-@color varchar(20),
-@año_fabricacion datetime,
-@descripcion varchar(30),
+@color varchar(40),
+@año_fabricacion varchar(5),
+@descripcion varchar(600),
 
 @resultado bit output,
 @mensaje varchar(300) output
@@ -234,12 +234,12 @@ begin
 	if not exists (select * from Automovil where patente = @patente and id_automovil != @id_automovil)
 	update Automovil set
 	
-	id_sucursal = @id_sucursal,
+	
 	id_modelo = @id_modelo,
 	id_marca = @id_marca,
 	patente = @patente,
 	precio =@precio,
-	stock = @stock,
+	
 	estado = @estado,
 	n_puertas =@n_puertas,
 	color = @color,
@@ -322,7 +322,7 @@ begin
 		select * from Detalle_Factura
 		/*Se inserta luego la entidad Detalle de Factura*/
 		insert into Detalle_Factura(id_factura,id_automovil,precioVenta,cantidad,subTotal)
-		select @idFactura, id_automovil,precioVenta,subTotal,cantidad from @detalleVenta
+		select @idFactura, id_automovil,precioVenta,cantidad,subTotal from @detalleVenta
 
 		commit transaction registro
 

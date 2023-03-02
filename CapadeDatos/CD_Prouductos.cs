@@ -25,11 +25,11 @@ namespace CapadeDatos
                 {
                     StringBuilder query = new StringBuilder();
                     //string query = "select * from Usuario";
-                    query.AppendLine("select a.id_automovil,a.id_sucursal ,m2.id_marca,m2.descripcionMarca,m1.id_modelo,m1.descripcionModelo,a.patente,a.precio,a.stock,a.estado,a.n_puertas,a.color,a.año_fabricacion,a.descripcion, a.fecha_registro from Automovil a");
+                    query.AppendLine("select a.id_automovil, m2.id_marca, m2.descripcionMarca, m1.id_modelo, m1.descripcionModelo, a.patente, a.precio, a.estado, a.n_puertas, a.color, a.año_fabricacion, a.descripcion, a.fecha_registro from Automovil a");
                     query.AppendLine("inner join Modelo m1 on m1.id_modelo = a.id_modelo");
                     query.AppendLine("and				  m1.id_marca = a.id_marca");
-                    query.AppendLine("inner join Marca  m2 on m2.id_marca = a.id_marca" +
-                        "");
+                    query.AppendLine("inner join Marca  m2 on m2.id_marca = a.id_marca");
+
 
 
 
@@ -48,13 +48,13 @@ namespace CapadeDatos
                             lista.Add(new Automovil()
                             {
                                 id_automovil = Convert.ToInt32(dr["id_automovil"]),
-                                id_sucursal = new Sucursal() { id_sucursal = Convert.ToInt32(dr["id_sucursal"]) },
+                                //id_sucursal = new Sucursal() { id_sucursal = Convert.ToInt32(dr["id_sucursal"]) },
                                 objMarcaa = new Marca() { id_marca = Convert.ToInt32(dr["id_marca"]), descripcionMarca = dr["descripcionMarca"].ToString() },
                                 objModeloo = new Modelo() { objMarca = new Marca() { id_marca = Convert.ToInt32(dr["id_marca"]), descripcionMarca = dr["descripcionMarca"].ToString() },
                                 id_modelo = Convert.ToInt32(dr["id_modelo"]), descripcionModel = dr["descripcionModelo"].ToString()},
                                 patente = dr["patente"].ToString(),
                                 precio = Convert.ToDecimal(dr["precio"]),
-                                stock = Convert.ToInt32(dr["stock"]),
+                                //stock = Convert.ToInt32(dr["stock"]),
                                 estado = Convert.ToBoolean(dr["estado"]),
                                 nPuertas = Convert.ToInt32(dr["n_puertas"]),
                                 color = dr["color"].ToString(),
@@ -92,12 +92,12 @@ namespace CapadeDatos
 
                     //datos de entrada
                    // cmd.Parameters.AddWithValue("id_automovil", objAuto.id_automovil);
-                    cmd.Parameters.AddWithValue("id_sucursal", objAuto.id_sucursal.id_sucursal);
+                   // cmd.Parameters.AddWithValue("id_sucursal", objAuto.id_sucursal.id_sucursal);
                     cmd.Parameters.AddWithValue("id_modelo", objAuto.objModeloo.id_modelo);
                     cmd.Parameters.AddWithValue("id_marca", objAuto.objMarcaa.id_marca);
                     cmd.Parameters.AddWithValue("patente", objAuto.patente);
                     cmd.Parameters.AddWithValue("precio", objAuto.precio);
-                    cmd.Parameters.AddWithValue("stock", objAuto.stock);
+                   //cmd.Parameters.AddWithValue("stock", objAuto.stock);
                     cmd.Parameters.AddWithValue("estado", objAuto.estado);
                     cmd.Parameters.AddWithValue("n_puertas", objAuto.nPuertas);
                     cmd.Parameters.AddWithValue("color", objAuto.color);
@@ -148,12 +148,12 @@ namespace CapadeDatos
 
                     //datos de entrada
                     cmd.Parameters.AddWithValue("id_automovil", objAuto.id_automovil);
-                    cmd.Parameters.AddWithValue("id_sucursal", objAuto.id_sucursal.id_sucursal);
+                 //   cmd.Parameters.AddWithValue("id_sucursal", objAuto.id_sucursal.id_sucursal);
                     cmd.Parameters.AddWithValue("id_modelo", objAuto.objModeloo.id_modelo);
                     cmd.Parameters.AddWithValue("id_marca", objAuto.objMarcaa.id_marca);
                     cmd.Parameters.AddWithValue("patente", objAuto.patente);
                     cmd.Parameters.AddWithValue("precio", objAuto.precio);
-                    cmd.Parameters.AddWithValue("stock", objAuto.stock);
+                  //  cmd.Parameters.AddWithValue("stock", objAuto.stock);
                     cmd.Parameters.AddWithValue("estado", objAuto.estado);
                     cmd.Parameters.AddWithValue("n_puertas", objAuto.nPuertas);
                     cmd.Parameters.AddWithValue("color", objAuto.color);

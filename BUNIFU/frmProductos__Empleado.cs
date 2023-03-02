@@ -35,11 +35,11 @@ namespace BUNIFU
 
             foreach (Automovil item in autos)
             {
-                dataGridProduct.Rows.Add(new object[] {item.id_automovil,item.id_sucursal.id_sucursal,
+                dataGridProduct.Rows.Add(new object[] {item.id_automovil,
                 item.objMarcaa.id_marca,item.objMarcaa.descripcionMarca,
                 item.objModeloo.id_modelo,item.objModeloo.descripcionModel,
                 item.patente,item.precio,
-                item.stock,
+                
                 item.estado == true ? 1:0,
                 item.nPuertas,item.color,item.añoFabricacion,item.descripcionAuto
                 });

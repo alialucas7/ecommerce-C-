@@ -75,7 +75,7 @@ namespace BUNIFU
                     string descrip = modal._Automovil.objModeloo.descripcionModel;
                     txtAuto.Text = modal._Automovil.objMarcaa.descripcionMarca + " " +descrip;
                     txprice.Text = modal._Automovil.precio.ToString("0.00");
-                    txStok.Text = modal._Automovil.stock.ToString();
+                    //txStok.Text = modal._Automovil.stock.ToString();
                     numericUpDown1.Select();
                 }
                 else txtPatent.Select();
@@ -95,7 +95,7 @@ namespace BUNIFU
                     textBox2.Text = auto.id_automovil.ToString();
                     txtAuto.Text = auto.objMarcaa.descripcionMarca+ ", " + auto.objModeloo.descripcionModel;
                     txprice.Text = auto.precio.ToString();
-                    txStok.Text = auto.stock.ToString();
+                   // txStok.Text = auto.stock.ToString();
                     numericUpDown1.Value = 1;
                 }
                 else
@@ -104,7 +104,7 @@ namespace BUNIFU
                     textBox2.Text = "0";
                     txtAuto.Text = "";
                     txprice.Text = "";
-                    txStok.Text = auto.stock.ToString();
+                  //  txStok.Text = auto.stock.ToString();
                 }
             }
         }

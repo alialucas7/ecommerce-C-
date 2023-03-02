@@ -222,7 +222,7 @@
             this.iconButton1.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.iconButton1.Size = new System.Drawing.Size(203, 60);
             this.iconButton1.TabIndex = 23;
-            this.iconButton1.Text = "Clientes";
+            this.iconButton1.Text = "Reportes";
             this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton1.UseVisualStyleBackColor = true;
             this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click_1);

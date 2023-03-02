@@ -89,8 +89,8 @@ namespace BUNIFU.Modales
                     item.patente,
                     item.objMarcaa.descripcionMarca,
                     item.objModeloo.descripcionModel,
-                    item.precio.ToString(),
-                    item.stock.ToString()
+                    item.precio.ToString()
+               
                 
                 });
             }
@@ -147,8 +147,8 @@ namespace BUNIFU.Modales
                     patente = dataGridProduct.Rows[iRow].Cells["patente"].Value.ToString(),
                     objMarcaa = new Marca() { descripcionMarca = dataGridProduct.Rows[iRow].Cells["Marca"].Value.ToString()},
                     objModeloo = new Modelo() { descripcionModel = dataGridProduct.Rows[iRow].Cells["Modelo"].Value.ToString()},
-                    precio = Convert.ToDecimal( dataGridProduct.Rows[iRow].Cells["precio"].Value.ToString()),
-                    stock = Convert.ToInt32(dataGridProduct.Rows[iRow].Cells["stock"].Value.ToString())
+                    precio = Convert.ToDecimal( dataGridProduct.Rows[iRow].Cells["precio"].Value.ToString())
+                    //stock = Convert.ToInt32(dataGridProduct.Rows[iRow].Cells["stock"].Value.ToString())
                 };
                 this.DialogResult = DialogResult.OK;
                 this.Close();

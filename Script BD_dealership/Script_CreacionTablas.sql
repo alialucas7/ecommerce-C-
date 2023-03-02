@@ -8,7 +8,7 @@
 ------------------------------- Tablas de Entidades -------------------------------------
 -- Nombre de la Base de Datos: BD_dealership
 -- Tablas: Marca, Modelo, País, Provincia, Localidad, Sucursal, Automovil
--- Rol, Permiso, Cliente, Usuario, Tipo_Factura (Preguntar hay dos tablas de tipo factura),
+-- Rol, Permiso, Cliente, Usuario, Tipo_Factura,
 -- Factura, Detalle_Factura	
 -----------------------------------------------------------------------------------------
 
@@ -60,24 +60,21 @@ foreign key (id_localidad,id_provincia,id_pais) references Localidad(id_localida
 
 create table Automovil(
 id_automovil integer identity(1,1) primary key,
-id_sucursal integer,
 id_marca integer,
 id_modelo integer,
 patente varchar(20) unique not null,
 precio float not null,
-stock integer default 0,
 estado bit not null,
 fecha_registro datetime default getdate(),
 n_puertas integer,
-color varchar(20),
-año_fabricacion datetime,
-descripcion varchar(30),
-foreign key (id_marca,id_modelo) references Modelo(id_marca,id_modelo),
-foreign key (id_sucursal) references Sucursal(id_sucursal)
+color varchar(30),
+año_fabricacion varchar(5),
+descripcion varchar(550),
+foreign key (id_marca,id_modelo) references Modelo(id_marca,id_modelo)
 )
 
 create table Tipo_Factura(
-id_tipo int primary key,
+id_tipo int primary key identity(1,1),
 descripcion varchar(20) 
 )
 
@@ -90,6 +87,7 @@ fecha_creacion datetime default getdate()
 create table Usuario(
 id_usuario integer primary key identity(1,1),
 id_rol  integer references Rol(id_rol),
+id_sucursal int,
 dni varchar(8) not null unique,
 nombre varchar(30),
 apellido varchar(20),
@@ -97,7 +95,8 @@ email varchar(45),
 telefono varchar(12),
 estado bit,
 fecha_creacion datetime default getdate(),
-pasword varchar(55)
+pasword varchar(55),
+foreign key (id_sucursal) references Sucursal(id_sucursal)
 )
 
 create table Factura(
@@ -125,7 +124,6 @@ fecha_registro datetime default getdate()
 
 create table Cliente(
 id_cliente integer primary key identity(1,1),
-id_sucursal integer not null,
 dni varchar(8) not null unique,
 nombre varchar(30),
 apellido varchar(20),
@@ -133,5 +131,13 @@ email varchar(45),
 telefono varchar(12),
 estado bit,
 fecha_creacion datetime default getdate(),
-foreign key (id_sucursal) references Sucursal (id_sucursal)
+)
+
+create table Producto_Sucursal(
+id_automovil integer,
+id_sucursal integer,
+stock integer not null,
+foreign key (id_automovil) references Automovil(id_automovil),
+foreign key (id_sucursal) references Sucursal (id_sucursal),
+primary key (id_automovil,id_sucursal)
 )

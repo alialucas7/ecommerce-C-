@@ -38,22 +38,7 @@ namespace BUNIFU
             //comboEstado.SelectedIndex = 0;
 
 
-            /* me trae la consulta en mi BD y muestra en el combobox*/
-            List<Sucursal> listaSucursal1 = new CN_Sucursal().Listar();
-
-            /*Me muestra en el combobox todas las sucursales que hay*/
-            foreach (Sucursal item in listaSucursal1)
-            {
-                comboSucur.Items.Add(new OpcionCombobox()
-                {
-                    valor = item.id_sucursal,
-                    Texto = item.descripcion
-                + "," + item.objLocalidad.descripcionLocal + " (" + item.objProvincia.descripcionPro + "," +
-                item.objPais.descripcionPais + ")"
-                });
-            }
-            comboSucur.DisplayMember = "Texto";
-            comboSucur.ValueMember = "valor";
+            
 
 
 
@@ -94,11 +79,11 @@ namespace BUNIFU
 
             foreach (Automovil item in autos)
             {
-                dataGridProduct.Rows.Add(new object[] {"",item.id_automovil,item.id_sucursal.id_sucursal,
+                dataGridProduct.Rows.Add(new object[] {"",item.id_automovil,
                 item.objMarcaa.id_marca,item.objMarcaa.descripcionMarca,
                 item.objModeloo.id_modelo,item.objModeloo.descripcionModel,
                 item.patente,item.precio,
-                item.stock,
+                
                 item.estado == true ? 1:0,
                 item.nPuertas,item.color,item.añoFabricacion,item.descripcionAuto
                 });
@@ -152,15 +137,7 @@ namespace BUNIFU
                     textBox1.Text = indice.ToString();
                     txID.Text = dataGridProduct.Rows[indice].Cells["ID"].Value.ToString();
 
-                    foreach (OpcionCombobox oc in comboSucur.Items)
-                    {
-                        if (Convert.ToInt32(oc.valor) == Convert.ToInt32(dataGridProduct.Rows[indice].Cells["IDsucursal"].Value))
-                        {
-                            int indiceCombo = comboSucur.Items.IndexOf(oc);
-                            comboSucur.SelectedIndex = indiceCombo;
-                            break;
-                        }
-                    }
+                    
 
                     foreach (OpcionCombobox oc in comboMark.Items)
                     {
@@ -199,9 +176,9 @@ namespace BUNIFU
                     txtPrecio.Texts = dataGridProduct.Rows[indice].Cells["precio"].Value.ToString();
                     txPrice.Text = dataGridProduct.Rows[indice].Cells["precio"].Value.ToString();
 
-                    txtStocke.ForeColor = Color.Black;
-                    txtStocke.Texts = dataGridProduct.Rows[indice].Cells["stock"].Value.ToString();
-                    txStok.Text = dataGridProduct.Rows[indice].Cells["stock"].Value.ToString();
+                    //txtStocke.ForeColor = Color.Black;
+                    //txtStocke.Texts = dataGridProduct.Rows[indice].Cells["stock"].Value.ToString();
+                    //txStok.Text = dataGridProduct.Rows[indice].Cells["stock"].Value.ToString();
 
                     txtAño.ForeColor = Color.Black;
                     txtAño.Texts = dataGridProduct.Rows[indice].Cells["Añof"].Value.ToString();
@@ -235,9 +212,9 @@ namespace BUNIFU
             txtPatente.PalceHolderText = "Precio";
             txtPatente.PalceHolderColor = Color.DarkGray;
 
-            txtStocke.Texts = "";
-            txtStocke.PalceHolderText = "Stock";
-            txtStocke.PalceHolderColor = Color.DarkGray;
+            //txtStocke.Texts = "";
+            //txtStocke.PalceHolderText = "Stock";
+            //txtStocke.PalceHolderColor = Color.DarkGray;
 
             txtAño.Texts = "";
             txtAño.PalceHolderText = "Año Fabricacion";
@@ -255,7 +232,7 @@ namespace BUNIFU
             txtdescrip.PalceHolderText = "Descripcion .....";
             txtdescrip.PalceHolderColor = Color.DarkGray;
             //limpio tambien los combobox
-            comboSucur.SelectedIndex = -1;
+            //comboSucur.SelectedIndex = -1;
             comboMark.SelectedIndex = -1;
             comboModel.SelectedIndex = -1;
             comboEstado.SelectedIndex = -1;
@@ -296,12 +273,12 @@ namespace BUNIFU
             Automovil auto = new Automovil()
             {
                 id_automovil = Convert.ToInt32(txID.Text),
-                id_sucursal = new Sucursal() { id_sucursal = Convert.ToInt32(((OpcionCombobox)comboSucur.SelectedItem).valor) },
+                //id_sucursal = new Sucursal() { id_sucursal = Convert.ToInt32(((OpcionCombobox)comboSucur.SelectedItem).valor) },
                 objMarcaa = new Marca() { id_marca = Convert.ToInt32(((OpcionCombobox)comboMark.SelectedItem).valor), descripcionMarca = ((OpcionCombobox)comboMark.SelectedItem).Texto },
                 objModeloo = new Modelo() { objMarca = new Marca() { id_marca = Convert.ToInt32(((OpcionCombobox)comboMark.SelectedItem).valor) }, id_modelo = Convert.ToInt32(((OpcionCombobox)comboModel.SelectedItem).valor), descripcionModel = ((OpcionCombobox)comboModel.SelectedItem).Texto },
                 patente = (txtPatente.Texts == "") ? txtPatente.Texts = txPatente.Text : txtPatente.Texts,
                 precio = (txtPrecio.Texts == "") ? Convert.ToDecimal(txPrice.Text) : Convert.ToDecimal(txtPrecio.Texts),
-                stock = (txtStocke.Texts == "") ? Convert.ToInt32(txStok.Text) : Convert.ToInt32(txtStocke.Texts),
+               // stock = (txtStocke.Texts == "") ? Convert.ToInt32(txStok.Text) : Convert.ToInt32(txtStocke.Texts),
                 estado = Convert.ToInt32(((OpcionCombobox)comboEstado.SelectedItem).valor) == 1 ? true : false,
                 nPuertas = (txtPuerta.Texts == "") ? Convert.ToInt32(txDor.Text) : Convert.ToInt32(txtPuerta.Texts),
 
@@ -324,7 +301,7 @@ namespace BUNIFU
                 {
                     //cargo los dattos en el datagrid
                     dataGridProduct.Rows.Add(new object[] {"",resultado,
-                       (((OpcionCombobox)comboSucur.SelectedItem).valor).ToString(),
+                      // (((OpcionCombobox)comboSucur.SelectedItem).valor).ToString(),
                        (((OpcionCombobox)comboMark.SelectedItem).valor).ToString(),
                       (((OpcionCombobox)comboMark.SelectedItem).Texto).ToString(),
                       //Convert.ToInt32(((OpcionCombobox)comboMark.SelectedItem).Texto),
@@ -332,7 +309,7 @@ namespace BUNIFU
                       (((OpcionCombobox)comboModel.SelectedItem).Texto).ToString(),
                       txtPatente.Texts,
                       txtPrecio.Texts,
-                      txtStocke.Texts,
+                    //  txtStocke.Texts,
                       Convert.ToInt32(((OpcionCombobox)comboEstado.SelectedItem).valor),
                       txtPuerta.Texts,txtColor.Texts,txtAño.Texts,
                       txtdescrip.Texts
@@ -353,14 +330,14 @@ namespace BUNIFU
                 DataGridViewRow row = dataGridProduct.Rows[Convert.ToInt32(textBox1.Text)];
                  //row.Cells["S"].Value = "";
                 row.Cells["id"].Value = txID.Text;
-                row.Cells["IDsucursal"].Value = ((OpcionCombobox)comboSucur.SelectedItem).valor;
+               // row.Cells["IDsucursal"].Value = ((OpcionCombobox)comboSucur.SelectedItem).valor;
                 row.Cells["id_marca"].Value = ((OpcionCombobox)comboMark.SelectedItem).valor;
                 row.Cells["marca"].Value = ((OpcionCombobox)comboMark.SelectedItem).Texto.ToString();
                 row.Cells["id_modelo"].Value = ((OpcionCombobox)comboModel.SelectedItem).valor;
                 row.Cells["modelo"].Value = ((OpcionCombobox)comboMark.SelectedItem).Texto;
                 row.Cells["patente"].Value = auto.patente;
                 row.Cells["precio"].Value = auto.precio;
-                row.Cells["stock"].Value = auto.stock;
+             //   row.Cells["stock"].Value = auto.stock;
                 row.Cells["state"].Value = auto.estado;
                 row.Cells["nPuerta"].Value = auto.nPuertas;
                 row.Cells["color"].Value = auto.color;

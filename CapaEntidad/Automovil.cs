@@ -9,13 +9,13 @@ namespace CapaEntidad
     public class Automovil
     {
         public int id_automovil{ get; set; }
-        public Sucursal id_sucursal { get; set; }
+
         public Marca objMarcaa { get; set; }
         public Modelo objModeloo{ get; set; }
         
         public string patente { get; set; }
         public decimal precio{ get; set; }
-        public int stock { get; set; }
+    
         public bool estado { get; set; }
       
         public int nPuertas { get; set; }
