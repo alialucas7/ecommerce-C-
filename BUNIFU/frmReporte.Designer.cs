@@ -79,6 +79,8 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -98,13 +100,14 @@
             this.dateTimeFechaInicio.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.dateTimeFechaInicio.CustomFormat = "dd/MM/yyyy";
             this.dateTimeFechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimeFechaInicio.Location = new System.Drawing.Point(202, 54);
+            this.dateTimeFechaInicio.Location = new System.Drawing.Point(202, 47);
             this.dateTimeFechaInicio.Name = "dateTimeFechaInicio";
             this.dateTimeFechaInicio.Size = new System.Drawing.Size(114, 20);
             this.dateTimeFechaInicio.TabIndex = 2;
             // 
             // dateTimeFechaFin
             // 
+            this.dateTimeFechaFin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.dateTimeFechaFin.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.dateTimeFechaFin.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.dateTimeFechaFin.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
@@ -112,13 +115,14 @@
             this.dateTimeFechaFin.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.dateTimeFechaFin.CustomFormat = "dd/MM/yyyy";
             this.dateTimeFechaFin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimeFechaFin.Location = new System.Drawing.Point(433, 54);
+            this.dateTimeFechaFin.Location = new System.Drawing.Point(433, 48);
             this.dateTimeFechaFin.Name = "dateTimeFechaFin";
             this.dateTimeFechaFin.Size = new System.Drawing.Size(114, 20);
             this.dateTimeFechaFin.TabIndex = 4;
             // 
             // ComboBoxBuscarPor
             // 
+            this.ComboBoxBuscarPor.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ComboBoxBuscarPor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.ComboBoxBuscarPor.ForeColor = System.Drawing.Color.White;
             this.ComboBoxBuscarPor.FormattingEnabled = true;
@@ -129,6 +133,7 @@
             // 
             // txtBuscarPor
             // 
+            this.txtBuscarPor.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBuscarPor.AutoSize = true;
             this.txtBuscarPor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
             this.txtBuscarPor.FlatStyle = System.Windows.Forms.FlatStyle.System;
@@ -142,6 +147,7 @@
             // 
             // btnClean
             // 
+            this.btnClean.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnClean.BackColor = System.Drawing.Color.White;
             this.btnClean.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClean.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -159,6 +165,7 @@
             // 
             // btnBuscar
             // 
+            this.btnBuscar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnBuscar.BackColor = System.Drawing.Color.White;
             this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -189,12 +196,13 @@
             // 
             // FechaFin
             // 
+            this.FechaFin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.FechaFin.AutoSize = true;
             this.FechaFin.BackColor = System.Drawing.Color.White;
             this.FechaFin.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.FechaFin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FechaFin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.FechaFin.Location = new System.Drawing.Point(370, 54);
+            this.FechaFin.Location = new System.Drawing.Point(370, 53);
             this.FechaFin.Name = "FechaFin";
             this.FechaFin.Size = new System.Drawing.Size(57, 13);
             this.FechaFin.TabIndex = 108;
@@ -202,6 +210,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -216,6 +225,7 @@
             // 
             this.dataGridViewReporte.AllowUserToAddRows = false;
             this.dataGridViewReporte.AllowUserToDeleteRows = false;
+            this.dataGridViewReporte.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewReporte.BackgroundColor = System.Drawing.Color.LightSkyBlue;
             this.dataGridViewReporte.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridViewReporte.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -400,6 +410,7 @@
             // 
             // DescargaExcel
             // 
+            this.DescargaExcel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.DescargaExcel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.DescargaExcel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DescargaExcel.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -422,6 +433,8 @@
             // 
             // chartVentas
             // 
+            this.chartVentas.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             chartArea2.Name = "ChartArea1";
             this.chartVentas.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
@@ -435,6 +448,7 @@
             // 
             // btnCargarData
             // 
+            this.btnCargarData.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnCargarData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.btnCargarData.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.btnCargarData.BorderColor = System.Drawing.Color.White;
@@ -456,6 +470,7 @@
             // 
             // BuscarPorFecha
             // 
+            this.BuscarPorFecha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BuscarPorFecha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.BuscarPorFecha.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.BuscarPorFecha.BorderColor = System.Drawing.Color.White;
@@ -464,9 +479,9 @@
             this.BuscarPorFecha.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BuscarPorFecha.FlatAppearance.BorderSize = 0;
             this.BuscarPorFecha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BuscarPorFecha.Font = new System.Drawing.Font("Microsoft PhagsPa", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BuscarPorFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BuscarPorFecha.ForeColor = System.Drawing.Color.White;
-            this.BuscarPorFecha.Location = new System.Drawing.Point(604, 48);
+            this.BuscarPorFecha.Location = new System.Drawing.Point(607, 47);
             this.BuscarPorFecha.Name = "BuscarPorFecha";
             this.BuscarPorFecha.Size = new System.Drawing.Size(72, 26);
             this.BuscarPorFecha.TabIndex = 112;
@@ -477,6 +492,7 @@
             // 
             // userBuscar
             // 
+            this.userBuscar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.userBuscar.BackColor = System.Drawing.Color.White;
             this.userBuscar.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
             this.userBuscar.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(77)))), ((int)(((byte)(221)))));
@@ -499,6 +515,7 @@
             // 
             // cD_ComboBox3
             // 
+            this.cD_ComboBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cD_ComboBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.cD_ComboBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cD_ComboBox3.BackColor = System.Drawing.Color.White;

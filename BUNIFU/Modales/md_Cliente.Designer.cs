@@ -38,7 +38,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnBuscar = new FontAwesome.Sharp.IconButton();
-            this.txtBusqueda = new BUNIFU.Controles_graficos.UserControl1();
             this.label4 = new System.Windows.Forms.Label();
             this.btnClean = new FontAwesome.Sharp.IconButton();
             this.comboBusqueda = new System.Windows.Forms.ComboBox();
@@ -46,6 +45,7 @@
             this.DNI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtBusqueda = new BUNIFU.Controles_graficos.UserControl1();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -92,28 +92,6 @@
             this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
-            // txtBusqueda
-            // 
-            this.txtBusqueda.BackColor = System.Drawing.Color.White;
-            this.txtBusqueda.BorderColor = System.Drawing.Color.Black;
-            this.txtBusqueda.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(212)))), ((int)(((byte)(250)))));
-            this.txtBusqueda.BorderRadius = 9;
-            this.txtBusqueda.BorderSize = 1;
-            this.txtBusqueda.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBusqueda.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtBusqueda.Location = new System.Drawing.Point(161, 30);
-            this.txtBusqueda.Margin = new System.Windows.Forms.Padding(4);
-            this.txtBusqueda.MultiLine = true;
-            this.txtBusqueda.Name = "txtBusqueda";
-            this.txtBusqueda.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.txtBusqueda.PalceHolderColor = System.Drawing.Color.DarkGray;
-            this.txtBusqueda.PalceHolderText = "Buscar...";
-            this.txtBusqueda.PasswordChar = false;
-            this.txtBusqueda.Size = new System.Drawing.Size(98, 31);
-            this.txtBusqueda.TabIndex = 85;
-            this.txtBusqueda.Texts = "";
-            this.txtBusqueda.UnderLinedStyle = false;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -154,7 +132,7 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -183,6 +161,7 @@
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView1.Location = new System.Drawing.Point(12, 106);
@@ -239,6 +218,28 @@
             this.Apellido.Name = "Apellido";
             this.Apellido.ReadOnly = true;
             this.Apellido.Width = 81;
+            // 
+            // txtBusqueda
+            // 
+            this.txtBusqueda.BackColor = System.Drawing.Color.White;
+            this.txtBusqueda.BorderColor = System.Drawing.Color.Black;
+            this.txtBusqueda.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(212)))), ((int)(((byte)(250)))));
+            this.txtBusqueda.BorderRadius = 9;
+            this.txtBusqueda.BorderSize = 1;
+            this.txtBusqueda.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBusqueda.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtBusqueda.Location = new System.Drawing.Point(161, 30);
+            this.txtBusqueda.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBusqueda.MultiLine = true;
+            this.txtBusqueda.Name = "txtBusqueda";
+            this.txtBusqueda.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.txtBusqueda.PalceHolderColor = System.Drawing.Color.DarkGray;
+            this.txtBusqueda.PalceHolderText = "Buscar...";
+            this.txtBusqueda.PasswordChar = false;
+            this.txtBusqueda.Size = new System.Drawing.Size(98, 31);
+            this.txtBusqueda.TabIndex = 85;
+            this.txtBusqueda.Texts = "";
+            this.txtBusqueda.UnderLinedStyle = false;
             // 
             // md_Cliente
             // 

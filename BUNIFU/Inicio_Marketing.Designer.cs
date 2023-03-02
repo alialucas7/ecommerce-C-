@@ -32,13 +32,13 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.logo = new FontAwesome.Sharp.IconButton();
             this.panelBotones = new System.Windows.Forms.Panel();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.containerfrm = new System.Windows.Forms.Panel();
             this.lblRol = new System.Windows.Forms.Label();
             this.lblCoreeo = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.iconButton4 = new FontAwesome.Sharp.IconButton();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.containerfrm = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             this.panelBotones.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -95,6 +95,50 @@
             this.panelBotones.Size = new System.Drawing.Size(203, 499);
             this.panelBotones.TabIndex = 3;
             // 
+            // lblRol
+            // 
+            this.lblRol.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblRol.AutoSize = true;
+            this.lblRol.ForeColor = System.Drawing.Color.Tan;
+            this.lblRol.Location = new System.Drawing.Point(53, 458);
+            this.lblRol.Name = "lblRol";
+            this.lblRol.Size = new System.Drawing.Size(35, 13);
+            this.lblRol.TabIndex = 40;
+            this.lblRol.Text = "label4";
+            // 
+            // lblCoreeo
+            // 
+            this.lblCoreeo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblCoreeo.AutoSize = true;
+            this.lblCoreeo.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblCoreeo.Location = new System.Drawing.Point(50, 442);
+            this.lblCoreeo.Name = "lblCoreeo";
+            this.lblCoreeo.Size = new System.Drawing.Size(35, 13);
+            this.lblCoreeo.TabIndex = 39;
+            this.lblCoreeo.Text = "label3";
+            // 
+            // lblName
+            // 
+            this.lblName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblName.AutoSize = true;
+            this.lblName.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblName.Location = new System.Drawing.Point(50, 427);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(35, 13);
+            this.lblName.TabIndex = 38;
+            this.lblName.Text = "label2";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 423);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(49, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 37;
+            this.pictureBox1.TabStop = false;
+            // 
             // iconButton4
             // 
             this.iconButton4.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -129,51 +173,12 @@
             // containerfrm
             // 
             this.containerfrm.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("containerfrm.BackgroundImage")));
+            this.containerfrm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.containerfrm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.containerfrm.Location = new System.Drawing.Point(203, 62);
             this.containerfrm.Name = "containerfrm";
             this.containerfrm.Size = new System.Drawing.Size(931, 499);
             this.containerfrm.TabIndex = 4;
-            // 
-            // lblRol
-            // 
-            this.lblRol.AutoSize = true;
-            this.lblRol.ForeColor = System.Drawing.Color.Tan;
-            this.lblRol.Location = new System.Drawing.Point(53, 458);
-            this.lblRol.Name = "lblRol";
-            this.lblRol.Size = new System.Drawing.Size(35, 13);
-            this.lblRol.TabIndex = 40;
-            this.lblRol.Text = "label4";
-            // 
-            // lblCoreeo
-            // 
-            this.lblCoreeo.AutoSize = true;
-            this.lblCoreeo.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblCoreeo.Location = new System.Drawing.Point(50, 442);
-            this.lblCoreeo.Name = "lblCoreeo";
-            this.lblCoreeo.Size = new System.Drawing.Size(35, 13);
-            this.lblCoreeo.TabIndex = 39;
-            this.lblCoreeo.Text = "label3";
-            // 
-            // lblName
-            // 
-            this.lblName.AutoSize = true;
-            this.lblName.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblName.Location = new System.Drawing.Point(50, 427);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(35, 13);
-            this.lblName.TabIndex = 38;
-            this.lblName.Text = "label2";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 423);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(49, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 37;
-            this.pictureBox1.TabStop = false;
             // 
             // Inicio_Marketing
             // 
