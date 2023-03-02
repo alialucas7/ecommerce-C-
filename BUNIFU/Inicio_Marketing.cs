@@ -30,10 +30,12 @@ namespace BUNIFU
         //defino mis propios colores , para mis botones
         private struct RGBColors
         {
+            
             public static Color color3 = Color.FromArgb(61, 201, 209);
             public static Color color2 = Color.FromArgb(253, 138, 114);
             public static Color color1 = Color.FromArgb(176, 34, 98);
             public static Color color4 = Color.FromArgb(95, 77, 221);
+            public static Color color5 = Color.FromArgb(24, 161, 251);
             public static Color fondoFormularios = Color.FromArgb(240, 243, 250);
         }
 
@@ -127,8 +129,8 @@ namespace BUNIFU
 
         private void iconButton4_Click(object sender, EventArgs e)
         {
-            ActiveButon(sender, RGBColors.color4);
-            abrirFormulario(new frmReporte());
+            ActiveButon(sender, RGBColors.color1);
+            abrirFormulario(new frmCliente());
         }
 
         private void Inicio_Marketing_Load(object sender, EventArgs e)
@@ -137,6 +139,19 @@ namespace BUNIFU
             lblName.Text = usuarioActual.name + ", " + usuarioActual.apellido;
             lblCoreeo.Text = usuarioActual.email;
             lblRol.Text = usuarioActual.obRol.descripcion.ToUpper();
+        }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            ActiveButon(sender, RGBColors.color2);
+            abrirFormulario(new frmProducto_AdministtradorSucursal());
+        }
+
+        private void iconButton5_Click(object sender, EventArgs e)
+        {
+            ActiveButon(sender, RGBColors.color5);
+            //abre el formulario cuando se hace click
+            abrirFormulario(new frmUsuariosAdministrador());
         }
     }
 }

@@ -543,6 +543,12 @@
     <Compile Include="frmUsuarios.Designer.cs">
       <DependentUpon>frmUsuarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUsuariosAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuariosAdministrador.Designer.cs">
+      <DependentUpon>frmUsuariosAdministrador.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Backup.cs">
       <SubType>Form</SubType>
     </Compile>

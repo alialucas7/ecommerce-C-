@@ -202,7 +202,7 @@ namespace BUNIFU
         {
             //da animacion al boton cuando se hace click
             ActiveButon(sender, RGBColors.color1);
-           // abrirFormulario(new frmCliente());
+            abrirFormulario(new frmReporte());
         }
 
         private void iconButton2_Click_1(object sender, EventArgs e)

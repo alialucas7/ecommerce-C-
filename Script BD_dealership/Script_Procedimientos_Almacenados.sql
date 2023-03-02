@@ -13,11 +13,13 @@
 -----------------------------------------------------------------------------------------
 
 use BD_dealership
-
+select * from Usuario
 --PROCEDIMIENTOS ALMACENADOS PARA EL USUARIO
 --Registrar Usuario
-create proc SP_RegistrarUsuarioo(
+create proc SP_RegistrarUsuario(
+
 @idRol int,
+@id_sucursal integer,
 @dni varchar(8),
 @nombre varchar(30),
 @apellido varchar(30),
@@ -34,8 +36,8 @@ begin
 	set @Mensaje =''
 	if not exists(select * from Usuario where dni = @dni)
 	begin
-		insert into Usuario(id_rol,dni,nombre,apellido,email,telefono,estado,pasword)
-		values (@idRol,@dni,@nombre,@apellido,@email,@telefono,@estado,@pasword)
+		insert into Usuario(id_rol,id_sucursal, dni,nombre,apellido,email,telefono,estado,pasword)
+		values (@idRol,@id_sucursal,@dni,@nombre,@apellido,@email,@telefono,@estado,@pasword)
 		set @idUsuarioResultado = SCOPE_IDENTITY()
 	end
 	else

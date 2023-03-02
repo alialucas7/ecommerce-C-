@@ -80,7 +80,7 @@ namespace CapadeDatos
             {
                 using (SqlConnection conexion = new SqlConnection(Conexion.cadena))
                 {
-                    SqlCommand cmd = new SqlCommand("SP_RegistrarUsuarioo", conexion);
+                    SqlCommand cmd = new SqlCommand("SP_RegistrarUsuario", conexion);
                     /*Procedo a ejecutar el procedimiento almacenado para registrar usser*/
 
                     //datos de entrada
