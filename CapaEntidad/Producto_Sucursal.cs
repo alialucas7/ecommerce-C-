@@ -8,8 +8,8 @@ namespace CapaEntidad
 {
     public class Producto_Sucursal
     {
-        public Sucursal objetoSucursal { get; set; },
-        public Automovil objetoAuto { get; set; },
+        public Sucursal objetoSucursal { get; set; }
+        public Automovil objetoAuto { get; set; }
         public int stock { get; set; }
     }
 }

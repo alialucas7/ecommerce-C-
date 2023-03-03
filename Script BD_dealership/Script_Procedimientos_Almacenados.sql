@@ -335,3 +335,59 @@ begin
 		rollback transaction registro
 	end catch	
 end
+
+
+
+
+-- Procedimiento almacenado para Administrador_Sucursal --
+create procedure usp_BajitaSucursal(
+@id_sucursal int,
+@id_automovil int,
+
+@resultado bit output,
+@mensaje varchar(500) output
+)
+as
+begin 
+		begin try
+		set @resultado =1
+		set @mensaje = ''
+		delete from Producto_Sucursal where id_sucursal =@id_sucursal  and id_automovil= @id_automovil
+		end try
+
+		begin catch
+		set @mensaje = ERROR_MESSAGE()
+		set @resultado =0
+		end catch
+end
+
+
+
+
+create procedure usp_AltaProductoSucursaaal(
+@id_sucursal int,
+@id_automovil int,
+@stock int,
+@resultado bit output,
+@mensaje varchar(500) output
+)
+as
+begin 
+		
+		set @resultado =1
+		set @mensaje = ''
+		if  exists (select ps.id_sucursal, ps.id_automovil from Producto_Sucursal ps
+		inner join Sucursal s on s.id_sucursal = ps.id_sucursal
+		inner join Automovil a on a.id_automovil = ps.id_automovil
+		where ps.id_sucursal = @id_sucursal and ps.id_automovil = @id_automovil
+		)
+		begin
+		set @mensaje = 'Ya esta cargado este producto'
+		set @resultado = 0
+		end
+		else
+		begin
+		insert into Producto_Sucursal(id_sucursal,id_automovil,stock)values(@id_sucursal,@id_automovil,@stock)
+		end 
+
+end

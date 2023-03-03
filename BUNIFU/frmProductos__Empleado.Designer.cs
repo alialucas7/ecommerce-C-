@@ -38,20 +38,20 @@
             this.comboBusqueda = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridProduct = new System.Windows.Forms.DataGridView();
+            this.id_sucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IDsucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_marca = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.marca = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_modelo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.modelo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.patente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.stock = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.state = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.nPuerta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.color = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Añof = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stock = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridProduct)).BeginInit();
             this.SuspendLayout();
@@ -73,6 +73,7 @@
             // 
             // txtBusqueda
             // 
+            this.txtBusqueda.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtBusqueda.BackColor = System.Drawing.Color.White;
             this.txtBusqueda.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(138)))), ((int)(((byte)(114)))));
             this.txtBusqueda.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(212)))), ((int)(((byte)(250)))));
@@ -95,6 +96,7 @@
             // 
             // btnClean
             // 
+            this.btnClean.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnClean.BackColor = System.Drawing.Color.White;
             this.btnClean.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClean.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -112,6 +114,7 @@
             // 
             // btnBuscar
             // 
+            this.btnBuscar.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnBuscar.BackColor = System.Drawing.Color.White;
             this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(138)))), ((int)(((byte)(114)))));
@@ -130,6 +133,7 @@
             // 
             // comboBusqueda
             // 
+            this.comboBusqueda.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBusqueda.FormattingEnabled = true;
             this.comboBusqueda.Location = new System.Drawing.Point(242, 46);
             this.comboBusqueda.Name = "comboBusqueda";
@@ -138,6 +142,7 @@
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(239, 30);
             this.label4.Name = "label4";
@@ -149,6 +154,9 @@
             // 
             this.dataGridProduct.AllowUserToAddRows = false;
             this.dataGridProduct.AllowUserToDeleteRows = false;
+            this.dataGridProduct.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridProduct.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(181)))), ((int)(((byte)(170)))));
             this.dataGridProduct.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridProduct.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -162,20 +170,20 @@
             this.dataGridProduct.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridProduct.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.id_sucursal,
             this.id,
-            this.IDsucursal,
             this.id_marca,
             this.marca,
             this.id_modelo,
             this.modelo,
             this.patente,
             this.precio,
-            this.stock,
             this.state,
             this.nPuerta,
             this.color,
             this.Añof,
-            this.descripcion});
+            this.descripcion,
+            this.stock});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -193,8 +201,16 @@
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridProduct.RowsDefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridProduct.Size = new System.Drawing.Size(816, 333);
+            this.dataGridProduct.Size = new System.Drawing.Size(776, 333);
             this.dataGridProduct.TabIndex = 64;
+            this.dataGridProduct.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridProduct_CellContentClick);
+            // 
+            // id_sucursal
+            // 
+            this.id_sucursal.HeaderText = "id_sucursal";
+            this.id_sucursal.Name = "id_sucursal";
+            this.id_sucursal.ReadOnly = true;
+            this.id_sucursal.Visible = false;
             // 
             // id
             // 
@@ -202,13 +218,6 @@
             this.id.Name = "id";
             this.id.ReadOnly = true;
             this.id.Width = 20;
-            // 
-            // IDsucursal
-            // 
-            this.IDsucursal.HeaderText = "ID_sucur";
-            this.IDsucursal.Name = "IDsucursal";
-            this.IDsucursal.ReadOnly = true;
-            this.IDsucursal.Visible = false;
             // 
             // id_marca
             // 
@@ -248,12 +257,6 @@
             this.precio.Name = "precio";
             this.precio.ReadOnly = true;
             // 
-            // stock
-            // 
-            this.stock.HeaderText = "Stock";
-            this.stock.Name = "stock";
-            this.stock.ReadOnly = true;
-            // 
             // state
             // 
             this.state.HeaderText = "Estado";
@@ -287,6 +290,12 @@
             this.descripcion.Name = "descripcion";
             this.descripcion.ReadOnly = true;
             // 
+            // stock
+            // 
+            this.stock.HeaderText = "stock";
+            this.stock.Name = "stock";
+            this.stock.ReadOnly = true;
+            // 
             // frmProductos__Empleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -313,19 +322,19 @@
         private FontAwesome.Sharp.IconButton btnBuscar;
         private System.Windows.Forms.ComboBox comboBusqueda;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id_sucursal;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IDsucursal;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_marca;
         private System.Windows.Forms.DataGridViewTextBoxColumn marca;
         private System.Windows.Forms.DataGridViewTextBoxColumn id_modelo;
         private System.Windows.Forms.DataGridViewTextBoxColumn modelo;
         private System.Windows.Forms.DataGridViewTextBoxColumn patente;
         private System.Windows.Forms.DataGridViewTextBoxColumn precio;
-        private System.Windows.Forms.DataGridViewTextBoxColumn stock;
         private System.Windows.Forms.DataGridViewCheckBoxColumn state;
         private System.Windows.Forms.DataGridViewTextBoxColumn nPuerta;
         private System.Windows.Forms.DataGridViewTextBoxColumn color;
         private System.Windows.Forms.DataGridViewTextBoxColumn Añof;
         private System.Windows.Forms.DataGridViewTextBoxColumn descripcion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn stock;
     }
 }

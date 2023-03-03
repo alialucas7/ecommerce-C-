@@ -57,6 +57,7 @@
     <Compile Include="CD_Modelo.cs" />
     <Compile Include="CD_Pais.cs" />
     <Compile Include="CD_Permiso.cs" />
+    <Compile Include="CD_ProductoSucursal.cs" />
     <Compile Include="CD_Prouductos.cs" />
     <Compile Include="CD_Reporte.cs" />
     <Compile Include="CD_Rol.cs" />

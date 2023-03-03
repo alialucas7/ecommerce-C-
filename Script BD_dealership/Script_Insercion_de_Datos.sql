@@ -133,6 +133,21 @@ select m2.descripcion,m1.descripcionModelo,df.precioVenta,df.cantidad,df.subTota
                    where df.id_factura =1
 
 
+select * from usuario
+select * from Sucursal
+select * from Automovil
 
 
-select * from Usuario
+select ps.id_automovil,s.id_sucursal, a.id_marca,m2.descripcionMarca,
+a.id_modelo,m1.descripcionModelo,a.patente,ps.stock,a.precio, a.estado,
+a.n_puertas,a.color,a.año_fabricacion,a.descripcion
+from Producto_Sucursal ps
+inner join Automovil a on ps.id_automovil = a.id_automovil
+inner join Sucursal s on ps.id_sucursal = s.id_sucursal
+inner join Modelo m1 on m1.id_modelo = a.id_modelo
+               and				  m1.id_marca = a.id_marca
+inner join Marca  m2 on m2.id_marca = a.id_marca
+where s.id_sucursal = 4
+
+insert into Producto_Sucursal(id_sucursal,id_automovil,stock)values(2,1,20)
+insert into Producto_Sucursal(id_sucursal,id_automovil,stock)values(4,1,20)

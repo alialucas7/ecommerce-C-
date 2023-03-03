@@ -236,7 +236,29 @@ namespace BUNIFU
         //Botón Eliminar
         private void cD_Button2_Click_1(object sender, EventArgs e)
         {
+            if (Convert.ToInt32(textId.Text) != 0)
+            {
+                if(MessageBox.Show("¿Desea eliminar el cliente?","Mensaje", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    string mensaje = String.Empty;
+                    Cliente obj = new Cliente()
+                    {
+                        id_cliente = Convert.ToInt32(textId.Text)
+                    };
 
+                    bool respuesta = new CN_Cliente().Eliminar(obj, out mensaje);
+
+                    if (respuesta)
+                    {
+                        dataGridView1.Rows.RemoveAt(Convert.ToInt32(textBox6.Text));
+                            clean();
+                    }
+                    else
+                    {
+                        MessageBox.Show(mensaje,"Mensaje", MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+                    }
+                }
+            }
         }
 
         //Limpiar Buscador

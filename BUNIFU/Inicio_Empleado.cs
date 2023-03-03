@@ -38,10 +38,11 @@ namespace BUNIFU
         
 
 
-        public Inicio_Empleado( Usuario ojUsser = null)
+        public Inicio_Empleado( Usuario ojUsser)
         {
-            if (ojUsser == null) usuarioActual = new Usuario() { id_usuario = 1 };
-            else usuarioActual = ojUsser;
+            //if (ojUsser == null) usuarioActual = new Usuario() { id_usuario = 1 };
+            //else
+                usuarioActual = ojUsser;
             InitializeComponent();
             /* Instancio objetos para los btn*/
             leftBorderBtn = new Panel();
@@ -172,7 +173,7 @@ namespace BUNIFU
         private void iconButton2_Click(object sender, EventArgs e)
         {
             ActiveButon(sender, RGBColors.color2);
-            abrirFormulario(new frmProductos__Empleado());
+            abrirFormulario(new frmProductos__Empleado(usuarioActual));
         }
 
         private void iconButton1_Click(object sender, EventArgs e)

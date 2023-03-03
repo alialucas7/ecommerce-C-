@@ -15,9 +15,11 @@ namespace BUNIFU
 {
     public partial class frmProductos__Empleado : Form
     {
-        public frmProductos__Empleado()
+        Usuario usuarioActuality;
+        public frmProductos__Empleado(Usuario p_usser)
         {
             InitializeComponent();
+            usuarioActuality = p_usser;
         }
 
         private void container_Paint(object sender, PaintEventArgs e)
@@ -31,17 +33,26 @@ namespace BUNIFU
 
 
             /*Cargo los datos que tengo en la BD al datagrid*/
-            List<Automovil> autos = new CN_Productos().Listar();
+            List<Producto_Sucursal> autos = new CN_Producto__Sucursal().Listar(usuarioActuality);
 
-            foreach (Automovil item in autos)
+            foreach (Producto_Sucursal item in autos)
             {
-                dataGridProduct.Rows.Add(new object[] {item.id_automovil,
-                item.objMarcaa.id_marca,item.objMarcaa.descripcionMarca,
-                item.objModeloo.id_modelo,item.objModeloo.descripcionModel,
-                item.patente,item.precio,
-                
-                item.estado == true ? 1:0,
-                item.nPuertas,item.color,item.añoFabricacion,item.descripcionAuto
+                dataGridProduct.Rows.Add(new object[] {
+                    item.objetoAuto.id_automovil,
+                    item.objetoSucursal.id_sucursal,
+                    item.objetoAuto.objMarcaa.id_marca,
+                    item.objetoAuto.objMarcaa.descripcionMarca,
+                    item.objetoAuto.objModeloo.id_modelo,
+                    item.objetoAuto.objModeloo.descripcionModel,
+                    item.objetoAuto.patente,
+                    
+                    item.objetoAuto.precio,
+                    item.objetoAuto.estado == true ? 1:0,
+                    item.objetoAuto.nPuertas,
+                    item.objetoAuto.color,
+                    item.objetoAuto.añoFabricacion,
+                    item.objetoAuto.descripcionAuto,
+                    item.stock
                 });
             }
 
@@ -102,6 +113,11 @@ namespace BUNIFU
         {
             txtBusqueda.Texts = "";
             foreach (DataGridViewRow row in dataGridProduct.Rows) row.Visible = true;
+        }
+
+        private void dataGridProduct_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
