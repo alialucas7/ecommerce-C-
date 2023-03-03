@@ -47,19 +47,6 @@
             this.txtcontraseñaPrueba = new System.Windows.Forms.TextBox();
             this.txtemailPrueba = new System.Windows.Forms.TextBox();
             this.dataGridUsser = new System.Windows.Forms.DataGridView();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.btnLimpiar = new CustomControls.Controles_graficos.CD_Button();
-            this.btnEliminar = new CustomControls.Controles_graficos.CD_Button();
-            this.guardar = new CustomControls.Controles_graficos.CD_Button();
-            this.txtPasword = new BUNIFU.Controles_graficos.UserControl1();
-            this.txtApellido = new BUNIFU.Controles_graficos.UserControl1();
-            this.txtPhone = new BUNIFU.Controles_graficos.UserControl1();
-            this.txtEmail = new BUNIFU.Controles_graficos.UserControl1();
-            this.txtName = new BUNIFU.Controles_graficos.UserControl1();
-            this.txtDocument = new BUNIFU.Controles_graficos.UserControl1();
-            this.txtBusqueda = new BUNIFU.Controles_graficos.UserControl1();
-            this.labelSuxur = new System.Windows.Forms.Label();
-            this.comboSucur = new System.Windows.Forms.ComboBox();
             this.btnSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_Sucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -72,6 +59,19 @@
             this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.state = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.pasword = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.labelSuxur = new System.Windows.Forms.Label();
+            this.comboSucur = new System.Windows.Forms.ComboBox();
+            this.txtBusqueda = new BUNIFU.Controles_graficos.UserControl1();
+            this.btnLimpiar = new CustomControls.Controles_graficos.CD_Button();
+            this.btnEliminar = new CustomControls.Controles_graficos.CD_Button();
+            this.guardar = new CustomControls.Controles_graficos.CD_Button();
+            this.txtPasword = new BUNIFU.Controles_graficos.UserControl1();
+            this.txtApellido = new BUNIFU.Controles_graficos.UserControl1();
+            this.txtPhone = new BUNIFU.Controles_graficos.UserControl1();
+            this.txtEmail = new BUNIFU.Controles_graficos.UserControl1();
+            this.txtName = new BUNIFU.Controles_graficos.UserControl1();
+            this.txtDocument = new BUNIFU.Controles_graficos.UserControl1();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridUsser)).BeginInit();
             this.SuspendLayout();
             // 
@@ -105,7 +105,7 @@
             this.bunifuCustomLabel2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.bunifuCustomLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.bunifuCustomLabel2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(332, 130);
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(335, 130);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
             this.bunifuCustomLabel2.Size = new System.Drawing.Size(51, 16);
             this.bunifuCustomLabel2.TabIndex = 35;
@@ -131,7 +131,7 @@
             this.btnClean.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
             this.btnClean.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnClean.IconSize = 27;
-            this.btnClean.Location = new System.Drawing.Point(432, 189);
+            this.btnClean.Location = new System.Drawing.Point(432, 211);
             this.btnClean.Name = "btnClean";
             this.btnClean.Size = new System.Drawing.Size(48, 26);
             this.btnClean.TabIndex = 53;
@@ -148,7 +148,7 @@
             this.btnBuscar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
             this.btnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnBuscar.IconSize = 20;
-            this.btnBuscar.Location = new System.Drawing.Point(378, 189);
+            this.btnBuscar.Location = new System.Drawing.Point(378, 211);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(48, 26);
             this.btnBuscar.TabIndex = 51;
@@ -160,7 +160,7 @@
             this.comboBusqueda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
             this.comboBusqueda.ForeColor = System.Drawing.Color.White;
             this.comboBusqueda.FormattingEnabled = true;
-            this.comboBusqueda.Location = new System.Drawing.Point(145, 193);
+            this.comboBusqueda.Location = new System.Drawing.Point(145, 215);
             this.comboBusqueda.Name = "comboBusqueda";
             this.comboBusqueda.Size = new System.Drawing.Size(121, 21);
             this.comboBusqueda.TabIndex = 50;
@@ -171,7 +171,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.Location = new System.Drawing.Point(66, 198);
+            this.label2.Location = new System.Drawing.Point(66, 220);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 16);
             this.label2.TabIndex = 49;
@@ -275,7 +275,7 @@
             this.pasword});
             this.dataGridUsser.EnableHeadersVisualStyles = false;
             this.dataGridUsser.GridColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dataGridUsser.Location = new System.Drawing.Point(62, 222);
+            this.dataGridUsser.Location = new System.Drawing.Point(62, 244);
             this.dataGridUsser.Name = "dataGridUsser";
             this.dataGridUsser.ReadOnly = true;
             this.dataGridUsser.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -286,6 +286,88 @@
             this.dataGridUsser.TabIndex = 62;
             this.dataGridUsser.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridUsser_CellContentClick_1);
             // 
+            // btnSeleccionar
+            // 
+            this.btnSeleccionar.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.btnSeleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeleccionar.HeaderText = "S";
+            this.btnSeleccionar.Name = "btnSeleccionar";
+            this.btnSeleccionar.ReadOnly = true;
+            this.btnSeleccionar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.btnSeleccionar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.btnSeleccionar.Width = 38;
+            // 
+            // id
+            // 
+            this.id.HeaderText = "ID";
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            this.id.Width = 20;
+            // 
+            // id_Sucursal
+            // 
+            this.id_Sucursal.HeaderText = "id_Sucursal";
+            this.id_Sucursal.Name = "id_Sucursal";
+            this.id_Sucursal.ReadOnly = true;
+            // 
+            // rolid
+            // 
+            this.rolid.HeaderText = "Rolid";
+            this.rolid.Name = "rolid";
+            this.rolid.ReadOnly = true;
+            this.rolid.Visible = false;
+            // 
+            // idrol
+            // 
+            this.idrol.HeaderText = "Rol";
+            this.idrol.Name = "idrol";
+            this.idrol.ReadOnly = true;
+            // 
+            // dni
+            // 
+            this.dni.HeaderText = "Documento";
+            this.dni.Name = "dni";
+            this.dni.ReadOnly = true;
+            // 
+            // name
+            // 
+            this.name.HeaderText = " Nombre";
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            // 
+            // apellido
+            // 
+            this.apellido.HeaderText = "Apellido";
+            this.apellido.Name = "apellido";
+            this.apellido.ReadOnly = true;
+            // 
+            // email
+            // 
+            this.email.HeaderText = "Email";
+            this.email.Name = "email";
+            this.email.ReadOnly = true;
+            // 
+            // telefono
+            // 
+            this.telefono.HeaderText = "Phone";
+            this.telefono.Name = "telefono";
+            this.telefono.ReadOnly = true;
+            // 
+            // state
+            // 
+            this.state.HeaderText = "Estado";
+            this.state.Name = "state";
+            this.state.ReadOnly = true;
+            this.state.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.state.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.state.Width = 20;
+            // 
+            // pasword
+            // 
+            this.pasword.HeaderText = "Contraseña";
+            this.pasword.Name = "pasword";
+            this.pasword.ReadOnly = true;
+            // 
             // textBox2
             // 
             this.textBox2.Enabled = false;
@@ -295,6 +377,46 @@
             this.textBox2.TabIndex = 63;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox2.Visible = false;
+            // 
+            // labelSuxur
+            // 
+            this.labelSuxur.AutoSize = true;
+            this.labelSuxur.Location = new System.Drawing.Point(66, 156);
+            this.labelSuxur.Name = "labelSuxur";
+            this.labelSuxur.Size = new System.Drawing.Size(115, 13);
+            this.labelSuxur.TabIndex = 105;
+            this.labelSuxur.Text = "Seleccione la Sucursal";
+            // 
+            // comboSucur
+            // 
+            this.comboSucur.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            this.comboSucur.FormattingEnabled = true;
+            this.comboSucur.Location = new System.Drawing.Point(69, 172);
+            this.comboSucur.Name = "comboSucur";
+            this.comboSucur.Size = new System.Drawing.Size(441, 21);
+            this.comboSucur.TabIndex = 104;
+            // 
+            // txtBusqueda
+            // 
+            this.txtBusqueda.BackColor = System.Drawing.Color.White;
+            this.txtBusqueda.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
+            this.txtBusqueda.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(212)))), ((int)(((byte)(250)))));
+            this.txtBusqueda.BorderRadius = 15;
+            this.txtBusqueda.BorderSize = 1;
+            this.txtBusqueda.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBusqueda.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtBusqueda.Location = new System.Drawing.Point(273, 211);
+            this.txtBusqueda.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBusqueda.MultiLine = true;
+            this.txtBusqueda.Name = "txtBusqueda";
+            this.txtBusqueda.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.txtBusqueda.PalceHolderColor = System.Drawing.Color.DarkGray;
+            this.txtBusqueda.PalceHolderText = "Buscar...";
+            this.txtBusqueda.PasswordChar = false;
+            this.txtBusqueda.Size = new System.Drawing.Size(97, 31);
+            this.txtBusqueda.TabIndex = 90;
+            this.txtBusqueda.Texts = "";
+            this.txtBusqueda.UnderLinedStyle = false;
             // 
             // btnLimpiar
             // 
@@ -308,7 +430,7 @@
             this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpiar.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiar.ForeColor = System.Drawing.Color.White;
-            this.btnLimpiar.Location = new System.Drawing.Point(547, 292);
+            this.btnLimpiar.Location = new System.Drawing.Point(547, 314);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(80, 26);
             this.btnLimpiar.TabIndex = 66;
@@ -329,7 +451,7 @@
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.ForeColor = System.Drawing.Color.White;
-            this.btnEliminar.Location = new System.Drawing.Point(547, 324);
+            this.btnEliminar.Location = new System.Drawing.Point(547, 346);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(80, 26);
             this.btnEliminar.TabIndex = 65;
@@ -350,7 +472,7 @@
             this.guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.guardar.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guardar.ForeColor = System.Drawing.Color.White;
-            this.guardar.Location = new System.Drawing.Point(547, 260);
+            this.guardar.Location = new System.Drawing.Point(547, 282);
             this.guardar.Name = "guardar";
             this.guardar.Size = new System.Drawing.Size(80, 26);
             this.guardar.TabIndex = 64;
@@ -500,128 +622,6 @@
             this.txtDocument.UnderLinedStyle = false;
             this.txtDocument.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDocument_KeyPress);
             this.txtDocument.Leave += new System.EventHandler(this.txtDocument_Leave);
-            // 
-            // txtBusqueda
-            // 
-            this.txtBusqueda.BackColor = System.Drawing.Color.White;
-            this.txtBusqueda.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            this.txtBusqueda.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(212)))), ((int)(((byte)(250)))));
-            this.txtBusqueda.BorderRadius = 15;
-            this.txtBusqueda.BorderSize = 1;
-            this.txtBusqueda.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBusqueda.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtBusqueda.Location = new System.Drawing.Point(273, 189);
-            this.txtBusqueda.Margin = new System.Windows.Forms.Padding(4);
-            this.txtBusqueda.MultiLine = true;
-            this.txtBusqueda.Name = "txtBusqueda";
-            this.txtBusqueda.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.txtBusqueda.PalceHolderColor = System.Drawing.Color.DarkGray;
-            this.txtBusqueda.PalceHolderText = "Buscar...";
-            this.txtBusqueda.PasswordChar = false;
-            this.txtBusqueda.Size = new System.Drawing.Size(97, 31);
-            this.txtBusqueda.TabIndex = 90;
-            this.txtBusqueda.Texts = "";
-            this.txtBusqueda.UnderLinedStyle = false;
-            // 
-            // labelSuxur
-            // 
-            this.labelSuxur.AutoSize = true;
-            this.labelSuxur.Location = new System.Drawing.Point(59, 151);
-            this.labelSuxur.Name = "labelSuxur";
-            this.labelSuxur.Size = new System.Drawing.Size(115, 13);
-            this.labelSuxur.TabIndex = 105;
-            this.labelSuxur.Text = "Seleccione la Sucursal";
-            // 
-            // comboSucur
-            // 
-            this.comboSucur.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(161)))), ((int)(((byte)(251)))));
-            this.comboSucur.FormattingEnabled = true;
-            this.comboSucur.Location = new System.Drawing.Point(62, 167);
-            this.comboSucur.Name = "comboSucur";
-            this.comboSucur.Size = new System.Drawing.Size(361, 21);
-            this.comboSucur.TabIndex = 104;
-            // 
-            // btnSeleccionar
-            // 
-            this.btnSeleccionar.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.btnSeleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSeleccionar.HeaderText = "S";
-            this.btnSeleccionar.Name = "btnSeleccionar";
-            this.btnSeleccionar.ReadOnly = true;
-            this.btnSeleccionar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.btnSeleccionar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.btnSeleccionar.Width = 38;
-            // 
-            // id
-            // 
-            this.id.HeaderText = "ID";
-            this.id.Name = "id";
-            this.id.ReadOnly = true;
-            this.id.Width = 20;
-            // 
-            // id_Sucursal
-            // 
-            this.id_Sucursal.HeaderText = "id_Sucursal";
-            this.id_Sucursal.Name = "id_Sucursal";
-            this.id_Sucursal.ReadOnly = true;
-            // 
-            // rolid
-            // 
-            this.rolid.HeaderText = "Rolid";
-            this.rolid.Name = "rolid";
-            this.rolid.ReadOnly = true;
-            this.rolid.Visible = false;
-            // 
-            // idrol
-            // 
-            this.idrol.HeaderText = "Rol";
-            this.idrol.Name = "idrol";
-            this.idrol.ReadOnly = true;
-            // 
-            // dni
-            // 
-            this.dni.HeaderText = "Documento";
-            this.dni.Name = "dni";
-            this.dni.ReadOnly = true;
-            // 
-            // name
-            // 
-            this.name.HeaderText = " Nombre";
-            this.name.Name = "name";
-            this.name.ReadOnly = true;
-            // 
-            // apellido
-            // 
-            this.apellido.HeaderText = "Apellido";
-            this.apellido.Name = "apellido";
-            this.apellido.ReadOnly = true;
-            // 
-            // email
-            // 
-            this.email.HeaderText = "Email";
-            this.email.Name = "email";
-            this.email.ReadOnly = true;
-            // 
-            // telefono
-            // 
-            this.telefono.HeaderText = "Phone";
-            this.telefono.Name = "telefono";
-            this.telefono.ReadOnly = true;
-            // 
-            // state
-            // 
-            this.state.HeaderText = "Estado";
-            this.state.Name = "state";
-            this.state.ReadOnly = true;
-            this.state.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.state.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.state.Width = 20;
-            // 
-            // pasword
-            // 
-            this.pasword.HeaderText = "Contraseña";
-            this.pasword.Name = "pasword";
-            this.pasword.ReadOnly = true;
             // 
             // frmUsuarios
             // 

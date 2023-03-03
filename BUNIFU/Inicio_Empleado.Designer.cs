@@ -68,6 +68,7 @@
             // containerfrm
             // 
             this.containerfrm.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("containerfrm.BackgroundImage")));
+            this.containerfrm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.containerfrm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.containerfrm.Location = new System.Drawing.Point(203, 62);
             this.containerfrm.Name = "containerfrm";

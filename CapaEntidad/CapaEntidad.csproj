@@ -58,6 +58,7 @@
     <Compile Include="Modelo.cs" />
     <Compile Include="Pais.cs" />
     <Compile Include="Permiso.cs" />
+    <Compile Include="Producto_Sucursal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Provincia.cs" />
     <Compile Include="ReporteVenta.cs" />

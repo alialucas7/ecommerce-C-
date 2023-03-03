@@ -637,6 +637,9 @@
     <EmbeddedResource Include="frmUsuarios.resx">
       <DependentUpon>frmUsuarios.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuariosAdministrador.resx">
+      <DependentUpon>frmUsuariosAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Backup.resx">
       <DependentUpon>frm_Backup.cs</DependentUpon>
     </EmbeddedResource>

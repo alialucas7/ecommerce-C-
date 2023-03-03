@@ -343,3 +343,4 @@ C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUN
 C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.pdb
 C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.Inicio_Empleado.resources
 C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmProducto_AdministtradorSucursal.resources
+C:\Users\alialucas7\Desktop\AliaLucas_Proyect2\ecommerce-C-\BUNIFU\obj\Debug\BUNIFU.frmUsuariosAdministrador.resources

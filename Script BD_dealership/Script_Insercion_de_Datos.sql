@@ -16,15 +16,19 @@ use BD_dealership
 select * from Cliente
 insert into Cliente(id_sucursal,dni,nombre,apellido,email,telefono,estado) values (1,'38529090','Leonardo','Ríos','leonardo@gmail.com',3794256478,1);
 
+select * from Usuario
+insert into Usuario(id_rol,id_sucursal,dni,nombre,apellido,email,telefono,estado,pasword)values(1,1,36889588,'Jorge','Balmaceda','jorgitoPeto@gmail.com','3777876539',1,'789')
+
 select * From Rol
+insert into Rol(descripcion) values ('Gerente General')
 insert into Rol(descripcion) values ('Administrador')
-insert into Rol(descripcion) values ('Marketing')
 insert into Rol(descripcion) values ('Empleado')
 
+
 select * from Tipo_Factura
-insert into Tipo_Factura(id_tipo,descripcion) values(1,'A')
-insert into Tipo_Factura(id_tipo,descripcion) values(2,'B')
-insert into Tipo_Factura(id_tipo,descripcion) values(3,'C')
+insert into Tipo_Factura(descripcion) values('A')
+insert into Tipo_Factura(descripcion) values('B')
+insert into Tipo_Factura(descripcion) values('C')
 
 select * from Pais
 insert into Pais(descripcionPais) values('Argentina')
@@ -45,7 +49,7 @@ insert into Localidad(id_provincia,id_pais,descripcionLocality) values(1,2,'Punt
 insert into Localidad(id_provincia,id_pais,descripcionLocality) values(1,3,'Rio de Janeiro')
 
 select * from Sucursal
-insert into Sucursal(id_localidad,id_provincia,id_pais,descripcionSucur)values(1,2,1,'Las Margaritas 239')
+insert into Sucursal(id_localidad,id_provincia,id_pais,descripcionSucur)values(1,2,1,'Sucursal Central')
 insert into Sucursal(id_localidad,id_provincia,id_pais,descripcionSucur)values(2,2,1,'Avenida los Citricultores 527')
 insert into Sucursal(id_localidad,id_provincia,id_pais,descripcionSucur)values(3,1,2,'Bulevar General Artigas 2500')
 insert into Sucursal(id_localidad,id_provincia,id_pais,descripcionSucur)values(4,1,3,'Calle Do Brigao')
@@ -85,12 +89,12 @@ inner join Modelo m1 on m.id_marca = m1.id_marca
 
 
 select * from Automovil
-insert into Automovil(id_sucursal,id_marca,id_modelo,patente,precio,estado,n_puertas,color,año_fabricacion,descripcion)values
-(1,4,2,'EE4LHG',1005000,1,4,'Blanco',2021,'Auto confortable de alta gama')
+insert into Automovil(id_marca,id_modelo,patente,precio,estado,n_puertas,color,año_fabricacion,descripcion)values
+(4,2,'EE4LHG',1005000,1,4,'Blanco',2021,'Auto confortable de alta gama, estipo deportivo ideal para tirar facha:)')
 
 
 
-select a.id_automovil,a.id_sucursal ,m2.id_marca,m2.descripcionMarca,m1.id_modelo,m1.descripcionModelo,a.patente,a.precio,a.stock,a.estado,a.n_puertas,a.color,a.año_fabricacion,a.descripcion, a.fecha_registro from Automovil a
+select a.id_automovil ,m2.id_marca,m2.descripcionMarca,m1.id_modelo,m1.descripcionModelo,a.patente,a.precio,a.estado,a.n_puertas,a.color,a.año_fabricacion,a.descripcion, a.fecha_registro from Automovil a
 inner join Modelo m1 on m1.id_modelo = a.id_modelo
 and				  m1.id_marca = a.id_marca
 inner join Marca  m2 on m2.id_marca = a.id_marca
@@ -127,3 +131,8 @@ select m2.descripcion,m1.descripcionModelo,df.precioVenta,df.cantidad,df.subTota
                and				  m1.id_marca = a.id_marca
               inner join Marca  m2 on m2.id_marca = a.id_marca
                    where df.id_factura =1
+
+
+
+
+select * from Usuario

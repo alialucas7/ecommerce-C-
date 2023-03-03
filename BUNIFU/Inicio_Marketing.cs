@@ -144,14 +144,14 @@ namespace BUNIFU
         private void iconButton2_Click(object sender, EventArgs e)
         {
             ActiveButon(sender, RGBColors.color2);
-            abrirFormulario(new frmProducto_AdministtradorSucursal());
+            abrirFormulario(new frmProducto_AdministtradorSucursal(usuarioActual));
         }
 
         private void iconButton5_Click(object sender, EventArgs e)
         {
             ActiveButon(sender, RGBColors.color5);
             //abre el formulario cuando se hace click
-            abrirFormulario(new frmUsuariosAdministrador());
+            abrirFormulario(new frmUsuariosAdministrador(usuarioActual));
         }
     }
 }
