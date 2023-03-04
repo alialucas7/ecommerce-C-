@@ -145,7 +145,56 @@ namespace CapadeDatos
 
 
 
+        /*Metodo que actualiza el stock en tiempo real*/
+        public bool restarStock(int cantidad, int id_automovil, int id_sucursal)
+        {
+            bool respuesta = true;
+            using (SqlConnection conexionn = new SqlConnection(Conexion.cadena))
+            {
+                try
+                {
+                    StringBuilder query = new StringBuilder();
+                    query.AppendLine("update Producto_Sucursal set stock = stock - @cantidad where id_automovil=@id_automovil and id_sucursal=@id_sucursal");
+                    SqlCommand cmd = new SqlCommand(query.ToString(), conexionn);
+                    cmd.Parameters.AddWithValue("@cantidad", cantidad);
+                    cmd.Parameters.AddWithValue("@id_automovil", id_automovil);
+                    cmd.Parameters.AddWithValue("@id_sucursal", id_sucursal);
+                    cmd.CommandType = CommandType.Text;
+                    conexionn.Open();
+                    respuesta = cmd.ExecuteNonQuery() > 0 ? true : false;
+                }
+                catch (Exception ex)
+                {
+                    respuesta = false;
+                }
+            }
+            return respuesta;
+        }
 
+        public bool sumarStock(int cantidad, int id_automovil, int id_sucursal)
+        {
+            bool respuesta = true;
+            using (SqlConnection conexionn = new SqlConnection(Conexion.cadena))
+            {
+                try
+                {
+                    StringBuilder query = new StringBuilder();
+                    query.AppendLine("update Producto_Sucursal set stock = stock + @cantidad where id_automovil=@id_automovil and id_sucursal=@id_sucursal");
+                    SqlCommand cmd = new SqlCommand(query.ToString(), conexionn);
+                    cmd.Parameters.AddWithValue("@cantidad", cantidad);
+                    cmd.Parameters.AddWithValue("@id_automovil", id_automovil);
+                    cmd.Parameters.AddWithValue("@id_sucursal", id_sucursal);
+                    cmd.CommandType = CommandType.Text;
+                    conexionn.Open();
+                    respuesta = cmd.ExecuteNonQuery() > 0 ? true : false;
+                }
+                catch (Exception ex)
+                {
+                    respuesta = false;
+                }
+            }
+            return respuesta;
+        }
 
     }
 }

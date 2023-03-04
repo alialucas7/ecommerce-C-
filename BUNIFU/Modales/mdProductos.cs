@@ -17,11 +17,12 @@ namespace BUNIFU.Modales
     public partial class mdProductos : Form
     {
 
-       public  Automovil _Automovil { get; set; }
-
-        public mdProductos()
+       public  Producto_Sucursal _PS { get; set; }
+        public Usuario usuario;
+        public mdProductos(Usuario p_userr)
         {
             InitializeComponent();
+            usuario = p_userr;
         }
 
 
@@ -80,18 +81,21 @@ namespace BUNIFU.Modales
         private void mdProductos_Load(object sender, EventArgs e)
         {
             /*Cargo los datos que tengo en la BD al datagrid*/
-            List<Automovil> autos = new CN_Productos().Listar();
+            List<Producto_Sucursal> autos = new CN_Producto__Sucursal().Listar(usuario);
 
-            foreach (Automovil item in autos)
+            /*Es necesario llamar a esta clase y no a la clase Automovil
+             Debido que al empleado solo le interesan los autos que estan
+             en su sucursal, si llama a automovil trae todos los autos de todas las sucursales */
+             
+            foreach (Producto_Sucursal item in autos)
             {
                 dataGridProduct.Rows.Add(new object[] {
-                    item.id_automovil,
-                    item.patente,
-                    item.objMarcaa.descripcionMarca,
-                    item.objModeloo.descripcionModel,
-                    item.precio.ToString()
-               
-                
+                    item.objetoAuto.id_automovil,
+                    item.objetoAuto.patente,
+                    item.objetoAuto.objMarcaa.descripcionMarca,
+                    item.objetoAuto.objModeloo.descripcionModel,
+                    item.objetoAuto.precio.ToString(),
+                    item.stock
                 });
             }
 
@@ -131,6 +135,7 @@ namespace BUNIFU.Modales
             foreach (DataGridViewRow row in dataGridProduct.Rows) row.Visible = true;
         }
 
+        /*cada ves que el usuario seleecione el auto, crea un objeto y lo manda a (frmVentas)*/
         private void dataGridProduct_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -141,15 +146,19 @@ namespace BUNIFU.Modales
             if (iRow >= 0 && iClolumna >= 0)
             {
 
-                _Automovil = new Automovil()
+                _PS = new Producto_Sucursal()
                 {
-                    id_automovil = Convert.ToInt32( dataGridProduct.Rows[iRow].Cells["id_au"].Value),
-                    patente = dataGridProduct.Rows[iRow].Cells["patente"].Value.ToString(),
-                    objMarcaa = new Marca() { descripcionMarca = dataGridProduct.Rows[iRow].Cells["Marca"].Value.ToString()},
-                    objModeloo = new Modelo() { descripcionModel = dataGridProduct.Rows[iRow].Cells["Modelo"].Value.ToString()},
-                    precio = Convert.ToDecimal( dataGridProduct.Rows[iRow].Cells["precio"].Value.ToString())
-                    //stock = Convert.ToInt32(dataGridProduct.Rows[iRow].Cells["stock"].Value.ToString())
-                };
+                    objetoAuto = new Automovil()
+                    {
+                        id_automovil = Convert.ToInt32(dataGridProduct.Rows[iRow].Cells["id_au"].Value),
+                        patente = dataGridProduct.Rows[iRow].Cells["patente"].Value.ToString(),
+                        objMarcaa = new Marca() { descripcionMarca = dataGridProduct.Rows[iRow].Cells["Marca"].Value.ToString() },
+                        objModeloo = new Modelo() { descripcionModel = dataGridProduct.Rows[iRow].Cells["Modelo"].Value.ToString() },
+                        precio = Convert.ToDecimal(dataGridProduct.Rows[iRow].Cells["precio"].Value.ToString()),
+                    },
+                    objetoSucursal = new Sucursal() { id_sucursal = usuario.id_sucursal},
+                    stock = Convert.ToInt32(dataGridProduct.Rows[iRow].Cells["stock"].Value.ToString())
+                    };
                 this.DialogResult = DialogResult.OK;
                 this.Close();
 

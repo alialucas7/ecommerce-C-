@@ -36,6 +36,7 @@ namespace BUNIFU
             public static Color color1 = Color.FromArgb(176, 34, 98);
             public static Color color4 = Color.FromArgb(95, 77, 221);
             public static Color color5 = Color.FromArgb(24, 161, 251);
+            public static Color color6 = Color.FromArgb(62, 174, 37);
             public static Color fondoFormularios = Color.FromArgb(240, 243, 250);
         }
 
@@ -47,6 +48,7 @@ namespace BUNIFU
             leftBorderBtn.Size = new Size(7, 60);
             panelBotones.Controls.Add(leftBorderBtn);
             usuarioActual = obusser;
+            ocultarBoton();
         }
 
 
@@ -143,8 +145,8 @@ namespace BUNIFU
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
-            ActiveButon(sender, RGBColors.color2);
-            abrirFormulario(new frmProducto_AdministtradorSucursal(usuarioActual));
+            ActiveButon(sender, RGBColors.color6);
+            abrirFormulario(new frmBackup2());
         }
 
         private void iconButton5_Click(object sender, EventArgs e)
@@ -152,6 +154,47 @@ namespace BUNIFU
             ActiveButon(sender, RGBColors.color5);
             //abre el formulario cuando se hace click
             abrirFormulario(new frmUsuariosAdministrador(usuarioActual));
+        }
+
+        private void iconButton6_Click(object sender, EventArgs e)
+        {
+            ActiveButon(sender, RGBColors.color2);
+            //abrirFormulario(new frmBackup2());
+            mostrarBtn(panel1);
+        }
+
+
+
+        /*Metodos para expandir el boton de ventas*/
+        public void ocultarBoton()
+        {
+            panel1.Visible = false;
+        }
+        public void ocultarSubBotones()
+        {
+            if (panel1.Visible == true) panel1.Visible = false;
+
+        }
+        public void mostrarBtn(Panel btn)
+        {
+            if (btn.Visible == false)
+            {
+                ocultarSubBotones();
+                btn.Visible = true;
+
+            }
+            else btn.Visible = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ocultarSubBotones();
+            abrirFormulario(new frmProducto_AdministtradorSucursal(usuarioActual));
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ocultarSubBotones();
         }
     }
 }

@@ -37,6 +37,7 @@
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(174)))), ((int)(((byte)(37)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
@@ -53,6 +54,8 @@
             // 
             // bckp_Bienvenida
             // 
+            this.bckp_Bienvenida.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.bckp_Bienvenida.BackColor = System.Drawing.Color.White;
             this.bckp_Bienvenida.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.bckp_Bienvenida.FlatStyle = System.Windows.Forms.FlatStyle.System;
@@ -68,6 +71,7 @@
             // 
             // progressBar
             // 
+            this.progressBar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.progressBar.Location = new System.Drawing.Point(85, 258);
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(458, 23);
@@ -75,9 +79,11 @@
             // 
             // porcentajeLabel
             // 
+            this.porcentajeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.porcentajeLabel.AutoSize = true;
             this.porcentajeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.porcentajeLabel.Location = new System.Drawing.Point(294, 297);
+            this.porcentajeLabel.Location = new System.Drawing.Point(390, 298);
             this.porcentajeLabel.Name = "porcentajeLabel";
             this.porcentajeLabel.Size = new System.Drawing.Size(23, 13);
             this.porcentajeLabel.TabIndex = 3;
@@ -85,6 +91,8 @@
             // 
             // Bckp_IngreseDatos
             // 
+            this.Bckp_IngreseDatos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Bckp_IngreseDatos.BackColor = System.Drawing.Color.White;
             this.Bckp_IngreseDatos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Bckp_IngreseDatos.FlatStyle = System.Windows.Forms.FlatStyle.System;
@@ -108,7 +116,9 @@
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.bckp_Bienvenida);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmBackup2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmBackup2";
             this.Load += new System.EventHandler(this.frmBackup2_Load);
             this.ResumeLayout(false);

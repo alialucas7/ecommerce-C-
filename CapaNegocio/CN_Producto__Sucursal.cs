@@ -30,5 +30,16 @@ namespace CapaNegocio
             if (Mensaje == string.Empty) return producSucur.AltaProduct(objeto, out Mensaje);
             else return 0;
         }
+
+
+        public bool restarStock(int cantidad, int id_automovil, int id_sucursal)
+        {
+            return producSucur.restarStock(cantidad, id_automovil, id_sucursal);
+        }
+
+        public bool sumrStock(int cantidad, int id_automovil, int id_sucursal)
+        {
+            return producSucur.sumarStock(cantidad, id_automovil, id_sucursal);
+        }
     }
 }

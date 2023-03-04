@@ -62,20 +62,21 @@ namespace BUNIFU
             }
         }
 
+        /*Metodo que me carga los texbox correspondiente, segn auto elegido, (RECIBE OBJETO DEL MODAL)*/
         private void iconButton1_Click(object sender, EventArgs e)
         {
-            using (var modal = new mdProductos())
+            using (var modal = new mdProductos(_Usuario))
             {
                 var result = modal.ShowDialog();
 
                 if (result == DialogResult.OK)
                 {
-                    textBox2.Text = modal._Automovil.id_automovil.ToString();
-                    txtPatent.Text = modal._Automovil.patente;
-                    string descrip = modal._Automovil.objModeloo.descripcionModel;
-                    txtAuto.Text = modal._Automovil.objMarcaa.descripcionMarca + " " +descrip;
-                    txprice.Text = modal._Automovil.precio.ToString("0.00");
-                    //txStok.Text = modal._Automovil.stock.ToString();
+                    textBox2.Text = modal._PS.objetoAuto.id_automovil.ToString();
+                    txtPatent.Text = modal._PS.objetoAuto.patente;
+                    string descrip = modal._PS.objetoAuto.objModeloo.descripcionModel;
+                    txtAuto.Text = modal._PS.objetoAuto.objMarcaa.descripcionMarca + " " +descrip;
+                    txprice.Text = modal._PS.objetoAuto.precio.ToString("0.00");
+                    txStok.Text = modal._PS.stock.ToString();
                     numericUpDown1.Select();
                 }
                 else txtPatent.Select();
@@ -87,15 +88,15 @@ namespace BUNIFU
         {
             if (e.KeyData == Keys.Enter)
             {
-                Automovil auto = new CN_Productos().Listar().Where(p => p.patente == txtPatent.Text && p.estado == true).FirstOrDefault();
+                Producto_Sucursal auto = new CN_Producto__Sucursal().Listar(_Usuario).Where(p => p.objetoAuto.patente == txtPatent.Text && p.objetoAuto.estado == true).FirstOrDefault();
 
                 if (auto != null)
                 {
                     txtPatent.BackColor = Color.Honeydew;
-                    textBox2.Text = auto.id_automovil.ToString();
-                    txtAuto.Text = auto.objMarcaa.descripcionMarca+ ", " + auto.objModeloo.descripcionModel;
-                    txprice.Text = auto.precio.ToString();
-                   // txStok.Text = auto.stock.ToString();
+                    textBox2.Text = auto.objetoAuto.id_automovil.ToString();
+                    txtAuto.Text = auto.objetoAuto.objMarcaa.descripcionMarca+ ", " + auto.objetoAuto.objModeloo.descripcionModel;
+                    txprice.Text = auto.objetoAuto.precio.ToString();
+                    txStok.Text = auto.stock.ToString();
                     numericUpDown1.Value = 1;
                 }
                 else
@@ -153,10 +154,10 @@ namespace BUNIFU
 
                 //string mensaje = string.Empty;
                 /**Procedo a llamar el metodo que lo cree en la cpa negocio*/
-                bool respuesta = new CN_Factura().restarStock( //Los parametros de la funcion obtengo de los valores ingresado por el usser
+                bool respuesta = new CN_Producto__Sucursal().restarStock( //Los parametros de la funcion obtengo de los valores ingresado por el usser
                     Convert.ToInt32(numericUpDown1.Value.ToString()),
-                    Convert.ToInt32(textBox2.Text)
-                    
+                    Convert.ToInt32(textBox2.Text),
+                    _Usuario.id_sucursal
                 );
 
                if(respuesta)
@@ -218,10 +219,10 @@ namespace BUNIFU
                 if (index >= 0)
                 {
                     /*Hace lo mismo procedimiento cuando agrega un producto, solo alrreves*/
-                    bool respuesta = new CN_Factura().sumrStock( //Los parametros de la funcion obtengo de los valores ingresado por el usser
+                    bool respuesta = new CN_Producto__Sucursal().sumrStock( //Los parametros de la funcion obtengo de los valores ingresado por el usser
                         Convert.ToInt32(dataGridventas.Rows[index].Cells["cantidad"].Value.ToString()),
-                        Convert.ToInt32(dataGridventas.Rows[index].Cells["id_au"].Value.ToString())
-                     
+                        Convert.ToInt32(dataGridventas.Rows[index].Cells["id_au"].Value.ToString()),
+                        _Usuario.id_sucursal
 
                     );
                     if (respuesta)
@@ -339,6 +340,7 @@ namespace BUNIFU
                 DataTable detalle_Factura = new DataTable();
                 detalle_Factura.Columns.Add("id_automovil", typeof(int));
                 detalle_Factura.Columns.Add("precioVenta", typeof(decimal));
+                
                 detalle_Factura.Columns.Add("subTotal", typeof(decimal));
                 detalle_Factura.Columns.Add("cantidad", typeof(int));
 
