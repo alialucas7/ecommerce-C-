@@ -61,6 +61,16 @@ namespace BUNIFU.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gs_filebackup_img__1_ {
+            get {
+                object obj = ResourceManager.GetObject("gs_filebackup_img (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
         internal static byte[] Harlow_Solid_Italic_ttf {
@@ -105,8 +115,7 @@ namespace BUNIFU.Properties {
         ///    font-weight: normal;
         ///    font-style: normal;
         ///}
-        ///3. Integrate the fonts into your CSS:
-        ///Ad [resto de la cadena truncado]&quot;;.
+        ///3. Integrate the fonts int [resto de la cadena truncado]&quot;;.
         /// </summary>
         internal static string install_a_webfont {
             get {
@@ -162,7 +171,7 @@ namespace BUNIFU.Properties {
         ///
         ///&lt;FONT FACE=&quot;Arial, Sans Serif, Verdana&quot; SIZE=6&gt;If this page does not automatically redirect you, click below to go to the Webfonts FFonts homepage&lt;/FONT&gt;
         ///&lt;BR&gt;&lt;BR&gt;
-        ///&lt;FONT FACE=&quot;Arial, Sans Serif, Verdana&quot; SIZE=6&gt;&lt;A HREF=&quot;http://webfonts.ffonts.net&quot; TAR [resto de la cadena truncado]&quot;;.
+        ///&lt;FONT FACE=&quot;Arial, Sans Serif, Verdana&quot; SIZE=6&gt;&lt;A HREF=&quot;http://webfonts [resto de la cadena truncado]&quot;;.
         /// </summary>
         internal static string webfonts_ffonts_net {
             get {

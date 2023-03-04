@@ -13,9 +13,22 @@ namespace CapaNegocio
     {
         private CD_ProductoSucursal producSucur = new CD_ProductoSucursal();
 
+        /*Levanat los producto en cada sucursal*/
         public List<Producto_Sucursal> Listar(Usuario usuarioID)
         {
             return producSucur.Listar(usuarioID);
-        } 
+        }
+
+
+        public int AltaProductoSucursal(Producto_Sucursal objeto, out string Mensaje)
+        {
+            Mensaje = string.Empty;
+
+            /*Validaiones correspondientes a los campos*/
+
+
+            if (Mensaje == string.Empty) return producSucur.AltaProduct(objeto, out Mensaje);
+            else return 0;
+        }
     }
 }

@@ -98,16 +98,20 @@ namespace BUNIFU
 
         private void Backup_Click_1(object sender, EventArgs e)
         {
+            string nombre_copia = (System.DateTime.Today.Day.ToString() + "/" + System.DateTime.Today.Month.ToString() + "/" + System.DateTime.Today.Year.ToString() + "_" + System.DateTime.Now.Hour.ToString() + "__" + System.DateTime.Now.Minute.ToString() + "__" + System.DateTime.Now.Second.ToString() + "OOFGLimitedEdition.bak");
+
             Bckp_progressBar.Value = 0;
             try
             {
+                
                 //Se establecen las conexiones con el servidor, la base de datos y la dirección para guardar la copia de seguridad
                 Server dbServer = new Server(new ServerConnection(bckp_Servidor.Texts, Bckp_Usuario.Texts, Bckp_Contraseña.Texts));                             //Tipo de de archivos que se obtiene del forulario del Backup
                 Backup dbBackup = new Backup() { Action = BackupActionType.Database, Database = bckp_BasedeDatos.Texts };                                       //Nombre de la base de datos que se obtiene del formulario del Backup
+                
                 //dbBackup.Devices.AddDevice(@"D:\Mis Documentos\Escritorio\Taller de Programación II\Backup Proyecto\BDdealership.bak", DeviceType.File);        //Ruta donde se alojará la copia de seguridad
-                dbBackup.Devices.AddDevice(@"C:\temp\BDdealership.bak", DeviceType.File);        //Ruta donde se alojará la copia de seguridad
+                dbBackup.Devices.AddDevice(@"C:\temp\BDdealership"+nombre_copia, DeviceType.File);        //Ruta donde se alojará la copia de seguridad
 
-                dbBackup.Initialize = true;                                 //Dejamos el valor inicializado en falso, para crear un nuevo elemento de copia de seguridad
+                dbBackup.Initialize = false;                                 //Dejamos el valor inicializado en falso, para crear un nuevo elemento de copia de seguridad
                 dbBackup.PercentComplete += DbBackup_PercentComplete;
                 dbBackup.Complete += DbBackup_Complete;
                 dbBackup.SqlBackupAsync(dbServer);
@@ -162,6 +166,12 @@ namespace BUNIFU
                 clavesIguales.ForeColor = Color.Red;
                 clavesIguales.Text = "¡Contraseña Incorrecta!";
             }
+        }
+
+        private void frm_Backup_Load(object sender, EventArgs e)
+        {
+            string nombre_copia = (System.DateTime.Today.Day.ToString() + "/" + System.DateTime.Today.Month.ToString() + "/" + System.DateTime.Today.Year.ToString() + "_" + System.DateTime.Now.Hour.ToString() + "__" + System.DateTime.Now.Minute.ToString() + "__" + System.DateTime.Now.Second.ToString()+"LimitedEdition.bak");
+            string ruta = "" + nombre_copia;
         }
     }
 }

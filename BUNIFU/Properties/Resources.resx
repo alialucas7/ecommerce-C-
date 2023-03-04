@@ -118,8 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="webfonts_ffonts_net" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\webfonts.ffonts.net.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="webfonts_ffonts_net1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\webfonts.ffonts.net.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
   <data name="Harlow_Solid_Italic_ttf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Harlow-Solid-Italic.ttf.eot;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PlantillaVenta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlantillaVenta.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="install_a_webfont" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\install-a-webfont.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="Harlow_Solid_Italic_ttf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Harlow-Solid-Italic.ttf.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -127,16 +139,7 @@
   <data name="Harlow_Solid_Italic_ttf2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Harlow-Solid-Italic.ttf.woff;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="install_a_webfont" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\install-a-webfont.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="PlantillaVenta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PlantillaVenta.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="webfonts_ffonts_net" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\webfonts.ffonts.net.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="webfonts_ffonts_net1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\webfonts.ffonts.net.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  <data name="gs_filebackup_img (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gs_filebackup_img (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

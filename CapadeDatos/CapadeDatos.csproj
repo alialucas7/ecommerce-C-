@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CD_Backup.cs" />
     <Compile Include="CD_Cliente.cs" />
     <Compile Include="CD_Factura.cs" />
     <Compile Include="CD_Marca.cs" />

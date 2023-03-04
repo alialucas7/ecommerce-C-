@@ -36,6 +36,7 @@ namespace BUNIFU
 
 
                     userControl11.ForeColor = Color.Black;
+                    textBox1.Text = dataGridProduct.Rows[indice].Cells["ID"].Value.ToString();
                     userControl11.Texts = dataGridProduct.Rows[indice].Cells["marca"].Value.ToString();
                     userControl12.Texts = dataGridProduct.Rows[indice].Cells["modelo"].Value.ToString();
                     userControl13.Texts = dataGridProduct.Rows[indice].Cells["color"].Value.ToString();
@@ -135,12 +136,50 @@ namespace BUNIFU
 
         private void cD_Button1_Click(object sender, EventArgs e)
         {
-            string mensaje = "Debe seleccionar un stock valido";
+            string mensajeE = "Debe seleccionar un stock valido";
             if (numStock.Value < 1)
             {
-                MessageBox.Show(mensaje, "PONE CUIDADOO!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+                MessageBox.Show(mensajeE, "PONE CUIDADOO!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                
                 //usserSucursal.id_sucursal;
+            }
+            else
+            {
+
+
+                string mensaje = string.Empty;
+                Producto_Sucursal producSucur = new Producto_Sucursal()
+                {
+                    objetoSucursal = new Sucursal() { id_sucursal = usserSucursal.id_sucursal},
+                   objetoAuto = new Automovil() { id_automovil = Convert.ToInt32(textBox1.Text) },
+                    
+                    stock = Convert.ToInt32(numStock.Value)
+
+                };
+                //---------------------------------------------------------------------------------------------------------
+
+
+                
+                    //una ves instanciado mi objeto llamo al procedimiento registrar en CN_Producto
+
+                    int resultado = new CN_Producto__Sucursal().AltaProductoSucursal(producSucur, out mensaje);
+                    if (resultado != 0)
+                    {
+                    MessageBox.Show("Su Automovil se registro de manera exitosa ;)");
+                    }
+                    //en el caso de que no se pueda dar de alta el usser muestra mensaje de error
+                    else MessageBox.Show(mensaje);
+                
+
+
+
+
+
+
+
+
+
+
             }
         }
     }

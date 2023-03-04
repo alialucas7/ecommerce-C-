@@ -103,7 +103,44 @@ namespace CapadeDatos
 
 
 
+        public int AltaProduct(Producto_Sucursal objeto, out string Mensaje)
+        {
+            int resultado = 0;
+            Mensaje = string.Empty;
 
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(Conexion.cadena))
+                {
+                    SqlCommand cmd = new SqlCommand("usp_AltaProductoSucursaaal", conexion);
+                   
+                    cmd.Parameters.AddWithValue("id_automovil", objeto.objetoAuto.id_automovil);
+                    cmd.Parameters.AddWithValue("id_sucursal", objeto.objetoSucursal.id_sucursal);
+                    cmd.Parameters.AddWithValue("stock", objeto.stock);
+                   
+                    //datos de salida
+                    cmd.Parameters.Add("resultado", SqlDbType.Int).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("mensaje", SqlDbType.VarChar, 200).Direction = ParameterDirection.Output;
+
+                    //storesprocedure xq es un proc almacenado
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    conexion.Open();
+                    cmd.ExecuteNonQuery();
+
+                    resultado = Convert.ToInt32(cmd.Parameters["resultado"].Value);
+                    Mensaje = cmd.Parameters["Mensaje"].Value.ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                resultado = 0;
+                Mensaje = ex.Message;
+            }
+
+
+            return resultado;
+        }
 
 
 
