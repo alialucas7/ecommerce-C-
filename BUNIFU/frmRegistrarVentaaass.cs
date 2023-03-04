@@ -229,6 +229,7 @@ namespace BUNIFU
                     {
                         dataGridventas.Rows.RemoveAt(index);
                         calcualrTotal();
+                        Limpiar();
                     }
                     
                 }

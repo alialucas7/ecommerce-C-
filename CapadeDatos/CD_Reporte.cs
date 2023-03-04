@@ -17,8 +17,15 @@ namespace CapadeDatos
 
             using (SqlConnection oconexion = new SqlConnection(Conexion.cadena))
             {
-                string query = "select a.id_sucursal, count(a.id_sucursal)[Cantidad de Automoviles] from Automovil a group by a.id_sucursal";
-                SqlCommand cmd = new SqlCommand(query, oconexion);
+                StringBuilder query = new StringBuilder();
+                //string query = "select * from Usuario";
+                query.AppendLine("select s.descripcionSucur,count (s.descripcionSucur) [cantidad de autos vendidos] from Factura f ");
+                query.AppendLine("inner join Usuario u on f.id_usuario = u.id_usuario");
+                query.AppendLine("inner join Sucursal s on s.id_sucursal = u.id_sucursal");
+                query.AppendLine("where f.fecha_creacion between '2023-03-03' and '2023-03-07'");
+                query.AppendLine("group by s.descripcionSucur");
+
+                SqlCommand cmd = new SqlCommand(query.ToString(), oconexion);
                 SqlDataAdapter data = new SqlDataAdapter(cmd);
                 DataTable tabla = new DataTable();
                 data.Fill(tabla);
@@ -37,7 +44,7 @@ namespace CapadeDatos
                 try
                 {
                     StringBuilder query = new StringBuilder();
-                    SqlCommand cmd = new SqlCommand("sp_ReporteVentas", oconexion);
+                    SqlCommand cmd = new SqlCommand("sp_ReporteVentaass", oconexion);
                     cmd.Parameters.AddWithValue("fechainicio", fechainicio);
                     cmd.Parameters.AddWithValue("fechafin", fechafin);
                     cmd.CommandType = CommandType.StoredProcedure;
@@ -57,11 +64,7 @@ namespace CapadeDatos
                                 Apellido_Usuario = dr["Apellido_Usuario"].ToString(),
                                 dni_cliente = dr["dni_cliente"].ToString(),
                                 nombre_cliente = dr["nombre_cliente"].ToString(),
-                                descripcionMarca = dr["descripcionMarca"].ToString(),
-                                descripcionModelo = dr["descripcionModelo"].ToString(),
-                                precioVenta = dr["precioVenta"].ToString(),
-                                Cantidad = dr["Cantidad"].ToString(),
-                                Subtotal = dr["Sub Total"].ToString(),
+                                
                             });
                         }
                     }
@@ -75,6 +78,35 @@ namespace CapadeDatos
 
             return lista;
         }
+
+
+
+
+
+        public DataTable grafico2()
+        {
+
+            using (SqlConnection oconexion = new SqlConnection(Conexion.cadena))
+            {
+                StringBuilder query = new StringBuilder();
+                //string query = "select * from Usuario";
+                query.AppendLine("select  m2.descripcionMarca , count(m2.descripcionMarca)[cantidad mas vendida] from Detalle_Factura df ");
+                query.AppendLine("inner join Automovil a on a.id_automovil = df.id_automovil");
+                query.AppendLine("inner join Modelo m on m.id_modelo = a.id_modelo");
+                query.AppendLine("and m.id_marca = a.id_marca");
+                query.AppendLine("inner join Marca m2 on m2.id_marca = a.id_marca");
+                query.AppendLine("group by m2.descripcionMarca");
+                SqlCommand cmd = new SqlCommand(query.ToString(), oconexion);
+                SqlDataAdapter data = new SqlDataAdapter(cmd);
+                DataTable tabla = new DataTable();
+                data.Fill(tabla);
+
+                return tabla;
+            }
+
+        }
+
+
 
     }
 

@@ -28,6 +28,10 @@ namespace BUNIFU
 
         private void frmReporte_Load(object sender, EventArgs e)
         {
+
+            
+           
+
             foreach (DataGridViewColumn columna in dataGridViewReporte.Columns)
                 
             {
@@ -60,6 +64,7 @@ namespace BUNIFU
         {
             List<ReporteVenta> lista = new List <ReporteVenta>();
 
+            //El metodo venta req 2 parametros de fecha
             lista = new CN_Reporte().Venta(dateTimeFechaInicio.Value.ToString(), dateTimeFechaFin.Value.ToString());
 
             dataGridViewReporte.Rows.Clear();
@@ -74,13 +79,11 @@ namespace BUNIFU
                     rv.Apellido_Usuario,
                     rv.dni_cliente,
                     rv.nombre_cliente,
-                    rv.descripcionMarca,
-                    rv.descripcionModelo,
-                    rv.precioVenta,
-                    rv.Cantidad,
-                    rv.Subtotal,
+                    
                 });
             }
+            /*Luego de traer los datos muestra grafico*/
+            generarGraficc();
         }
 
         private void btnClean_Click(object sender, EventArgs e)
@@ -119,11 +122,7 @@ namespace BUNIFU
                         row.Cells[4].Value.ToString(),
                         row.Cells[5].Value.ToString(),
                         row.Cells[6].Value.ToString(),
-                        row.Cells[7].Value.ToString(),
-                        row.Cells[8].Value.ToString(),
-                        row.Cells[9].Value.ToString(),
-                        row.Cells[10].Value.ToString(),
-                        row.Cells[11].Value.ToString(),
+                      
 
                         });
                 }
@@ -150,17 +149,33 @@ namespace BUNIFU
             }
         }
 
+        /*Metodo grafico*/
         private void btnCargarData_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new CN_Reporte().grafico2();
+
+            grafict.Titles.Add("Marca mas vendida");
+            
+            foreach (DataRow row in dt.Rows)
+            {
+                Series series = grafict.Series.Add(row["descripcionMarca"].ToString());
+                series.Points.Add(Convert.ToDouble(row["cantidad mas vendida"].ToString()));
+                series.Label = row["cantidad mas vendida"].ToString();
+            }
+        }
+
+
+        private void generarGraficc()
         {
             DataTable dt = new CN_Reporte().grafico();
 
-            chartVentas.Titles.Add("Cantidad de Automoviles por Sucursal");
+            grafict.Titles.Add("Automoviles vendidos por sucursal");
 
             foreach (DataRow row in dt.Rows)
             {
-                Series series = chartVentas.Series.Add(row["id_sucursal"].ToString());
-                series.Points.Add(Convert.ToDouble(row["Cantidad de Automoviles"].ToString()));
-                series.Label = row["id_sucursal"].ToString();
+                Series series = grafict.Series.Add(row["descripcionSucur"].ToString());
+                series.Points.Add(Convert.ToDouble(row["cantidad de autos vendidos"].ToString()));
+                series.Label = row["cantidad de autos vendidos"].ToString();
             }
         }
     }

@@ -22,5 +22,9 @@ namespace CapaNegocio
         {
             return objcd_reporte.grafico();
         }
+        public DataTable grafico2()
+        {
+            return objcd_reporte.grafico2();
+        }
     }
 }
