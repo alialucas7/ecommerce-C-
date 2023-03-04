@@ -195,6 +195,7 @@ namespace BUNIFU
         private void button3_Click(object sender, EventArgs e)
         {
             ocultarSubBotones();
+            abrirFormulario(new frmVisualizarProductos_Administrador__Sucursal(usuarioActual));
         }
     }
 }

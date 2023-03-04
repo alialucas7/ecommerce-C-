@@ -173,7 +173,7 @@ namespace BUNIFU
         private void iconButton2_Click(object sender, EventArgs e)
         {
             ActiveButon(sender, RGBColors.color2);
-            abrirFormulario(new frmProductos__Empleado(usuarioActual));
+            abrirFormulario(new frmVisualizarProductos_Administrador__Sucursal(usuarioActual));
         }
 
         private void iconButton1_Click(object sender, EventArgs e)

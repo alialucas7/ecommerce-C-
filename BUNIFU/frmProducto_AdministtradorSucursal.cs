@@ -29,12 +29,12 @@ namespace BUNIFU
             
             if (dataGridProduct.Columns[e.ColumnIndex].Name == "btnSeleccionar")
             {
-
+                
                 int indice = e.RowIndex;
                 if (indice >= 0)
                 {
 
-
+                    cD_Button1.Enabled = true;
                     userControl11.ForeColor = Color.Black;
                     textBox1.Text = dataGridProduct.Rows[indice].Cells["ID"].Value.ToString();
                     userControl11.Texts = dataGridProduct.Rows[indice].Cells["marca"].Value.ToString();
@@ -66,12 +66,15 @@ namespace BUNIFU
                     }
                 }
             }
+            
         }
 
         private void frmProducto_AdministtradorSucursal_Load(object sender, EventArgs e)
         {
-            label1.ImageIndex = -1;
+            
 
+            label1.ImageIndex = -1;
+            cD_Button1.Enabled = false;
 
             //me permite buscar elementos por categoria en mi datagrid
             foreach (DataGridViewColumn columna in dataGridProduct.Columns)
@@ -146,7 +149,7 @@ namespace BUNIFU
             else
             {
 
-
+                
                 string mensaje = string.Empty;
                 Producto_Sucursal producSucur = new Producto_Sucursal()
                 {
@@ -163,13 +166,29 @@ namespace BUNIFU
                     //una ves instanciado mi objeto llamo al procedimiento registrar en CN_Producto
 
                     int resultado = new CN_Producto__Sucursal().AltaProductoSucursal(producSucur, out mensaje);
-                    if (resultado != 0)
-                    {
+                if (resultado != 0)
+                {
                     MessageBox.Show("Su Automovil se registro de manera exitosa ;)");
-                    }
-                    //en el caso de que no se pueda dar de alta el usser muestra mensaje de error
-                    else MessageBox.Show(mensaje);
-                
+                    cD_Button1.Enabled = false;
+                    userControl11.Texts = "";
+                    userControl12.Texts = "";
+                    userControl13.Texts = "";
+                    userControl14.Texts = "";
+                    label1.ImageIndex = -1;
+                    cD_Button1.Enabled = false;
+
+                }
+                //en el caso de que no se pueda dar de alta el usser muestra mensaje de error
+                else
+                {
+                    MessageBox.Show(mensaje);
+                    cD_Button1.Enabled = false;
+                    userControl11.Texts = "";
+                    userControl12.Texts = "";
+                    userControl13.Texts = "";
+                    userControl14.Texts = "";
+                    label1.ImageIndex = -1;
+                }
 
 
 

@@ -41,5 +41,19 @@ namespace CapaNegocio
         {
             return producSucur.sumarStock(cantidad, id_automovil, id_sucursal);
         }
+
+
+
+
+
+
+
+
+
+        public int bajaProductoSucursal(Producto_Sucursal  objeto, out string Mensaje)
+        {
+            Mensaje = string.Empty;
+            return producSucur.bajaProducto(objeto,out Mensaje);
+        }
     }
 }

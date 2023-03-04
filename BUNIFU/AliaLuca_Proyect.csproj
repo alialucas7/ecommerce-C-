@@ -555,6 +555,12 @@
     <Compile Include="frmUsuariosAdministrador.Designer.cs">
       <DependentUpon>frmUsuariosAdministrador.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmVisualizarProductos_Administrador__Sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisualizarProductos_Administrador__Sucursal.Designer.cs">
+      <DependentUpon>frmVisualizarProductos_Administrador__Sucursal.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Backup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -648,6 +654,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmUsuariosAdministrador.resx">
       <DependentUpon>frmUsuariosAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVisualizarProductos_Administrador__Sucursal.resx">
+      <DependentUpon>frmVisualizarProductos_Administrador__Sucursal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Backup.resx">
       <DependentUpon>frm_Backup.cs</DependentUpon>

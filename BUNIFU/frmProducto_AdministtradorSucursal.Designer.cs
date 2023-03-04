@@ -64,7 +64,6 @@
             this.userControl11 = new BUNIFU.Controles_graficos.UserControl1();
             this.cD_Button1 = new CustomControls.Controles_graficos.CD_Button();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.btnEliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numStock)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridProduct)).BeginInit();
             this.SuspendLayout();
@@ -482,23 +481,11 @@
             this.iconButton1.UseVisualStyleBackColor = false;
             this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Enabled = false;
-            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.Location = new System.Drawing.Point(712, 248);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
-            this.btnEliminar.TabIndex = 85;
-            this.btnEliminar.Text = "Borrar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            // 
             // frmProducto_AdministtradorSucursal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 507);
-            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtBusqueda);
@@ -560,6 +547,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Añof;
         private System.Windows.Forms.DataGridViewTextBoxColumn descripcion;
         private FontAwesome.Sharp.IconButton iconButton1;
-        private System.Windows.Forms.Button btnEliminar;
     }
 }
