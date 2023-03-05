@@ -237,13 +237,15 @@ namespace BUNIFU
         private void logo_Click(object sender, EventArgs e)
         {
             Reset();
+            if (FormularioActivo != null) FormularioActivo.Close();
+
         }
 
         private void Reset()
         {
             DisableButton();
             leftBorderBtn.Visible = false;
-            FormularioActivo.Close();
+           
         }
 
         private void menuVertical_Paint(object sender, PaintEventArgs e)

@@ -150,6 +150,7 @@
             this.iconButton6.Text = "Backup";
             this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton6.UseVisualStyleBackColor = true;
+            this.iconButton6.Visible = false;
             this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click);
             // 
             // pictureBox1

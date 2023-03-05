@@ -52,11 +52,11 @@ namespace BUNIFU
                             label1.ImageIndex = 4;
                             break;
 
-                        case "Negro Mate":
+                        case "Negro":
                             label1.ImageIndex = 0;
                             break;
 
-                        case "Negro":
+                        case "Negro Mate":
                             label1.ImageIndex = 3;
                             break;
 
@@ -113,6 +113,7 @@ namespace BUNIFU
             userControl13.Texts = "";
             userControl14.Texts = "";
             label1.ImageIndex = -1;
+            cD_Button1.Enabled = false;
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
