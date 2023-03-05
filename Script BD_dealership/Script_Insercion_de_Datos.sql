@@ -51,7 +51,7 @@ insert into Sucursal(id_localidad,id_provincia,id_pais,descripcionSucur)values(4
 
 
 
-Select * from Marca
+
 insert into Marca(descripcionMarca) values ('Audi')
 insert into Marca(descripcionMarca) values ('Nissan')
 insert into Marca(descripcionMarca) values ('Tesla')
@@ -83,7 +83,7 @@ insert into Usuario(id_rol,id_sucursal,dni,nombre,apellido,email,telefono,estado
 insert into Usuario(id_rol,id_sucursal,dni,nombre,apellido,email,telefono,estado,pasword)values(2,2,40983088,'Carlos','Monzon','caliteBX@yahoo.com','3777809042',1,'122')
 
 
-select * from Automovil
+
 insert into Automovil(id_marca,id_modelo,patente,precio,estado,n_puertas,color,año_fabricacion,descripcion)values
 (4,2,'EE4LHG',1005000,1,4,'Blanco',2021,'Auto confortable de alta gama, estipo deportivo ideal para tirar facha:)')
 
@@ -103,4 +103,3 @@ insert into Producto_Sucursal(id_sucursal,id_automovil,stock)values(2,1,20)
 insert into Producto_Sucursal(id_sucursal,id_automovil,stock)values(2,2,20)
 insert into Producto_Sucursal(id_sucursal,id_automovil,stock)values(2,5,15)
 
-delete from Producto_Sucursal

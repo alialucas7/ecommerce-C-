@@ -141,3 +141,17 @@ foreign key (id_automovil) references Automovil(id_automovil),
 foreign key (id_sucursal) references Sucursal (id_sucursal),
 primary key (id_automovil,id_sucursal)
 )
+
+
+
+
+
+
+
+/*fORMA Procedimientos almacenados para la parte de ventas*/
+create type [dbo].[EDetalleVenta] as table(
+[id_automovil] int null,
+[precioVenta] decimal(18,2) null,
+[subTotal] decimal(18,2) null,
+[cantidad] int null
+)

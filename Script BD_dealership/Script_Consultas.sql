@@ -52,5 +52,60 @@ inner join Modelo m1 on m1.id_modelo = a.id_modelo
 and				  m1.id_marca = a.id_marca
 inner join Marca  m2 on m2.id_marca = a.id_marca
 where df.id_factura = 1
+------------------------------------------------------------------------------------------------------
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+select
+convert(char(10),f.fecha_creacion,103)[fecha_creacion],f.codigoFactura,f.monto_Total,u.nombre[Nombre_Usuario],u.apellido[Apellido_Usuario],
+f.dni_cliente,f.nombre_cliente[nombre_cliente]from Factura f
+inner join Usuario u on u.id_usuario = f.id_usuario
+--inner join Detalle_Factura df on df.id_factura = f.id_factura
+--inner join Automovil a on a.id_automovil = df.id_automovil
+--inner join Modelo m on m.id_modelo = a.id_modelo
+--and m.id_marca = a.id_marca
+--inner join Marca m2 on m2.id_marca = a.id_marca
+group by f.fecha_creacion,f.codigoFactura,f.monto_Total,u.nombre,u.apellido,
+f.dni_cliente,f.nombre_cliente,m2.descripcionMarca, m.descripcionModelo,df.precioVenta,df.cantidad, df.subTotal
+
+
+select
+f.codigoFactura from Factura f
+inner join Usuario u on u.id_usuario = f.id_usuario
+inner join Detalle_Factura df on df.id_factura = f.id_factura
+inner join Automovil a on a.id_automovil = df.id_automovil
+inner join Modelo m on m.id_modelo = a.id_modelo
+and m.id_marca = a.id_marca
+inner join Marca m2 on m2.id_marca = a.id_marca
+group by f.codigoFactura
+
+
+
+select  m2.descripcionMarca [cantidad mas vendida], count(m2.descripcionMarca) from Detalle_Factura df
+inner join Automovil a on a.id_automovil = df.id_automovil
+inner join Modelo m on m.id_modelo = a.id_modelo
+and m.id_marca = a.id_marca
+inner join Marca m2 on m2.id_marca = a.id_marca
+group by m2.descripcionMarca
 

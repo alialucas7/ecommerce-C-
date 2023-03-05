@@ -6,17 +6,10 @@
 
 -----------------------------------------------------------------------------------------
 ------------------------------- PROCEDIMIENTOS ALMACENADOS -------------------------------------
--- Nombre de la Base de Datos: BD_dealership
--- Tablas: Marca, Modelo, País, Provincia, Localidad, Sucursal, Automovil
--- Rol, Permiso, Cliente, Usuario, Tipo_Factura (Preguntar hay dos tablas de tipo factura),
--- Factura, Detalle_Factura	
------------------------------------------------------------------------------------------
 
-use BD_dealership
-select * from Usuario
---PROCEDIMIENTOS ALMACENADOS PARA EL USUARIO
---Registrar Usuario
-create proc SP_RegistrarUsuario(
+
+
+create procedure SP_RegistrarUsuario(
 
 @idRol int,
 @id_sucursal integer,
@@ -46,7 +39,7 @@ end
 go
 
 --Editar Usuario
-create proc SP_EDITAR_Usuarioo(
+create procedure SP_EDITAR_Usuarioo(
 @idUsuario int,
 @idRol int,
 @dni varchar(8),
@@ -118,7 +111,7 @@ end
 go
 
 --PROCEDIMIENTOS PARA CLIENTE
-CREATE PROC sp_RegistrarCliente(
+CREATE PROCEDURE sp_RegistrarCliente(
 
 @dni varchar (50),
 @nombre varchar (50),
@@ -177,6 +170,7 @@ CREATE PROC sp_ModificarCliente(
 			SET @mensaje = 'El Numero de Documento ya existe en La Base de Datos'
 		end
 	end
+	GO
 
 --PROCEDIMIENTOS PARA PRODUCTOS
 create proc SP_RegistrarProductoo(
@@ -256,7 +250,7 @@ begin
 end
 go	
 
-create proc SP_Eliminar_Producto(
+create procedure SP_Eliminar_Producto(
 @id_automovil integer,
 @Respuesta bit output,
 @Mensaje varchar(200) output
@@ -284,14 +278,9 @@ begin
 	end 
 
 	end
+GO
 
-/*Procedimientos almacenados para la parte de ventas*/
-create type [dbo].[EDetalleVenta] as table(
-[id_automovil] int null,
-[precioVenta] decimal(18,2) null,
-[subTotal] decimal(18,2) null,
-[cantidad] int null
-)
+
 
 --PROCEDIMIENTOS PARA VENTAS
 create procedure usp_RegistrarVentAAx(
@@ -335,7 +324,7 @@ begin
 		rollback transaction registro
 	end catch	
 end
-
+GO
 
 
 
@@ -360,7 +349,7 @@ begin
 		set @resultado =0
 		end catch
 end
-
+GO
 
 
 
@@ -391,7 +380,7 @@ begin
 		end 
 
 end
-
+GO
 
 
 
@@ -412,6 +401,7 @@ inner join Usuario u on u.id_usuario = f.id_usuario
 where convert(date,f.fecha_creacion) between @fechainicio and @fechafin      --- Filtro para poder exportar por medio de rangos de fechas "Fecha de inicio y de fin", en base a la fecha de registro de una venta
 end
 
+GO
 
 
 
@@ -420,39 +410,3 @@ end
 
 
 
-select * from Factura
-exec sp_ReporteVentas "03/03/2023", "05/03/2023"
-
-select * from factura
-
-select
-convert(char(10),f.fecha_creacion,103)[fecha_creacion],f.codigoFactura,f.monto_Total,u.nombre[Nombre_Usuario],u.apellido[Apellido_Usuario],
-f.dni_cliente,f.nombre_cliente[nombre_cliente]from Factura f
-inner join Usuario u on u.id_usuario = f.id_usuario
---inner join Detalle_Factura df on df.id_factura = f.id_factura
---inner join Automovil a on a.id_automovil = df.id_automovil
---inner join Modelo m on m.id_modelo = a.id_modelo
---and m.id_marca = a.id_marca
---inner join Marca m2 on m2.id_marca = a.id_marca
-group by f.fecha_creacion,f.codigoFactura,f.monto_Total,u.nombre,u.apellido,
-f.dni_cliente,f.nombre_cliente,m2.descripcionMarca, m.descripcionModelo,df.precioVenta,df.cantidad, df.subTotal
-
-
-select
-f.codigoFactura from Factura f
-inner join Usuario u on u.id_usuario = f.id_usuario
-inner join Detalle_Factura df on df.id_factura = f.id_factura
-inner join Automovil a on a.id_automovil = df.id_automovil
-inner join Modelo m on m.id_modelo = a.id_modelo
-and m.id_marca = a.id_marca
-inner join Marca m2 on m2.id_marca = a.id_marca
-group by f.codigoFactura
-
-
-
-select  m2.descripcionMarca [cantidad mas vendida], count(m2.descripcionMarca) from Detalle_Factura df
-inner join Automovil a on a.id_automovil = df.id_automovil
-inner join Modelo m on m.id_modelo = a.id_modelo
-and m.id_marca = a.id_marca
-inner join Marca m2 on m2.id_marca = a.id_marca
-group by m2.descripcionMarca
